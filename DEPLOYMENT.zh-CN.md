@@ -44,4 +44,6 @@ Linux 云端从 GitHub 构建可以保留全部路径。
 `scripts/package-vercel.py` 使用 Git 原始树和明确列出的部署修改生成压缩包，保留全部大小写路径，避免上传本机私有文件。
 GitHub Pages 使用本仓库的 Deploy Website 工作流，从 main 构建；需在仓库 Pages 设置中将来源设为 GitHub Actions。
 修改站点、脚本或数据后推送会触发该工作流，也可手动运行。
-Vercel 初次发布成功；当前账户已经关联 GitHub 用户 papaoo，需让 Vercel GitHub App 获得本仓库访问权限后连接项目。
+Vercel 项目 `dingbei/open-source-ai-radar` 已连接 `papaoo/open-source-ai-radar`，生产分支为 `main`。
+Vercel GitHub App 的安装权限仅选择本仓库；推送 main 后由 Vercel 自动拉取源码并执行根目录 `vercel.json` 中的构建命令。
+构建状态可在 Vercel 项目 Deployments 页面查看；GitHub Pages 使用独立的 Deploy Website 工作流。
