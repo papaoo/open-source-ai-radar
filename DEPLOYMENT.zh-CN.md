@@ -3,8 +3,8 @@
 上游：ErBharatMalhotra/open-source-ai-radar，MIT 许可。
 安装使用的上游提交：`60d3dcb94ee4dceb786eb8f094cae6137d517eb4`。
 
-- GitHub 仓库：https://github.com/ding18363123855-stack/open-source-ai-radar
-- GitHub Pages：https://ding18363123855-stack.github.io/open-source-ai-radar/
+- GitHub 仓库：https://github.com/papaoo/open-source-ai-radar
+- GitHub Pages：https://papaoo.github.io/open-source-ai-radar/
 - Vercel 云端：https://open-source-ai-radar.vercel.app/
 - Vercel：`dingbei/open-source-ai-radar`，Hobby 免费套餐。
 - 本机：http://127.0.0.1:4321/
@@ -42,5 +42,6 @@ Linux 云端从 GitHub 构建可以保留全部路径。
 
 初次直接上传大量文件时，本机 Vercel CLI 出现内存不足。
 `scripts/package-vercel.py` 使用 Git 原始树和明确列出的部署修改生成压缩包，保留全部大小写路径，避免上传本机私有文件。
-GitHub Pages 已从本仓库 main 分支成功构建并发布。修改站点、脚本或数据后推送，已有 Deploy Website 工作流会自动更新 Pages。
-Vercel 初次发布成功；其 GitHub 仓库关联仍需在 Vercel 中完成对应账号及仓库访问授权。
+GitHub Pages 使用本仓库的 Deploy Website 工作流，从 main 构建；需在仓库 Pages 设置中将来源设为 GitHub Actions。
+修改站点、脚本或数据后推送会触发该工作流，也可手动运行。
+Vercel 初次发布成功；当前账户已经关联 GitHub 用户 papaoo，需让 Vercel GitHub App 获得本仓库访问权限后连接项目。
