@@ -71,8 +71,27 @@ jobs:
       - name: Detect breakouts
         run: uv run radar breakouts --limit 25 || echo "No breakout data yet"
 
+      - name: Generate opportunity briefs (incremental)
+        # 2-4 sentence Chinese notes for the top opportunities, cached by signal
+        # fingerprint so only new / changed repos are re-briefed. Optional layer:
+        # with no GROQ key or when rate-limited it is skipped, cards fall back to
+        # a template line, and generation resumes next run. Runs before export so
+        # the cached briefs get merged into opportunities.json / project pages.
+        env:
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+        run: uv run radar opportunities --brief --limit 30 || echo "Briefing skipped/limited — cards fall back to template"
+
       - name: Export JSON
         run: uv run python scripts/export.py
+
+      - name: Translate new descriptions (incremental)
+        # Machine-translate any project description not yet cached, so the
+        # Chinese view keeps pace with newly discovered repos with zero manual
+        # steps. Reuses the Groq key the classifier already has. Failures are
+        # non-fatal: missing translations fall back to English and retry next run.
+        env:
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+        run: uv run radar translate || echo "Translation skipped/limited — pages fall back to English"
 
       - name: Retention cleanup (snapshots + scores)
         # Cheap indexed deletes; no-ops until rows age past their keep window.

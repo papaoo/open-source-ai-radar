@@ -1,0 +1,37 @@
+# Notification configuration for Open Source AI Radar.
+#
+# This file defines delivery *channels and safety parameters only* — it never
+# contains secrets. Webhook URLs and signing secrets are read from environment
+# variables (see *_env keys below) so they stay out of the repo and git history.
+#
+# Currently supported channel: feishu (group custom-bot webhook).
+
+# Base site URL used to build "View Radar" action links in messages.
+site_url: "https://erbharatmalhotra.github.io/open-source-ai-radar/"
+
+channels:
+  feishu:
+    # Master switch for the channel.
+    enabled: true
+    # Environment variable names (NOT the secret values themselves).
+    webhook_url_env: FEISHU_WEBHOOK_URL
+    secret_env: FEISHU_SECRET
+    # "feishu" (open.feishu.cn) or "lark" (open.larksuite.com).
+    # Only used when FEISHU_WEBHOOK_URL holds a bare hook id instead of a full URL.
+    domain: feishu
+    card:
+      # Header color template: blue|green|grey|violet|yellow|red|turquoise|...
+      theme: blue
+      # Label for the primary action button.
+      action_label: "查看雷达"
+    at:
+      # Mention everyone in the group (text messages only).
+      all: false
+      # Optional list of mobile numbers / open_ids to mention.
+      mobiles: []
+
+# Throttle to stay within Feishu custom-bot rate limits (~100/min, 5000/day).
+rate_limit:
+  min_interval_seconds: 3
+  daily_cap: 100
+  state_path: "data/.notify_state.json"

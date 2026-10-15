@@ -6,26 +6,26 @@ const base = import.meta.env.BASE_URL;
 
 <Layout title="Compare Projects" description="Compare AI open-source projects side by side: impact, velocity, health, and growth.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-6);">
-    <h1>Compare <span class="accent">Projects</span></h1>
-    <p>Pick two or three projects and see how they stack up</p>
+    <h1><span data-i18n="compare.titlePrefix">Compare</span> <span class="accent" data-i18n="compare.titleAccent">Projects</span></h1>
+    <p data-i18n="compare.subtitle">Pick two or three projects and see how they stack up</p>
   </section>
 
   <div class="card" style="padding:var(--sp-5); margin-bottom:var(--sp-6);">
     <div id="pickers" style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:var(--sp-3);">
-      <input class="compare-search" data-slot="0" type="text" placeholder="Search repo 1..." autocomplete="off" />
-      <input class="compare-search" data-slot="1" type="text" placeholder="Search repo 2..." autocomplete="off" />
-      <input class="compare-search" data-slot="2" type="text" placeholder="Search repo 3 (optional)..." autocomplete="off" />
+      <input class="compare-search" data-slot="0" type="text" data-i18n-placeholder="compare.slot1" placeholder="Search repo 1..." autocomplete="off" />
+      <input class="compare-search" data-slot="1" type="text" data-i18n-placeholder="compare.slot2" placeholder="Search repo 2..." autocomplete="off" />
+      <input class="compare-search" data-slot="2" type="text" data-i18n-placeholder="compare.slot3" placeholder="Search repo 3 (optional)..." autocomplete="off" />
     </div>
     <div id="suggest" style="display:none; position:relative;"></div>
     <div style="margin-top:var(--sp-4); display:flex; gap:var(--sp-3); align-items:center;">
-      <button id="compareBtn" class="filter-pill active" style="cursor:pointer;">Compare</button>
+      <button id="compareBtn" class="filter-pill active" style="cursor:pointer;" data-i18n="compare.btn">Compare</button>
       <span id="hint" style="font-size:var(--text-xs); color:var(--text-muted);"></span>
     </div>
   </div>
 
   <div id="result"></div>
 
-  <noscript><div class="card" style="padding:var(--sp-6);">Enable JavaScript to use the comparison tool.</div></noscript>
+  <noscript><div class="card" style="padding:var(--sp-6);" data-i18n="compare.enableJs">Enable JavaScript to use the comparison tool.</div></noscript>
 </Layout>
 
 <style is:global>
@@ -37,6 +37,10 @@ const base = import.meta.env.BASE_URL;
   .cmp-table th, .cmp-table td { padding:var(--sp-3) var(--sp-4); text-align:left; border-bottom:1px solid var(--border-subtle); }
   .cmp-table td.metric { color:var(--text-muted); font-size:var(--text-xs); text-transform:uppercase; white-space:nowrap; width:140px; }
   .cmp-table td.best { color:var(--green); font-weight:700; }
+  .cmp-radar { display:flex; justify-content:center; padding:var(--sp-4); margin-bottom:var(--sp-4); }
+  .radar-legend { display:flex; flex-wrap:wrap; gap:var(--sp-3) var(--sp-5); justify-content:center; margin-top:var(--sp-3); font-size:var(--text-sm); color:var(--text-secondary); }
+  .radar-legend__item { display:inline-flex; align-items:center; gap:var(--sp-2); }
+  .radar-legend__swatch { width:12px; height:12px; border-radius:3px; display:inline-block; }
 </style>
 
 <script>

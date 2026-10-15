@@ -19,32 +19,32 @@ function repoUrl(name: string): string {
 
 <Layout title="Categories" description="AI open-source project categories with momentum intelligence.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1>AI <span class="accent">Categories</span></h1>
-    <p>{intelligence.categories?.length || 0} categories tracked with momentum intelligence</p>
+    <h1><span data-i18n="categories.prefix">AI</span> <span class="accent" data-i18n="categories.accent">Categories</span></h1>
+    <p data-i18n="categories.subtitle" data-i18n-vars={JSON.stringify({ n: intelligence.categories?.length || 0 })}>{intelligence.categories?.length || 0} categories tracked with momentum intelligence</p>
   </section>
 
   <div class="grid-2">
     {(intelligence.categories || []).map((cat: any) => (
       <div class="card" style="padding:var(--sp-6);">
         <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom:var(--sp-4);">
-          <h2 style="font-size:var(--text-lg); font-weight:700;"><a href={catUrl(cat.category)} style="color:inherit; text-decoration:none;">{cat.category}</a></h2>
-          {cat.trend && <span class="badge">{cat.trend}</span>}
+          <h2 style="font-size:var(--text-lg); font-weight:700;"><a href={catUrl(cat.category)} style="color:inherit; text-decoration:none;" data-i18n-cat={cat.category}>{cat.category}</a></h2>
+          {cat.trend && <span class="badge" data-i18n={`trend.${cat.trend}`}>{cat.trend}</span>}
         </div>
         <div style="display:flex; gap:var(--sp-6); margin-bottom:var(--sp-4);">
           <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Tracked</div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.tracked">Tracked</div>
             <a href={catUrl(cat.category)} style="font-size:var(--text-xl); font-weight:700; color:var(--accent); text-decoration:none;">{cat.tracked}</a>
           </div>
           {cat.avg_score && (
             <div>
-              <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Avg Score</div>
+              <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.avgScore">Avg Score</div>
               <div style="font-size:var(--text-xl); font-weight:700;">{cat.avg_score?.toFixed(1)}</div>
             </div>
           )}
         </div>
         {cat.top_repos && cat.top_repos.length > 0 && (
           <div style="border-top:1px solid var(--border); padding-top:var(--sp-3);">
-            <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);">Top Projects</div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);" data-i18n="categories.topProjects">Top Projects</div>
             {cat.top_repos.slice(0, 3).map((r: any) => {
               const name = typeof r === 'string' ? r : (r.full_name || r.repo_full_name || '');
               return (

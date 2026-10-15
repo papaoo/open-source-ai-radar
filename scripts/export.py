@@ -96,8 +96,11 @@ def export_all(db_path: str = "data/radar.db", out_dir: str = "data/exports") ->
     except Exception as e:
         print(f"Warning: Could not export trends: {e}")
 
+    # ── opportunity index (also augments project pages below) ──
+    opportunity_map = export_opportunities(db, out)
+
     # ── project detail pages ──
-    export_project_pages(db, out)
+    export_project_pages(db, out, opportunity_map)
 
     # ── project index (for search/listing) ──
     export_project_index(db, out)
@@ -115,7 +118,9 @@ def export_all(db_path: str = "data/radar.db", out_dir: str = "data/exports") ->
     export_history(db, out)
 
 
-def export_project_pages(db: Database, out: Path) -> None:
+def export_project_pages(
+    db: Database, out: Path, opportunity_map: dict[str, dict] | None = None
+) -> None:
     """Export individual project detail pages."""
     projects_dir = out / "projects"
     projects_dir.mkdir(exist_ok=True)
@@ -220,9 +225,19 @@ def export_project_pages(db: Database, out: Path) -> None:
         if why:
             project_data["why_trending"] = why
 
+        # Add opportunity index (if this repo is a surfaced opportunity)
+        opp = (opportunity_map or {}).get(fn)
+        if opp:
+            project_data["opportunity_score"] = opp["opportunity_score"]
+            project_data["opportunity_tier"] = opp["tier"]
+            if opp.get("brief_zh"):
+                project_data["opportunity_brief_zh"] = opp["brief_zh"]
+
         # Write to projects directory
         project_file = projects_dir / f"{owner}__{name}.json"
-        project_file.write_text(json.dumps(project_data, indent=2, default=str), encoding="utf-8")
+        project_file.write_text(
+            json.dumps(project_data, indent=2, default=str, ensure_ascii=False), encoding="utf-8"
+        )
         count += 1
 
     print(f"Exported {count} project detail pages")
@@ -311,6 +326,44 @@ def export_breakouts(db: Database, out: Path) -> None:
         print(f"Exported breakouts ({summary['total_candidates']} candidates)")
     except Exception as e:
         print(f"Warning: Could not export breakouts: {e}")
+
+
+def export_opportunities(db: Database, out: Path) -> dict[str, dict]:
+    """Export opportunity index; returns {repo_full_name: {score, tier}} map."""
+    try:
+        from radar.analysis.opportunity_engine import OpportunityEngine
+        engine = OpportunityEngine(db)
+        summary = engine.get_opportunities_summary(limit=200)
+
+        # Attach cached Chinese AI briefs when available (P3, optional). Repos
+        # without a cached brief are left as-is so the frontend shows its own
+        # fallback line rather than a forced note — keeps EN mode clean.
+        try:
+            from radar.analysis.opportunity_brief import load_briefs
+            briefs = load_briefs()
+            for c in summary["candidates"]:
+                entry = briefs.get(c["repo_full_name"])
+                if isinstance(entry, dict) and entry.get("text"):
+                    c["brief_zh"] = entry["text"]
+        except Exception as be:  # briefs are a non-critical enrichment
+            print(f"Warning: Could not merge opportunity briefs: {be}")
+
+        (out / "opportunities.json").write_text(
+            json.dumps(summary, indent=2, default=str, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        print(f"Exported opportunities ({summary['total_candidates']} candidates)")
+        return {
+            c["repo_full_name"]: {
+                "opportunity_score": c["opportunity_score"],
+                "tier": c["tier"],
+                "brief_zh": c.get("brief_zh"),
+            }
+            for c in summary["candidates"]
+        }
+    except Exception as e:
+        print(f"Warning: Could not export opportunities: {e}")
+        return {}
 
 
 def export_anomalies(db: Database, out: Path) -> None:

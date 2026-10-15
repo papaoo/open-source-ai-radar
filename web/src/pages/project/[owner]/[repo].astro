@@ -2,6 +2,8 @@
 import Layout from '../../../layouts/Layout.astro';
 import { readFileSync, readdirSync } from 'fs';
 import { topProjectSet } from '../../../utils/og';
+import { zhDesc } from '../../../utils/zh';
+import { tf } from '../../../lib/i18n';
 
 export function getStaticPaths() {
   const projectsDir = join(process.cwd(), '..', 'data', 'exports', 'projects');
@@ -60,22 +62,66 @@ function momentumLabel(s: string): string {
 }
 
 const state = momentumState(project.velocity || 0, project.star_growth_acceleration || 1);
+const vstory = velocityStory(project.velocity || 0);
+const wsegs = whySegments(project);
+const topPct = percentileLabel(project.global_percentile);
 const socialImage = topProjectSet().has(`${owner}/${repo}`)
   ? `${base}project/${owner}/${repo}/og.png`
   : `${base}og.png`;
 
-function percentileLabel(p: any): string {
+function percentileLabel(p: any): number {
   const v = Number(p);
-  if (!Number.isFinite(v) || v <= 0) return '';
-  return `Top ${(100 - v).toFixed(0)}% globally`;
+  if (!Number.isFinite(v) || v <= 0) return 0;
+  return Math.round(100 - v);
 }
 
-function velocityStory(v: number): string {
-  if (v >= 70) return 'Exceptional momentum — gaining stars far faster than almost everything else tracked.';
-  if (v >= 50) return 'Strong momentum — adoption is accelerating week over week.';
-  if (v >= 35) return 'Steady growth — consistently collecting stars and contributors.';
-  if (v >= 15) return 'Modest but positive momentum.';
-  return 'Momentum is cooling relative to the rest of the index.';
+function velocityStory(v: number): { key: string; en: string } {
+  if (v >= 70) return { key: 'proj.vstory.v70', en: 'Exceptional momentum — gaining stars far faster than almost everything else tracked.' };
+  if (v >= 50) return { key: 'proj.vstory.v50', en: 'Strong momentum — adoption is accelerating week over week.' };
+  if (v >= 35) return { key: 'proj.vstory.v35', en: 'Steady growth — consistently collecting stars and contributors.' };
+  if (v >= 15) return { key: 'proj.vstory.v15', en: 'Modest but positive momentum.' };
+  return { key: 'proj.vstory.v0', en: 'Momentum is cooling relative to the rest of the index.' };
+}
+
+// Rebuild the "why it ranks" explanation from numeric signals instead of the
+// English prose in project.why_trending. Thresholds mirror
+// src/radar/analysis/why_trending.py::_generate_explanation exactly, so the
+// English view is unchanged and Chinese needs no machine translation (category
+// / maturity values are mapped through fixed dictionaries client-side).
+type WhySeg = { key: string; vars?: Record<string, string | number>; map?: Record<string, string> };
+function whySegments(p: any): WhySeg[] {
+  const num = (v: any): number => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
+  const segs: WhySeg[] = [];
+  const stars7 = num(p.stars_7d);
+  const accel = p.star_growth_acceleration == null ? 1.0 : Number(p.star_growth_acceleration);
+  const vel = num(p.velocity);
+  const forks7 = num(p.forks_7d);
+  const health = num(p.health);
+  const gr7 = num(p.star_growth_rate_7d);
+  const gr30 = num(p.star_growth_rate_30d);
+
+  if (stars7 > 0) {
+    if (accel && accel > 1.5) segs.push({ key: 'why.rapid', vars: { n: stars7, x: accel.toFixed(1) } });
+    else if (stars7 >= 100) segs.push({ key: 'why.strong', vars: { n: stars7 } });
+    else if (stars7 >= 20) segs.push({ key: 'why.steady', vars: { n: stars7 } });
+  }
+  if (vel >= 80) segs.push({ key: 'why.fastest' });
+  else if (vel >= 60) segs.push({ key: 'why.aboveAvg' });
+  if (forks7 > 10) segs.push({ key: 'why.forks', vars: { n: forks7 } });
+  if (health >= 70) segs.push({ key: 'why.wellMaintained' });
+  else if (health < 30) segs.push({ key: 'why.declining' });
+  if (gr30 > 0 && gr7 / gr30 >= 3.0) segs.push({ key: 'why.starSpike' });
+  if (p.category) segs.push({ key: 'why.activeIn', vars: { cat: String(p.category) }, map: { cat: 'category' } });
+  if (p.maturity === 'Emerging') segs.push({ key: 'why.emerging' });
+  else if (p.maturity === 'Mature') segs.push({ key: 'why.mature' });
+
+  if (!segs.length) {
+    const stars = num(p.stars);
+    if (stars > 10000) segs.push({ key: 'why.popular' });
+    else if (stars > 1000) segs.push({ key: 'why.growing' });
+    else segs.push({ key: 'why.positive' });
+  }
+  return segs;
 }
 
 function fmtDate(ts: string): string {
@@ -125,11 +171,19 @@ const scorePoints: Point[] = (history?.scores || [])
 
 const starChart = buildChart(starPoints, 'var(--green)');
 const scoreChart = buildChart(scorePoints, 'var(--accent)');
+
+// Three-axis score values for the radar chart (rendered client-side so axis
+// labels follow the active language).
+const radarValues = {
+  impact: Number(project.impact) || 0,
+  velocity: Number(project.velocity) || 0,
+  health: Number(project.health) || 0,
+};
 ---
 
 <Layout title={`${owner}/${repo}`} description={project.description || `Project details for ${owner}/${repo}`} ogImage={socialImage}>
   <nav style="margin-bottom:var(--sp-6); font-size:var(--text-sm);">
-    <a href={`${base}top`} style="color:var(--accent);">Rankings</a>
+    <a href={`${base}top`} style="color:var(--accent);" data-i18n="nav.rankings">Rankings</a>
     <span style="color:var(--text-muted); margin:0 var(--sp-2);">/</span>
     <span style="color:var(--text-secondary);">{owner}/{repo}</span>
   </nav>
@@ -138,26 +192,27 @@ const scoreChart = buildChart(scorePoints, 'var(--accent)');
     {project.owner_avatar && <img src={project.owner_avatar} alt="" width="48" height="48" style="width:48px;height:48px;border-radius:var(--radius);border:1px solid var(--border);" loading="lazy" data-owner={`${owner}/${repo}`} referrerpolicy="no-referrer" />}
     <div>
       <h1 style="font-size:var(--text-3xl); font-weight:700; letter-spacing:var(--tracking-tight);">{owner}/{repo}</h1>
-      {project.description && <p style="color:var(--text-secondary); font-size:var(--text-sm); margin-top:var(--sp-1);">{project.description}</p>}
+      {project.description && <p style="color:var(--text-secondary); font-size:var(--text-sm); margin-top:var(--sp-1);" data-desc-en={project.description} data-desc-zh={zhDesc(project.description)}>{project.description}</p>}
+      {project.description && zhDesc(project.description) && <p class="orig-note" style="color:var(--text-muted); font-size:var(--text-xs); margin-top:2px;">{project.description}</p>}
     </div>
   </div>
 
   <div class="stat-grid" style="margin-bottom:var(--sp-8);">
     <div class="stat-card">
       <div class="stat-value">{fmt(project.stars || 0)}</div>
-      <div class="stat-label">Stars</div>
+      <div class="stat-label" data-i18n="label.stars">Stars</div>
     </div>
     <div class="stat-card">
       <div class="stat-value">{fmt(project.forks || 0)}</div>
-      <div class="stat-label">Forks</div>
+      <div class="stat-label" data-i18n="proj.forks">Forks</div>
     </div>
     <div class="stat-card">
       <div class="stat-value"><span class={`score-pill ${scoreClass(project.radar_score)}`} style="font-size:var(--text-xl);">{project.radar_score?.toFixed(1)}</span></div>
-      <div class="stat-label">Radar Score</div>
+      <div class="stat-label" data-i18n="proj.radarScore">Radar Score</div>
     </div>
     <div class="stat-card">
-      <div class="stat-value"><span class={`momentum momentum-${state}`}>{momentumLabel(state)}</span></div>
-      <div class="stat-label">Momentum</div>
+      <div class="stat-value"><span class={`momentum momentum-${state}`}><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span></div>
+      <div class="stat-label" data-i18n="proj.momentum">Momentum</div>
     </div>
   </div>
 
@@ -167,7 +222,7 @@ const scoreChart = buildChart(scorePoints, 'var(--accent)');
         {starChart && (
           <div class="card" style="padding:var(--sp-6);">
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:var(--sp-4);">
-              <h2 style="font-size:var(--text-lg); font-weight:700;">Star History</h2>
+              <h2 style="font-size:var(--text-lg); font-weight:700;" data-i18n="proj.starHistory">Star History</h2>
               <span style="font-size:var(--text-sm); color:var(--text-muted);">{fmtDate(starChart.first.t)} → {fmtDate(starChart.last.t)}</span>
             </div>
             <Fragment set:html={starChart.svg} />
@@ -181,7 +236,7 @@ const scoreChart = buildChart(scorePoints, 'var(--accent)');
         {scoreChart && (
           <div class="card" style="padding:var(--sp-6);">
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:var(--sp-4);">
-              <h2 style="font-size:var(--text-lg); font-weight:700;">Radar Score History</h2>
+              <h2 style="font-size:var(--text-lg); font-weight:700;" data-i18n="proj.scoreHistory">Radar Score History</h2>
               <span style="font-size:var(--text-sm); color:var(--text-muted);">{fmtDate(scoreChart.first.t)} → {fmtDate(scoreChart.last.t)}</span>
             </div>
             <Fragment set:html={scoreChart.svg} />
@@ -197,49 +252,54 @@ const scoreChart = buildChart(scorePoints, 'var(--accent)');
 
   <div class="grid-2" style="margin-bottom:var(--sp-8);">
     <div class="card" style="padding:var(--sp-6);">
-      <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-4);">Scoring Breakdown</h2>
-      <div style="display:grid; gap:var(--sp-4);">
+      <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-4);" data-i18n="proj.scoringBreakdown">Scoring Breakdown</h2>
+      <div class="score-split">
+        <div class="score-split__chart">
+          <div id="projectRadar" class="radar-mount" data-impact={radarValues.impact} data-velocity={radarValues.velocity} data-health={radarValues.health}></div>
+        </div>
+        <div style="display:grid; gap:var(--sp-4); flex:1; min-width:0;">
         <div>
           <div style="display:flex; justify-content:space-between; margin-bottom:var(--sp-1);">
-            <span style="font-size:var(--text-sm); font-weight:500;">Impact</span>
+            <span style="font-size:var(--text-sm); font-weight:500;" data-i18n="label.impact">Impact</span>
             <span style="font-family:var(--font-mono); font-size:var(--text-sm); color:var(--text-secondary);">{project.impact?.toFixed(1)}</span>
           </div>
           <div class="bar"><div class="bar-fill" style={`width:${project.impact || 0}%; background:var(--accent);`}></div></div>
         </div>
         <div>
           <div style="display:flex; justify-content:space-between; margin-bottom:var(--sp-1);">
-            <span style="font-size:var(--text-sm); font-weight:500;">Velocity</span>
+            <span style="font-size:var(--text-sm); font-weight:500;" data-i18n="label.velocity">Velocity</span>
             <span style="font-family:var(--font-mono); font-size:var(--text-sm); color:var(--text-secondary);">{project.velocity?.toFixed(1)}</span>
           </div>
           <div class="bar"><div class="bar-fill" style={`width:${project.velocity || 0}%; background:var(--green);`}></div></div>
         </div>
         <div>
           <div style="display:flex; justify-content:space-between; margin-bottom:var(--sp-1);">
-            <span style="font-size:var(--text-sm); font-weight:500;">Health</span>
+            <span style="font-size:var(--text-sm); font-weight:500;" data-i18n="label.health">Health</span>
             <span style="font-family:var(--font-mono); font-size:var(--text-sm); color:var(--text-secondary);">{project.health?.toFixed(1)}</span>
           </div>
           <div class="bar"><div class="bar-fill" style={`width:${project.health || 0}%; background:var(--accent);`}></div></div>
+        </div>
         </div>
       </div>
     </div>
 
     <div class="card" style="padding:var(--sp-6);">
-      <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-4);">Growth Metrics</h2>
+      <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-4);" data-i18n="proj.growthMetrics">Growth Metrics</h2>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--sp-4);">
         <div>
-          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">7-Day Stars</div>
+          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="proj.stars7dLabel">7-Day Stars</div>
           <div style="font-size:var(--text-lg); font-weight:700; color:var(--green);">+{fmt(project.stars_7d || 0)}</div>
         </div>
         <div>
-          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">30-Day Stars</div>
+          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="proj.stars30dLabel">30-Day Stars</div>
           <div style="font-size:var(--text-lg); font-weight:700; color:var(--green);">+{fmt(project.stars_30d || 0)}</div>
         </div>
         <div>
-          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Acceleration</div>
+          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="proj.accelLabel">Acceleration</div>
           <div style="font-size:var(--text-lg); font-weight:700;">{project.star_growth_acceleration?.toFixed(2)}x</div>
         </div>
         <div>
-          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Language</div>
+          <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="proj.languageLabel">Language</div>
           <div style="font-size:var(--text-lg); font-weight:700;">{project.language || '\u2014'}</div>
         </div>
       </div>
@@ -248,27 +308,80 @@ const scoreChart = buildChart(scorePoints, 'var(--accent)');
 
   <section class="section">
     <div class="card" style="padding:var(--sp-6);">
-      <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-4);">Why it ranks</h2>
-      <p style="color:var(--text-secondary); line-height:var(--leading-relaxed); font-size:var(--text-sm); margin-bottom:var(--sp-4);">{velocityStory(project.velocity || 0)}</p>
+      <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-4);" data-i18n="proj.whyRanks">Why it ranks</h2>
+      <p style="color:var(--text-secondary); line-height:var(--leading-relaxed); font-size:var(--text-sm); margin-bottom:var(--sp-4);" data-i18n={vstory.key}>{vstory.en}</p>
       <div style="display:flex; gap:var(--sp-2); flex-wrap:wrap;">
         {project.category && project.category !== 'Uncategorized' && (
-          <a href={`${base}category/${project.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} class="badge" style="color:var(--accent); text-decoration:none;">{project.sub_category ? `${project.category} · ${project.sub_category}` : project.category}</a>
+          <a href={`${base}category/${project.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} class="badge" style="color:var(--accent); text-decoration:none;"><span data-i18n-cat={project.category}>{project.category}</span>{project.sub_category && <span data-i18n="proj.subcatWith" data-i18n-vars={JSON.stringify({ v: String(project.sub_category) })} data-i18n-map={JSON.stringify({ v: 'subcategory' })}>{` · ${project.sub_category}`}</span>}</a>
         )}
-        {percentileLabel(project.global_percentile) && <span class="badge">{percentileLabel(project.global_percentile)}</span>}
-        {project.maturity && project.maturity !== 'Unknown' && <span class="badge">Maturity: {project.maturity}</span>}
-        {Number(project.days_since_last_push) > 0 && <span class="badge">Last push {Math.round(Number(project.days_since_last_push))}d ago</span>}
-        {Number(project.stars_7d) > 0 && <span class="badge" style="color:var(--green);">+{fmt(Number(project.stars_7d))} stars / 7d</span>}
-        {Number(project.stars_30d) > 0 && <span class="badge" style="color:var(--green);">+{fmt(Number(project.stars_30d))} stars / 30d</span>}
+        {topPct > 0 && <span class="badge" data-i18n="proj.topPercentile" data-i18n-vars={JSON.stringify({ n: topPct })}>Top {topPct}% globally</span>}
+        {project.maturity && project.maturity !== 'Unknown' && <span class="badge" data-i18n="proj.maturityLabel" data-i18n-vars={JSON.stringify({ v: String(project.maturity) })} data-i18n-map={JSON.stringify({ v: 'maturity' })}>Maturity: {project.maturity}</span>}
+        {Number(project.days_since_last_push) > 0 && <span class="badge" data-i18n="proj.lastPushDays" data-i18n-vars={JSON.stringify({ n: Math.round(Number(project.days_since_last_push)) })}>Last push {Math.round(Number(project.days_since_last_push))}d ago</span>}
+        {Number(project.stars_7d) > 0 && <span class="badge" style="color:var(--green);" data-i18n="proj.stars7dBadge" data-i18n-vars={JSON.stringify({ n: fmt(Number(project.stars_7d)) })}>+{fmt(Number(project.stars_7d))} stars / 7d</span>}
+        {Number(project.stars_30d) > 0 && <span class="badge" style="color:var(--green);" data-i18n="proj.stars30dBadge" data-i18n-vars={JSON.stringify({ n: fmt(Number(project.stars_30d)) })}>+{fmt(Number(project.stars_30d))} stars / 30d</span>}
       </div>
       {project.why_trending && (
-        <p style="margin-top:var(--sp-4); padding-top:var(--sp-4); border-top:1px solid var(--border-subtle); color:var(--text-secondary); line-height:var(--leading-relaxed); font-size:var(--text-sm);"><strong style="color:var(--text);">Trend signal:</strong> {project.why_trending}</p>
+        <p style="margin-top:var(--sp-4); padding-top:var(--sp-4); border-top:1px solid var(--border-subtle); color:var(--text-secondary); line-height:var(--leading-relaxed); font-size:var(--text-sm);"><strong style="color:var(--text);" data-i18n="proj.trendSignal">Trend signal:</strong>{' '}{wsegs.map((s, i) => <Fragment>{i > 0 && <span data-i18n="why.sep">{'. '}</span>}<span data-i18n={s.key} data-i18n-vars={s.vars ? JSON.stringify(s.vars) : undefined} data-i18n-map={s.map ? JSON.stringify(s.map) : undefined}>{tf(s.key, 'en', s.vars || {})}</span></Fragment>)}<span data-i18n="why.end">.</span></p>
       )}
     </div>
   </section>
 
+  {Number(project.opportunity_score) > 0 && (
+    <section class="section">
+      <div class="card" style="padding:var(--sp-6);">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:var(--sp-3); margin-bottom:var(--sp-3); flex-wrap:wrap;">
+          <h2 style="font-size:var(--text-lg); font-weight:700;" data-i18n="proj.oppCard">Opportunity Assessment</h2>
+          <div style="display:flex; align-items:center; gap:var(--sp-3);">
+            <span class="score-pill" style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.scoreLabel">Opportunity Score</span>
+            <span class={`score-pill ${scoreClass(Number(project.opportunity_score))}`}>{Number(project.opportunity_score)}</span>
+            <span class="badge" data-i18n={`tier.${project.opportunity_tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[project.opportunity_tier] || project.opportunity_tier}</span>
+          </div>
+        </div>
+        <p style="color:var(--text-secondary); font-size:var(--text-sm); line-height:var(--leading-relaxed); margin-bottom:var(--sp-3);" data-i18n="proj.oppCardHint">An early, under-priced bet: strong leading indicators with manageable risk.</p>
+        <div style="display:flex; gap:var(--sp-2); flex-wrap:wrap;">
+          <span class="badge"><span data-i18n="opp.contributors7d">New contributors / 7d</span>: {project.contributors_7d ?? 0}</span>
+          {Number(project.star_growth_acceleration) > 0 && <span class="badge"><span data-i18n="opp.acceleration">Acceleration</span>: {Number(project.star_growth_acceleration).toFixed(1)}x</span>}
+          <span class="badge"><span data-i18n="label.velocity">Velocity</span>: {Math.round(Number(project.velocity) || 0)}</span>
+          <span class="badge"><span data-i18n="label.health">Health</span>: {Math.round(Number(project.health) || 0)}</span>
+        </div>
+        {project.opportunity_brief_zh && (
+          <p style="margin-top:var(--sp-4); padding-top:var(--sp-4); border-top:1px solid var(--border-subtle); color:var(--text-secondary); font-size:var(--text-sm); line-height:var(--leading-relaxed);">
+            <strong style="color:var(--text);" data-i18n="opp.briefLabel">Opportunity brief:</strong>{' '}<span class="brief-zh">{project.opportunity_brief_zh}</span>
+          </p>
+        )}
+        <div style="margin-top:var(--sp-4); font-size:var(--text-xs);">
+          <a href={`${base}opportunities`} style="color:var(--accent); text-decoration:none;" data-i18n="section.allOpportunities">All opportunities</a>
+        </div>
+      </div>
+    </section>
+  )}
+
   <div style="margin-top:var(--sp-8); text-align:center;">
-    <a href={`https://github.com/${owner}/${repo}`} target="_blank" rel="noopener" class="badge" style="padding:var(--sp-3) var(--sp-6); font-size:var(--text-sm); color:var(--accent); border:1px solid var(--accent); text-decoration:none; border-radius:var(--radius-full);">
+    <a href={`https://github.com/${owner}/${repo}`} target="_blank" rel="noopener" class="badge" style="padding:var(--sp-3) var(--sp-6); font-size:var(--text-sm); color:var(--accent); border:1px solid var(--accent); text-decoration:none; border-radius:var(--radius-full);" data-i18n="proj.viewOnGitHub">
       View on GitHub
     </a>
   </div>
+
+  <script>
+    import { radarSvg } from '../../../lib/radarChart';
+    import { getLang, t, type Lang } from '../../../lib/i18n';
+
+    function axisLabels(lang: Lang): [string, string, string] {
+      return [t('label.impact', lang), t('label.velocity', lang), t('label.health', lang)];
+    }
+
+    function renderProjectRadar() {
+      const mount = document.getElementById('projectRadar');
+      if (!mount) return;
+      const values = {
+        impact: Number(mount.dataset.impact) || 0,
+        velocity: Number(mount.dataset.velocity) || 0,
+        health: Number(mount.dataset.health) || 0,
+      };
+      mount.innerHTML = radarSvg(values, { size: 240, labels: axisLabels(getLang()) });
+    }
+
+    renderProjectRadar();
+    document.addEventListener('radar:lang', renderProjectRadar);
+  </script>
 </Layout>

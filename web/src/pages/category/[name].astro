@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { loadRepoHistory } from '../../lib/history';
+import { zhDesc } from '../../utils/zh';
 
 const base = import.meta.env.BASE_URL;
 
@@ -66,12 +67,12 @@ function repoUrl(name: string): string {
   return `${base}project/${owner}/${repo}`;
 }
 
-function momentumBadge(score: number): { label: string; cls: string } {
-  if (score >= 80) return { label: 'Breakout', cls: 'badge-accent' };
-  if (score >= 65) return { label: 'Accelerating', cls: 'badge-success' };
-  if (score >= 45) return { label: 'Rising', cls: 'badge-info' };
-  if (score > 0) return { label: 'Stable', cls: 'badge-muted' };
-  return { label: '—', cls: 'badge-muted' };
+function momentumBadge(score: number): { label: string; key: string; cls: string } {
+  if (score >= 80) return { label: 'Breakout', key: 'momentum.breakout', cls: 'badge-accent' };
+  if (score >= 65) return { label: 'Accelerating', key: 'momentum.accelerating', cls: 'badge-success' };
+  if (score >= 45) return { label: 'Rising', key: 'momentum.rising', cls: 'badge-info' };
+  if (score > 0) return { label: 'Stable', key: 'momentum.stable', cls: 'badge-muted' };
+  return { label: '—', key: '', cls: 'badge-muted' };
 }
 
 function ownerInitials(fullName: string): string {
@@ -83,29 +84,29 @@ function ownerInitials(fullName: string): string {
 <Layout title={`${category} — Open Source AI Radar`} description={`Top open-source AI projects in the ${category} category.`}>
   <section class="hero-editorial" style="padding-bottom:var(--sp-6);">
     <nav style="font-size:var(--text-sm); color:var(--text-muted); margin-bottom:var(--sp-4);">
-      <a href={`${base}categories`} style="color:var(--accent); text-decoration:none;">Categories</a>
+      <a href={`${base}categories`} style="color:var(--accent); text-decoration:none;" data-i18n="nav.categories">Categories</a>
       <span style="margin:0 var(--sp-2);">/</span>
-      <span>{category}</span>
+      <span data-i18n-cat={category}>{category}</span>
     </nav>
-    <h1 style="font-size:var(--text-2xl);">{category}</h1>
+    <h1 style="font-size:var(--text-2xl);" data-i18n-cat={category}>{category}</h1>
     <p style="color:var(--text-muted); margin-top:var(--sp-2);">
-      {projects.length} projects tracked
-      {catMeta?.trend && <span class={`badge badge-sm ${catMeta.trend === 'rising' ? 'badge-success' : catMeta.trend === 'declining' ? 'badge-warning' : 'badge-muted'}`} style="margin-left:var(--sp-2);">{catMeta.trend}</span>}
+      <span data-i18n="category.projectsTracked" data-i18n-vars={JSON.stringify({ n: projects.length })}>{projects.length} projects tracked</span>
+      {catMeta?.trend && <span class={`badge badge-sm ${catMeta.trend === 'rising' ? 'badge-success' : catMeta.trend === 'declining' ? 'badge-warning' : 'badge-muted'}`} style="margin-left:var(--sp-2);" data-i18n={`trend.${catMeta.trend}`}>{catMeta.trend}</span>}
     </p>
   </section>
 
   {catMeta && (
     <div style="display:flex; gap:var(--sp-6); margin-bottom:var(--sp-8); flex-wrap:wrap;">
       <div class="card" style="padding:var(--sp-4); min-width:120px;">
-        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Tracked</div>
+        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.tracked">Tracked</div>
         <div style="font-size:var(--text-xl); font-weight:700;">{catMeta.tracked}</div>
       </div>
       <div class="card" style="padding:var(--sp-4); min-width:120px;">
-        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Avg Velocity</div>
+        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.avgVelocity">Avg Velocity</div>
         <div style="font-size:var(--text-xl); font-weight:700;">{catMeta.velocity?.toFixed(0) || '—'}</div>
       </div>
       <div class="card" style="padding:var(--sp-4); min-width:120px;">
-        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;">Avg Health</div>
+        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.avgHealth">Avg Health</div>
         <div style="font-size:var(--text-xl); font-weight:700;">{catMeta.health?.toFixed(0) || '—'}</div>
       </div>
     </div>
@@ -122,14 +123,14 @@ function ownerInitials(fullName: string): string {
             : <div class="avatar-slot avatar-fallback">{ownerInitials(p.full_name)}</div>}
           <div class="project-info">
             <div style="font-weight:600; font-size:var(--text-sm); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{p.full_name}</div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{p.description || ''}</div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" data-desc-en={p.description || ''} data-desc-zh={zhDesc(p.description)}>{p.description || ''}</div>
           </div>
           <div class="project-meta">
             {p.language && <span class="badge badge-sm badge-muted">{p.language}</span>}
             <span class="project-stars">{fmtStars(p.stars)} ★</span>
             <span style="font-size:var(--text-sm); font-weight:700; min-width:40px; text-align:right;">{p.radar_score ? p.radar_score.toFixed(0) : "—"}</span>
             <Fragment set:html={sparkline(repoHistory[p.full_name] || [])} />
-            <span class={`badge badge-sm ${mb.cls}`}>{mb.label}</span>
+            <span class={`badge badge-sm ${mb.cls}`} set:html={mb.key ? `<span data-i18n="${mb.key}">${mb.label}</span>` : mb.label}></span>
           </div>
         </a>
       );
@@ -137,7 +138,7 @@ function ownerInitials(fullName: string): string {
   </div>
 
   {projects.length === 0 && (
-    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);">
+    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);" data-i18n="category.empty">
       No projects found in this category yet.
     </div>
   )}

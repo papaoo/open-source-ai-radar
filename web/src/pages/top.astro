@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { loadRepoHistory } from '../lib/history';
+import { zhDesc } from '../utils/zh';
 
 const base = import.meta.env.BASE_URL;
 let repos: any[] = [];
@@ -66,39 +67,39 @@ function repoUrl(r: any): string {
 
 <Layout title="Rankings" description="Full rankings of {repos.length} AI open-source projects by momentum score.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1>Project <span class="accent">Rankings</span></h1>
-    <p>All {repos.length.toString()} tracked projects ranked by radar score</p>
+    <h1><span data-i18n="rankings.titlePrefix">Project</span> <span class="accent" data-i18n="rankings.titleAccent">Rankings</span></h1>
+    <p id="rankSubtitle" data-n={repos.length}>All {repos.length} tracked projects ranked by radar score</p>
   </section>
 
   <div class="section">
     <div class="search-box" id="searchBox">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-      <input type="text" id="searchInput" placeholder="Search projects..." aria-label="Search projects" />
+      <input type="text" id="searchInput" data-i18n-placeholder="search.placeholder" placeholder="Search projects..." aria-label="Search projects" />
     </div>
 
     <div class="filters" id="filters">
-      <button class="filter-pill active" data-filter="all">All</button>
-      <button class="filter-pill" data-filter="accelerating">Accelerating</button>
-      <button class="filter-pill" data-filter="rising">Rising</button>
-      <button class="filter-pill" data-filter="stable">Stable</button>
-      <button class="filter-pill" data-filter="declining">Declining</button>
+      <button class="filter-pill active" data-filter="all" data-i18n="filter.all">All</button>
+      <button class="filter-pill" data-filter="accelerating" data-i18n="momentum.accelerating">Accelerating</button>
+      <button class="filter-pill" data-filter="rising" data-i18n="momentum.rising">Rising</button>
+      <button class="filter-pill" data-filter="stable" data-i18n="momentum.stable">Stable</button>
+      <button class="filter-pill" data-filter="declining" data-i18n="momentum.declining">Declining</button>
     </div>
 
-    <div id="resultCount" style="font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--sp-3);">Showing all {repos.length.toString()} projects</div>
+    <div id="resultCount" data-total={repos.length} style="font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--sp-3);">Showing all {repos.length.toString()} projects</div>
 
     <div style="margin-top:var(--sp-4);">
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>#</th>
-              <th>Project</th>
-              <th>Language</th>
-              <th class="num">Stars</th>
-              <th class="num">Score</th>
-              <th>Trend</th>
-              <th class="num">Velocity</th>
-              <th>Momentum</th>
+              <th data-i18n="table.rank">#</th>
+              <th data-i18n="table.project">Project</th>
+              <th data-i18n="table.language">Language</th>
+              <th class="num" data-i18n="table.stars">Stars</th>
+              <th class="num" data-i18n="table.score">Score</th>
+              <th data-i18n="table.trend">Trend</th>
+              <th class="num" data-i18n="table.velocity">Velocity</th>
+              <th data-i18n="table.momentum">Momentum</th>
             </tr>
           </thead>
           <tbody id="repoTable">
@@ -115,14 +116,14 @@ function repoUrl(r: any): string {
                         : <span class="avatar-fallback" style="width:24px; height:24px; font-size:10px;">{(name.split('/')[0] || '?').replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?'}</span>}
                       <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{name}</span>
                     </a>
-                    {r.description && <div style="font-size:var(--text-xs); color:var(--text-muted); margin-top:2px; max-width:400px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{r.description}</div>}
+                    {r.description && <div style="font-size:var(--text-xs); color:var(--text-muted); margin-top:2px; max-width:400px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
                   </td>
                   <td>{r.language && <span class="badge">{r.language}</span>}</td>
                   <td class="num">{fmt(r.stars || 0)}</td>
                   <td class="num"><span class={`score-pill ${scoreClass(r.radar_score)}`}>{r.radar_score?.toFixed(1)}</span></td>
                   <td><Fragment set:html={sparkline(repoHistory[name] || [])} /></td>
                   <td class="num">{r.velocity?.toFixed(0)}</td>
-                  <td><span class={`momentum momentum-${state}`}><Fragment set:html={momentumIcon(state)} />{momentumLabel(state)}</span></td>
+                  <td><span class={`momentum momentum-${state}`}><Fragment set:html={momentumIcon(state)} /><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span></td>
                 </tr>
               );
             })}
@@ -134,12 +135,20 @@ function repoUrl(r: any): string {
 </Layout>
 
 <script>
+  import { getLang, tf } from '../lib/i18n';
+
   const input = document.getElementById('searchInput') as HTMLInputElement;
   const rows = document.querySelectorAll('.repo-row');
   const pills = document.querySelectorAll('.filter-pill');
   const countEl = document.getElementById('resultCount');
+  const subtitle = document.getElementById('rankSubtitle');
   let activeFilter = 'all';
   let activeCount = 0;
+
+  function renderStatic() {
+    const lang = getLang();
+    if (subtitle) subtitle.textContent = tf('rankings.subtitle', lang, { n: Number(subtitle.dataset.n || 0).toLocaleString() });
+  }
 
   function applyFilter() {
     const q = (input?.value || '').toLowerCase().trim();
@@ -155,11 +164,12 @@ function repoUrl(r: any): string {
       if (visible) activeCount++;
     });
     if (countEl) {
-      const total = rows.length;
-      const showing = activeFilter === 'all' && !q
-        ? `Showing all ${total.toLocaleString()} projects`
-        : `Showing ${activeCount.toLocaleString()} of ${total.toLocaleString()} projects`;
-      countEl.textContent = showing;
+      const lang = getLang();
+      const total = Number(countEl.dataset.total || rows.length);
+      const isAll = activeFilter === 'all' && !q;
+      countEl.textContent = isAll
+        ? tf('count.showingAll', lang, { n: total.toLocaleString() })
+        : tf('count.showingOf', lang, { shown: activeCount.toLocaleString(), total: total.toLocaleString() });
     }
   }
 
@@ -172,4 +182,7 @@ function repoUrl(r: any): string {
       applyFilter();
     });
   });
+
+  document.addEventListener('radar:lang', () => { renderStatic(); applyFilter(); });
+  renderStatic();
 </script>

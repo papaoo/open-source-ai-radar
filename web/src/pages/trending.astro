@@ -37,8 +37,8 @@ function ownerInitials(fullName: string): string {
 
 <Layout title="Trending" description="AI open-source projects gaining momentum right now.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent">Trending</span> Projects</h1>
-    <p>Projects gaining the most momentum this week</p>
+    <h1><span class="accent" data-i18n="trending.accent">Trending</span> <span data-i18n="trending.suffix">Projects</span></h1>
+    <p data-i18n="trending.subtitle">Projects gaining the most momentum this week</p>
   </section>
 
   <div class="grid-auto">
@@ -54,14 +54,14 @@ function ownerInitials(fullName: string): string {
                 : <span class="avatar-fallback" style="width:28px; height:28px; font-size:11px;">{ownerInitials(name)}</span>}
               <span style="font-weight:600; font-size:var(--text-sm); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{name.split('/')[1]}</span>
             </span>
-            <span class={`momentum momentum-${state}`}>{momentumLabel(state)}</span>
+            <span class={`momentum momentum-${state}`}><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span>
           </div>
           <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-3);">
-            {name.split('/')[0]} · {r.language || ''} · {fmt(r.stars || 0)} stars
+            {name.split('/')[0]} · {r.language || ''} · {fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span>
           </div>
           <div style="display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-            <span>Velocity: {r.velocity?.toFixed(0)}</span>
-            <span>Score: {r.radar_score?.toFixed(1)}</span>
+            <span><span data-i18n="label.velocity">Velocity</span>: {r.velocity?.toFixed(0)}</span>
+            <span><span data-i18n="label.score">Score</span>: {r.radar_score?.toFixed(1)}</span>
           </div>
         </a>
       );

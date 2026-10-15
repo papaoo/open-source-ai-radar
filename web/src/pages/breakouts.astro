@@ -39,8 +39,8 @@ function repoUrl(name: string): string {
 
 <Layout title="Breakouts" description="Projects predicted to break out based on momentum signals.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent">Breakout</span> Candidates</h1>
-    <p>Projects showing early signs of explosive growth</p>
+    <h1><span class="accent" data-i18n="breakouts.accent">Breakout</span> <span data-i18n="breakouts.suffix">Candidates</span></h1>
+    <p data-i18n="breakouts.subtitle">Projects showing early signs of explosive growth</p>
   </section>
 
   {breakouts.candidates && breakouts.candidates.length > 0 ? (
@@ -56,19 +56,19 @@ function repoUrl(name: string): string {
         </div>
         <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-4);">
           <span class={`score-pill ${scoreClass(r.breakout_score)}`}>{r.breakout_score}</span>
-          <span class="momentum momentum-breakout">Breakout</span>
+          <span class="momentum momentum-breakout"><span data-i18n="momentum.breakout">Breakout</span></span>
         </div>
         <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:var(--sp-3);">
           <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);">Stars</div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="label.stars">Stars</div>
             <div style="font-size:var(--text-sm); font-weight:600;">{fmt(r.stars || 0)}</div>
           </div>
           <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);">Velocity</div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="label.velocity">Velocity</div>
             <div style="font-size:var(--text-sm); font-weight:600;">{r.velocity?.toFixed(0)}</div>
           </div>
           <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);">Acceleration</div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="breakouts.acceleration">Acceleration</div>
             <div style="font-size:var(--text-sm); font-weight:600;">{r.star_growth_acceleration?.toFixed(1)}x</div>
           </div>
         </div>
@@ -77,7 +77,7 @@ function repoUrl(name: string): string {
     </div>
   ) : (
     <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);">
-      <div style="font-size:var(--text-2xl); font-weight:700; margin-bottom:var(--sp-3); color:var(--text);">No breakouts detected yet</div>
+      <div style="font-size:var(--text-2xl); font-weight:700; margin-bottom:var(--sp-3); color:var(--text);" data-i18n="breakouts.emptyTitle">No breakouts detected yet</div>
       <p style="max-width:480px; margin:0 auto var(--sp-4);">Breakout detection compares each project's star velocity against its own history. The pipeline needs a few days of snapshots to build that baseline.</p>
       <p style="margin:0; font-size:var(--text-xs);">Snapshots are collected automatically every 6 hours — check back soon.</p>
     </div>

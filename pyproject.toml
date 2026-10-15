@@ -40,6 +40,11 @@ line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP", "SIM", "RUF"]
+# Chinese i18n content (opportunity briefs, Feishu cards, Groq prompts) uses
+# fullwidth punctuation that visually resembles ASCII. These are intentional,
+# so whitelist the specific CJK punctuation marks to keep RUF001 focused on true
+# look-alike typos rather than legitimate localized text.
+allowed-confusables = ["，", "：", "；", "！", "？", "（", "）"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

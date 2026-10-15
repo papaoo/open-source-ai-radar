@@ -6,10 +6,12 @@
 .nav {
   position: sticky; top: 0; z-index: 100;
   height: var(--nav-height);
-  background: rgba(9,9,11,0.92);
+  background: var(--nav-bg);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
+  transition: box-shadow var(--transition);
 }
+.nav.scrolled { box-shadow: var(--shadow); }
 .nav-inner {
   max-width: var(--max-width); margin: 0 auto;
   padding: 0 var(--sp-6);
@@ -293,3 +295,76 @@ tr:hover td { background: var(--bg-hover); }
   .project-avatar, .avatar-slot { display: none; }
   .project-desc { display: none; }
 }
+
+/* ── Nav controls (language + theme) ── */
+.nav-controls { display: flex; align-items: center; gap: var(--sp-2); }
+.nav-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  height: 30px; min-width: 30px; padding: 0 var(--sp-3);
+  font-size: var(--text-xs); font-weight: 600;
+  color: var(--text-secondary);
+  border: 1px solid var(--border); border-radius: var(--radius-full);
+  background: var(--bg-surface);
+  transition: color var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+}
+.nav-btn:hover { color: var(--text); border-color: var(--accent); }
+.nav-btn-icon { padding: 0; width: 30px; }
+.nav-btn-icon svg { width: 16px; height: 16px; }
+/* Show sun in dark (click → light), moon in light. */
+[data-theme="dark"] .icon-moon { display: none; }
+[data-theme="light"] .icon-sun { display: none; }
+@media (max-width: 768px) {
+  .nav-controls { padding-top: var(--sp-3); }
+}
+
+/* ── Hero radar animation ── */
+.hero-radar {
+  position: relative; width: 120px; height: 120px; flex-shrink: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, transparent 60%, var(--accent-muted) 100%),
+    repeating-radial-gradient(circle, var(--border) 0 1px, transparent 1px 24px);
+  overflow: hidden;
+}
+.hero-radar::before {
+  content: ""; position: absolute; inset: 0; border-radius: 50%;
+  background: conic-gradient(from 0deg, var(--accent) 0deg, transparent 60deg, transparent 360deg);
+  opacity: 0.55; animation: radar-sweep 4s linear infinite;
+}
+.hero-radar::after {
+  content: ""; position: absolute; top: 50%; left: 50%; width: 6px; height: 6px;
+  margin: -3px; border-radius: 50%; background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+@keyframes radar-sweep { to { transform: rotate(360deg); } }
+.hero-flex { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-8); }
+@media (max-width: 768px) { .hero-radar { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-radar::before { animation: none; }
+}
+
+/* ── Reveal-on-scroll micro-interaction ── */
+.reveal { opacity: 0; transform: translateY(10px); transition: opacity .5s ease, transform .5s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+
+/* ── Radar chart ── */
+.radar-chart { display: block; }
+.radar-chart text {
+  font-family: var(--font-sans); font-size: 11px; fill: var(--text-secondary);
+}
+/* Score breakdown: radar beside the labeled bars */
+.score-split { display: flex; gap: var(--sp-6); align-items: center; }
+.score-split__chart { flex: 0 0 auto; }
+.radar-mount { display: flex; justify-content: center; }
+@media (max-width: 640px) {
+  .score-split { flex-direction: column; align-items: stretch; }
+  .score-split__chart { display: flex; justify-content: center; }
+}
+/* Original (English) description note: only surfaced in Chinese mode. */
+.orig-note { display: none; }
+html[data-lang="zh"] .orig-note { display: block; }
+
+/* ── Score bar (single-axis visual) ── */
+.score-bar { height: 6px; border-radius: 3px; background: var(--border); overflow: hidden; }
+.score-bar > span { display: block; height: 100%; background: var(--accent); }

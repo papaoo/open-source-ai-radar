@@ -1,0 +1,45 @@
+# Feishu notification pipeline (delivery module smoke test)
+#
+# Verifies the Feishu group-bot notification module end-to-end by sending a
+# default connectivity card. The whole job is guarded on FEISHU_WEBHOOK_URL, so
+# forks/repos without secrets simply skip and existing CI is unaffected.
+#
+# To wire real content (daily digest / weekly report) later, replace the
+# `radar notify ping` step with a content-producing command — no module changes
+# are required.
+name: Notify Feishu
+
+on:
+  workflow_dispatch:      # manual trigger to test the bot
+  schedule:
+    - cron: "0 9 * * *"   # placeholder daily run (no-op without webhook secret)
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: ${{ vars.ENABLE_FEISHU_NOTIFY == 'true' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Send connectivity card to Feishu group
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: uv run radar notify ping

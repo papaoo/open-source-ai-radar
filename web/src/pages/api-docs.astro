@@ -5,77 +5,75 @@ const base = import.meta.env.BASE_URL;
 const siteUrl = new URL(base, Astro.site).href.replace(/\/$/, "");
 
 const endpoints = [
-  { method: "GET", path: "/api/repos.json", desc: "All tracked repositories" },
-  { method: "GET", path: "/api/repos.csv", desc: "All repositories as CSV" },
-  { method: "GET", path: "/api/stats.json", desc: "Aggregate statistics" },
-  { method: "GET", path: "/api/top.json", desc: "Top-ranked projects" },
-  { method: "GET", path: "/api/trending.json", desc: "Trending projects" },
-  { method: "GET", path: "/api/gems.json", desc: "Hidden gems — low stars, high velocity + health" },
-  { method: "GET", path: "/api/trends.json", desc: "Trends, anomalies, rising stars" },
-  { method: "GET", path: "/api/breakouts.json", desc: "Breakout candidates" },
-  { method: "GET", path: "/api/anomalies.json", desc: "Detected anomalies" },
-  { method: "GET", path: "/api/categories.json", desc: "Category listings" },
-  { method: "GET", path: "/api/category-intelligence.json", desc: "Category momentum data" },
-  { method: "GET", path: "/api/compare-index.json", desc: "Slim dataset powering the /compare tool" },
-  { method: "GET", path: "/api/history/{owner}__{repo}.json", desc: "Project snapshot history (top repos)" },
-  { method: "GET", path: "/api/llms.txt", desc: "Machine-readable guide for AI agents (llms.txt convention)" },
-  { method: "GET", path: "/api/feed.xml", desc: "RSS feed of trending projects" },
+  { method: "GET", path: "/api/repos.json", desc: "All tracked repositories", descZh: "全部已追踪仓库" },
+  { method: "GET", path: "/api/repos.csv", desc: "All repositories as CSV", descZh: "以 CSV 格式提供全部仓库" },
+  { method: "GET", path: "/api/stats.json", desc: "Aggregate statistics", descZh: "汇总统计数据" },
+  { method: "GET", path: "/api/top.json", desc: "Top-ranked projects", descZh: "排名靠前的项目" },
+  { method: "GET", path: "/api/trending.json", desc: "Trending projects", descZh: "趋势项目" },
+  { method: "GET", path: "/api/gems.json", desc: "Hidden gems — low stars, high velocity + health", descZh: "意珠 — 低 star 但高速度与高健康度" },
+  { method: "GET", path: "/api/trends.json", desc: "Trends, anomalies, rising stars", descZh: "趋势、异常与新星" },
+  { method: "GET", path: "/api/breakouts.json", desc: "Breakout candidates", descZh: "突破候选" },
+  { method: "GET", path: "/api/anomalies.json", desc: "Detected anomalies", descZh: "已检测到的异常" },
+  { method: "GET", path: "/api/categories.json", desc: "Category listings", descZh: "分类列表" },
+  { method: "GET", path: "/api/category-intelligence.json", desc: "Category momentum data", descZh: "分类动量数据" },
+  { method: "GET", path: "/api/compare-index.json", desc: "Slim dataset powering the /compare tool", descZh: "为 /compare 工具提供数据的精简数据集" },
+  { method: "GET", path: "/api/history/{owner}__{repo}.json", desc: "Project snapshot history (top repos)", descZh: "项目快照历史（热门仓库）" },
+  { method: "GET", path: "/api/llms.txt", desc: "Machine-readable guide for AI agents (llms.txt convention)", descZh: "供 AI 代理读取的机器可读指南（llms.txt 约定）" },
+  { method: "GET", path: "/api/feed.xml", desc: "RSS feed of trending projects", descZh: "趋势项目的 RSS 订阅" },
 ];
 ---
 
 <Layout title="API" description="REST API for Open Source AI Radar data.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent">API</span> Documentation</h1>
-    <p>Access all radar data via public JSON endpoints</p>
+    <h1><span class="accent" data-i18n="api.accent">API</span> <span data-i18n="api.suffix">Documentation</span></h1>
+    <p data-i18n="api.subtitle">Access all radar data via public JSON endpoints</p>
   </section>
 
   <section class="section">
     <div class="card" style="padding:var(--sp-6);">
-      <h2 style="font-size:var(--text-lg); margin-bottom:var(--sp-4);">Base URL</h2>
+      <h2 style="font-size:var(--text-lg); margin-bottom:var(--sp-4);" data-i18n="api.baseUrl">Base URL</h2>
       <code style="display:block; padding:var(--sp-3) var(--sp-4); background:var(--bg); border-radius:var(--radius-sm); font-family:var(--font-mono); font-size:var(--text-sm); color:var(--accent);">{siteUrl}</code>
     </div>
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>README Badges</h2></div>
+    <div class="section-head"><h2 data-i18n="api.badges">README Badges</h2></div>
     <div class="card" style="padding:var(--sp-6); margin-bottom:var(--sp-4);">
-      <p style="color:var(--text-secondary); font-size:var(--text-sm); margin-bottom:var(--sp-4);">
-        Show your project's live Radar Score in your README — it updates automatically every day.
-        Replace <code style="font-family:var(--font-mono);">OWNER__REPO</code> with your GitHub owner and repo joined by two underscores
-        (e.g. <code style="font-family:var(--font-mono);">BerriAI__litellm</code>).
+      <p style="color:var(--text-secondary); font-size:var(--text-sm); margin-bottom:var(--sp-4);" data-i18n="api.badgeIntro">
+        Show your project's live Radar Score in your README — it updates automatically every day. Replace OWNER__REPO with your GitHub owner and repo joined by two underscores (e.g. BerriAI__litellm).
       </p>
-      <h3 style="font-size:var(--text-sm); font-weight:600; color:var(--accent); margin-bottom:var(--sp-2);">Score badge</h3>
+      <h3 style="font-size:var(--text-sm); font-weight:600; color:var(--accent); margin-bottom:var(--sp-2);" data-i18n="api.scoreBadge">Score badge</h3>
       <pre style="padding:var(--sp-4); background:var(--bg); border-radius:var(--radius-sm); font-family:var(--font-mono); font-size:var(--text-xs); white-space:pre-wrap; overflow-x:auto; margin-bottom:var(--sp-4);">{`![AI Radar Score](${siteUrl}/api/badges/OWNER__REPO/score.svg)`}</pre>
       <p style="margin-bottom:var(--sp-2);"><img src={`${base}api/badges/BerriAI__litellm/score.svg`} alt="score badge preview" style="height:20px;" /></p>
-      <h3 style="font-size:var(--text-sm); font-weight:600; color:var(--accent); margin-bottom:var(--sp-2);">Velocity badge</h3>
+      <h3 style="font-size:var(--text-sm); font-weight:600; color:var(--accent); margin-bottom:var(--sp-2);" data-i18n="api.velocityBadge">Velocity badge</h3>
       <pre style="padding:var(--sp-4); background:var(--bg); border-radius:var(--radius-sm); font-family:var(--font-mono); font-size:var(--text-xs); white-space:pre-wrap; overflow-x:auto;">{`![AI Radar Velocity](${siteUrl}/api/badges/OWNER__REPO/velocity.svg)`}</pre>
       <p style="margin-top:var(--sp-2);"><img src={`${base}api/badges/BerriAI__litellm/velocity.svg`} alt="velocity badge preview" style="height:20px;" /></p>
     </div>
     <div class="card" style="padding:var(--sp-6);">
-      <h3 style="font-size:var(--text-sm); font-weight:600; margin-bottom:var(--sp-2);">Available badges</h3>
+      <h3 style="font-size:var(--text-sm); font-weight:600; margin-bottom:var(--sp-2);" data-i18n="api.availableBadges">Available badges</h3>
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Badge</th><th>Shows</th></tr></thead>
+          <thead><tr><th data-i18n="api.badgeCol">Badge</th><th data-i18n="api.badgeShows">Shows</th></tr></thead>
           <tbody>
-            <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">score.svg</code></td><td style="color:var(--text-secondary);">Live radar score, colored by tier</td></tr>
-            <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">velocity.svg</code></td><td style="color:var(--text-secondary);">7-day star velocity</td></tr>
-            <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">stars.svg</code></td><td style="color:var(--text-secondary);">Total star count</td></tr>
+            <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">score.svg</code></td><td style="color:var(--text-secondary);" data-i18n="api.badgeScoreDesc">Live radar score, colored by tier</td></tr>
+            <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">velocity.svg</code></td><td style="color:var(--text-secondary);" data-i18n="api.badgeVelocityDesc">7-day star velocity</td></tr>
+            <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">stars.svg</code></td><td style="color:var(--text-secondary);" data-i18n="api.badgeStarsDesc">Total star count</td></tr>
           </tbody>
         </table>
       </div>
-      <p style="margin-top:var(--sp-4); font-size:var(--text-xs); color:var(--text-muted);">Ranked at the top of your category? Your score badge is a great way to show it off.</p>
+      <p style="margin-top:var(--sp-4); font-size:var(--text-xs); color:var(--text-muted);" data-i18n="api.badgeFooter">Ranked at the top of your category? Your score badge is a great way to show it off.</p>
     </div>
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Endpoints</h2></div>
+    <div class="section-head"><h2 data-i18n="api.endpoints">Endpoints</h2></div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th>Method</th>
-            <th>Endpoint</th>
-            <th>Description</th>
+            <th data-i18n="api.colMethod">Method</th>
+            <th data-i18n="api.colEndpoint">Endpoint</th>
+            <th data-i18n="api.colDescription">Description</th>
           </tr>
         </thead>
         <tbody>
@@ -83,7 +81,7 @@ const endpoints = [
             <tr>
               <td><span class="badge" style="color:var(--green);">{ep.method}</span></td>
               <td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">{ep.path}</code></td>
-              <td style="color:var(--text-secondary);">{ep.desc}</td>
+              <td style="color:var(--text-secondary);" data-desc-en={ep.desc} data-desc-zh={ep.descZh}>{ep.desc}</td>
             </tr>
           ))}
         </tbody>
@@ -93,7 +91,7 @@ const endpoints = [
 
   <section class="section">
     <div class="card" style="padding:var(--sp-6);">
-      <h2 style="font-size:var(--text-lg); margin-bottom:var(--sp-4);">Usage Example</h2>
+      <h2 style="font-size:var(--text-lg); margin-bottom:var(--sp-4);" data-i18n="api.usageExample">Usage Example</h2>
       <code style="display:block; padding:var(--sp-4); background:var(--bg); border-radius:var(--radius-sm); font-family:var(--font-mono); font-size:var(--text-sm); white-space:pre-wrap; overflow-x:auto;"># Fetch top projects
 curl {siteUrl}/api/top.json
 

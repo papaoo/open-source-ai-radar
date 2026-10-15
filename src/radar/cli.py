@@ -602,6 +602,192 @@ def breakouts(limit: int) -> None:
 
 
 @main.command()
+@click.option("--limit", "-n", default=25, help="Max opportunity candidates to show")
+@click.option("--min-score", default=40.0, help="Minimum opportunity score")
+@click.option("--whitespace", is_flag=True, help="Show whitespace categories instead")
+@click.option("--json", "as_json", is_flag=True, help="Output raw JSON")
+@click.option("--brief", is_flag=True, help="Generate/cache Chinese opportunity briefs (Groq)")
+@click.option("--digest", is_flag=True, help="Push a daily new/upgraded digest (Feishu)")
+@click.option("--dry-run", is_flag=True, help="With --digest: preview the card, do not send")
+def opportunities(
+    limit: int,
+    min_score: float,
+    whitespace: bool,
+    as_json: bool,
+    brief: bool,
+    digest: bool,
+    dry_run: bool,
+) -> None:
+    """Surface under-priced opportunities — early, strong, sustainable bets."""
+    from radar.analysis.opportunity_engine import OpportunityEngine
+    from radar.storage.database import Database
+
+    db = Database()
+    engine = OpportunityEngine(db)
+
+    if whitespace:
+        cats = engine.get_whitespace_categories()
+        if as_json:
+            click.echo(json.dumps(cats, ensure_ascii=False, indent=2, default=str))
+            return
+        click.echo("\n  🌌 Whitespace categories (high momentum, few tracked)")
+        click.echo(f"  {'─' * 70}")
+        click.echo(
+            f"  {'Category':<28} {'Tracked':>8} {'Velocity':>9} "
+            f"{'Momentum':>9} {'Trend':>10}"
+        )
+        click.echo(f"  {'─' * 70}")
+        for c in cats[:limit]:
+            click.echo(
+                f"  {c['category'][:28]:<28} {c['total_tracked']:>8} "
+                f"{c['avg_velocity']:>9.1f} {c['momentum_score']:>9.1f} "
+                f"{c['trend']:>10}"
+            )
+        click.echo()
+        return
+
+    summary = engine.get_opportunities_summary(limit, min_score)
+    if as_json:
+        click.echo(json.dumps(summary, ensure_ascii=False, indent=2, default=str))
+        return
+
+    candidates = summary["candidates"]
+    if not candidates:
+        click.echo("  No opportunity candidates found yet.")
+        click.echo("  Need more snapshot/score data. Run: radar score")
+        return
+
+    tier_icon = {"blue_ocean": "🌊", "high_potential": "🚀", "watch": "👀"}
+    click.echo(f"\n  💎 Opportunity Index ({len(candidates)} candidates)")
+    click.echo(f"  {'─' * 88}")
+    click.echo(
+        f"  {'#':>3}  {'Opp':>5}  {'Tier':<15}  {'Stars':>7}  "
+        f"{'Accel':>6}  {'Contrib7d':>9}  {'Repo':<30}"
+    )
+    click.echo(f"  {'─' * 88}")
+    for i, c in enumerate(candidates, 1):
+        click.echo(
+            f"  {i:>3}  {c['opportunity_score']:>5.1f}  "
+            f"{tier_icon.get(c['tier'], '')} {c['tier']:<13}  "
+            f"{c['stars']:>7,}  {c['star_growth_acceleration']:>5.2f}x  "
+            f"{c['contributors_7d']:>9}  {c['repo_full_name'][:30]}"
+        )
+        if c.get("category"):
+            click.echo(
+                f"      Cat: {c['category']}  Vel: {c['velocity']:.0f}  "
+                f"Health: {c['health']:.0f}"
+            )
+
+    ws = summary["whitespace"]
+    if ws:
+        top = ws[0]
+        click.echo(f"\n  🌌 Top whitespace category: {top['category']} "
+                   f"(velocity {top['avg_velocity']:.1f}, {top['total_tracked']} tracked)")
+
+    if brief:
+        _run_opportunity_briefs(candidates)
+    if digest:
+        _send_opportunity_digest(candidates, dry_run=dry_run)
+    click.echo()
+
+
+def _run_opportunity_briefs(candidates: list[dict]) -> None:
+    """Generate/cache Chinese briefs for surfaced opportunities (Groq)."""
+    from radar.analysis.opportunity_brief import generate_briefs
+
+    click.echo("\n  📝 Generating Chinese opportunity briefs...")
+    try:
+        stats = generate_briefs(candidates)
+    except Exception as exc:  # never fatal — briefs are an optional layer
+        click.echo(f"  ⚠ Briefing skipped: {exc}")
+        return
+    click.echo(
+        f"  targets={stats['targets']} pending={stats['pending']} "
+        f"generated={stats['generated']} skipped={stats['skipped']} "
+        f"cache={stats['cache_size']}"
+    )
+    if stats["skipped"]:
+        click.echo("  (skipped = no GROQ_API_KEYS / rate-limited; retried next run)")
+
+
+def _send_opportunity_digest(
+    candidates: list[dict], *, top_n: int = 5, dry_run: bool = False
+) -> None:
+    """Push a Feishu digest of newly-surfaced / tier-upgraded opportunities."""
+    from radar.analysis.opportunity_brief import (
+        TIER_LABELS_ZH,
+        load_briefs,
+        load_digest_state,
+        merge_briefs_into,
+        save_digest_state,
+        select_digest_candidates,
+    )
+    from radar.notifications import (
+        NotificationPayload,
+        build_card,
+        get_notifiers,
+        load_notify_config,
+    )
+
+    prev_tiers = load_digest_state()
+    picked = select_digest_candidates(candidates, prev_tiers, top_n=top_n)
+    if not picked:
+        click.echo("\n  🔕 无新增 / 升档机会，跳过推送。")
+        if not dry_run:
+            save_digest_state(candidates)
+        return
+
+    briefs = load_briefs()
+    merge_briefs_into(picked, briefs)
+
+    cfg = load_notify_config()
+    site_url = (cfg.get("site_url") or "").rstrip("/")
+    theme = ((cfg.get("channels", {}).get("feishu", {}) or {}).get("card", {}) or {}).get(
+        "theme", "blue"
+    )
+    action_label = ((cfg.get("channels", {}).get("feishu", {}) or {}).get("card", {}) or {}).get(
+        "action_label", "查看雷达"
+    )
+
+    intro = f"今日新增 / 升档 **{len(picked)}** 个机会（截至 {datetime.now(tz=UTC).date()}）"
+    blocks = [intro]
+    for i, c in enumerate(picked, 1):
+        kind = "🆕 新上榜" if c.get("digest_kind") == "new" else "📈 升档"
+        tier_zh = TIER_LABELS_ZH.get(c.get("tier", ""), c.get("tier", ""))
+        score = c["opportunity_score"]
+        header = f"**{i}. {c['repo_full_name']}** · {kind} · {tier_zh} · 机会分 {score}"
+        blocks.append(f"{header}\n{c.get('brief_zh', '')}")
+
+    link = f"{site_url}/opportunities" if site_url else None
+    card = build_card(
+        "开源 AI 雷达 · 每日商机摘要",
+        blocks,
+        link=link,
+        action_label=action_label,
+        theme=theme,
+    )
+    payload = NotificationPayload(card=card, title="每日商机摘要", link=link)
+
+    if dry_run:
+        click.echo("\n  🔎 Digest dry-run（未发送）：")
+        for notifier in get_notifiers(cfg, require_configured=False):
+            click.echo(json.dumps(notifier.render(payload), ensure_ascii=False, indent=2))
+        return
+
+    notifiers = get_notifiers(cfg)
+    if not notifiers:
+        click.echo("\n  ⚠ 未配置通知渠道（缺 FEISHU_WEBHOOK_URL），跳过推送。")
+        save_digest_state(candidates)
+        return
+
+    click.echo(f"\n  📤 推送每日商机摘要（{len(picked)} 条）...")
+    for notifier in notifiers:
+        result = notifier.send(payload)
+        click.echo(f"  {result}")
+    save_digest_state(candidates)
+
+
+@main.command()
 @click.option("--limit", "-n", default=25, help="Max repos to analyze")
 def why_trending(limit: int) -> None:
     """Analyze why top trending repos are gaining attention."""
@@ -885,6 +1071,129 @@ def feed() -> None:
     gen = RSSGenerator(db)
     filepath = gen.generate_trending_feed()
     click.echo(f"  RSS feed generated: {filepath}")
+
+
+@main.group()
+def notify() -> None:
+    """Send notifications through configured channels (Feishu group bot)."""
+
+
+def _resolve_notifiers(channel: str | None, *, allow_unconfigured: bool = False) -> list:
+    """Load config and return enabled notifiers, optionally filtered by channel.
+
+    When ``allow_unconfigured`` is True (used by ``--dry-run``), channels whose
+    secrets are absent are still returned so payloads can be previewed.
+    """
+    from radar.notifications import get_notifiers, load_notify_config
+
+    cfg = load_notify_config()
+    notifiers = get_notifiers(cfg, require_configured=not allow_unconfigured)
+    if channel:
+        notifiers = [n for n in notifiers if n.channel == channel]
+    return notifiers
+
+
+def _dispatch(notifiers: list, payload, dry_run: bool) -> None:
+    """Send ``payload`` to every notifier (or render it when ``dry_run``).
+
+    Content is not decided here — this is the delivery plumbing shared by all
+    ``radar notify`` subcommands.
+    """
+    if not notifiers:
+        click.echo("  ❌ No configured channels. Set FEISHU_WEBHOOK_URL "
+                   "(see config/notify.yml).")
+        return
+
+    for n in notifiers:
+        if dry_run:
+            rendered = n.render(payload)
+            click.echo(f"  [{n.channel}] dry-run payload:")
+            click.echo(json.dumps(rendered, ensure_ascii=False, indent=2))
+            continue
+        result = n.send(payload)
+        icon = "✅" if result.ok else "⚠️" if result.skipped else "❌"
+        click.echo(f"  {icon} {result}")
+
+
+@notify.command()
+@click.option("--message", "-m", default="AI Radar 通知模块测试消息 ✅",
+              help="Text body to send")
+@click.option("--channel", "-c", default="feishu", help="Channel (currently: feishu)")
+@click.option("--dry-run", is_flag=True, help="Render payload without sending")
+def test(message: str, channel: str, dry_run: bool) -> None:
+    """Send a plain-text test message to verify wiring + signature."""
+    from radar.notifications import NotificationPayload
+
+    notifiers = _resolve_notifiers(channel, allow_unconfigured=dry_run)
+    payload = NotificationPayload(text=message)
+    _dispatch(notifiers, payload, dry_run)
+
+
+@notify.command()
+@click.option("--channel", "-c", default="feishu", help="Channel (currently: feishu)")
+@click.option("--dry-run", is_flag=True, help="Render payload without sending")
+def ping(channel: str, dry_run: bool) -> None:
+    """Send a default interactive card to verify card rendering."""
+    from radar.notifications import build_default_payload, load_notify_config
+
+    notifiers = _resolve_notifiers(channel, allow_unconfigured=dry_run)
+    cfg = load_notify_config()
+    payload = build_default_payload(cfg.get("site_url"))
+    _dispatch(notifiers, payload, dry_run)
+
+
+@main.command()
+@click.option("--index", "index_path", default=None, type=click.Path(),
+              help="Projects index JSON (default: data/exports/projects-index.json)")
+@click.option("--out", "out_path", default=None, type=click.Path(),
+              help="Translation cache output (default: data/exports/descriptions.zh.json)")
+@click.option("--provider", default="auto", type=click.Choice(["auto", "groq", "google", "deepl"]),
+              help="Translation provider (auto = Groq if keyed, else DeepL, else Google)")
+@click.option("--target", default="zh-CN", help="Target language code")
+@click.option("--limit", default=None, type=int, help="Translate at most N unseen texts")
+@click.option("--force", is_flag=True, help="Re-translate even if already cached")
+@click.option("--dry-run", is_flag=True, help="Report pending count without translating")
+def translate(
+    index_path,
+    out_path,
+    provider: str,
+    target: str,
+    limit,
+    force: bool,
+    dry_run: bool,
+) -> None:
+    """Machine-translate project descriptions into a cached JSON map (incremental)."""
+    from pathlib import Path
+
+    from radar.translations import (
+        DEFAULT_INDEX_PATH,
+        DEFAULT_OUT_PATH,
+        get_provider,
+        translate_descriptions,
+    )
+
+    idx = Path(index_path) if index_path else DEFAULT_INDEX_PATH
+    out = Path(out_path) if out_path else DEFAULT_OUT_PATH
+
+    translator = None if dry_run else get_provider(provider)
+    stats = translate_descriptions(
+        index_path=idx,
+        out_path=out,
+        provider=translator,
+        target=target,
+        limit=limit,
+        force=force,
+        dry_run=dry_run,
+    )
+    click.echo(f"  provider={stats['provider']} sources={stats['total_sources']} "
+               f"cached={stats['cached']} pending={stats['pending']}")
+    if dry_run:
+        click.echo("  dry-run: nothing translated.")
+    else:
+        click.echo(
+            f"  translated={stats['translated']} -> {out} "
+            f"(cache size {stats['cache_size']})"
+        )
 
 
 @main.command()

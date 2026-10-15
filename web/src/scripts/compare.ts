@@ -18,6 +18,16 @@ interface IndexData {
   projects: Project[];
 }
 
+import { overlayRadarSvg } from "../lib/radarChart";
+import { getLang, t, tf, type Lang } from "../lib/i18n";
+
+// Distinct stroke colors for up to three overlaid radar series.
+const SERIES_COLORS = ["var(--accent)", "var(--green)", "var(--amber)"];
+
+function axisLabels(lang: Lang): [string, string, string] {
+  return [t("label.impact", lang), t("label.velocity", lang), t("label.health", lang)];
+}
+
 const state = {
   data: [] as Project[],
   picks: [null, null, null] as (Project | null)[],
@@ -51,8 +61,16 @@ async function load(): Promise<void> {
   const res = await fetch(`${SITE_BASE}api/compare-index.json`);
   const json: IndexData = await res.json();
   state.data = json.projects || [];
+  updateHint();
+}
+
+function updateHint(): void {
   const hint = document.getElementById("hint") as HTMLElement;
-  hint.textContent = `${state.data.length.toLocaleString()} projects loaded — start typing above`;
+  if (!state.data.length) {
+    hint.textContent = "";
+    return;
+  }
+  hint.textContent = tf("compare.loaded", getLang(), { n: state.data.length.toLocaleString() });
 }
 
 function search(q: string, exclude: string[]): Project[] {
@@ -116,9 +134,12 @@ function cell(label: string, vals: (string | number | undefined)[], numericBest 
 function render(): void {
   const picked = state.picks.filter(Boolean) as Project[];
   const el = document.getElementById("result") as HTMLElement;
+  const lang = getLang();
   if (picked.length < 2) {
-    el.innerHTML =
-      '<div class="card" style="padding:var(--sp-6); color:var(--text-muted); text-align:center;">Select at least two projects to compare.</div>';
+    el.innerHTML = `<div class="card" style="padding:var(--sp-6); color:var(--text-muted); text-align:center;">${t(
+      "compare.needTwo",
+      lang,
+    )}</div>`;
     return;
   }
 
@@ -127,20 +148,31 @@ function render(): void {
     .join("")}</tr>`;
 
   const body = [
-    cell("Category", picked.map((p) => p.category || "—")),
-    cell("Language", picked.map((p) => p.language || "—")),
-    cell("License", picked.map((p) => p.license || "None")),
-    cell("Stars", picked.map((p) => p.stars), true),
-    cell("Forks", picked.map((p) => p.forks), true),
-    cell("Radar Score", picked.map((p) => (typeof p.radar_score === "number" ? Number(p.radar_score.toFixed(1)) : undefined)), true),
-    cell("Impact", picked.map((p) => (typeof p.impact === "number" ? Number(p.impact.toFixed(1)) : undefined)), true),
-    cell("Velocity", picked.map((p) => (typeof p.velocity === "number" ? Number(p.velocity.toFixed(1)) : undefined)), true),
-    cell("Health", picked.map((p) => (typeof p.health === "number" ? Number(p.health.toFixed(1)) : undefined)), true),
-    cell("Age", picked.map((p) => age(p.created_at))),
-    cell("Last Push", picked.map((p) => (p.pushed_at ? new Date(p.pushed_at).toLocaleDateString() : "—"))),
+    cell(t("compare.category", lang), picked.map((p) => p.category || "—")),
+    cell(t("compare.language", lang), picked.map((p) => p.language || "—")),
+    cell(t("compare.license", lang), picked.map((p) => p.license || t("compare.none", lang))),
+    cell(t("compare.stars", lang), picked.map((p) => p.stars), true),
+    cell(t("compare.forks", lang), picked.map((p) => p.forks), true),
+    cell(t("compare.radarScore", lang), picked.map((p) => (typeof p.radar_score === "number" ? Number(p.radar_score.toFixed(1)) : undefined)), true),
+    cell(t("compare.impact", lang), picked.map((p) => (typeof p.impact === "number" ? Number(p.impact.toFixed(1)) : undefined)), true),
+    cell(t("compare.velocity", lang), picked.map((p) => (typeof p.velocity === "number" ? Number(p.velocity.toFixed(1)) : undefined)), true),
+    cell(t("compare.health", lang), picked.map((p) => (typeof p.health === "number" ? Number(p.health.toFixed(1)) : undefined)), true),
+    cell(t("compare.age", lang), picked.map((p) => age(p.created_at))),
+    cell(t("compare.lastPush", lang), picked.map((p) => (p.pushed_at ? new Date(p.pushed_at).toLocaleDateString() : "—"))),
   ].join("");
 
-  el.innerHTML = `<div class="card" style="padding:var(--sp-4); overflow:auto;">
+  const series = picked.map((p, i) => ({
+    name: p.full_name,
+    color: SERIES_COLORS[i % SERIES_COLORS.length],
+    values: {
+      impact: typeof p.impact === "number" ? p.impact : 0,
+      velocity: typeof p.velocity === "number" ? p.velocity : 0,
+      health: typeof p.health === "number" ? p.health : 0,
+    },
+  }));
+  const radar = `<div class="cmp-radar">${overlayRadarSvg(series, { size: 280, labels: axisLabels(lang) })}</div>`;
+
+  el.innerHTML = `${radar}<div class="card" style="padding:var(--sp-4); overflow:auto;">
     <table class="cmp-table">${header}${body}</table>
   </div>`;
 }
@@ -158,6 +190,10 @@ function init(): void {
     }
   });
   document.getElementById("compareBtn")?.addEventListener("click", render);
+  document.addEventListener("radar:lang", () => {
+    updateHint();
+    render();
+  });
   load().then(render);
 }
 

@@ -38,7 +38,7 @@ const crumbs = m ? `Week ${Number(m[2])}, ${m[1]}` : title;
 
 <Layout title={`${crumbs} — Digest`} description={`Weekly AI open-source intelligence digest: ${crumbs}`}>
   <nav style="margin-bottom:var(--sp-6); font-size:var(--text-sm);">
-    <a href={`${base}digests`} style="color:var(--accent); text-decoration:none;">Weekly Digests</a>
+    <a href={`${base}digests`} style="color:var(--accent); text-decoration:none;" data-i18n="digest.weeklyDigests">Weekly Digests</a>
     <span style="color:var(--text-muted); margin:0 var(--sp-2);">/</span>
     <span style="color:var(--text-secondary);">{crumbs}</span>
   </nav>
@@ -46,7 +46,7 @@ const crumbs = m ? `Week ${Number(m[2])}, ${m[1]}` : title;
   {html ? (
     <article class="card digest-body" set:html={html} />
   ) : (
-    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);">
+    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);" data-i18n="digest.notLoaded">
       This digest could not be loaded.
     </div>
   )}

@@ -29,21 +29,21 @@ const digests = listDigests();
 
 <Layout title="Weekly Digests" description="Browsable archive of weekly AI open-source intelligence digests.">
   <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1>Weekly <span class="accent">Digests</span></h1>
-    <p>{digests.length} weeks of intelligence — risers, hidden gems, and momentum shifts</p>
+    <h1><span data-i18n="digests.prefix">Weekly</span> <span class="accent" data-i18n="digests.accent">Digests</span></h1>
+    <p data-i18n="digests.subtitle" data-i18n-vars={JSON.stringify({ n: digests.length })}>{digests.length} weeks of intelligence — risers, hidden gems, and momentum shifts</p>
   </section>
 
   <div class="grid-2">
     {digests.map((d) => (
       <a href={`${base}digests/${d.slug}`} class="card" style="padding:var(--sp-6); text-decoration:none; color:inherit; display:block;">
         <h2 style="font-size:var(--text-lg); font-weight:700; margin-bottom:var(--sp-2); color:var(--accent);">{d.title}</h2>
-        <p style="font-size:var(--text-sm); color:var(--text-muted);">Top risers · hidden gems · new & promising · category shifts</p>
+        <p style="font-size:var(--text-sm); color:var(--text-muted);" data-i18n="digests.tags">Top risers · hidden gems · new & promising · category shifts</p>
       </a>
     ))}
   </div>
 
   {digests.length === 0 && (
-    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);">
+    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);" data-i18n="digests.empty">
       No digests published yet. The weekly report workflow generates one every week.
     </div>
   )}

@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { zhDesc } from '../utils/zh';
 
 const base = import.meta.env.BASE_URL;
 
@@ -9,11 +10,13 @@ let stats = { total_repos: 0, total_stars: 0, top_languages: {} as Record<string
 let topRepos: any[] = [];
 let trends: any = {};
 let breakouts = { candidates: [] as any[] };
+let opps: any = { candidates: [] };
 
 try { stats = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'stats.json'), 'utf-8')); } catch {}
 try { topRepos = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'top.json'), 'utf-8')).repos?.slice(0, 50) || []; } catch {}
 try { trends = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'trends.json'), 'utf-8')); } catch {}
 try { breakouts = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'breakouts.json'), 'utf-8')); } catch {}
+try { opps = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'opportunities.json'), 'utf-8')); } catch {}
 
 const catIntelligence = (() => {
   try { return JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'category-intelligence.json'), 'utf-8')); } catch { return { categories: [] as any[] }; }
@@ -84,35 +87,38 @@ function ownerInitials(fullName: string): string {
     "description": "Discover what is becoming important before everyone else does."
   }}>
 
-  <section class="hero-editorial">
-    <h1>Discover <span class="accent">momentum</span> in open-source AI</h1>
-    <p>Track 9,000+ projects scored by impact, velocity, and health. Updated daily.</p>
+  <section class="hero-editorial hero-flex">
+    <div>
+      <h1><span data-i18n="home.titlePrefix">Discover</span> <span class="accent" data-i18n="home.titleAccent">momentum</span> <span data-i18n="home.titleSuffix">in open-source AI</span></h1>
+      <p data-i18n="home.subtitle">Track 9,000+ projects scored by impact, velocity, and health. Updated daily.</p>
+    </div>
+    <div class="hero-radar" aria-hidden="true"></div>
   </section>
 
   <div class="stat-grid" style="margin-bottom: var(--sp-12);">
     <div class="stat-card">
       <div class="stat-value">{fmt(stats.total_repos || 0)}</div>
-      <div class="stat-label">Projects Tracked</div>
+      <div class="stat-label" data-i18n="stat.projects">Projects Tracked</div>
     </div>
     <div class="stat-card">
       <div class="stat-value">{fmt(stats.total_stars || 0)}</div>
-      <div class="stat-label">Total Stars</div>
+      <div class="stat-label" data-i18n="stat.stars">Total Stars</div>
     </div>
     <div class="stat-card">
       <div class="stat-value">{Object.keys(stats.top_languages || {}).length}</div>
-      <div class="stat-label">Languages</div>
+      <div class="stat-label" data-i18n="stat.languages">Languages</div>
     </div>
     <div class="stat-card">
       <div class="stat-value">{catIntelligence.categories?.length || 0}</div>
-      <div class="stat-label">AI Categories</div>
+      <div class="stat-label" data-i18n="stat.categories">AI Categories</div>
     </div>
   </div>
 
   {breakouts.candidates && breakouts.candidates.length > 0 && (
     <section class="section">
       <div class="section-head">
-        <h2>Breakout Candidates</h2>
-        <a href={`${base}breakouts`}>View all</a>
+        <h2 data-i18n="section.breakouts">Breakout Candidates</h2>
+        <a href={`${base}breakouts`} data-i18n="section.viewAll">View all</a>
       </div>
       <div class="grid-3">
         {breakouts.candidates.slice(0, 3).map((r: any, i: number) => (
@@ -123,12 +129,43 @@ function ownerInitials(fullName: string): string {
             </div>
             <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-2);">
               <span class={`score-pill ${scoreClass(r.breakout_score)}`}>{r.breakout_score}</span>
-              <span class="momentum momentum-breakout">Breakout</span>
+              <span class="momentum momentum-breakout" data-i18n="momentum.breakout">Breakout</span>
             </div>
             <div style="display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-              <span>{fmt(r.stars || 0)} stars</span>
-              <span>{r.velocity} vel</span>
-              <span>{r.star_growth_acceleration}x accel</span>
+              <span>{fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span></span>
+              <span>{r.velocity} <span data-i18n="label.vel">vel</span></span>
+              <span>{r.star_growth_acceleration}x <span data-i18n="label.accel">accel</span></span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {opps.candidates && opps.candidates.length > 0 && (
+    <section class="section">
+      <div class="section-head">
+        <h2 data-i18n="section.opportunities">Latest Opportunities</h2>
+        <a href={`${base}opportunities`} data-i18n="section.allOpportunities">All opportunities</a>
+      </div>
+      <div class="grid-3">
+        {opps.candidates.slice(0, 3).map((r: any, i: number) => (
+          <a href={repoUrl(r.repo_full_name)} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
+            <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-3);">
+              <span style="font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted);">#{i + 1}</span>
+              <span style="font-weight:600; font-size:var(--text-sm); min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{r.repo_full_name}</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-2); flex-wrap:wrap;">
+              <span class={`score-pill ${scoreClass(r.opportunity_score)}`}>{r.opportunity_score}</span>
+              <span class="badge" data-i18n={`tier.${r.tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[r.tier] || r.tier}</span>
+            </div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);">
+              <span data-i18n-cat={r.category || 'Uncategorized'}>{r.category || 'Uncategorized'}</span>
+            </div>
+            <div style="display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
+              <span>{fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span></span>
+              <span>{r.star_growth_acceleration}x <span data-i18n="label.accel">accel</span></span>
+              <span>+{r.contributors_7d ?? 0} <span data-i18n="opp.contributors7d">New contributors / 7d</span></span>
             </div>
           </a>
         ))}
@@ -139,15 +176,15 @@ function ownerInitials(fullName: string): string {
   {catIntelligence.categories && catIntelligence.categories.length > 0 && (
     <section class="section">
       <div class="section-head">
-        <h2>AI Categories</h2>
-        <a href={`${base}categories`}>Explore</a>
+        <h2 data-i18n="section.categories">AI Categories</h2>
+        <a href={`${base}categories`} data-i18n="section.explore">Explore</a>
       </div>
       <div class="grid-4">
         {catIntelligence.categories.slice(0, 8).map((cat: any) => (
           <div class="card" style="padding:var(--sp-5);">
-            <div style="font-weight:600; font-size:var(--text-sm); margin-bottom:var(--sp-1);">{cat.category}</div>
-            <div style="font-size:var(--text-xs); color:var(--text-secondary);">{cat.tracked} projects</div>
-            {cat.trend && <div style={`font-size:var(--text-xs); color:${cat.trend === 'stable' ? 'var(--text-secondary)' : cat.trend === 'declining' ? 'var(--red)' : 'var(--green)'}; margin-top:var(--sp-2);`}>{cat.trend}</div>}
+            <div style="font-weight:600; font-size:var(--text-sm); margin-bottom:var(--sp-1);" data-i18n-cat={cat.category}>{cat.category}</div>
+            <div style="font-size:var(--text-xs); color:var(--text-secondary);"><span data-i18n="unit.nProjects" data-i18n-vars={JSON.stringify({ n: cat.tracked })}>{cat.tracked} projects</span></div>
+            {cat.trend && <div style={`font-size:var(--text-xs); color:${cat.trend === 'stable' ? 'var(--text-secondary)' : cat.trend === 'declining' ? 'var(--red)' : 'var(--green)'}; margin-top:var(--sp-2);`} data-i18n={`trend.${cat.trend}`}>{cat.trend}</div>}
           </div>
         ))}
       </div>
@@ -156,8 +193,8 @@ function ownerInitials(fullName: string): string {
 
   <section class="section">
     <div class="section-head">
-      <h2>Top Ranked</h2>
-      <a href={`${base}top`}>Full rankings</a>
+      <h2 data-i18n="section.topRanked">Top Ranked</h2>
+      <a href={`${base}top`} data-i18n="section.fullRankings">Full rankings</a>
     </div>
     <div>
       {topRepos.slice(0, 20).map((r: any, i: number) => {
@@ -170,13 +207,13 @@ function ownerInitials(fullName: string): string {
               : <div class="avatar-slot avatar-fallback">{ownerInitials(r.full_name)}</div>}
             <div class="project-info">
               <div class="project-name">{r.full_name}</div>
-              {r.description && <div class="project-desc">{r.description}</div>}
+              {r.description && <div class="project-desc" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
             </div>
             <span class="project-stars">{fmt(r.stars || 0)}</span>
             <span class={`score-pill ${scoreClass(r.radar_score)}`}>{r.radar_score?.toFixed(1)}</span>
             <span class={`momentum momentum-${state}`}>
               <Fragment set:html={momentumIcon(state)} />
-              {momentumLabel(state)}
+              <span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span>
             </span>
           </a>
         );
@@ -187,8 +224,8 @@ function ownerInitials(fullName: string): string {
   {trends.top_rising && trends.top_rising.length > 0 && (
     <section class="section">
       <div class="section-head">
-        <h2>Rising Fast</h2>
-        <a href={`${base}trending`}>All trending</a>
+        <h2 data-i18n="section.risingFast">Rising Fast</h2>
+        <a href={`${base}trending`} data-i18n="section.allTrending">All trending</a>
       </div>
       <div class="grid-auto">
         {trends.top_rising.slice(0, 6).map((r: any) => {
@@ -202,14 +239,14 @@ function ownerInitials(fullName: string): string {
                     : <span class="avatar-fallback" style="width:28px; height:28px; font-size:11px;">{ownerInitials(r.repo_full_name)}</span>}
                   <span style="font-weight:600; font-size:var(--text-sm); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{r.repo_full_name.split('/')[1]}</span>
                 </span>
-                <span class={`momentum momentum-${state}`}>{momentumLabel(state)}</span>
+                <span class={`momentum momentum-${state}`} data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span>
               </div>
               <div style="font-size:var(--text-xs); color:var(--text-muted);">
-                {r.category || 'Uncategorized'} · {fmt(r.stars || 0)} stars
+                <span data-i18n-cat={r.category || 'Uncategorized'}>{r.category || 'Uncategorized'}</span> · {fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span>
               </div>
               <div style="margin-top:var(--sp-3); display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-                <span>Velocity: {r.velocity?.toFixed(0)}</span>
-                <span>Score: {r.radar_score?.toFixed(1)}</span>
+                <span><span data-i18n="label.velocity">Velocity</span>: {r.velocity?.toFixed(0)}</span>
+                <span><span data-i18n="label.score">Score</span>: {r.radar_score?.toFixed(1)}</span>
               </div>
             </a>
           );

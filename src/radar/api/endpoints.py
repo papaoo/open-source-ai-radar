@@ -7,6 +7,7 @@ Generates static API files:
 - /api/trending.json — Trending repos by velocity
 - /api/gems.json — Hidden gems
 - /api/breakouts.json — Breakout candidates
+- /api/opportunities.json — Opportunity index candidates + whitespace
 - /api/anomalies.json — Detected anomalies
 - /api/categories.json — Category intelligence
 - /api/stats.json — Summary statistics
@@ -46,6 +47,7 @@ class PublicAPI:
         counts["trending"] = self.generate_trending()
         counts["gems"] = self.generate_gems()
         counts["breakouts"] = self.generate_breakouts()
+        counts["opportunities"] = self.generate_opportunities()
         counts["anomalies"] = self.generate_anomalies()
         counts["categories"] = self.generate_categories()
         counts["stats"] = self.generate_stats()
@@ -192,6 +194,23 @@ class PublicAPI:
             return len(breakouts)
         except Exception as e:
             logger.error(f"Failed to generate breakouts: {e}")
+            return 0
+
+    def generate_opportunities(self, limit: int = 50) -> int:
+        """Generate /api/opportunities.json — opportunity index candidates."""
+        try:
+            from radar.analysis.opportunity_engine import OpportunityEngine
+            engine = OpportunityEngine(self.db)
+            summary = engine.get_opportunities_summary(limit)
+            data = {"api_version": "1.0", **summary}
+
+            (self.out / "opportunities.json").write_text(
+                json.dumps(data, indent=2, default=str),
+                encoding="utf-8",
+            )
+            return summary.get("total_candidates", 0)
+        except Exception as e:
+            logger.error(f"Failed to generate opportunities: {e}")
             return 0
 
     def generate_anomalies(self) -> int:
@@ -345,6 +364,7 @@ name, description, language, license, stars, forks, timestamps
 - [Trending]({base}/api/trending.json): sorted by velocity (stars/day momentum)
 - [Hidden gems]({base}/api/gems.json): low-star, high-velocity emerging projects
 - [Breakouts]({base}/api/breakouts.json): velocity anomalies vs own history
+- [Opportunities]({base}/api/opportunities.json): early, under-priced high-conviction bets
 - [Anomalies]({base}/api/anomalies.json): statistical outliers incl. star-spike review
 - [Categories]({base}/api/categories.json): per-category momentum intelligence
 - [Stats]({base}/api/stats.json): summary counts
@@ -371,6 +391,7 @@ and license safety.
 - [Rankings]({base}/top) - full sortable leaderboard
 - [Trending]({base}/trending) - momentum movers
 - [Breakouts]({base}/breakouts) - early-stage explosions
+- [Opportunities]({base}/opportunities) - early, under-priced high-conviction bets
 - [Trends]({base}/trends) - rising stars, hidden gems, anomalies
 - [Categories]({base}/categories) - category intelligence
 - [API docs]({base}/api-docs) - endpoint reference

@@ -7,6 +7,7 @@
   --bg-hover: #27272a;
   --border: #27272a;
   --border-subtle: #1e1e20;
+  --nav-bg: rgba(9, 9, 11, 0.92);
 
   --text: #fafafa;
   --text-secondary: #a1a1aa;
@@ -36,7 +37,7 @@
   --declining-bg: rgba(239, 68, 68, 0.10);
 
   /* Typography */
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-sans: 'Inter', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
 
   --text-xs: 0.75rem;
@@ -89,6 +90,47 @@
   /* Layout */
   --max-width: 1200px;
   --nav-height: 56px;
+}
+
+/* ── Light theme ── overrides the dark defaults above when data-theme="light" */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-surface: #f6f7f9;
+  --bg-elevated: #eef0f3;
+  --bg-hover: #e6e8ec;
+  --border: #d7dade;
+  --border-subtle: #e8eaee;
+  --nav-bg: rgba(255, 255, 255, 0.85);
+
+  --text: #16161a;
+  --text-secondary: #52525b;
+  --text-muted: #8a8a93;
+
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-muted: rgba(37, 99, 235, 0.12);
+
+  --green: #16a34a;
+  --green-muted: rgba(22, 163, 74, 0.12);
+  --amber: #d97706;
+  --amber-muted: rgba(217, 119, 6, 0.14);
+  --red: #dc2626;
+  --red-muted: rgba(220, 38, 38, 0.12);
+
+  --breakout: #16a34a;
+  --breakout-bg: rgba(22, 163, 74, 0.12);
+  --accelerating: #2563eb;
+  --accelerating-bg: rgba(37, 99, 235, 0.12);
+  --rising: #0891b2;
+  --rising-bg: rgba(8, 145, 178, 0.12);
+  --stable: #71717a;
+  --stable-bg: rgba(113, 113, 122, 0.14);
+  --declining: #dc2626;
+  --declining-bg: rgba(220, 38, 38, 0.12);
+
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.08);
+  --shadow: 0 2px 8px rgba(16, 24, 40, 0.10);
+  --shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.14);
 }
 
 /* Google Fonts */

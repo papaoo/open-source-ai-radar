@@ -1,0 +1,126 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const base = import.meta.env.BASE_URL;
+let opps: any = { candidates: [], whitespace: [] };
+try { opps = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'opportunities.json'), 'utf-8')); } catch {}
+
+const avatarByRepo = (() => {
+  try {
+    const idx = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'projects-index.json'), 'utf-8'));
+    const map: Record<string, string> = {};
+    for (const p of idx.projects || []) if (p.full_name && p.owner_avatar) map[p.full_name] = p.owner_avatar;
+    return map;
+  } catch { return {} as Record<string, string>; }
+})();
+
+function ownerInitials(fullName: string): string {
+  const owner = fullName.split('/')[0] || '?';
+  return owner.replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?';
+}
+
+function fmt(n: number): string {
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
+  return n.toString();
+}
+function scoreClass(s: number): string {
+  if (s >= 75) return 'score-high';
+  if (s >= 50) return 'score-mid';
+  return 'score-low';
+}
+function repoUrl(name: string): string {
+  const [owner, repo] = name.split('/');
+  return `${base}project/${owner}/${repo}`;
+}
+function tierColor(tier: string): string {
+  if (tier === 'blue_ocean') return 'var(--green)';
+  if (tier === 'high_potential') return 'var(--accent)';
+  return 'var(--text-muted)';
+}
+function catSlug(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+}
+---
+
+<Layout title="Opportunities" description="Early, under-priced open-source AI bets with strong leading signals — ranked by opportunity score.">
+  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
+    <h1><span class="accent" data-i18n="opp.accent">Opportunity</span> <span data-i18n="opp.suffix">Index</span></h1>
+    <p data-i18n="opp.subtitle">Under-priced bets with strong leading signals — early, accelerating, and sustainable</p>
+  </section>
+
+  {opps.candidates && opps.candidates.length > 0 ? (
+    <div class="grid-auto">
+      {(opps.candidates || []).map((r: any, i: number) => (
+      <a href={repoUrl(r.repo_full_name)} class="card card-link" style="padding:var(--sp-6); text-decoration:none; color:inherit;">
+        <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-3);">
+          <span style="font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted);">#{i + 1}</span>
+          {avatarByRepo[r.repo_full_name]
+            ? <img src={avatarByRepo[r.repo_full_name]} alt="" width="28" height="28" style="width:28px; height:28px; border-radius:50%; object-fit:cover; flex-shrink:0;" loading="lazy" data-owner={r.repo_full_name} referrerpolicy="no-referrer" />
+            : <span class="avatar-fallback" style="width:28px; height:28px; font-size:11px;">{ownerInitials(r.repo_full_name)}</span>}
+          <span style="font-weight:700; font-size:var(--text-base); min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{r.repo_full_name}</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-4); flex-wrap:wrap;">
+          <span class={`score-pill ${scoreClass(r.opportunity_score)}`} title="Opportunity Score">{r.opportunity_score}</span>
+          <span class="badge" style={`color:${tierColor(r.tier)}; border-color:currentColor;`} data-i18n={`tier.${r.tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[r.tier] || r.tier}</span>
+          {r.category && <span class="badge" style="color:var(--text-secondary);" data-i18n-cat={r.category}>{r.category}</span>}
+        </div>
+        <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);" data-i18n="opp.leadingSignals">Leading signals</div>
+        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:var(--sp-3);">
+          <div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="label.velocity">Velocity</div>
+            <div style="font-size:var(--text-sm); font-weight:600;">{r.velocity?.toFixed(0)}</div>
+          </div>
+          <div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.acceleration">Acceleration</div>
+            <div style="font-size:var(--text-sm); font-weight:600;">{r.star_growth_acceleration?.toFixed(1)}x</div>
+          </div>
+          <div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.contributors7d">New contributors / 7d</div>
+            <div style="font-size:var(--text-sm); font-weight:600;">{r.contributors_7d ?? 0}</div>
+          </div>
+          <div>
+            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.starsLabel">Stars</div>
+            <div style="font-size:var(--text-sm); font-weight:600;">{fmt(r.stars || 0)}</div>
+          </div>
+        </div>
+        {r.brief_zh && (
+          <p style="margin-top:var(--sp-4); padding-top:var(--sp-4); border-top:1px solid var(--border-subtle); font-size:var(--text-sm); color:var(--text-secondary); line-height:var(--leading-relaxed);">
+            <strong style="color:var(--text);" data-i18n="opp.briefLabel">Opportunity brief:</strong>{' '}<span class="brief-zh">{r.brief_zh}</span>
+          </p>
+        )}
+      </a>
+    ))}
+    </div>
+  ) : (
+    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);">
+      <div style="font-size:var(--text-2xl); font-weight:700; margin-bottom:var(--sp-3); color:var(--text);" data-i18n="opp.emptyTitle">No opportunities detected yet</div>
+      <p style="max-width:520px; margin:0 auto;" data-i18n="opp.empty">The opportunity index ranks early, fast-accelerating projects that stay healthy and show strong contributor pull. It refreshes as the pipeline collects new scores.</p>
+    </div>
+  )}
+
+  {opps.whitespace && opps.whitespace.length > 0 && (
+    <section class="section" style="margin-top:var(--sp-12);">
+      <div class="section-head">
+        <div>
+          <h2 data-i18n="opp.whitespaceTitle">Whitespace Categories</h2>
+          <p style="color:var(--text-secondary); font-size:var(--text-sm); margin:var(--sp-1) 0 0;" data-i18n="opp.whitespaceSubtitle">High-momentum categories with few tracked projects</p>
+        </div>
+      </div>
+      <div class="grid-4">
+        {opps.whitespace.slice(0, 8).map((c: any) => (
+          <a href={`${base}category/${catSlug(c.category)}`} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
+            <div style="font-weight:600; font-size:var(--text-sm); margin-bottom:var(--sp-2);" data-i18n-cat={c.category}>{c.category}</div>
+            <div style="display:flex; justify-content:space-between; font-size:var(--text-xs); color:var(--text-secondary);">
+              <span><span data-i18n="opp.tracked">Tracked</span>: {c.total_tracked}</span>
+              <span><span data-i18n="label.velocity">Velocity</span>: {c.avg_velocity}</span>
+            </div>
+            {c.trend && <div style={`font-size:var(--text-xs); margin-top:var(--sp-2); color:${c.trend === 'declining' ? 'var(--red)' : c.trend === 'stable' ? 'var(--text-secondary)' : 'var(--green)'};`} data-i18n={`trend.${c.trend}`}>{c.trend}</div>}
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</Layout>

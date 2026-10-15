@@ -494,6 +494,63 @@ Results:"""
             "potential": 0.0,
         }
 
+    def complete(
+        self,
+        prompt: str,
+        *,
+        system: str = "",
+        max_tokens: int = 400,
+        temperature: float = 0.5,
+    ) -> str | None:
+        """Single-turn free-text generation (used for Chinese opportunity briefs).
+
+        Reuses the same key rotation and rate limiting as classification. Returns
+        the assistant text, or ``None`` when no key is configured or the request
+        fails / is rate limited — callers must treat ``None`` as "skip, retry next
+        run" and never crash on it.
+        """
+        key = self._get_next_key()
+        if not key:
+            logger.error("No Groq API keys configured — cannot generate text")
+            return None
+
+        self._wait_for_rate_limit()
+        headers = {
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+        }
+        messages: list[dict[str, str]] = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+        payload = {
+            "model": self._model,
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+
+        try:
+            with httpx.Client(timeout=30.0) as client:
+                resp = client.post(self.BASE_URL, headers=headers, json=payload)
+                resp.raise_for_status()
+                data = resp.json()
+            self._last_request_time = time.time()
+            self._request_count += 1
+            content = data["choices"][0]["message"]["content"]
+            return (content or "").strip() or None
+        except httpx.HTTPStatusError as e:
+            if e.response.status_code == 429:
+                logger.warning("Groq 429 on complete() — skipping (retry next run)")
+            else:
+                logger.error(f"Groq complete() API error: {e}")
+            self._last_request_time = time.time()
+            return None
+        except Exception as e:
+            logger.error(f"Groq complete() failed: {e}")
+            self._last_request_time = time.time()
+            return None
+
     @property
     def stats(self) -> dict[str, Any]:
         """Return usage stats."""

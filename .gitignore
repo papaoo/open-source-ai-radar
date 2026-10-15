@@ -31,6 +31,7 @@ data/radar.db
 data/radar.db-wal
 data/radar.db-shm
 data/snapshots/
+data/.notify_state.json
 
 # Export files NOT needed by website build
 # (breakouts.json, category-intelligence.json, health.json and history/
