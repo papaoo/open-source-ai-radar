@@ -1,0 +1,147 @@
+/* ── viz.css — inline-SVG data-viz primitives, ticker, skeleton, palette ──
+   Everything is themed through CSS custom properties so charts recolor with
+   light/dark without any JS. Rendered server-side as static SVG. */
+
+/* Sparkline / area */
+.spark { display: inline-block; vertical-align: middle; }
+.spark .spark-line { fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.spark .spark-area { opacity: 0.14; }
+.spark .spark-up { stroke: var(--green); } .spark .spark-up.spark-area { fill: var(--green); }
+.spark .spark-down { stroke: var(--red); } .spark .spark-down.spark-area { fill: var(--red); }
+.spark .spark-flat { stroke: var(--text-muted); } .spark .spark-flat.spark-area { fill: var(--text-muted); }
+.spark .spark-dot { stroke: none; }
+.spark--lg .spark-line { stroke-width: 2; }
+
+/* Radial gauge (percentile / health) */
+.gauge { display: inline-block; vertical-align: middle; }
+.gauge .gauge-track { fill: none; stroke: var(--border); stroke-width: 6; }
+.gauge .gauge-arc { fill: none; stroke-width: 6; stroke-linecap: round; transition: stroke-dashoffset var(--transition-slow); }
+.gauge .gauge-value { font-family: var(--font-mono); font-weight: 700; fill: var(--text); font-variant-numeric: tabular-nums; }
+.gauge .gauge-label { font-size: 9px; fill: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* Linear score bar with segment ticks */
+.meter { display: block; width: 100%; height: 6px; border-radius: 3px; background: var(--bg-inset); overflow: hidden; }
+.meter > i { display: block; height: 100%; border-radius: 3px; background: var(--accent); transition: width var(--transition-slow) var(--ease-out); }
+.meter--green > i { background: var(--green); }
+.meter--amber > i { background: var(--amber); }
+.meter--red > i { background: var(--red); }
+
+/* Histogram / bar chart columns */
+.histo { width: 100%; height: auto; display: block; }
+.histo .histo-bar { fill: var(--viz-2); }
+.histo .histo-bar:hover { fill: var(--accent-hover); }
+.histo .histo-axis { stroke: var(--border); stroke-width: 1; }
+.histo text { fill: var(--text-muted); font-family: var(--font-mono); font-size: 9px; }
+
+/* Horizontal distribution bars (language / category) */
+.bars { display: flex; flex-direction: column; gap: var(--sp-3); }
+.bar-row { display: grid; grid-template-columns: minmax(96px, 22%) 1fr auto; align-items: center; gap: var(--sp-3); font-size: var(--text-sm); }
+.bar-row__label { color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-row__track { height: 8px; background: var(--bg-inset); border-radius: var(--radius-full); overflow: hidden; }
+.bar-row__fill { height: 100%; border-radius: var(--radius-full); background: var(--accent); transition: width var(--transition-slow) var(--ease-out); }
+.bar-row__value { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--text); font-size: var(--text-xs); min-width: 3.5ch; text-align: right; }
+
+/* Heat cell (category momentum grid) */
+.heat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--sp-3); }
+.heat-cell {
+  position: relative; display: block; padding: var(--sp-4);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--bg-surface);
+  transition: transform var(--transition) var(--ease-spring), border-color var(--transition-fast);
+}
+.heat-cell:hover { transform: translateY(-2px); border-color: var(--accent); }
+.heat-cell__bar { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; border-radius: 3px 0 0 3px; }
+.heat-cell__name { font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--sp-1); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.heat-cell__meta { display: flex; justify-content: space-between; font-size: var(--text-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.heat-cell__value { font-family: var(--font-mono); font-weight: 600; }
+
+/* Delta chip (+N this week / arrows) */
+.delta {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-family: var(--font-mono); font-size: var(--text-xs); font-weight: 600;
+  font-variant-numeric: tabular-nums; padding: 1px 6px; border-radius: var(--radius-sm);
+}
+.delta svg { width: 10px; height: 10px; }
+.delta--up { color: var(--green); background: var(--green-muted); }
+.delta--down { color: var(--red); background: var(--red-muted); }
+.delta--flat { color: var(--text-muted); background: var(--bg-inset); }
+
+/* Momentum ticker (Bloomberg-style marquee strip) */
+.ticker {
+  display: flex; align-items: center; overflow: hidden;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--bg-inset); height: 44px;
+}
+.ticker__label {
+  flex-shrink: 0; align-self: stretch; display: flex; align-items: center;
+  padding: 0 var(--sp-4); margin-right: var(--sp-2);
+  font-family: var(--font-mono); font-size: var(--text-xs); font-weight: 700;
+  letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--bg);
+  background: var(--accent);
+}
+.ticker__viewport { position: relative; overflow: hidden; flex: 1; height: 100%; }
+.ticker__track {
+  display: inline-flex; align-items: center; gap: var(--sp-6); white-space: nowrap;
+  height: 100%; padding-left: var(--sp-2);
+  animation: ticker-scroll 48s linear infinite;
+  will-change: transform;
+}
+.ticker:hover .ticker__track { animation-play-state: paused; }
+.ticker__item { display: inline-flex; align-items: center; gap: var(--sp-2); font-size: var(--text-sm); color: var(--text-secondary); }
+.ticker__item b { font-family: var(--font-mono); color: var(--text); font-weight: 600; }
+@keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ticker__track { animation: none; } }
+
+/* Skeleton (used where async reveal happens; static pages mostly omit) */
+.skeleton { position: relative; overflow: hidden; background: var(--bg-inset); border-radius: var(--radius-sm); }
+.skeleton::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, var(--bg-hover), transparent);
+  animation: shimmer 1.4s infinite;
+}
+@keyframes shimmer { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+@media (prefers-reduced-motion: reduce) { .skeleton::after { animation: none; } }
+
+/* Command palette overlay */
+.palette-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(4px);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding-top: 12vh;
+}
+.palette-overlay[hidden] { display: none; }
+.palette {
+  width: min(640px, 92vw); background: var(--bg-surface);
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg); overflow: hidden;
+  animation: palette-in 160ms var(--ease-out);
+}
+@keyframes palette-in { from { opacity: 0; transform: translateY(-8px) scale(0.99); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .palette { animation: none; } }
+.palette__input-row { display: flex; align-items: center; gap: var(--sp-3); padding: var(--sp-4) var(--sp-5); border-bottom: 1px solid var(--grid-line); }
+.palette__input-row svg { width: 18px; height: 18px; color: var(--text-muted); flex-shrink: 0; }
+.palette__input { flex: 1; font-size: var(--text-base); background: none; border: none; outline: none; color: var(--text); }
+.palette__list { max-height: 52vh; overflow-y: auto; padding: var(--sp-2); }
+.palette__group-label { padding: var(--sp-2) var(--sp-3); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: var(--tracking-wide); color: var(--text-muted); }
+.palette__item {
+  display: flex; align-items: center; gap: var(--sp-3);
+  padding: var(--sp-3); border-radius: var(--radius-sm); cursor: pointer;
+  color: var(--text-secondary); font-size: var(--text-sm);
+}
+.palette__item[aria-selected="true"] { background: var(--accent-muted); color: var(--text); }
+.palette__item .pi-icon { width: 16px; height: 16px; flex-shrink: 0; color: var(--text-muted); }
+.palette__item .pi-sub { margin-left: auto; font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); }
+.palette__foot { display: flex; gap: var(--sp-4); padding: var(--sp-2) var(--sp-5); border-top: 1px solid var(--grid-line); font-size: var(--text-xs); color: var(--text-muted); }
+.palette__foot .kbd { height: 16px; min-width: 16px; }
+
+/* Sparkline tooltip (hover on tables) */
+.spark-cell { position: relative; }
+.spark-cell .spark-tip {
+  position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%);
+  padding: 3px 8px; border-radius: var(--radius-sm);
+  background: var(--bg-elevated); border: 1px solid var(--border);
+  font-family: var(--font-mono); font-size: 11px; color: var(--text);
+  white-space: nowrap; opacity: 0; pointer-events: none;
+  transition: opacity var(--transition-fast); z-index: 5;
+}
+.spark-cell:hover .spark-tip { opacity: 1; }

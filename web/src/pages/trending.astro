@@ -13,7 +13,12 @@ try {
 function fmt(n: number): string {
   if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
   if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
-  return n.toString();
+  return (Number(n) || 0).toString();
+}
+function scoreClass(s: number): string {
+  if (s >= 75) return 'score-high';
+  if (s >= 50) return 'score-mid';
+  return 'score-low';
 }
 function momentumState(v: number, a: number): string {
   if (a >= 2.0 && v >= 60) return 'breakout';
@@ -33,38 +38,75 @@ function ownerInitials(fullName: string): string {
   const owner = fullName.split('/')[0] || '?';
   return owner.replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?';
 }
+const pinIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17v5"/><path d="M9 10.8V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6.8"/><path d="M5 10h14l-1.5 4h-3.5v3h-4v-3H6.5L5 10z"/></svg>';
+const rows = repos.slice(0, 40);
 ---
 
 <Layout title="Trending" description="AI open-source projects gaining momentum right now.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent" data-i18n="trending.accent">Trending</span> <span data-i18n="trending.suffix">Projects</span></h1>
-    <p data-i18n="trending.subtitle">Projects gaining the most momentum this week</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="trending.accent">Trending</div>
+      <h1 class="page-head__title"><span class="accent" data-i18n="trending.accent">Trending</span> <span data-i18n="trending.suffix">Projects</span></h1>
+      <p class="page-head__sub" data-i18n="trending.subtitle">Projects gaining the most momentum this week</p>
+    </div>
+    <div class="page-head__aside">
+      <div class="meta-chips">
+        <span class="meta-chip"><b>{rows.length}</b> <span data-i18n="stat.projects">projects</span></span>
+      </div>
+    </div>
+  </div>
 
-  <div class="grid-auto">
-    {repos.slice(0, 30).map((r: any) => {
-      const state = momentumState(r.velocity || 0, r.star_growth_acceleration || 1);
-      const name = r.full_name || r.repo_full_name || '';
-      return (
-        <a href={repoUrl(name)} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
-          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--sp-2);">
-            <span style="display:flex; align-items:center; gap:var(--sp-3); min-width:0;">
-              {r.owner_avatar
-                ? <img src={r.owner_avatar} alt="" width="28" height="28" style="width:28px; height:28px; border-radius:50%; object-fit:cover; flex-shrink:0;" loading="lazy" data-owner={name} referrerpolicy="no-referrer" />
-                : <span class="avatar-fallback" style="width:28px; height:28px; font-size:11px;">{ownerInitials(name)}</span>}
-              <span style="font-weight:600; font-size:var(--text-sm); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{name.split('/')[1]}</span>
-            </span>
-            <span class={`momentum momentum-${state}`}><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span>
-          </div>
-          <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-3);">
-            {name.split('/')[0]} · {r.language || ''} · {fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span>
-          </div>
-          <div style="display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-            <span><span data-i18n="label.velocity">Velocity</span>: {r.velocity?.toFixed(0)}</span>
-            <span><span data-i18n="label.score">Score</span>: {r.radar_score?.toFixed(1)}</span>
-          </div>
-        </a>
-      );
-    })}
+  <div class="panel">
+    <div class="panel__head"><span class="panel__title" data-i18n="trending.suffix">Projects</span></div>
+    <div class="panel__body panel__body--flush">
+      <div class="dtable-wrap">
+        <table class="dtable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th data-i18n="table.project">Project</th>
+              <th data-i18n="table.category">Category</th>
+              <th class="num" data-i18n="label.stars">Stars</th>
+              <th class="num" data-i18n="label.score">Score</th>
+              <th class="num" data-i18n="label.velocity">Velocity</th>
+              <th data-i18n="proj.momentum">Momentum</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r: any, i: number) => {
+              const state = momentumState(r.velocity || 0, r.star_growth_acceleration || 1);
+              const name = r.full_name || r.repo_full_name || '';
+              return (
+                <tr>
+                  <td class="num" style="color:var(--text-muted);font-family:var(--font-mono);">{i + 1}</td>
+                  <td class="cell-name">
+                    <span style="display:flex;align-items:center;gap:var(--sp-3);min-width:0;">
+                      {r.owner_avatar
+                        ? <img src={r.owner_avatar} alt="" width="24" height="24" style="width:24px;height:24px;border-radius:50%;object-fit:cover;flex-shrink:0;" loading="lazy" data-owner={name} referrerpolicy="no-referrer" />
+                        : <span class="avatar-fallback" style="width:24px;height:24px;font-size:10px;">{ownerInitials(name)}</span>}
+                      <a href={repoUrl(name)}>{name}</a>
+                    </span>
+                  </td>
+                  <td style="color:var(--text-secondary);">{r.category ? <span data-i18n-cat={r.category}>{r.category}</span> : '—'}</td>
+                  <td class="num">{fmt(r.stars || 0)}</td>
+                  <td class="num"><span class={`score-pill ${scoreClass(r.radar_score || 0)}`}>{Number(r.radar_score || 0).toFixed(1)}</span></td>
+                  <td class="num">{Math.round(r.velocity || 0)}</td>
+                  <td><span class={`momentum momentum-${state}`}><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span></td>
+                  <td class="row-actions">
+                    <button class="icon-btn pin-btn" type="button" data-full-name={name} aria-label="Pin project" title="Pin" data-i18n-aria="pin.add"><Fragment set:html={pinIco} /></button>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </Layout>
+
+<script>
+  import { wirePinButtons } from '../lib/watchlist';
+  wirePinButtons(document);
+</script>

@@ -5,10 +5,13 @@ const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title="Compare Projects" description="Compare AI open-source projects side by side: impact, velocity, health, and growth.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-6);">
-    <h1><span data-i18n="compare.titlePrefix">Compare</span> <span class="accent" data-i18n="compare.titleAccent">Projects</span></h1>
-    <p data-i18n="compare.subtitle">Pick two or three projects and see how they stack up</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="compare.titleAccent">Projects</div>
+      <h1 class="page-head__title"><span data-i18n="compare.titlePrefix">Compare</span> <span class="accent" data-i18n="compare.titleAccent">Projects</span></h1>
+      <p class="page-head__sub" data-i18n="compare.subtitle">Pick two or three projects and see how they stack up</p>
+    </div>
+  </div>
 
   <div class="card" style="padding:var(--sp-5); margin-bottom:var(--sp-6);">
     <div id="pickers" style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:var(--sp-3);">

@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { meter } from '../lib/viz';
 
 const base = import.meta.env.BASE_URL;
 
@@ -64,6 +65,13 @@ function statusColor(s: string): string {
   return 'var(--text-muted)';
 }
 
+function statusTone(s: string): 'green' | 'amber' | 'red' | '' {
+  if (s === 'healthy') return 'green';
+  if (s === 'warning') return 'amber';
+  if (s === 'critical') return 'red';
+  return '';
+}
+
 function statusIcon(s: string): string {
   if (s === 'healthy') return '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l3 3 7-7"/></svg>';
   if (s === 'warning') return '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2l6 12H2z"/><line x1="8" y1="7" x2="8" y2="10"/><circle cx="8" cy="12" r="0.5" fill="currentColor"/></svg>';
@@ -86,10 +94,19 @@ const tableSizes = dbCheck?.table_sizes || {};
 ---
 
 <Layout title="Status" description="Pipeline status, health checks, and data freshness.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span data-i18n="status.prefix">System</span> <span class="accent" data-i18n="status.accent">Status</span></h1>
-    <p data-i18n="status.subtitle">Pipeline health, data freshness, and workflow schedule</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="status.accent">Status</div>
+      <h1 class="page-head__title"><span data-i18n="status.prefix">System</span> <span class="accent" data-i18n="status.accent">Status</span></h1>
+      <p class="page-head__sub" data-i18n="status.subtitle">Pipeline health, data freshness, and workflow schedule</p>
+    </div>
+    <div class="page-head__aside">
+      <div class="meta-chips">
+        <span class="meta-chip" style={`color:${statusColor(overallStatus)};`} data-i18n={statusKey(overallStatus) || 'status.overall.unknown'}>{overallStatus}</span>
+        <span class="meta-chip" data-i18n="status.checksPassing" data-i18n-vars={JSON.stringify({ ok: checks.filter((c: any) => c.status === 'healthy').length, total: checks.length })}>{checks.filter((c: any) => c.status === 'healthy').length}/{checks.length} checks passing</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Overall status banner -->
   <div class="card" style={`padding:var(--sp-5); margin-bottom:var(--sp-8); border-left:3px solid ${statusColor(overallStatus)};`}>
@@ -153,7 +170,7 @@ const tableSizes = dbCheck?.table_sizes || {};
                 <span data-i18n="status.snapshotted" data-i18n-vars={JSON.stringify({ a: check.snapshotted?.toLocaleString(), b: check.total_repos?.toLocaleString() })}>{check.snapshotted?.toLocaleString()} / {check.total_repos?.toLocaleString()} repos snapshotted</span>
                 <span>{check.coverage_pct?.toFixed(1)}%</span>
               </div>
-              <div class="bar"><div class="bar-fill" style={`width:${Math.min(100, check.coverage_pct || 0)}%; background:${statusColor(check.status)};`}></div></div>
+              <Fragment set:html={meter(check.coverage_pct || 0, statusTone(check.status))} />
             </div>
           )}
           {check.name === 'Scoring Coverage' && (
@@ -162,7 +179,7 @@ const tableSizes = dbCheck?.table_sizes || {};
                 <span data-i18n="status.scored" data-i18n-vars={JSON.stringify({ a: check.scored?.toLocaleString(), b: check.total_repos?.toLocaleString() })}>{check.scored?.toLocaleString()} / {check.total_repos?.toLocaleString()} repos scored</span>
                 <span>{check.coverage_pct?.toFixed(1)}%</span>
               </div>
-              <div class="bar"><div class="bar-fill" style={`width:${Math.min(100, check.coverage_pct || 0)}%; background:${statusColor(check.status)};`}></div></div>
+              <Fragment set:html={meter(check.coverage_pct || 0, statusTone(check.status))} />
             </div>
           )}
           {check.name === 'Processing Stats' && (

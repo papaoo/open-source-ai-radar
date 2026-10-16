@@ -28,10 +28,13 @@ const digests = listDigests();
 ---
 
 <Layout title="Weekly Digests" description="Browsable archive of weekly AI open-source intelligence digests.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span data-i18n="digests.prefix">Weekly</span> <span class="accent" data-i18n="digests.accent">Digests</span></h1>
-    <p data-i18n="digests.subtitle" data-i18n-vars={JSON.stringify({ n: digests.length })}>{digests.length} weeks of intelligence — risers, hidden gems, and momentum shifts</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="digests.accent">Digests</div>
+      <h1 class="page-head__title"><span data-i18n="digests.prefix">Weekly</span> <span class="accent" data-i18n="digests.accent">Digests</span></h1>
+      <p class="page-head__sub" data-i18n="digests.subtitle" data-i18n-vars={JSON.stringify({ n: digests.length })}>{digests.length} weeks of intelligence — risers, hidden gems, and momentum shifts</p>
+    </div>
+  </div>
 
   <div class="grid-2">
     {digests.map((d) => (

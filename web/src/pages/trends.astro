@@ -19,10 +19,13 @@ function repoUrl(name: string): string {
 ---
 
 <Layout title="Trends" description="AI open-source trends: rising stars, hidden gems, and anomalies.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent">Trends</span> &amp; Signals</h1>
-    <p>Anomalies, rising stars, hidden gems, and category momentum</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow">Signals</div>
+      <h1 class="page-head__title"><span class="accent">Trends</span> &amp; Signals</h1>
+      <p class="page-head__sub">Anomalies, rising stars, hidden gems, and category momentum</p>
+    </div>
+  </div>
 
   {trends.anomalies && trends.anomalies.length > 0 && (
     <section class="section">

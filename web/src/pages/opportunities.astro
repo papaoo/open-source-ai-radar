@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { zhDesc } from '../utils/zh';
+import { meter, deltaChip } from '../lib/viz';
 
 const base = import.meta.env.BASE_URL;
 let opps: any = { candidates: [], whitespace: [] };
@@ -20,11 +22,10 @@ function ownerInitials(fullName: string): string {
   const owner = fullName.split('/')[0] || '?';
   return owner.replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?';
 }
-
 function fmt(n: number): string {
   if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
   if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
-  return n.toString();
+  return (n || 0).toString();
 }
 function scoreClass(s: number): string {
   if (s >= 75) return 'score-high';
@@ -43,84 +44,171 @@ function tierColor(tier: string): string {
 function catSlug(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 }
+
+const TIERS: { key: string; label: string; en: string }[] = [
+  { key: 'blue_ocean', label: '蓝海机会', en: 'Blue Ocean' },
+  { key: 'high_potential', label: '高潜力', en: 'High Potential' },
+  { key: 'watch', label: '观察', en: 'Watch' },
+];
+const byTier: Record<string, any[]> = {};
+for (const t of TIERS) byTier[t.key] = (opps.candidates || []).filter((c: any) => c.tier === t.key);
+const pinIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17v5"/><path d="M9 10.8V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6.8"/><path d="M5 10h14l-1.5 4h-3.5v3h-4v-3H6.5L5 10z"/></svg>';
+const hasAny = (opps.candidates || []).length > 0;
+const wsMax = Math.max(...(opps.whitespace || []).map((c: any) => c.total_tracked || 0), 1);
 ---
 
 <Layout title="Opportunities" description="Early, under-priced open-source AI bets with strong leading signals — ranked by opportunity score.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent" data-i18n="opp.accent">Opportunity</span> <span data-i18n="opp.suffix">Index</span></h1>
-    <p data-i18n="opp.subtitle">Under-priced bets with strong leading signals — early, accelerating, and sustainable</p>
-  </section>
-
-  {opps.candidates && opps.candidates.length > 0 ? (
-    <div class="grid-auto">
-      {(opps.candidates || []).map((r: any, i: number) => (
-      <a href={repoUrl(r.repo_full_name)} class="card card-link" style="padding:var(--sp-6); text-decoration:none; color:inherit;">
-        <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-3);">
-          <span style="font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted);">#{i + 1}</span>
-          {avatarByRepo[r.repo_full_name]
-            ? <img src={avatarByRepo[r.repo_full_name]} alt="" width="28" height="28" style="width:28px; height:28px; border-radius:50%; object-fit:cover; flex-shrink:0;" loading="lazy" data-owner={r.repo_full_name} referrerpolicy="no-referrer" />
-            : <span class="avatar-fallback" style="width:28px; height:28px; font-size:11px;">{ownerInitials(r.repo_full_name)}</span>}
-          <span style="font-weight:700; font-size:var(--text-base); min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{r.repo_full_name}</span>
-        </div>
-        <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-4); flex-wrap:wrap;">
-          <span class={`score-pill ${scoreClass(r.opportunity_score)}`} title="Opportunity Score">{r.opportunity_score}</span>
-          <span class="badge" style={`color:${tierColor(r.tier)}; border-color:currentColor;`} data-i18n={`tier.${r.tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[r.tier] || r.tier}</span>
-          {r.category && <span class="badge" style="color:var(--text-secondary);" data-i18n-cat={r.category}>{r.category}</span>}
-        </div>
-        <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);" data-i18n="opp.leadingSignals">Leading signals</div>
-        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:var(--sp-3);">
-          <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="label.velocity">Velocity</div>
-            <div style="font-size:var(--text-sm); font-weight:600;">{r.velocity?.toFixed(0)}</div>
-          </div>
-          <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.acceleration">Acceleration</div>
-            <div style="font-size:var(--text-sm); font-weight:600;">{r.star_growth_acceleration?.toFixed(1)}x</div>
-          </div>
-          <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.contributors7d">New contributors / 7d</div>
-            <div style="font-size:var(--text-sm); font-weight:600;">{r.contributors_7d ?? 0}</div>
-          </div>
-          <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted);" data-i18n="opp.starsLabel">Stars</div>
-            <div style="font-size:var(--text-sm); font-weight:600;">{fmt(r.stars || 0)}</div>
-          </div>
-        </div>
-        {r.brief_zh && (
-          <p style="margin-top:var(--sp-4); padding-top:var(--sp-4); border-top:1px solid var(--border-subtle); font-size:var(--text-sm); color:var(--text-secondary); line-height:var(--leading-relaxed);">
-            <strong style="color:var(--text);" data-i18n="opp.briefLabel">Opportunity brief:</strong>{' '}<span class="brief-zh">{r.brief_zh}</span>
-          </p>
-        )}
-      </a>
-    ))}
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="opp.accent">Opportunity</div>
+      <h1 class="page-head__title"><span class="accent" data-i18n="opp.accent">Opportunity</span> <span data-i18n="opp.suffix">Index</span></h1>
+      <p class="page-head__sub" data-i18n="opp.subtitle">Under-priced bets with strong leading signals — early, accelerating, and sustainable</p>
     </div>
-  ) : (
-    <div class="card" style="padding:var(--sp-8); text-align:center; color:var(--text-muted);">
-      <div style="font-size:var(--text-2xl); font-weight:700; margin-bottom:var(--sp-3); color:var(--text);" data-i18n="opp.emptyTitle">No opportunities detected yet</div>
-      <p style="max-width:520px; margin:0 auto;" data-i18n="opp.empty">The opportunity index ranks early, fast-accelerating projects that stay healthy and show strong contributor pull. It refreshes as the pipeline collects new scores.</p>
+    {hasAny && (
+      <div class="page-head__aside">
+        <div class="segmented" id="tierFilter" role="group" aria-label="Filter by tier">
+          <button class="segmented__btn active" data-tier="all" aria-pressed="true" data-i18n="filter.all">All</button>
+          {TIERS.map((t) => (
+            <button class="segmented__btn" data-tier={t.key} aria-pressed="false" data-i18n={`tier.${t.key}`}>{t.en}</button>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+
+  {!hasAny && (
+    <div class="empty-state">
+      <div class="empty-state__title" data-i18n="opp.emptyTitle">No opportunities detected yet</div>
+      <div class="empty-state__hint" data-i18n="opp.empty">The opportunity index ranks early, fast-accelerating projects that stay healthy and show strong contributor pull. It refreshes as the pipeline collects new scores.</div>
     </div>
   )}
 
+  {hasAny && TIERS.map((t) => (
+    byTier[t.key].length > 0 && (
+      <section class="section tier-section" data-tier={t.key}>
+        <div class="section-head">
+          <h2 style="display:flex;align-items:center;gap:var(--sp-3);">
+            <span style="width:10px;height:10px;border-radius:3px;background:{tierColor(t.key)};"></span>
+            <span data-i18n={`tier.${t.key}`}>{t.en}</span>
+            <span class="panel__title tag" style="font-weight:400;">{byTier[t.key].length}</span>
+          </h2>
+        </div>
+        <div class="grid-auto">
+          {byTier[t.key].map((r: any, i: number) => (
+            <div class="card" style="padding:var(--sp-5);display:flex;flex-direction:column;gap:var(--sp-3);">
+              <div style="display:flex;align-items:center;gap:var(--sp-3);">
+                <span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--text-muted);">#{i + 1}</span>
+                {avatarByRepo[r.repo_full_name]
+                  ? <img src={avatarByRepo[r.repo_full_name]} alt="" width="28" height="28" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;" loading="lazy" data-owner={r.repo_full_name} referrerpolicy="no-referrer" />
+                  : <span class="avatar-fallback" style="width:28px;height:28px;font-size:11px;">{ownerInitials(r.repo_full_name)}</span>}
+                <a href={repoUrl(r.repo_full_name)} style="font-weight:700;font-size:var(--text-base);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text);text-decoration:none;flex:1;">{r.repo_full_name}</a>
+                <button class="icon-btn pin-btn" type="button" data-full-name={r.repo_full_name} aria-label="Pin project" title="Pin"><Fragment set:html={pinIco} /></button>
+              </div>
+
+              <div style="display:flex;align-items:center;gap:var(--sp-2);flex-wrap:wrap;">
+                <span class={`score-pill ${scoreClass(r.opportunity_score)}`} title="Opportunity Score">{r.opportunity_score?.toFixed(1)}</span>
+                <span class="badge" style={`color:${tierColor(r.tier)};border:1px solid currentColor;`} data-i18n={`tier.${r.tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[r.tier] || r.tier}</span>
+                {r.category && <span class="badge" style="color:var(--text-secondary);" data-i18n-cat={r.category}>{r.category}</span>}
+              </div>
+
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:var(--text-xs);color:var(--text-muted);margin-bottom:4px;">
+                  <span data-i18n="opp.scoreLabel">Opportunity Score</span>
+                  <span style="font-family:var(--font-mono);">{r.opportunity_score?.toFixed(0)}</span>
+                </div>
+                {(() => { const s = r.opportunity_score || 0; return <Fragment set:html={meter(s, s >= 70 ? 'green' : s >= 55 ? '' : 'amber')} />; })()}
+              </div>
+
+              <div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:var(--sp-3);">
+                <div>
+                  <div style="font-size:var(--text-xs);color:var(--text-muted);" data-i18n="label.velocity">Velocity</div>
+                  <div style="font-size:var(--text-sm);font-weight:600;font-family:var(--font-mono);">{r.velocity?.toFixed(0)}</div>
+                </div>
+                <div>
+                  <div style="font-size:var(--text-xs);color:var(--text-muted);" data-i18n="opp.acceleration">Acceleration</div>
+                  <div style="font-size:var(--text-sm);font-weight:600;font-family:var(--font-mono);">{r.star_growth_acceleration?.toFixed(1)}x</div>
+                </div>
+                <div>
+                  <div style="font-size:var(--text-xs);color:var(--text-muted);" data-i18n="opp.contributors7d">New contributors / 7d</div>
+                  <div style="font-size:var(--text-sm);font-weight:600;font-family:var(--font-mono);">{r.contributors_7d ?? 0}</div>
+                </div>
+                <div>
+                  <div style="font-size:var(--text-xs);color:var(--text-muted);" data-i18n="opp.starsLabel">Stars</div>
+                  <div style="font-size:var(--text-sm);font-weight:600;font-family:var(--font-mono);">{fmt(r.stars || 0)}</div>
+                </div>
+              </div>
+
+              {r.description && <div class="project-desc" style="white-space:normal;font-size:var(--text-xs);" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
+
+              {r.brief_zh && (
+                <div class="note-block">
+                  <span class="note-block__label" data-i18n="opp.briefLabel">Opportunity brief:</span>
+                  <span class="brief-zh">{r.brief_zh}</span>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  ))}
+
   {opps.whitespace && opps.whitespace.length > 0 && (
     <section class="section" style="margin-top:var(--sp-12);">
-      <div class="section-head">
-        <div>
-          <h2 data-i18n="opp.whitespaceTitle">Whitespace Categories</h2>
-          <p style="color:var(--text-secondary); font-size:var(--text-sm); margin:var(--sp-1) 0 0;" data-i18n="opp.whitespaceSubtitle">High-momentum categories with few tracked projects</p>
+      <div class="panel">
+        <div class="panel__head">
+          <div>
+            <span class="panel__title" data-i18n="opp.whitespaceTitle">Whitespace Categories</span>
+            <div style="font-size:var(--text-xs);color:var(--text-secondary);font-weight:400;margin-top:2px;" data-i18n="opp.whitespaceSubtitle">High-momentum categories with few tracked projects</div>
+          </div>
         </div>
-      </div>
-      <div class="grid-4">
-        {opps.whitespace.slice(0, 8).map((c: any) => (
-          <a href={`${base}category/${catSlug(c.category)}`} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
-            <div style="font-weight:600; font-size:var(--text-sm); margin-bottom:var(--sp-2);" data-i18n-cat={c.category}>{c.category}</div>
-            <div style="display:flex; justify-content:space-between; font-size:var(--text-xs); color:var(--text-secondary);">
-              <span><span data-i18n="opp.tracked">Tracked</span>: {c.total_tracked}</span>
-              <span><span data-i18n="label.velocity">Velocity</span>: {c.avg_velocity}</span>
-            </div>
-            {c.trend && <div style={`font-size:var(--text-xs); margin-top:var(--sp-2); color:${c.trend === 'declining' ? 'var(--red)' : c.trend === 'stable' ? 'var(--text-secondary)' : 'var(--green)'};`} data-i18n={`trend.${c.trend}`}>{c.trend}</div>}
-          </a>
-        ))}
+        <div class="panel__body">
+          <div class="bars">
+            {opps.whitespace.slice(0, 8).map((c: any) => (
+              <a class="bar-row" href={`${base}category/${catSlug(c.category)}`} style="text-decoration:none;color:inherit;">
+                <span class="bar-row__label" data-i18n-cat={c.category}>{c.category}</span>
+                <span class="bar-row__track"><span class="bar-row__fill" style={`width:${Math.round(((c.total_tracked || 0) / wsMax) * 100)}%;`}></span></span>
+                <span class="bar-row__value">
+                  {c.total_tracked}
+                  <Fragment set:html={deltaChip(c.avg_velocity ? Math.round(c.avg_velocity) : null, { suffix: ' v', label: '' })} />
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   )}
 </Layout>
+
+<style is:scoped>
+  .note-block {
+    margin-top: var(--sp-2);
+    padding: var(--sp-3);
+    background: var(--bg-inset);
+    border-left: 2px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    line-height: var(--leading-relaxed);
+  }
+  .note-block__label { display: block; font-size: var(--text-xs); color: var(--text-muted); margin-bottom: 3px; }
+  .bar-row__value { display: inline-flex; align-items: center; gap: var(--sp-2); }
+</style>
+
+<script>
+  import { wirePinButtons } from '../lib/watchlist';
+  wirePinButtons(document);
+
+  const seg = document.getElementById('tierFilter');
+  const btns = Array.from(seg?.querySelectorAll('.segmented__btn') || []) as HTMLElement[];
+  const sections = Array.from(document.querySelectorAll('.tier-section')) as HTMLElement[];
+  btns.forEach((b) => {
+    b.addEventListener('click', () => {
+      btns.forEach((x) => { x.classList.remove('active'); x.setAttribute('aria-pressed', 'false'); });
+      b.classList.add('active'); b.setAttribute('aria-pressed', 'true');
+      const tier = b.dataset.tier;
+      sections.forEach((s) => { s.style.display = tier === 'all' || s.dataset.tier === tier ? '' : 'none'; });
+    });
+  });
+</script>

@@ -135,6 +135,56 @@ export const dict: Record<string, Entry> = {
   "stat.languages": { en: "Languages", zh: "编程语言" },
   "stat.categories": { en: "AI Categories", zh: "AI 分类" },
 
+  // ── Redesign: shared chrome, interactions, data-viz labels ──
+  "a11n.skip": { en: "Skip to content", zh: "跳到主要内容" },
+  "cmdk.placeholder": { en: "Search projects or jump to…", zh: "搜索项目或跳转…" },
+  "cmdk.nav": { en: "Navigation", zh: "导航" },
+  "cmdk.projects": { en: "Projects", zh: "项目" },
+  "cmdk.noResults": { en: "No matches", zh: "无匹配结果" },
+  "cmdk.hintNav": { en: "to navigate", zh: "导航" },
+  "cmdk.hintOpen": { en: "to open", zh: "打开" },
+  "cmdk.hintClose": { en: "to close", zh: "关闭" },
+
+  "pinned.title": { en: "Pinned projects", zh: "收藏的项目" },
+  "pinned.empty": { en: "Nothing pinned yet — use the pin button on any project.", zh: "还没有收藏 — 点击任意项目上的收藏按钮即可固定。" },
+  "pin.add": { en: "Pin project", zh: "收藏项目" },
+  "pin.remove": { en: "Remove pin", zh: "取消收藏" },
+  "pin.only": { en: "Pinned", zh: "仅看收藏" },
+
+  "sort.asc": { en: "Sort ascending", zh: "升序排列" },
+  "sort.desc": { en: "Sort descending", zh: "降序排列" },
+
+  "empty.noMatch": { en: "No projects match your filters", zh: "没有符合条件的项目" },
+  "empty.noMatchHint": { en: "Try clearing the search box or selecting a different filter.", zh: "请尝试清空搜索框或选择其他筛选条件。" },
+
+  "table.category": { en: "Category", zh: "分类" },
+  "table.tier": { en: "Tier", zh: "分档" },
+  "table.oppScore": { en: "Opportunity", zh: "机会评分" },
+  "table.contrib7d": { en: "New / 7d", zh: "7 天新增" },
+  "table.updated": { en: "Updated", zh: "更新于" },
+  "table.health": { en: "Health", zh: "健康度" },
+
+  "section.topMovers": { en: "Top movers", zh: "动量排行" },
+  "section.categoryMomentum": { en: "Category momentum", zh: "分类动量" },
+  "section.languageDist": { en: "Language distribution", zh: "语言分布" },
+  "home.eyebrow": { en: "Open-source AI market", zh: "开源 AI 市场" },
+
+  "proj.metrics": { en: "Key metrics", zh: "关键指标" },
+  "proj.related": { en: "Related projects", zh: "相关项目" },
+  "proj.noHistory": { en: "No time-series snapshots yet for this project.", zh: "该项目暂无时间序列快照。" },
+  "proj.starsSeries": { en: "Stars", zh: "Star" },
+  "proj.forksSeries": { en: "Forks", zh: "Fork" },
+  "proj.contribsSeries": { en: "Contributors", zh: "贡献者" },
+  "proj.percentile": { en: "Percentile", zh: "分位" },
+  "proj.categoryPercentile": { en: "In category", zh: "分类内" },
+  "proj.globalPercentile": { en: "Global", zh: "全球" },
+  "proj.healthGauge": { en: "Maintenance", zh: "维护度" },
+  "unit.peers": { en: "peers", zh: "同类" },
+
+  "breakouts.scoreLabel": { en: "Breakout Score", zh: "突破评分" },
+  "categories.legendVelocity": { en: "Bar length = tracked projects · color = velocity", zh: "条长 = 追踪项目数 · 颜色 = 速度" },
+  "languages.legendProjects": { en: "Projects per language", zh: "各语言项目数" },
+
   "section.breakouts": { en: "Breakout Candidates", zh: "突破候选" },
   "section.opportunities": { en: "Latest Opportunities", zh: "最新机会" },
   "section.allOpportunities": { en: "All opportunities", zh: "全部机会" },

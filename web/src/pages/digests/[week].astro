@@ -37,10 +37,10 @@ const crumbs = m ? `Week ${Number(m[2])}, ${m[1]}` : title;
 ---
 
 <Layout title={`${crumbs} — Digest`} description={`Weekly AI open-source intelligence digest: ${crumbs}`}>
-  <nav style="margin-bottom:var(--sp-6); font-size:var(--text-sm);">
-    <a href={`${base}digests`} style="color:var(--accent); text-decoration:none;" data-i18n="digest.weeklyDigests">Weekly Digests</a>
-    <span style="color:var(--text-muted); margin:0 var(--sp-2);">/</span>
-    <span style="color:var(--text-secondary);">{crumbs}</span>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={`${base}digests`} data-i18n="digest.weeklyDigests">Weekly Digests</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{crumbs}</span>
   </nav>
 
   {html ? (

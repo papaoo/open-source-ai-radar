@@ -24,10 +24,18 @@ const endpoints = [
 ---
 
 <Layout title="API" description="REST API for Open Source AI Radar data.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent" data-i18n="api.accent">API</span> <span data-i18n="api.suffix">Documentation</span></h1>
-    <p data-i18n="api.subtitle">Access all radar data via public JSON endpoints</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="api.accent">API</div>
+      <h1 class="page-head__title"><span class="accent" data-i18n="api.accent">API</span> <span data-i18n="api.suffix">Documentation</span></h1>
+      <p class="page-head__sub" data-i18n="api.subtitle">Access all radar data via public JSON endpoints</p>
+    </div>
+    <div class="page-head__aside">
+      <div class="meta-chips">
+        <span class="meta-chip"><b>{endpoints.length}</b> endpoints</span>
+      </div>
+    </div>
+  </div>
 
   <section class="section">
     <div class="card" style="padding:var(--sp-6);">
@@ -51,9 +59,9 @@ const endpoints = [
     </div>
     <div class="card" style="padding:var(--sp-6);">
       <h3 style="font-size:var(--text-sm); font-weight:600; margin-bottom:var(--sp-2);" data-i18n="api.availableBadges">Available badges</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th data-i18n="api.badgeCol">Badge</th><th data-i18n="api.badgeShows">Shows</th></tr></thead>
+    <div class="dtable-wrap">
+      <table class="dtable">
+        <thead><tr><th data-i18n="api.badgeCol">Badge</th><th data-i18n="api.badgeShows">Shows</th></tr></thead>
           <tbody>
             <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">score.svg</code></td><td style="color:var(--text-secondary);" data-i18n="api.badgeScoreDesc">Live radar score, colored by tier</td></tr>
             <tr><td><code style="font-family:var(--font-mono); font-size:var(--text-xs);">velocity.svg</code></td><td style="color:var(--text-secondary);" data-i18n="api.badgeVelocityDesc">7-day star velocity</td></tr>
@@ -67,8 +75,8 @@ const endpoints = [
 
   <section class="section">
     <div class="section-head"><h2 data-i18n="api.endpoints">Endpoints</h2></div>
-    <div class="table-wrap">
-      <table>
+    <div class="dtable-wrap">
+      <table class="dtable">
         <thead>
           <tr>
             <th data-i18n="api.colMethod">Method</th>

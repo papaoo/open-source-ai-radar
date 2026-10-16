@@ -9,7 +9,7 @@ interface Props {
 
 const {
   title,
-  description = "Discover what is becoming important before everyone else does. Track 0+ AI open-source projects with velocity scoring, anomaly detection, and breakout predictions.",
+  description = "Discover what is becoming important before everyone else does. Track 9,000+ AI open-source projects with velocity scoring, anomaly detection, and breakout predictions.",
   canonical,
   jsonLd,
   ogImage,
@@ -53,6 +53,8 @@ const navItems = [
     <link rel="stylesheet" href={`${base}styles/tokens.css`} />
     <link rel="stylesheet" href={`${base}styles/base.css`} />
     <link rel="stylesheet" href={`${base}styles/components.css`} />
+    <link rel="stylesheet" href={`${base}styles/terminal.css`} />
+    <link rel="stylesheet" href={`${base}styles/viz.css`} />
     <script is:inline>
       // Pre-paint: apply saved language + theme before CSS/first frame to avoid flash.
       (function () {
@@ -90,6 +92,14 @@ const navItems = [
     )}
   
     <style is:global>
+      /* Skip link: hidden until keyboard focus. */
+      .skip-link {
+        position: fixed; left: var(--sp-4); top: -64px; z-index: 300;
+        padding: var(--sp-2) var(--sp-4); border-radius: var(--radius);
+        background: var(--accent); color: #fff; font-size: var(--text-sm); font-weight: 600;
+        transition: top var(--transition-fast);
+      }
+      .skip-link:focus { top: var(--sp-4); }
       /* Avatar fallback - shows initials when image fails */
       .avatar-fallback {
         width: 32px; height: 32px; border-radius: 50%;
@@ -101,6 +111,7 @@ const navItems = [
     </style>
   </head>
   <body>
+    <a href="#main" class="skip-link" data-i18n="a11n.skip">Skip to content</a>
     <nav class="nav" role="navigation" aria-label="Main">
       <div class="nav-inner">
         <a href={base} class="nav-logo" aria-label="Open Source AI Radar home">
@@ -129,6 +140,10 @@ const navItems = [
             </a>
           ))}
           <div class="nav-controls">
+            <button class="nav-btn nav-cmdk" type="button" data-cmdk-open aria-label="Search" title="Search (Ctrl+K)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:14px;height:14px;"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <kbd class="kbd">Ctrl K</kbd>
+            </button>
             <button class="nav-btn" id="langToggle" data-i18n="lang.toggle" data-i18n-aria="lang.aria" aria-label="Switch language">中文</button>
             <button class="nav-btn nav-btn-icon" id="themeToggle" data-i18n-aria="theme.toggle" aria-label="Toggle theme" title="Toggle theme">
               <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -143,7 +158,7 @@ const navItems = [
       </div>
     </nav>
 
-    <main class="page">
+    <main class="page" id="main">
       <div class="container">
         <slot />
       </div>
@@ -163,6 +178,9 @@ const navItems = [
 
     <script>
       import { applyI18n, getLang, toggleLang } from '../lib/i18n';
+      import { initCommandPalette } from '../lib/command-palette';
+
+      initCommandPalette();
 
       // Apply saved language on load (pre-paint script already set data-lang).
       applyI18n(document, getLang());

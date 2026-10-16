@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { loadRepoHistory } from '../../lib/history';
+import { sparkline } from '../../lib/viz';
 import { zhDesc } from '../../utils/zh';
 
 const base = import.meta.env.BASE_URL;
@@ -45,23 +46,6 @@ function fmtStars(n: number): string {
   return n.toString();
 }
 
-
-function sparkline(stars: number[]): string {
-  if (!stars || stars.length < 2) return '';
-  const w = 60, h = 20, pad = 2;
-  const min = Math.min(...stars), max = Math.max(...stars);
-  const range = max - min || 1;
-  const step = (w - pad * 2) / (stars.length - 1);
-  const pts = stars.map((v, i) => {
-    const x = pad + i * step;
-    const y = h - pad - ((v - min) / range) * (h - pad * 2);
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  });
-  const rising = stars[stars.length - 1] >= stars[0];
-  const color = rising ? 'var(--green)' : 'var(--red)';
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none" xmlns="http://www.w3.org/2000/svg"><polyline points="${pts.join(' ')}" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-}
-
 function repoUrl(name: string): string {
   const [owner, repo] = name.split('/');
   return `${base}project/${owner}/${repo}`;
@@ -82,35 +66,25 @@ function ownerInitials(fullName: string): string {
 ---
 
 <Layout title={`${category} — Open Source AI Radar`} description={`Top open-source AI projects in the ${category} category.`}>
-  <section class="hero-editorial" style="padding-bottom:var(--sp-6);">
-    <nav style="font-size:var(--text-sm); color:var(--text-muted); margin-bottom:var(--sp-4);">
-      <a href={`${base}categories`} style="color:var(--accent); text-decoration:none;" data-i18n="nav.categories">Categories</a>
-      <span style="margin:0 var(--sp-2);">/</span>
-      <span data-i18n-cat={category}>{category}</span>
-    </nav>
-    <h1 style="font-size:var(--text-2xl);" data-i18n-cat={category}>{category}</h1>
-    <p style="color:var(--text-muted); margin-top:var(--sp-2);">
-      <span data-i18n="category.projectsTracked" data-i18n-vars={JSON.stringify({ n: projects.length })}>{projects.length} projects tracked</span>
-      {catMeta?.trend && <span class={`badge badge-sm ${catMeta.trend === 'rising' ? 'badge-success' : catMeta.trend === 'declining' ? 'badge-warning' : 'badge-muted'}`} style="margin-left:var(--sp-2);" data-i18n={`trend.${catMeta.trend}`}>{catMeta.trend}</span>}
-    </p>
-  </section>
-
-  {catMeta && (
-    <div style="display:flex; gap:var(--sp-6); margin-bottom:var(--sp-8); flex-wrap:wrap;">
-      <div class="card" style="padding:var(--sp-4); min-width:120px;">
-        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.tracked">Tracked</div>
-        <div style="font-size:var(--text-xl); font-weight:700;">{catMeta.tracked}</div>
-      </div>
-      <div class="card" style="padding:var(--sp-4); min-width:120px;">
-        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.avgVelocity">Avg Velocity</div>
-        <div style="font-size:var(--text-xl); font-weight:700;">{catMeta.velocity?.toFixed(0) || '—'}</div>
-      </div>
-      <div class="card" style="padding:var(--sp-4); min-width:120px;">
-        <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.avgHealth">Avg Health</div>
-        <div style="font-size:var(--text-xl); font-weight:700;">{catMeta.health?.toFixed(0) || '—'}</div>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={`${base}categories`} data-i18n="nav.categories">Categories</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page" data-i18n-cat={category}>{category}</span>
+  </nav>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="nav.categories">Categories</div>
+      <h1 class="page-head__title" data-i18n-cat={category}>{category}</h1>
+      <p class="page-head__sub">
+        <span data-i18n="category.projectsTracked" data-i18n-vars={JSON.stringify({ n: projects.length })}>{projects.length} projects tracked</span>
+      </p>
+      <div class="meta-chips">
+        {catMeta?.trend && <span class={`meta-chip ${(catMeta.trend === 'rising') ? 'badge-success' : (catMeta.trend === 'declining') ? 'badge-warning' : 'badge-muted'}`} data-i18n={`trend.${catMeta.trend}`}>{catMeta.trend}</span>}
+        {catMeta && <span class="meta-chip"><b>{catMeta.velocity?.toFixed(0) || '—'}</b> <span data-i18n="categories.avgVelocity">Avg Velocity</span></span>}
+        {catMeta && <span class="meta-chip"><b>{catMeta.health?.toFixed(0) || '—'}</b> <span data-i18n="categories.avgHealth">Avg Health</span></span>}
       </div>
     </div>
-  )}
+  </div>
 
   <div style="display:flex; flex-direction:column; gap:var(--sp-3);">
     {projects.map((p: any, i: number) => {

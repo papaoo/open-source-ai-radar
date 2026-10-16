@@ -3,17 +3,20 @@ import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { zhDesc } from '../utils/zh';
+import { loadRepoHistory } from '../lib/history';
+import { sparkline, deltaChip, bars, heatColor, norm } from '../lib/viz';
 
 const base = import.meta.env.BASE_URL;
 
-let stats = { total_repos: 0, total_stars: 0, top_languages: {} as Record<string, number> };
+let stats = { total_repos: 0, total_stars: 0, top_languages: {} as Record<string, number>, generated_at: "" };
 let topRepos: any[] = [];
 let trends: any = {};
 let breakouts = { candidates: [] as any[] };
 let opps: any = { candidates: [] };
+const repoHistory = loadRepoHistory();
 
 try { stats = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'stats.json'), 'utf-8')); } catch {}
-try { topRepos = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'top.json'), 'utf-8')).repos?.slice(0, 50) || []; } catch {}
+try { topRepos = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'top.json'), 'utf-8')).repos?.slice(0, 60) || []; } catch {}
 try { trends = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'trends.json'), 'utf-8')); } catch {}
 try { breakouts = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'breakouts.json'), 'utf-8')); } catch {}
 try { opps = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'opportunities.json'), 'utf-8')); } catch {}
@@ -22,27 +25,16 @@ const catIntelligence = (() => {
   try { return JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'category-intelligence.json'), 'utf-8')); } catch { return { categories: [] as any[] }; }
 })();
 
-const avatarByRepo = (() => {
-  try {
-    const idx = JSON.parse(readFileSync(join(process.cwd(), '..', 'data', 'exports', 'projects-index.json'), 'utf-8'));
-    const map: Record<string, string> = {};
-    for (const p of idx.projects || []) if (p.full_name && p.owner_avatar) map[p.full_name] = p.owner_avatar;
-    return map;
-  } catch { return {} as Record<string, string>; }
-})();
-
 function fmt(n: number): string {
   if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
   if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
-  return n.toString();
+  return (n || 0).toString();
 }
-
 function scoreClass(s: number): string {
   if (s >= 75) return 'score-high';
   if (s >= 50) return 'score-mid';
   return 'score-low';
 }
-
 function momentumState(velocity: number, accel: number): string {
   if (accel >= 2.0 && velocity >= 60) return 'breakout';
   if (accel >= 1.5 && velocity >= 50) return 'accelerating';
@@ -50,12 +42,10 @@ function momentumState(velocity: number, accel: number): string {
   if (velocity >= 20) return 'stable';
   return 'declining';
 }
-
 function momentumLabel(state: string): string {
   const labels: Record<string, string> = { breakout: 'Breakout', accelerating: 'Accelerating', rising: 'Rising', stable: 'Stable', declining: 'Declining' };
   return labels[state] || '—';
 }
-
 function momentumIcon(state: string): string {
   const icons: Record<string, string> = {
     breakout: '<svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 14l4-4 3 3 7-7"/></svg>',
@@ -66,19 +56,52 @@ function momentumIcon(state: string): string {
   };
   return icons[state] || '';
 }
-
 function repoUrl(name: string): string {
   const [owner, repo] = name.split('/');
   return `${base}project/${owner}/${repo}`;
 }
-
 function ownerInitials(fullName: string): string {
   const owner = fullName.split('/')[0] || '?';
   return owner.replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?';
 }
+function esc(s: string): string {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Momentum ticker — merge rising + breakout + opportunity movers, dedup by name.
+const tickerSeen = new Set<string>();
+const tickerMovers: any[] = [];
+for (const r of [...(trends.top_rising || []), ...(breakouts.candidates || []), ...(opps.candidates || [])]) {
+  const name = r.repo_full_name || r.full_name;
+  if (!name || tickerSeen.has(name)) continue;
+  tickerSeen.add(name);
+  tickerMovers.push({
+    name,
+    short: name.split('/')[1] || name,
+    score: r.radar_score ?? r.opportunity_score ?? r.breakout_score ?? 0,
+    state: momentumState(r.velocity || 0, r.star_growth_acceleration || 1),
+  });
+}
+const tickerHtml = tickerMovers.slice(0, 18).map((m) =>
+  `<span class="ticker__item"><span class="momentum-dot momentum-${m.state}" style="width:7px;height:7px;border-radius:50%;background:var(--${m.state === 'declining' ? 'red' : m.state === 'stable' ? 'text-muted' : 'green'})"></span><b>${esc(m.short)}</b><span>${Number(m.score).toFixed(0)}</span></span>`
+).join('');
+
+// Top movers table (by radar score, with history sparkline).
+const langItems = Object.entries(stats.top_languages || {})
+  .filter(([k]) => k !== 'Unknown')
+  .slice(0, 8)
+  .map(([label, value]) => ({ label, value, display: fmt(value as number) }));
+
+const cats = (catIntelligence.categories || []).filter((c: any) => c.tracked > 0);
+const velMin = Math.min(...cats.map((c: any) => c.velocity || 0));
+const velMax = Math.max(...cats.map((c: any) => c.velocity || 0));
+
+const updated = (() => {
+  try { return new Date(stats.generated_at).toISOString().slice(0, 10); } catch { return ''; }
+})();
 ---
 
-<Layout title="Home" description="Discover what is becoming important in open-source AI. Velocity scoring, momentum tracking, breakout detection for 0+ projects." canonical={base}
+<Layout title="Home" description="Discover what is becoming important in open-source AI. Velocity scoring, momentum tracking, breakout detection for 9,000+ projects." canonical={base}
   jsonLd={{
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -87,15 +110,41 @@ function ownerInitials(fullName: string): string {
     "description": "Discover what is becoming important before everyone else does."
   }}>
 
-  <section class="hero-editorial hero-flex">
-    <div>
-      <h1><span data-i18n="home.titlePrefix">Discover</span> <span class="accent" data-i18n="home.titleAccent">momentum</span> <span data-i18n="home.titleSuffix">in open-source AI</span></h1>
-      <p data-i18n="home.subtitle">Track 0+ projects scored by impact, velocity, and health. Updated daily.</p>
+  <section class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="home.eyebrow">Open-source AI market</div>
+      <h1 class="page-head__title"><span data-i18n="home.titlePrefix">Discover</span> <span class="accent" data-i18n="home.titleAccent">momentum</span> <span data-i18n="home.titleSuffix">in open-source AI</span></h1>
+      <p class="page-head__sub" data-i18n="home.subtitle">Track 9,000+ projects scored by impact, velocity, and health. Updated daily.</p>
+      <div class="meta-chips">
+        <span class="meta-chip"><span class="dot"></span><span data-i18n="stat.projects">Projects</span> <b>{fmt(stats.total_repos || 0)}</b></span>
+        <span class="meta-chip"><span data-i18n="stat.stars">Stars</span> <b>{fmt(stats.total_stars || 0)}</b></span>
+        {updated && <span class="meta-chip"><span data-i18n="table.updated">Updated</span> <b>{updated}</b></span>}
+      </div>
     </div>
-    <div class="hero-radar" aria-hidden="true"></div>
+    <div class="page-head__aside">
+      <a class="nav-btn" href={`${base}opportunities`} data-i18n="nav.opportunities">Opportunities</a>
+      <a class="nav-btn" href={`${base}top`} data-i18n="section.fullRankings">Full rankings</a>
+    </div>
   </section>
 
-  <div class="stat-grid" style="margin-bottom: var(--sp-12);">
+  {tickerHtml && (
+    <div class="ticker" aria-hidden="true" style="margin-bottom:var(--sp-8);">
+      <span class="ticker__label" data-i18n="section.topMovers">Top movers</span>
+      <div class="ticker__viewport">
+        <div class="ticker__track">
+          <Fragment set:html={tickerHtml} />
+          <Fragment set:html={tickerHtml} />
+        </div>
+      </div>
+    </div>
+  )}
+
+  <section class="section" id="pinned" hidden>
+    <div class="section-head"><h2 data-i18n="pinned.title">Pinned projects</h2></div>
+    <div id="pinnedGrid" class="grid-auto"></div>
+  </section>
+
+  <div class="stat-grid" style="margin-bottom:var(--sp-12);">
     <div class="stat-card">
       <div class="stat-value">{fmt(stats.total_repos || 0)}</div>
       <div class="stat-label" data-i18n="stat.projects">Projects Tracked</div>
@@ -109,149 +158,153 @@ function ownerInitials(fullName: string): string {
       <div class="stat-label" data-i18n="stat.languages">Languages</div>
     </div>
     <div class="stat-card">
-      <div class="stat-value">{catIntelligence.categories?.length || 0}</div>
+      <div class="stat-value">{cats.length}</div>
       <div class="stat-label" data-i18n="stat.categories">AI Categories</div>
     </div>
   </div>
 
-  {breakouts.candidates && breakouts.candidates.length > 0 && (
-    <section class="section">
-      <div class="section-head">
-        <h2 data-i18n="section.breakouts">Breakout Candidates</h2>
-        <a href={`${base}breakouts`} data-i18n="section.viewAll">View all</a>
-      </div>
-      <div class="grid-3">
-        {breakouts.candidates.slice(0, 3).map((r: any, i: number) => (
-          <a href={repoUrl(r.repo_full_name)} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
-            <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-3);">
-              <span style="font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted);">#{i + 1}</span>
-              <span style="font-weight:600; font-size:var(--text-sm);">{r.repo_full_name}</span>
-            </div>
-            <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-2);">
-              <span class={`score-pill ${scoreClass(r.breakout_score)}`}>{r.breakout_score}</span>
-              <span class="momentum momentum-breakout" data-i18n="momentum.breakout">Breakout</span>
-            </div>
-            <div style="display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-              <span>{fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span></span>
-              <span>{r.velocity} <span data-i18n="label.vel">vel</span></span>
-              <span>{r.star_growth_acceleration}x <span data-i18n="label.accel">accel</span></span>
-            </div>
-          </a>
-        ))}
-      </div>
-    </section>
-  )}
-
-  {opps.candidates && opps.candidates.length > 0 && (
-    <section class="section">
-      <div class="section-head">
-        <h2 data-i18n="section.opportunities">Latest Opportunities</h2>
-        <a href={`${base}opportunities`} data-i18n="section.allOpportunities">All opportunities</a>
-      </div>
-      <div class="grid-3">
-        {opps.candidates.slice(0, 3).map((r: any, i: number) => (
-          <a href={repoUrl(r.repo_full_name)} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
-            <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-3);">
-              <span style="font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted);">#{i + 1}</span>
-              <span style="font-weight:600; font-size:var(--text-sm); min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{r.repo_full_name}</span>
-            </div>
-            <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-2); flex-wrap:wrap;">
-              <span class={`score-pill ${scoreClass(r.opportunity_score)}`}>{r.opportunity_score}</span>
-              <span class="badge" data-i18n={`tier.${r.tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[r.tier] || r.tier}</span>
-            </div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);">
-              <span data-i18n-cat={r.category || 'Uncategorized'}>{r.category || 'Uncategorized'}</span>
-            </div>
-            <div style="display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-              <span>{fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span></span>
-              <span>{r.star_growth_acceleration}x <span data-i18n="label.accel">accel</span></span>
-              <span>+{r.contributors_7d ?? 0} <span data-i18n="opp.contributors7d">New contributors / 7d</span></span>
-            </div>
-          </a>
-        ))}
-      </div>
-    </section>
-  )}
-
-  {catIntelligence.categories && catIntelligence.categories.length > 0 && (
-    <section class="section">
-      <div class="section-head">
-        <h2 data-i18n="section.categories">AI Categories</h2>
-        <a href={`${base}categories`} data-i18n="section.explore">Explore</a>
-      </div>
-      <div class="grid-4">
-        {catIntelligence.categories.slice(0, 8).map((cat: any) => (
-          <div class="card" style="padding:var(--sp-5);">
-            <div style="font-weight:600; font-size:var(--text-sm); margin-bottom:var(--sp-1);" data-i18n-cat={cat.category}>{cat.category}</div>
-            <div style="font-size:var(--text-xs); color:var(--text-secondary);"><span data-i18n="unit.nProjects" data-i18n-vars={JSON.stringify({ n: cat.tracked })}>{cat.tracked} projects</span></div>
-            {cat.trend && <div style={`font-size:var(--text-xs); color:${cat.trend === 'stable' ? 'var(--text-secondary)' : cat.trend === 'declining' ? 'var(--red)' : 'var(--green)'}; margin-top:var(--sp-2);`} data-i18n={`trend.${cat.trend}`}>{cat.trend}</div>}
-          </div>
-        ))}
-      </div>
-    </section>
-  )}
-
   <section class="section">
-    <div class="section-head">
-      <h2 data-i18n="section.topRanked">Top Ranked</h2>
-      <a href={`${base}top`} data-i18n="section.fullRankings">Full rankings</a>
-    </div>
-    <div>
-      {topRepos.slice(0, 20).map((r: any, i: number) => {
-        const state = momentumState(r.velocity || 0, r.star_growth_acceleration || 1);
-        return (
-          <a href={repoUrl(r.full_name)} class="project-row">
-            <span class="project-rank">{i + 1}</span>
-            {r.owner_avatar
-              ? <img src={r.owner_avatar} alt="" class="project-avatar" width="32" height="32" loading="lazy" data-owner={r.full_name} referrerpolicy="no-referrer" />
-              : <div class="avatar-slot avatar-fallback">{ownerInitials(r.full_name)}</div>}
-            <div class="project-info">
-              <div class="project-name">{r.full_name}</div>
-              {r.description && <div class="project-desc" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
-            </div>
-            <span class="project-stars">{fmt(r.stars || 0)}</span>
-            <span class={`score-pill ${scoreClass(r.radar_score)}`}>{r.radar_score?.toFixed(1)}</span>
-            <span class={`momentum momentum-${state}`}>
-              <Fragment set:html={momentumIcon(state)} />
-              <span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span>
-            </span>
-          </a>
-        );
-      })}
+    <div class="panel">
+      <div class="panel__head">
+        <span class="panel__title"><Fragment set:html={'<svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 14l4-4 3 3 7-7"/></svg>'} /> <span data-i18n="section.topMovers">Top movers</span></span>
+        <a href={`${base}top`} class="panel__actions" data-i18n="section.fullRankings">Full rankings</a>
+      </div>
+      <div class="panel__body panel__body--flush">
+        <div class="dtable-wrap" style="border:none;border-radius:0;">
+          <table class="dtable">
+            <thead>
+              <tr>
+                <th data-i18n="table.rank">#</th>
+                <th data-i18n="table.project">Project</th>
+                <th data-i18n="table.trend">Trend</th>
+                <th class="num" data-i18n="table.stars">Stars</th>
+                <th class="num" data-i18n="table.score">Score</th>
+                <th data-i18n="table.momentum">Momentum</th>
+              </tr>
+            </thead>
+            <tbody>
+              {topRepos.slice(0, 12).map((r: any, i: number) => {
+                const state = momentumState(r.velocity || 0, r.star_growth_acceleration || 1);
+                return (
+                  <tr>
+                    <td style="font-family:var(--font-mono);color:var(--text-muted);">{i + 1}</td>
+                    <td>
+                      <div class="cell-name">
+                        {r.owner_avatar
+                          ? <img src={r.owner_avatar} alt="" class="project-avatar" width="24" height="24" loading="lazy" data-owner={r.full_name} referrerpolicy="no-referrer" />
+                          : <div class="avatar-slot avatar-fallback">{ownerInitials(r.full_name)}</div>}
+                        <a href={repoUrl(r.full_name)}>{r.full_name}</a>
+                      </div>
+                      {r.description && <div class="row-desc" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
+                    </td>
+                    <td><span class="spark-cell" set:html={sparkline(repoHistory[r.full_name] || [])} /></td>
+                    <td class="num">{fmt(r.stars || 0)}</td>
+                    <td class="num"><span class={`score-pill ${scoreClass(r.radar_score)}`}>{r.radar_score?.toFixed(1)}</span></td>
+                    <td><span class={`momentum momentum-${state}`}><Fragment set:html={momentumIcon(state)} /><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </section>
 
-  {trends.top_rising && trends.top_rising.length > 0 && (
+  <div class="grid-2" style="margin-bottom:var(--sp-12);">
+    {breakouts.candidates && breakouts.candidates.length > 0 && (
+      <section class="panel">
+        <div class="panel__head">
+          <span class="panel__title" data-i18n="section.breakouts">Breakout Candidates</span>
+          <a href={`${base}breakouts`} data-i18n="section.viewAll">View all</a>
+        </div>
+        <div class="panel__body">
+          {breakouts.candidates.slice(0, 4).map((r: any, i: number) => (
+            <a href={repoUrl(r.repo_full_name)} class="heat-cell" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--sp-2);text-decoration:none;color:inherit;">
+              <span style="display:flex;align-items:center;gap:var(--sp-3);min-width:0;">
+                <span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--text-muted);">#{i + 1}</span>
+                <span class="heat-cell__name" style="margin:0;">{r.repo_full_name.split('/')[1]}</span>
+              </span>
+              <span style="display:flex;align-items:center;gap:var(--sp-3);">
+                <Fragment set:html={deltaChip(r.star_growth_acceleration ? Number(r.star_growth_acceleration) : null, { suffix: 'x', label: '' })} />
+                <span class={`score-pill ${scoreClass(r.breakout_score)}`}>{r.breakout_score?.toFixed(0)}</span>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {opps.candidates && opps.candidates.length > 0 && (
+      <section class="panel">
+        <div class="panel__head">
+          <span class="panel__title" data-i18n="section.opportunities">Latest Opportunities</span>
+          <a href={`${base}opportunities`} data-i18n="section.allOpportunities">All opportunities</a>
+        </div>
+        <div class="panel__body">
+          {opps.candidates.slice(0, 4).map((r: any, i: number) => (
+            <a href={repoUrl(r.repo_full_name)} class="heat-cell" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--sp-2);text-decoration:none;color:inherit;">
+              <span style="display:flex;align-items:center;gap:var(--sp-3);min-width:0;">
+                <span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--text-muted);">#{i + 1}</span>
+                <span class="heat-cell__name" style="margin:0;">{r.repo_full_name.split('/')[1]}</span>
+                <span class="badge" data-i18n={`tier.${r.tier}`}>{({ blue_ocean: 'Blue Ocean', high_potential: 'High Potential', watch: 'Watch' } as any)[r.tier] || r.tier}</span>
+              </span>
+              <span class={`score-pill ${scoreClass(r.opportunity_score)}`}>{r.opportunity_score?.toFixed(0)}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+
+  {cats.length > 0 && (
     <section class="section">
       <div class="section-head">
-        <h2 data-i18n="section.risingFast">Rising Fast</h2>
-        <a href={`${base}trending`} data-i18n="section.allTrending">All trending</a>
+        <h2 data-i18n="section.categoryMomentum">Category momentum</h2>
+        <a href={`${base}categories`} data-i18n="section.explore">Explore</a>
       </div>
-      <div class="grid-auto">
-        {trends.top_rising.slice(0, 6).map((r: any) => {
-          const state = momentumState(r.velocity || 0, r.star_growth_acceleration || 1);
-          return (
-            <a href={repoUrl(r.repo_full_name)} class="card card-link" style="padding:var(--sp-5); text-decoration:none; color:inherit;">
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:var(--sp-2); gap:var(--sp-2);">
-                <span style="display:flex; align-items:center; gap:var(--sp-3); min-width:0;">
-                  {avatarByRepo[r.repo_full_name]
-                    ? <img src={avatarByRepo[r.repo_full_name]} alt="" width="28" height="28" style="width:28px; height:28px; border-radius:50%; object-fit:cover; flex-shrink:0;" loading="lazy" data-owner={r.repo_full_name} referrerpolicy="no-referrer" />
-                    : <span class="avatar-fallback" style="width:28px; height:28px; font-size:11px;">{ownerInitials(r.repo_full_name)}</span>}
-                  <span style="font-weight:600; font-size:var(--text-sm); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{r.repo_full_name.split('/')[1]}</span>
-                </span>
-                <span class={`momentum momentum-${state}`} data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span>
-              </div>
-              <div style="font-size:var(--text-xs); color:var(--text-muted);">
-                <span data-i18n-cat={r.category || 'Uncategorized'}>{r.category || 'Uncategorized'}</span> · {fmt(r.stars || 0)} <span data-i18n="unit.stars">stars</span>
-              </div>
-              <div style="margin-top:var(--sp-3); display:flex; gap:var(--sp-4); font-size:var(--text-xs); color:var(--text-secondary);">
-                <span><span data-i18n="label.velocity">Velocity</span>: {r.velocity?.toFixed(0)}</span>
-                <span><span data-i18n="label.score">Score</span>: {r.radar_score?.toFixed(1)}</span>
-              </div>
-            </a>
-          );
-        })}
+      <div class="heat-grid">
+        {cats.map((cat: any) => (
+          <a href={`${base}category/${cat.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} class="heat-cell" style="text-decoration:none;color:inherit;">
+            <span class="heat-cell__bar" style={`background:${heatColor(norm(cat.velocity || 0, velMin, velMax), 0.95)};`}></span>
+            <div class="heat-cell__name" data-i18n-cat={cat.category}>{cat.category}</div>
+            <div class="heat-cell__meta">
+              <span data-i18n="opp.tracked">Tracked</span>
+              <span class="heat-cell__value">{fmt(cat.tracked)}</span>
+            </div>
+            <div class="heat-cell__meta" style="margin-top:var(--sp-1);">
+              <span data-i18n="label.velocity">Velocity</span>
+              <span class="heat-cell__value">{(cat.velocity || 0).toFixed(0)}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {langItems.length > 0 && (
+    <section class="section">
+      <div class="panel">
+        <div class="panel__head"><span class="panel__title" data-i18n="section.languageDist">Language distribution</span></div>
+        <div class="panel__body">
+          <Fragment set:html={bars(langItems)} />
+        </div>
       </div>
     </section>
   )}
 </Layout>
+
+<script>
+  import { renderPinnedGrid, subscribePins } from '../lib/watchlist';
+  import { applyI18n, getLang } from '../lib/i18n';
+
+  const base = import.meta.env.BASE_URL;
+  function refreshPinned() {
+    renderPinnedGrid('#pinned', '#pinnedGrid', base);
+    const sec = document.querySelector('#pinned');
+    if (sec) applyI18n(sec, getLang());
+  }
+  refreshPinned();
+  subscribePins(refreshPinned);
+  document.addEventListener('radar:lang', refreshPinned);
+</script>

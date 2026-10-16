@@ -4,6 +4,7 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 import { loadRepoHistory } from '../lib/history';
 import { zhDesc } from '../utils/zh';
+import { sparkline } from '../lib/viz';
 
 const base = import.meta.env.BASE_URL;
 let repos: any[] = [];
@@ -16,7 +17,7 @@ try {
 function fmt(n: number): string {
   if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
   if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
-  return n.toString();
+  return (n || 0).toString();
 }
 function scoreClass(s: number): string {
   if (s >= 75) return 'score-high';
@@ -41,148 +42,228 @@ function momentumIcon(s: string): string {
   };
   return icons[s] || '';
 }
-
-function sparkline(stars: number[]): string {
-  if (!stars || stars.length < 2) return '';
-  const w = 60, h = 20, pad = 2;
-  const min = Math.min(...stars), max = Math.max(...stars);
-  const range = max - min || 1;
-  const step = (w - pad * 2) / (stars.length - 1);
-  const pts = stars.map((v, i) => {
-    const x = pad + i * step;
-    const y = h - pad - ((v - min) / range) * (h - pad * 2);
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  });
-  const rising = stars[stars.length - 1] >= stars[0];
-  const color = rising ? 'var(--green)' : 'var(--red)';
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none" xmlns="http://www.w3.org/2000/svg"><polyline points="${pts.join(' ')}" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-}
-
 function repoUrl(r: any): string {
   const name = r.full_name || r.repo_full_name || '';
   const [owner, repo] = name.split('/');
   return `${base}project/${owner}/${repo}`;
 }
+function sparkCell(values: number[]): string {
+  const svg = sparkline(values);
+  if (!svg) return '<span style="color:var(--text-muted);">—</span>';
+  const clean = values.filter((v) => Number.isFinite(v));
+  const tip = `<span class="spark-tip">${fmt(clean[0])} → ${fmt(clean[clean.length - 1])}</span>`;
+  return `<span class="spark-cell">${svg}${tip}</span>`;
+}
+const sortIco = '<svg class="sort-ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4v8M5 7l3-3 3 3"/></svg>';
+const pinIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17v5"/><path d="M9 10.8V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6.8"/><path d="M5 10h14l-1.5 4h-3.5v3h-4v-3H6.5L5 10z"/></svg>';
 ---
 
-<Layout title="Rankings" description="Full rankings of {repos.length} AI open-source projects by momentum score.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span data-i18n="rankings.titlePrefix">Project</span> <span class="accent" data-i18n="rankings.titleAccent">Rankings</span></h1>
-    <p id="rankSubtitle" data-n={repos.length}>All {repos.length} tracked projects ranked by radar score</p>
-  </section>
+<Layout title="Rankings" description={`Full rankings of ${repos.length} AI open-source projects by momentum score.`}>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="home.eyebrow">Open-source AI market</div>
+      <h1 class="page-head__title"><span data-i18n="rankings.titlePrefix">Project</span> <span class="accent" data-i18n="rankings.titleAccent">Rankings</span></h1>
+      <p class="page-head__sub" id="rankSubtitle" data-n={repos.length} data-i18n="rankings.subtitle">{`${repos.length} tracked projects ranked by radar score`}</p>
+    </div>
+  </div>
 
-  <div class="section">
+  <div class="toolbar">
     <div class="search-box" id="searchBox">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
       <input type="text" id="searchInput" data-i18n-placeholder="search.placeholder" placeholder="Search projects..." aria-label="Search projects" />
     </div>
-
-    <div class="filters" id="filters">
+    <div class="filters" id="filters" style="margin-top:0;">
       <button class="filter-pill active" data-filter="all" data-i18n="filter.all">All</button>
       <button class="filter-pill" data-filter="accelerating" data-i18n="momentum.accelerating">Accelerating</button>
       <button class="filter-pill" data-filter="rising" data-i18n="momentum.rising">Rising</button>
       <button class="filter-pill" data-filter="stable" data-i18n="momentum.stable">Stable</button>
       <button class="filter-pill" data-filter="declining" data-i18n="momentum.declining">Declining</button>
+      <button class="filter-pill" data-filter="pinned" data-i18n="pin.only">Pinned</button>
     </div>
+    <div class="toolbar__spacer"></div>
+    <span id="resultCount" data-total={repos.length} style="font-size:var(--text-xs); color:var(--text-muted);">Showing all {repos.length} projects</span>
+    <span style="font-size:var(--text-xs); color:var(--text-muted); display:flex;align-items:center;gap:6px;"><kbd class="kbd">/</kbd><span>search</span></span>
+  </div>
 
-    <div id="resultCount" data-total={repos.length} style="font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--sp-3);">Showing all {repos.length.toString()} projects</div>
-
-    <div style="margin-top:var(--sp-4);">
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th data-i18n="table.rank">#</th>
-              <th data-i18n="table.project">Project</th>
-              <th data-i18n="table.language">Language</th>
-              <th class="num" data-i18n="table.stars">Stars</th>
-              <th class="num" data-i18n="table.score">Score</th>
-              <th data-i18n="table.trend">Trend</th>
-              <th class="num" data-i18n="table.velocity">Velocity</th>
-              <th data-i18n="table.momentum">Momentum</th>
+  <div class="dtable-wrap">
+    <table class="dtable" id="repoTable">
+      <thead>
+        <tr>
+          <th style="width:48px;" data-i18n="table.rank">#</th>
+          <th data-i18n="table.project">Project</th>
+          <th data-i18n="table.category">Category</th>
+          <th data-i18n="table.language">Language</th>
+          <th class="sortable num" aria-sort="none" data-key="stars"><button class="sort-btn" type="button" style="justify-content:flex-end;" data-i18n="table.stars">Stars</button></th>
+          <th class="sortable num" aria-sort="none" data-key="score"><button class="sort-btn" type="button" style="justify-content:flex-end;"><span data-i18n="table.score">Score</span>{''}<Fragment set:html={sortIco} /></button></th>
+          <th data-i18n="table.trend">Trend</th>
+          <th class="sortable num" aria-sort="none" data-key="velocity"><button class="sort-btn" type="button" style="justify-content:flex-end;"><span data-i18n="table.velocity">Velocity</span><Fragment set:html={sortIco} /></button></th>
+          <th data-i18n="table.momentum">Momentum</th>
+          <th style="width:44px;" aria-label="Actions"></th>
+        </tr>
+      </thead>
+      <tbody>
+        {repos.map((r: any, i: number) => {
+          const state = momentumState(r.velocity || 0);
+          const name = r.full_name || r.repo_full_name || '';
+          return (
+            <tr class="repo-row" data-name={name.toLowerCase()} data-momentum={state} data-stars={r.stars || 0} data-score={r.radar_score || 0} data-velocity={r.velocity || 0} data-pinned="false">
+              <td class="rank-cell" style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--text-muted);">{i + 1}</td>
+              <td>
+                <div class="cell-name">
+                  {r.owner_avatar
+                    ? <img src={r.owner_avatar} alt="" width="24" height="24" style="width:24px;height:24px;border-radius:50%;object-fit:cover;flex-shrink:0;" loading="lazy" data-owner={name} referrerpolicy="no-referrer" />
+                    : <span class="avatar-fallback" style="width:24px;height:24px;font-size:10px;">{(name.split('/')[0] || '?').replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?'}</span>}
+                  <a href={repoUrl(r)}>{name}</a>
+                </div>
+                {r.description && <div class="row-desc" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
+              </td>
+              <td>{r.category ? <span class="badge" data-i18n-cat={r.category}>{r.category}</span> : <span style="color:var(--text-muted);">—</span>}</td>
+              <td>{r.language ? <span class="badge">{r.language}</span> : <span style="color:var(--text-muted);">—</span>}</td>
+              <td class="num">{fmt(r.stars || 0)}</td>
+              <td class="num"><span class={`score-pill ${scoreClass(r.radar_score)}`}>{r.radar_score?.toFixed(1)}</span></td>
+              <td><Fragment set:html={sparkCell(repoHistory[name] || [])} /></td>
+              <td class="num">{r.velocity?.toFixed(0)}</td>
+              <td><span class={`momentum momentum-${state}`}><Fragment set:html={momentumIcon(state)} /><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span></td>
+              <td>
+                <div class="row-actions">
+                  <button class="icon-btn pin-btn" type="button" data-full-name={name} aria-label="Pin project" title="Pin"><Fragment set:html={pinIco} /></button>
+                </div>
+              </td>
             </tr>
-          </thead>
-          <tbody id="repoTable">
-            {repos.map((r: any, i: number) => {
-              const state = momentumState(r.velocity || 0);
-              const name = r.full_name || r.repo_full_name || '';
-              return (
-                <tr class="repo-row" data-search={`${name} ${r.description || ''} ${r.language || ''} ${r.category || ''}`.toLowerCase()} data-momentum={state}>
-                  <td style="font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted);">{i + 1}</td>
-                  <td>
-                    <a href={repoUrl(r)} style="display:flex; align-items:center; gap:var(--sp-3); font-weight:600; color:var(--text); text-decoration:none;">
-                      {r.owner_avatar
-                        ? <img src={r.owner_avatar} alt="" width="24" height="24" style="width:24px; height:24px; border-radius:50%; object-fit:cover; flex-shrink:0;" loading="lazy" data-owner={name} referrerpolicy="no-referrer" />
-                        : <span class="avatar-fallback" style="width:24px; height:24px; font-size:10px;">{(name.split('/')[0] || '?').replace(/[^a-zA-Z0-9]/g, '').substring(0, 2).toUpperCase() || '?'}</span>}
-                      <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{name}</span>
-                    </a>
-                    {r.description && <div style="font-size:var(--text-xs); color:var(--text-muted); margin-top:2px; max-width:400px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" data-desc-en={r.description} data-desc-zh={zhDesc(r.description)}>{r.description}</div>}
-                  </td>
-                  <td>{r.language && <span class="badge">{r.language}</span>}</td>
-                  <td class="num">{fmt(r.stars || 0)}</td>
-                  <td class="num"><span class={`score-pill ${scoreClass(r.radar_score)}`}>{r.radar_score?.toFixed(1)}</span></td>
-                  <td><Fragment set:html={sparkline(repoHistory[name] || [])} /></td>
-                  <td class="num">{r.velocity?.toFixed(0)}</td>
-                  <td><span class={`momentum momentum-${state}`}><Fragment set:html={momentumIcon(state)} /><span data-i18n={`momentum.${state}`}>{momentumLabel(state)}</span></span></td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </div>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+
+  <div id="emptyState" class="empty-state" hidden style="margin-top:var(--sp-6);">
+    <div class="empty-state__title" data-i18n="empty.noMatch">No projects match your filters</div>
+    <div class="empty-state__hint" data-i18n="empty.noMatchHint">Try clearing the search box or selecting a different filter.</div>
   </div>
 </Layout>
 
 <script>
   import { getLang, tf } from '../lib/i18n';
+  import { getPins, wirePinButtons } from '../lib/watchlist';
 
+  const table = document.getElementById('repoTable') as HTMLTableElement;
+  const tbody = table?.tBodies[0];
+  const rows = Array.from(tbody ? tbody.querySelectorAll('.repo-row') : []) as HTMLTableRowElement[];
   const input = document.getElementById('searchInput') as HTMLInputElement;
-  const rows = document.querySelectorAll('.repo-row');
-  const pills = document.querySelectorAll('.filter-pill');
+  const pills = Array.from(document.querySelectorAll('.filter-pill')) as HTMLElement[];
   const countEl = document.getElementById('resultCount');
   const subtitle = document.getElementById('rankSubtitle');
+  const emptyEl = document.getElementById('emptyState');
+  const sortHeaders = Array.from(table?.querySelectorAll('th.sortable') || []) as HTMLTableCellElement[];
+
   let activeFilter = 'all';
-  let activeCount = 0;
+  let sortKey = '';
+  let sortDir: 'asc' | 'desc' = 'desc';
+
+  function readParams() {
+    const p = new URLSearchParams(location.search);
+    if (p.get('q')) { input.value = p.get('q')!; }
+    if (p.get('m')) {
+      const m = p.get('m')!;
+      const pill = pills.find((el) => el.dataset.filter === m);
+      if (pill) { pills.forEach((x) => x.classList.remove('active')); pill.classList.add('active'); activeFilter = m; }
+    }
+    if (p.get('sort')) { sortKey = p.get('sort')!; sortDir = (p.get('dir') as 'asc' | 'desc') || 'desc'; }
+  }
+
+  function syncParams() {
+    const p = new URLSearchParams();
+    if (input.value.trim()) p.set('q', input.value.trim());
+    if (activeFilter !== 'all') p.set('m', activeFilter);
+    if (sortKey) { p.set('sort', sortKey); p.set('dir', sortDir); }
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  function applySort() {
+    sortHeaders.forEach((th) => th.setAttribute('aria-sort', th.dataset.key === sortKey ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none'));
+    if (!sortKey || !tbody) return;
+    const sorted = [...rows].sort((a, b) => {
+      const av = Number(a.dataset[mapKey(sortKey)] || 0);
+      const bv = Number(b.dataset[mapKey(sortKey)] || 0);
+      return sortDir === 'asc' ? av - bv : bv - av;
+    });
+    sorted.forEach((r) => tbody.appendChild(r));
+  }
+  function mapKey(k: string): string {
+    return k === 'score' ? 'score' : k === 'stars' ? 'stars' : k === 'velocity' ? 'velocity' : k;
+  }
+
+  function applyFilter() {
+    const q = (input?.value || '').toLowerCase().trim();
+    const pins = new Set(getPins());
+    let visible = 0;
+    rows.forEach((r) => {
+      const name = r.dataset.name || '';
+      const text = name; // project names; category/desc covered by broader search below
+      const desc = (r.querySelector('.row-desc')?.textContent || '').toLowerCase();
+      const matchText = !q || text.includes(q) || desc.includes(q);
+      const momentum = r.dataset.momentum || '';
+      const matchFilter = activeFilter === 'all' ? true : activeFilter === 'pinned' ? pins.has(r.dataset.nameRaw || '') : momentum === activeFilter;
+      const show = matchText && matchFilter;
+      r.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    // renumber visible rows
+    let n = 0;
+    rows.forEach((r) => { if (r.style.display !== 'none') { const c = r.querySelector('.rank-cell'); if (c) c.textContent = String(++n); } });
+    if (countEl) {
+      const lang = getLang();
+      const total = Number(countEl.dataset.total || rows.length);
+      const isAll = activeFilter === 'all' && !q;
+      countEl.textContent = isAll ? tf('count.showingAll', lang, { n: total.toLocaleString() }) : tf('count.showingOf', lang, { shown: visible.toLocaleString(), total: total.toLocaleString() });
+    }
+    if (emptyEl) emptyEl.hidden = visible !== 0;
+    syncParams();
+  }
+
+  sortHeaders.forEach((th) => {
+    const btn = th.querySelector('.sort-btn');
+    btn?.addEventListener('click', () => {
+      const key = th.dataset.key!;
+      if (sortKey === key) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+      else { sortKey = key; sortDir = 'desc'; }
+      applySort();
+      applyFilter();
+    });
+  });
+
+  input?.addEventListener('input', applyFilter);
+  pills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      pills.forEach((p) => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeFilter = pill.dataset.filter || 'all';
+      applyFilter();
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== input && !/^(input|textarea)$/i.test((document.activeElement?.tagName) || '')) {
+      e.preventDefault(); input?.focus();
+    }
+  });
+
+  document.addEventListener('radar:pins', () => { if (activeFilter === 'pinned') applyFilter(); });
 
   function renderStatic() {
     const lang = getLang();
     if (subtitle) subtitle.textContent = tf('rankings.subtitle', lang, { n: Number(subtitle.dataset.n || 0).toLocaleString() });
   }
 
-  function applyFilter() {
-    const q = (input?.value || '').toLowerCase().trim();
-    activeCount = 0;
-    rows.forEach(row => {
-      const r = row as HTMLElement;
-      const text = r.dataset.search || '';
-      const momentum = r.dataset.momentum || '';
-      const matchText = !q || text.includes(q);
-      const matchFilter = activeFilter === 'all' || momentum === activeFilter;
-      const visible = matchText && matchFilter;
-      r.style.display = visible ? '' : 'none';
-      if (visible) activeCount++;
-    });
-    if (countEl) {
-      const lang = getLang();
-      const total = Number(countEl.dataset.total || rows.length);
-      const isAll = activeFilter === 'all' && !q;
-      countEl.textContent = isAll
-        ? tf('count.showingAll', lang, { n: total.toLocaleString() })
-        : tf('count.showingOf', lang, { shown: activeCount.toLocaleString(), total: total.toLocaleString() });
-    }
-  }
-
-  input?.addEventListener('input', applyFilter);
-  pills.forEach(pill => {
-    pill.addEventListener('click', () => {
-      pills.forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
-      activeFilter = (pill as HTMLElement).dataset.filter || 'all';
-      applyFilter();
-    });
-  });
-
   document.addEventListener('radar:lang', () => { renderStatic(); applyFilter(); });
+
+  // raw (case-preserved) names for pin matching; dataset.name is lower-cased
+  rows.forEach((r) => { r.dataset.nameRaw = r.querySelector('.cell-name a')?.textContent?.trim() || ''; });
+  wirePinButtons(document);
+
+  readParams();
+  applySort();
+  applyFilter();
   renderStatic();
 </script>

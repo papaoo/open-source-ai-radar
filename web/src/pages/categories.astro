@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { heatColor, norm } from '../lib/viz';
 
 const base = import.meta.env.BASE_URL;
 let intelligence: any = { categories: [] };
@@ -11,51 +12,42 @@ function catUrl(name: string): string {
   return `${base}category/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 }
 
-function repoUrl(name: string): string {
-  const [owner, repo] = name.split('/');
-  return `${base}project/${owner}/${repo}`;
-}
+const cats = (intelligence.categories || []).filter((c: any) => (c.tracked || 0) > 0);
+const velVals = cats.map((c: any) => c.velocity || 0);
+const vMin = Math.min(...velVals, 0);
+const vMax = Math.max(...velVals, 1);
+const trackedMax = Math.max(...cats.map((c: any) => c.tracked || 0), 1);
 ---
 
 <Layout title="Categories" description="AI open-source project categories with momentum intelligence.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span data-i18n="categories.prefix">AI</span> <span class="accent" data-i18n="categories.accent">Categories</span></h1>
-    <p data-i18n="categories.subtitle" data-i18n-vars={JSON.stringify({ n: intelligence.categories?.length || 0 })}>{intelligence.categories?.length || 0} categories tracked with momentum intelligence</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="categories.accent">Categories</div>
+      <h1 class="page-head__title"><span data-i18n="categories.prefix">AI</span> <span class="accent" data-i18n="categories.accent">Categories</span></h1>
+      <p class="page-head__sub" data-i18n="categories.subtitle" data-i18n-vars={JSON.stringify({ n: cats.length })}>{cats.length} categories tracked with momentum intelligence</p>
+    </div>
+  </div>
 
-  <div class="grid-2">
-    {(intelligence.categories || []).map((cat: any) => (
-      <div class="card" style="padding:var(--sp-6);">
-        <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom:var(--sp-4);">
-          <h2 style="font-size:var(--text-lg); font-weight:700;"><a href={catUrl(cat.category)} style="color:inherit; text-decoration:none;" data-i18n-cat={cat.category}>{cat.category}</a></h2>
-          {cat.trend && <span class="badge" data-i18n={`trend.${cat.trend}`}>{cat.trend}</span>}
-        </div>
-        <div style="display:flex; gap:var(--sp-6); margin-bottom:var(--sp-4);">
-          <div>
-            <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.tracked">Tracked</div>
-            <a href={catUrl(cat.category)} style="font-size:var(--text-xl); font-weight:700; color:var(--accent); text-decoration:none;">{cat.tracked}</a>
-          </div>
-          {cat.avg_score && (
-            <div>
-              <div style="font-size:var(--text-xs); color:var(--text-muted); text-transform:uppercase;" data-i18n="categories.avgScore">Avg Score</div>
-              <div style="font-size:var(--text-xl); font-weight:700;">{cat.avg_score?.toFixed(1)}</div>
+  <div class="panel">
+    <div class="panel__head">
+      <span class="panel__title" data-i18n="section.categoryMomentum">Category momentum</span>
+      <div class="panel__actions" style="font-size:var(--text-xs);color:var(--text-muted);" data-i18n="categories.legendVelocity">Bar length = tracked projects · color = velocity</div>
+    </div>
+    <div class="panel__body">
+      <div class="heat-grid">
+        {cats.map((cat: any) => (
+          <a class="heat-cell" href={catUrl(cat.category)} style="text-decoration:none;color:inherit;">
+            <span class="heat-cell__bar" style={`width:${Math.max(8, Math.round(((cat.tracked || 0) / trackedMax) * 100))}%;background:${heatColor(norm(cat.velocity || 0, vMin, vMax))};`}></span>
+            <div class="heat-cell__name" data-i18n-cat={cat.category}>{cat.category}</div>
+            <div class="heat-cell__meta">
+              <span data-i18n="categories.tracked">Tracked</span> · {cat.tracked}
             </div>
-          )}
-        </div>
-        {cat.top_repos && cat.top_repos.length > 0 && (
-          <div style="border-top:1px solid var(--border); padding-top:var(--sp-3);">
-            <div style="font-size:var(--text-xs); color:var(--text-muted); margin-bottom:var(--sp-2);" data-i18n="categories.topProjects">Top Projects</div>
-            {cat.top_repos.slice(0, 3).map((r: any) => {
-              const name = typeof r === 'string' ? r : (r.full_name || r.repo_full_name || '');
-              return (
-                <a href={repoUrl(name)} style="display:block; font-size:var(--text-sm); color:var(--accent); text-decoration:none; padding:2px 0;">
-                  {name}
-                </a>
-              );
-            })}
-          </div>
-        )}
+            <div class="heat-cell__value">
+              <span class={`badge ${(cat.trend === 'rising') ? 'badge-success' : (cat.trend === 'declining') ? 'badge-warning' : 'badge-muted'}`} data-i18n={`trend.${cat.trend}`}>{cat.trend || '—'}</span>
+            </div>
+          </a>
+        ))}
       </div>
-    ))}
+    </div>
   </div>
 </Layout>

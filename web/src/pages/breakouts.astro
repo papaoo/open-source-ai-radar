@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { meter } from '../lib/viz';
 
 const base = import.meta.env.BASE_URL;
 let breakouts: any = { candidates: [] };
@@ -38,10 +39,18 @@ function repoUrl(name: string): string {
 ---
 
 <Layout title="Breakouts" description="Projects predicted to break out based on momentum signals.">
-  <section class="hero-editorial" style="padding-bottom:var(--sp-8);">
-    <h1><span class="accent" data-i18n="breakouts.accent">Breakout</span> <span data-i18n="breakouts.suffix">Candidates</span></h1>
-    <p data-i18n="breakouts.subtitle">Projects showing early signs of explosive growth</p>
-  </section>
+  <div class="page-head">
+    <div class="page-head__main">
+      <div class="page-head__eyebrow" data-i18n="breakouts.accent">Breakout</div>
+      <h1 class="page-head__title"><span class="accent" data-i18n="breakouts.accent">Breakout</span> <span data-i18n="breakouts.suffix">Candidates</span></h1>
+      <p class="page-head__sub" data-i18n="breakouts.subtitle">Projects showing early signs of explosive growth</p>
+    </div>
+    <div class="page-head__aside">
+      <div class="meta-chips">
+        <span class="meta-chip"><b>{(breakouts.candidates || []).length}</b> <span data-i18n="breakouts.suffix">candidates</span></span>
+      </div>
+    </div>
+  </div>
 
   {breakouts.candidates && breakouts.candidates.length > 0 ? (
     <div class="grid-auto">
@@ -57,6 +66,13 @@ function repoUrl(name: string): string {
         <div style="display:flex; align-items:center; gap:var(--sp-3); margin-bottom:var(--sp-4);">
           <span class={`score-pill ${scoreClass(r.breakout_score)}`}>{r.breakout_score}</span>
           <span class="momentum momentum-breakout"><span data-i18n="momentum.breakout">Breakout</span></span>
+        </div>
+        <div style="margin-bottom:var(--sp-4);">
+          <div style="display:flex;justify-content:space-between;font-size:var(--text-xs);color:var(--text-muted);margin-bottom:4px;">
+            <span data-i18n="breakouts.scoreLabel">Breakout Score</span>
+            <span style="font-family:var(--font-mono);">{r.breakout_score}</span>
+          </div>
+          <Fragment set:html={meter(r.breakout_score || 0, (r.breakout_score || 0) >= 70 ? 'green' : '')} />
         </div>
         <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:var(--sp-3);">
           <div>
