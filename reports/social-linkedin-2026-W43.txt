@@ -1,0 +1,14 @@
+AI Open Source Radar -
+Weekly Intelligence Report (Week 43)
+
+I track 0 open-source AI repos on GitHub.
+Here is what I found this week:
+
+The signal is not just star count -
+its velocity, acceleration, and project health.
+
+Full analysis: erbharatmalhotra.github.io/
+open-source-ai-radar/
+
+#AI #OpenSource #GitHub
+#MachineLearning #DeepLearning #TechTrends
