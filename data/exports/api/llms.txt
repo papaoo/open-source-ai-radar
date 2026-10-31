@@ -3,7 +3,7 @@
 > Intelligence platform tracking 0 open-source AI repositories
 > (0 combined stars) with a three-axis score: Impact (40%),
 > Velocity (35%), Health (25%). Data refreshes daily via automated
-> GitHub Actions; last export 2026-10-30.
+> GitHub Actions; last export 2026-10-31.
 
 Unlike plain leaderboards, every project carries an explanation of WHY it
 trends: velocity vs its own baseline, breakout detection, anomaly checks,
@@ -22,7 +22,7 @@ and category momentum.
 - [Stats](https://erbharatmalhotra.github.io/open-source-ai-radar/api/stats.json): summary counts
 - [RSS feed](https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml): top 20 trending projects
 
-## Categories (2026-10-30)
+## Categories (2026-10-31)
 
 
 
