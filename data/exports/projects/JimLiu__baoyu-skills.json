@@ -4,12 +4,7 @@
   "description": "",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [
-    "agent-skills",
-    "claude-skills",
-    "codex-skills",
-    "openclaw-skills"
-  ],
+  "topics": [],
   "stars": 27422,
   "forks": 2991,
   "open_issues": 1,

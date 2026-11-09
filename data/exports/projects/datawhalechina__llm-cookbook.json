@@ -4,11 +4,8 @@
   "description": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
   "language": "Jupyter Notebook",
   "license": null,
-  "topics": [
-    "cookbook",
-    "llm"
-  ],
-  "stars": 24881,
+  "topics": [],
+  "stars": 24882,
   "forks": 2989,
   "open_issues": 4,
   "watchers": 179,

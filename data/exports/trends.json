@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:43:47.108119+00:00",
+  "generated_at": "2026-11-09T23:23:29.759184+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 82.44,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 68737,
-      "forks": 56370,
+      "stars": 68797,
+      "forks": 56378,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -34,7 +34,7 @@
       "radar_score": 79.62,
       "global_percentile": 96.43,
       "category_percentile": 0.0,
-      "stars": 11147,
+      "stars": 11148,
       "forks": 5632,
       "language": "Python",
       "url": "https://github.com/aden-hive/hive",
@@ -70,8 +70,8 @@
       "radar_score": 82.33,
       "global_percentile": 99.71,
       "category_percentile": 0.0,
-      "stars": 55383,
-      "forks": 7126,
+      "stars": 55450,
+      "forks": 7137,
       "language": "Python",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "category": "Uncategorized",
@@ -88,8 +88,8 @@
       "radar_score": 78.88,
       "global_percentile": 93.0,
       "category_percentile": 0.0,
-      "stars": 23244,
-      "forks": 16453,
+      "stars": 23246,
+      "forks": 16452,
       "language": "TypeScript",
       "url": "https://github.com/claude-code-best/claude-code",
       "category": "AI Coding Tools",
@@ -101,27 +101,27 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1502
+      "count": 1512
     },
     {
       "category": "AI Coding Tools",
-      "count": 955
+      "count": 957
     },
     {
       "category": "LLM Frameworks",
-      "count": 710
+      "count": 714
     },
     {
       "category": "AI Agents",
-      "count": 572
+      "count": 576
     },
     {
       "category": "MCP",
-      "count": 569
+      "count": 571
     },
     {
       "category": "Local AI",
-      "count": 507
+      "count": 512
     },
     {
       "category": "RAG",
