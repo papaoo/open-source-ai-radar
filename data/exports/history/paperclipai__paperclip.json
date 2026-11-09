@@ -2,51 +2,28 @@
   "full_name": "paperclipai/paperclip",
   "snapshots": [
     {
-      "timestamp": "2026-10-12T22:51:41.218849+00:00",
-      "stars": 100937,
-      "forks": 16974,
-      "open_issues": 2966,
-      "contributors": 220
-    },
-    {
-      "timestamp": "2026-10-13T02:51:16.570862+00:00",
-      "stars": 101020,
-      "forks": 16981,
-      "open_issues": 2970,
-      "contributors": 220
+      "timestamp": "2026-11-09T12:38:55.421264+00:00",
+      "stars": 112492,
+      "forks": 18656,
+      "open_issues": 3604,
+      "contributors": 255
     }
   ],
   "scores": [
     {
-      "timestamp": "2026-10-12T23:03:02.652292+00:00",
-      "radar_score": 81.13,
-      "impact": 99.39,
-      "velocity": 72.67,
-      "health": 63.75
-    },
-    {
-      "timestamp": "2026-10-13T03:01:44.337766+00:00",
-      "radar_score": 81.13,
-      "impact": 99.39,
-      "velocity": 72.67,
+      "timestamp": "2026-11-09T12:50:35.003103+00:00",
+      "radar_score": 80.95,
+      "impact": 99.01,
+      "velocity": 72.59,
       "health": 63.75
     }
   ],
   "growth": [
     {
-      "timestamp": "2026-10-12T22:51:41.218849+00:00",
+      "timestamp": "2026-11-09T12:38:55.421264+00:00",
       "stars_7d": 0,
       "stars_30d": 0,
       "stars_90d": 0,
-      "star_growth_rate_7d": 0.0,
-      "star_growth_rate_30d": 0.0,
-      "freshness_score": 1.0
-    },
-    {
-      "timestamp": "2026-10-13T02:51:16.570862+00:00",
-      "stars_7d": 83,
-      "stars_30d": 83,
-      "stars_90d": 83,
       "star_growth_rate_7d": 0.0,
       "star_growth_rate_30d": 0.0,
       "freshness_score": 1.0

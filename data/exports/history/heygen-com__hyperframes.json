@@ -1,0 +1,32 @@
+{
+  "full_name": "heygen-com/hyperframes",
+  "snapshots": [
+    {
+      "timestamp": "2026-11-09T12:39:29.739379+00:00",
+      "stars": 81389,
+      "forks": 7516,
+      "open_issues": 89,
+      "contributors": 159
+    }
+  ],
+  "scores": [
+    {
+      "timestamp": "2026-11-09T12:50:35.003103+00:00",
+      "radar_score": 78.86,
+      "impact": 97.4,
+      "velocity": 68.45,
+      "health": 63.75
+    }
+  ],
+  "growth": [
+    {
+      "timestamp": "2026-11-09T12:39:29.739379+00:00",
+      "stars_7d": 0,
+      "stars_30d": 0,
+      "stars_90d": 0,
+      "star_growth_rate_7d": 0.0,
+      "star_growth_rate_30d": 0.0,
+      "freshness_score": 1.0
+    }
+  ]
+}
