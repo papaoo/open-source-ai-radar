@@ -31,11 +31,11 @@
   "pushed_at": "2026-09-16T11:44:01Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/GaiZhenbiao.png",
-  "radar_score": 65.27,
-  "impact": 89.2,
-  "velocity": 48.92,
+  "radar_score": 65.26,
+  "impact": 89.18,
+  "velocity": 48.91,
   "health": 49.87,
-  "global_percentile": 11.29,
+  "global_percentile": 9.0,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.",
@@ -50,5 +50,5 @@
   "forks_30d": 0,
   "days_since_last_push": 54,
   "freshness_score": 0.5827482523739896,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

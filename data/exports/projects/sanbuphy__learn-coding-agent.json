@@ -17,7 +17,7 @@
   "impact": 90.0,
   "velocity": 70.99,
   "health": 31.04,
-  "global_percentile": 21.29,
+  "global_percentile": 20.71,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Research on Coding Agents",
@@ -32,6 +32,6 @@
   "forks_30d": 0,
   "days_since_last_push": 222,
   "freshness_score": 0.10860910882495796,
-  "snapshot_count": 1,
+  "snapshot_count": 2,
   "why_trending": "Above-average growth velocity. Active in the AI Coding Tools category."
 }

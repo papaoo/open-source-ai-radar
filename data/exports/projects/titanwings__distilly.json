@@ -25,7 +25,7 @@
     "dsh-plugin",
     "personal-agent"
   ],
-  "stars": 26464,
+  "stars": 26473,
   "forks": 2259,
   "open_issues": 22,
   "watchers": 58,
@@ -34,17 +34,17 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/titanwings.png",
   "radar_score": 68.85,
-  "impact": 90.4,
+  "impact": 90.39,
   "velocity": 57.67,
   "health": 50.02,
-  "global_percentile": 21.57,
+  "global_percentile": 21.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 9,
+  "stars_30d": 9,
+  "stars_90d": 9,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -52,5 +52,5 @@
   "forks_30d": 0,
   "days_since_last_push": 27,
   "freshness_score": 0.7633794943368531,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

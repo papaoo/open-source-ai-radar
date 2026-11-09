@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "topics": [],
   "stars": 27989,
-  "forks": 2889,
+  "forks": 2888,
   "open_issues": 0,
   "watchers": 175,
   "created_at": "2026-02-26T21:54:00Z",
@@ -17,7 +17,7 @@
   "impact": 93.37,
   "velocity": 44.5,
   "health": 44.47,
-  "global_percentile": 8.43,
+  "global_percentile": 6.71,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
@@ -28,9 +28,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 0,
-  "forks_30d": 0,
+  "forks_7d": -1,
+  "forks_30d": -1,
   "days_since_last_push": 54,
   "freshness_score": 0.5827482523739896,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

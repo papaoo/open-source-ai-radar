@@ -9,7 +9,7 @@
     "gemini-api"
   ],
   "stars": 17914,
-  "forks": 2832,
+  "forks": 2831,
   "open_issues": 4,
   "watchers": 213,
   "created_at": "2024-03-13T18:19:23Z",
@@ -18,9 +18,9 @@
   "owner_avatar": "https://github.com/google-gemini.png",
   "radar_score": 71.73,
   "impact": 92.12,
-  "velocity": 58.0,
+  "velocity": 57.99,
   "health": 58.35,
-  "global_percentile": 38.86,
+  "global_percentile": 38.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Examples and guides for using the Gemini API",
@@ -31,9 +31,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 0,
-  "forks_30d": 0,
+  "forks_7d": -1,
+  "forks_30d": -1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

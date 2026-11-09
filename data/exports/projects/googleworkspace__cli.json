@@ -22,7 +22,7 @@
     "rust",
     "gemini-cli-extension"
   ],
-  "stars": 32202,
+  "stars": 32211,
   "forks": 1988,
   "open_issues": 134,
   "watchers": 96,
@@ -34,14 +34,14 @@
   "impact": 92.05,
   "velocity": 64.3,
   "health": 61.6,
-  "global_percentile": 61.29,
+  "global_percentile": 60.86,
   "category": "AI Agents",
   "sub_category": "conversational agent",
   "summary": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 9,
+  "stars_30d": 9,
+  "stars_90d": 9,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -49,5 +49,5 @@
   "forks_30d": 0,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

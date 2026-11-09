@@ -21,11 +21,11 @@
   "pushed_at": "2026-10-20T19:34:33Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/cloudreve.png",
-  "radar_score": 69.7,
-  "impact": 94.42,
+  "radar_score": 69.63,
+  "impact": 94.41,
   "velocity": 50.13,
-  "health": 57.55,
-  "global_percentile": 26.57,
+  "health": 57.27,
+  "global_percentile": 24.86,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
@@ -38,7 +38,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 0,
   "forks_30d": 0,
-  "days_since_last_push": 19,
-  "freshness_score": 0.8269591339433623,
-  "snapshot_count": 1
+  "days_since_last_push": 20,
+  "freshness_score": 0.8187307530779818,
+  "snapshot_count": 2
 }

@@ -28,11 +28,11 @@
   "pushed_at": "2026-11-08T12:52:02Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/nukeop.png",
-  "radar_score": 65.77,
+  "radar_score": 65.68,
   "impact": 90.46,
-  "velocity": 42.86,
-  "health": 58.35,
-  "global_percentile": 11.86,
+  "velocity": 42.85,
+  "health": 57.98,
+  "global_percentile": 9.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Streaming music player that finds free music for you",
@@ -45,7 +45,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 0,
   "forks_30d": 0,
-  "days_since_last_push": 0,
-  "freshness_score": 1.0,
-  "snapshot_count": 1
+  "days_since_last_push": 1,
+  "freshness_score": 0.9900498337491681,
+  "snapshot_count": 2
 }

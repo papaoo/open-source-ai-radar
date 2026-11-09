@@ -29,11 +29,11 @@
   "pushed_at": "2026-10-07T06:55:09Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/RyanCodrai.png",
-  "radar_score": 68.13,
-  "impact": 88.68,
+  "radar_score": 68.12,
+  "impact": 88.67,
   "velocity": 54.73,
   "health": 53.99,
-  "global_percentile": 19.71,
+  "global_percentile": 18.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A vector index built on TurboQuant, written in Rust with Python bindings",
@@ -48,5 +48,5 @@
   "forks_30d": 0,
   "days_since_last_push": 33,
   "freshness_score": 0.7189237334319262,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

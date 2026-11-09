@@ -19,7 +19,7 @@
     "fixed-income",
     "options"
   ],
-  "stars": 75266,
+  "stars": 75274,
   "forks": 7872,
   "open_issues": 52,
   "watchers": 465,
@@ -31,14 +31,14 @@
   "impact": 98.16,
   "velocity": 62.99,
   "health": 54.61,
-  "global_percentile": 63.57,
+  "global_percentile": 63.0,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Open Data Platform for analysts, quants and AI agents.",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 8,
+  "stars_30d": 8,
+  "stars_90d": 8,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -46,5 +46,5 @@
   "forks_30d": 0,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

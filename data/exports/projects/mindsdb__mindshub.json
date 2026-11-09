@@ -31,9 +31,9 @@
   "owner_avatar": "https://github.com/mindsdb.png",
   "radar_score": 68.16,
   "impact": 96.64,
-  "velocity": 46.43,
+  "velocity": 46.42,
   "health": 53.02,
-  "global_percentile": 19.86,
+  "global_percentile": 19.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "The unified workspace where open-source models get things done for you.",
@@ -48,5 +48,5 @@
   "forks_30d": 0,
   "days_since_last_push": 16,
   "freshness_score": 0.8521437889662113,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

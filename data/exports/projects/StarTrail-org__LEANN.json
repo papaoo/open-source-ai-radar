@@ -22,7 +22,7 @@
     "vectors",
     "gpt-oss"
   ],
-  "stars": 13784,
+  "stars": 13786,
   "forks": 1282,
   "open_issues": 37,
   "watchers": 78,
@@ -34,14 +34,14 @@
   "impact": 87.52,
   "velocity": 59.89,
   "health": 61.6,
-  "global_percentile": 36.57,
+  "global_percentile": 35.57,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "[MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 2,
+  "stars_30d": 2,
+  "stars_90d": 2,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -49,5 +49,5 @@
   "forks_30d": 0,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

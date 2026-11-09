@@ -21,7 +21,7 @@
     "ai-agents",
     "rules"
   ],
-  "stars": 74682,
+  "stars": 74686,
   "forks": 6785,
   "open_issues": 5,
   "watchers": 1421,
@@ -33,14 +33,14 @@
   "impact": 98.28,
   "velocity": 52.15,
   "health": 55.19,
-  "global_percentile": 36.43,
+  "global_percentile": 35.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "🗂 The essential checklist for modern web development, for humans and AI agents",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 4,
+  "stars_30d": 4,
+  "stars_90d": 4,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -48,5 +48,5 @@
   "forks_30d": 0,
   "days_since_last_push": 9,
   "freshness_score": 0.9139311852712282,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

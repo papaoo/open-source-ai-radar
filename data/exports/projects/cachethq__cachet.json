@@ -21,11 +21,11 @@
   "pushed_at": "2026-11-09T07:03:49Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/cachethq.png",
-  "radar_score": 66.05,
-  "impact": 90.66,
+  "radar_score": 66.04,
+  "impact": 90.64,
   "velocity": 45.57,
   "health": 55.35,
-  "global_percentile": 13.43,
+  "global_percentile": 11.57,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "🚦 Cachet, the open source, self-hosted status page system.",
@@ -40,5 +40,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

@@ -17,7 +17,7 @@
     "ernie-bot",
     "gemini"
   ],
-  "stars": 37367,
+  "stars": 37370,
   "forks": 6882,
   "open_issues": 942,
   "watchers": 187,
@@ -26,17 +26,17 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/songquanpeng.png",
   "radar_score": 67.43,
-  "impact": 95.58,
+  "impact": 95.57,
   "velocity": 55.56,
   "health": 39.01,
-  "global_percentile": 17.43,
+  "global_percentile": 16.29,
   "category": "LLM Frameworks",
   "sub_category": "serving",
   "summary": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, ",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 3,
+  "stars_30d": 3,
+  "stars_90d": 3,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -44,5 +44,5 @@
   "forks_30d": 0,
   "days_since_last_push": 304,
   "freshness_score": 0.04783488949419837,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

@@ -25,7 +25,7 @@
     "torch"
   ],
   "stars": 14924,
-  "forks": 3267,
+  "forks": 3266,
   "open_issues": 19,
   "watchers": 182,
   "created_at": "2026-04-18T12:57:52Z",
@@ -34,9 +34,9 @@
   "owner_avatar": "https://github.com/kyegomez.png",
   "radar_score": 66.51,
   "impact": 91.37,
-  "velocity": 56.55,
+  "velocity": 56.54,
   "health": 40.7,
-  "global_percentile": 14.57,
+  "global_percentile": 13.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
@@ -47,9 +47,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 0,
-  "forks_30d": 0,
+  "forks_7d": -1,
+  "forks_30d": -1,
   "days_since_last_push": 170,
   "freshness_score": 0.18268352405273466,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

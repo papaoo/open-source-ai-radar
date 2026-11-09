@@ -9,7 +9,7 @@
     "llmops",
     "evaluation"
   ],
-  "stars": 16266,
+  "stars": 16273,
   "forks": 1804,
   "open_issues": 392,
   "watchers": 61,
@@ -18,17 +18,17 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/vibrantlabsai.png",
   "radar_score": 61.73,
-  "impact": 88.5,
-  "velocity": 47.19,
+  "impact": 88.49,
+  "velocity": 47.18,
   "health": 39.27,
   "global_percentile": 4.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Supercharge Your LLM Application Evaluations 🚀",
   "maturity": "Unknown",
-  "stars_7d": 0,
-  "stars_30d": 0,
-  "stars_90d": 0,
+  "stars_7d": 7,
+  "stars_30d": 7,
+  "stars_90d": 7,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -36,5 +36,5 @@
   "forks_30d": 0,
   "days_since_last_push": 258,
   "freshness_score": 0.07577400402284548,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }
