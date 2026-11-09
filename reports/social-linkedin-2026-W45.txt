@@ -1,0 +1,27 @@
+AI Open Source Radar -
+Weekly Intelligence Report (Week 45)
+
+I track 5,424 open-source AI repos on GitHub.
+Here is what I found this week:
+
+Fastest Growing Projects:
+
+1. ZhuLinsen/daily_stock_analysis - 68.5k stars
+   velocity: 84, category: LLM Frameworks
+2. NanmiCoder/cc-haha - 15.4k stars
+   velocity: 83, category: AI Coding Tools
+3. Gathin23/cleanyourtv - 55.1k stars
+   velocity: 82, category: Uncategorized
+4. claude-code-best/claude-code - 23.2k stars
+   velocity: 80, category: AI Coding Tools
+5. rocketride-org/rocketride-server - 20.1k stars
+   velocity: 80, category: AI Agents
+
+The signal is not just star count -
+its velocity, acceleration, and project health.
+
+Full analysis: erbharatmalhotra.github.io/
+open-source-ai-radar/
+
+#AI #OpenSource #GitHub
+#MachineLearning #DeepLearning #TechTrends

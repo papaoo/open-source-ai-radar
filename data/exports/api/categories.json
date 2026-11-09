@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-11-09T12:50:45.119300+00:00",
+  "generated_at": "2026-11-09T18:06:39.023236+00:00",
   "total": 11,
   "categories": [
     {
@@ -11,7 +11,7 @@
       "velocity": 63.2,
       "health": 57.6,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "jwasham/coding-interview-university"
     },
     {
@@ -22,7 +22,7 @@
       "velocity": 62.9,
       "health": 59.1,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "Comfy-Org/ComfyUI"
     },
     {
@@ -33,7 +33,7 @@
       "velocity": 62.7,
       "health": 58.6,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "obra/superpowers"
     },
     {
@@ -44,7 +44,7 @@
       "velocity": 61.6,
       "health": 59.7,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "mudler/LocalAI"
     },
     {
@@ -55,7 +55,7 @@
       "velocity": 61.4,
       "health": 58.7,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "punkpeye/awesome-mcp-servers"
     },
     {
@@ -66,7 +66,7 @@
       "velocity": 61.1,
       "health": 61.2,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "huggingface/transformers"
     },
     {
@@ -77,7 +77,7 @@
       "velocity": 60.4,
       "health": 59.9,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "ollama/ollama"
     },
     {
@@ -88,7 +88,7 @@
       "velocity": 59.9,
       "health": 54.4,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "langfuse/langfuse"
     },
     {
@@ -99,7 +99,7 @@
       "velocity": 59.4,
       "health": 55.5,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "langgenius/dify"
     },
     {
@@ -110,7 +110,7 @@
       "velocity": 57.0,
       "health": 52.1,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "deepseek-ai/deepseek-harness"
     },
     {
@@ -121,7 +121,7 @@
       "velocity": 55.1,
       "health": 52.3,
       "momentum": 0.0,
-      "trend": "new",
+      "trend": "rising",
       "top_project": "promptfoo/promptfoo"
     }
   ]
