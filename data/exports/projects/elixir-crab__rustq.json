@@ -1,16 +1,16 @@
 {
   "full_name": "elixir-crab/rustq",
   "url": "https://github.com/elixir-crab/rustq",
-  "description": "Typed Rust and Rustler code generation from Elixir \u2014 quasiquoting, ASTs, and zero-handwritten-Rust NIF boundaries",
+  "description": "Typed Rust and Rustler code generation from Elixir — quasiquoting, ASTs, and zero-handwritten-Rust NIF boundaries",
   "language": "Elixir",
   "license": "MIT",
   "topics": [],
-  "stars": 24,
+  "stars": 26,
   "forks": 1,
   "open_issues": 0,
   "watchers": 1,
   "created_at": "2026-05-31T10:03:54Z",
-  "pushed_at": "2026-10-02T08:11:29Z",
+  "pushed_at": "2026-10-26T23:10:24Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/elixir-crab.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "Typed Rust and Rustler code generation from Elixir \u2014 quasiquoting, ASTs, and zero-handwritten-Rust NIF boundaries",
+  "summary": "Typed Rust and Rustler code generation from Elixir — quasiquoting, ASTs, and zero-handwritten-Rust NIF boundaries",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

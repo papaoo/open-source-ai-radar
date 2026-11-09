@@ -1,16 +1,16 @@
 {
   "full_name": "1721780603-cell/abaqus-codex-assistant",
   "url": "https://github.com/1721780603-cell/abaqus-codex-assistant",
-  "description": "\u975e\u5b98\u65b9\u793e\u533a\u9879\u76ee\uff1a\u9762\u5411\u521d\u5b66\u8005\u7684 Codex \u8f85\u52a9 Abaqus \u5efa\u6a21\u3001\u8fd0\u884c\u3001\u7ed3\u679c\u63d0\u53d6\u4e0e\u4e2d\u6587\u62a5\u544a\u5de5\u5177",
+  "description": "非官方社区项目：面向初学者的 Codex 辅助 Abaqus 建模、运行、结果提取与中文报告工具",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 59,
+  "stars": 61,
   "forks": 0,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-08-10T13:34:37Z",
-  "pushed_at": "2026-09-29T19:43:29Z",
+  "pushed_at": "2026-10-28T05:51:28Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/1721780603-cell.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "\u975e\u5b98\u65b9\u793e\u533a\u9879\u76ee\uff1a\u9762\u5411\u521d\u5b66\u8005\u7684 Codex \u8f85\u52a9 Abaqus \u5efa\u6a21\u3001\u8fd0\u884c\u3001\u7ed3\u679c\u63d0\u53d6\u4e0e\u4e2d\u6587\u62a5\u544a\u5de5\u5177",
+  "summary": "非官方社区项目：面向初学者的 Codex 辅助 Abaqus 建模、运行、结果提取与中文报告工具",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

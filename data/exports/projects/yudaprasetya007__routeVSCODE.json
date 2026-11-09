@@ -1,16 +1,16 @@
 {
   "full_name": "yudaprasetya007/routeVSCODE",
   "url": "https://github.com/yudaprasetya007/routeVSCODE",
-  "description": "\u26a1 Zero-reload dynamic AI model switcher & local proxy for VSCode Copilot Chat via 9Router",
+  "description": "⚡ Zero-reload dynamic AI model switcher & local proxy for VSCode Copilot Chat via 9Router",
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
-  "stars": 170,
+  "stars": 171,
   "forks": 0,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-09-10T01:25:00Z",
-  "pushed_at": "2026-09-10T01:25:05Z",
+  "pushed_at": "2026-10-29T03:29:24Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/yudaprasetya007.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
-  "summary": "\u26a1 Zero-reload dynamic AI model switcher & local proxy for VSCode Copilot Chat via 9Router",
+  "summary": "⚡ Zero-reload dynamic AI model switcher & local proxy for VSCode Copilot Chat via 9Router",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

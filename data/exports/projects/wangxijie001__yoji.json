@@ -1,11 +1,11 @@
 {
   "full_name": "wangxijie001/yoji",
   "url": "https://github.com/wangxijie001/yoji",
-  "description": "\u6709\u60c5\u7eea\u7684 AI \u684c\u9762\u4f34\u4fa3 | \u9690\u79c1\u4f18\u5148 \u00b7 \u8bed\u97f3\u5524\u9192 \u00b7 \u534f\u52a9\u529e\u516c \u00b7 MCP \u65e0\u9650\u6269\u5c55 | An AI desktop companion with emotions \u2014 privacy-first, voice wake, office assistance, and MCP extensibility",
+  "description": "有情绪的 AI 桌面伴侣 | 隐私优先 · 语音唤醒 · 协助办公 · MCP 无限扩展 | An AI desktop companion with emotions — privacy-first, voice wake, office assistance, and MCP extensibility",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
-  "stars": 665,
+  "stars": 670,
   "forks": 111,
   "open_issues": 2,
   "watchers": 87,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "",
-  "summary": "\u6709\u60c5\u7eea\u7684 AI \u684c\u9762\u4f34\u4fa3 | \u9690\u79c1\u4f18\u5148 \u00b7 \u8bed\u97f3\u5524\u9192 \u00b7 \u534f\u52a9\u529e\u516c \u00b7 MCP \u65e0\u9650\u6269\u5c55 | An AI desktop companion with emotions \u2014 privacy-first, voice wake, office assistance, and MCP extensibility",
+  "summary": "有情绪的 AI 桌面伴侣 | 隐私优先 · 语音唤醒 · 协助办公 · MCP 无限扩展 | An AI desktop companion with emotions — privacy-first, voice wake, office assistance, and MCP extensibility",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

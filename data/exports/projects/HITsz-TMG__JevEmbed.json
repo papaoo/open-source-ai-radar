@@ -1,12 +1,12 @@
 {
   "full_name": "HITsz-TMG/JevEmbed",
   "url": "https://github.com/HITsz-TMG/JevEmbed",
-  "description": "Meet JevEmbed \u2014 turn embeddings into decisions. Choose, score, and judge with your choice of embedding model.",
+  "description": "Meet JevEmbed — turn embeddings into decisions. Choose, score, and judge with your choice of embedding model.",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 70,
-  "forks": 5,
+  "stars": 80,
+  "forks": 6,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-09-22T05:57:22Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "RAG",
   "sub_category": "vector database",
-  "summary": "Meet JevEmbed \u2014 turn embeddings into decisions. Choose, score, and judge with your choice of embedding model.",
+  "summary": "Meet JevEmbed — turn embeddings into decisions. Choose, score, and judge with your choice of embedding model.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

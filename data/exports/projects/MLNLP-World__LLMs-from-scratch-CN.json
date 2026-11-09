@@ -1,12 +1,12 @@
 {
   "full_name": "MLNLP-World/LLMs-from-scratch-CN",
   "url": "https://github.com/MLNLP-World/LLMs-from-scratch-CN",
-  "description": "LLMs-from-scratch\u9879\u76ee\u4e2d\u6587\u7ffb\u8bd1",
+  "description": "LLMs-from-scratch项目中文翻译",
   "language": "Jupyter Notebook",
   "license": "NOASSERTION",
   "topics": [],
-  "stars": 3026,
-  "forks": 510,
+  "stars": 3078,
+  "forks": 518,
   "open_issues": 1,
   "watchers": 25,
   "created_at": "2025-01-20T15:40:00Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "LLMs-from-scratch\u9879\u76ee\u4e2d\u6587\u7ffb\u8bd1",
+  "summary": "LLMs-from-scratch项目中文翻译",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,12 +1,12 @@
 {
   "full_name": "LYiHub/pub-local-jarvis",
   "url": "https://github.com/LYiHub/pub-local-jarvis",
-  "description": "Windows \u672c\u5730\u591a\u6a21\u6001 AI \u684c\u9762\u684c\u5ba0\uff0c\u652f\u6301\u5c4f\u5e55\u4e0e\u97f3\u9891\u611f\u77e5\u3002",
+  "description": "Windows 本地多模态 AI 桌面桌宠，支持屏幕与音频感知。",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 504,
-  "forks": 98,
+  "stars": 521,
+  "forks": 100,
   "open_issues": 9,
   "watchers": 2,
   "created_at": "2026-07-24T07:07:31Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "Windows \u672c\u5730\u591a\u6a21\u6001 AI \u684c\u9762\u684c\u5ba0\uff0c\u652f\u6301\u5c4f\u5e55\u4e0e\u97f3\u9891\u611f\u77e5\u3002",
+  "summary": "Windows 本地多模态 AI 桌面桌宠，支持屏幕与音频感知。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

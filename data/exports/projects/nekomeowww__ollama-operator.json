@@ -1,7 +1,7 @@
 {
   "full_name": "nekomeowww/ollama-operator",
   "url": "https://github.com/nekomeowww/ollama-operator",
-  "description": "\ud83d\udea2 Yet another operator for running large language models on Kubernetes with ease. Powered by Ollama! \ud83d\udc2b",
+  "description": "🚢 Yet another operator for running large language models on Kubernetes with ease. Powered by Ollama! 🐫",
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [],
@@ -10,7 +10,7 @@
   "open_issues": 12,
   "watchers": 3,
   "created_at": "2024-04-10T11:34:16Z",
-  "pushed_at": "2026-10-12T11:17:25Z",
+  "pushed_at": "2026-11-07T08:54:53Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/nekomeowww.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "",
-  "summary": "\ud83d\udea2 Yet another operator for running large language models on Kubernetes with ease. Powered by Ollama! \ud83d\udc2b",
+  "summary": "🚢 Yet another operator for running large language models on Kubernetes with ease. Powered by Ollama! 🐫",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,11 +1,11 @@
 {
   "full_name": "Kai26-Han/miniLLM",
   "url": "https://github.com/Kai26-Han/miniLLM",
-  "description": "\u4ece 0 \u8bad\u7ec3\u5927\u6a21\u578b\uff0c\u5355\u5361\u8bad\u7ec3\u4e00\u4e2a 200M \u53c2\u6570\u6a21\u578b\u7684\u5168\u6d41\u7a0b\uff08train a 200M\u2011parameter model from scratch\uff09",
+  "description": "从 0 训练大模型，单卡训练一个 200M 参数模型的全流程（train a 200M‑parameter model from scratch）",
   "language": "Python",
   "license": null,
   "topics": [],
-  "stars": 62,
+  "stars": 61,
   "forks": 0,
   "open_issues": 0,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\u4ece 0 \u8bad\u7ec3\u5927\u6a21\u578b\uff0c\u5355\u5361\u8bad\u7ec3\u4e00\u4e2a 200M \u53c2\u6570\u6a21\u578b\u7684\u5168\u6d41\u7a0b\uff08train a 200M\u2011parameter model from scratch\uff09",
+  "summary": "从 0 训练大模型，单卡训练一个 200M 参数模型的全流程（train a 200M‑parameter model from scratch）",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

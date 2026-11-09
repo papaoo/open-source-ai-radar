@@ -1,7 +1,7 @@
 {
   "full_name": "abluva/mcp-remote",
   "url": "https://github.com/abluva/mcp-remote",
-  "description": "The bridge for remote MCP \u2014 seamless OAuth, resilient auth recovery, production-grade reliability",
+  "description": "The bridge for remote MCP — seamless OAuth, resilient auth recovery, production-grade reliability",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "integration",
-  "summary": "The bridge for remote MCP \u2014 seamless OAuth, resilient auth recovery, production-grade reliability",
+  "summary": "The bridge for remote MCP — seamless OAuth, resilient auth recovery, production-grade reliability",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

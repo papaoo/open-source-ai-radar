@@ -1,11 +1,11 @@
 {
   "full_name": "tiylabs/tiygate",
   "url": "https://github.com/tiylabs/tiygate",
-  "description": "TiyGate is a lightweight gateway for highly available LLM services. \u4e00\u6b3e\u81f4\u529b\u4e8e\u63d0\u4f9b\u9ad8\u53ef\u7528 LLM \u670d\u52a1\u7684\u8f7b\u91cf\u7ea7\u7f51\u5173\u3002",
+  "description": "TiyGate is a lightweight gateway for highly available LLM services. 一款致力于提供高可用 LLM 服务的轻量级网关。",
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 147,
+  "stars": 148,
   "forks": 11,
   "open_issues": 3,
   "watchers": 1,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "TiyGate is a lightweight gateway for highly available LLM services. \u4e00\u6b3e\u81f4\u529b\u4e8e\u63d0\u4f9b\u9ad8\u53ef\u7528 LLM \u670d\u52a1\u7684\u8f7b\u91cf\u7ea7\u7f51\u5173\u3002",
+  "summary": "TiyGate is a lightweight gateway for highly available LLM services. 一款致力于提供高可用 LLM 服务的轻量级网关。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

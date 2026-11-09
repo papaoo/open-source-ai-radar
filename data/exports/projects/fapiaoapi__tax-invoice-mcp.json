@@ -1,11 +1,11 @@
 {
   "full_name": "fapiaoapi/tax-invoice-mcp",
   "url": "https://github.com/fapiaoapi/tax-invoice-mcp",
-  "description": "\u7535\u5b50\u53d1\u7968MCP  \u6570\u7535\u53d1\u7968MCP",
+  "description": "电子发票MCP  数电发票MCP",
   "language": null,
   "license": null,
   "topics": [],
-  "stars": 15,
+  "stars": 16,
   "forks": 0,
   "open_issues": 0,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "",
-  "summary": "\u7535\u5b50\u53d1\u7968MCP  \u6570\u7535\u53d1\u7968MCP",
+  "summary": "电子发票MCP  数电发票MCP",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

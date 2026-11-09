@@ -1,7 +1,7 @@
 {
   "full_name": "jamditis/mooc-starter-kit",
   "url": "https://github.com/jamditis/mooc-starter-kit",
-  "description": "Starter repo for Advanced Prompt Engineering for Journalists \u2014 a Knight Center MOOC on AI coding tools for newsrooms. Fork this, clone your fork, and use it as your workspace for all four modules.",
+  "description": "Starter repo for Advanced Prompt Engineering for Journalists — a Knight Center MOOC on AI coding tools for newsrooms. Fork this, clone your fork, and use it as your workspace for all four modules.",
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "code review",
-  "summary": "Starter repo for Advanced Prompt Engineering for Journalists \u2014 a Knight Center MOOC on AI coding tools for newsrooms. Fork this, clone your fork, and use it as your workspace for all four modules.",
+  "summary": "Starter repo for Advanced Prompt Engineering for Journalists — a Knight Center MOOC on AI coding tools for newsrooms. Fork this, clone your fork, and use it as your workspace for all four modules.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

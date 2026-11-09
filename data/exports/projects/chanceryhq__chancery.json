@@ -1,7 +1,7 @@
 {
   "full_name": "chanceryhq/chancery",
   "url": "https://github.com/chanceryhq/chancery",
-  "description": "The identity provider for AI agents \u2014 registry, scoped delegation, in-path MCP enforcement, instant revocation, tamper-evident audit.",
+  "description": "The identity provider for AI agents — registry, scoped delegation, in-path MCP enforcement, instant revocation, tamper-evident audit.",
   "language": "Go",
   "license": "Apache-2.0",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "The identity provider for AI agents \u2014 registry, scoped delegation, in-path MCP enforcement, instant revocation, tamper-evident audit.",
+  "summary": "The identity provider for AI agents — registry, scoped delegation, in-path MCP enforcement, instant revocation, tamper-evident audit.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

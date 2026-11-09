@@ -1,11 +1,11 @@
 {
   "full_name": "tuchg/Lucarne",
   "url": "https://github.com/tuchg/Lucarne",
-  "description": "Stop babysitting local AI agents. Just notifications, approve, and resume your Codex,Pi,Grok, or Claude code sessions anywhere. 0-Intrusion mobile control bridge via Telegram/\u5fae\u4fe1/\u98de\u4e66.   No hooks, no skills, no MCP.",
+  "description": "Stop babysitting local AI agents. Just notifications, approve, and resume your Codex,Pi,Grok, or Claude code sessions anywhere. 0-Intrusion mobile control bridge via Telegram/微信/飞书.   No hooks, no skills, no MCP.",
   "language": "Rust",
   "license": "MIT",
   "topics": [],
-  "stars": 339,
+  "stars": 343,
   "forks": 17,
   "open_issues": 16,
   "watchers": 1,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "code review",
-  "summary": "Stop babysitting local AI agents. Just notifications, approve, and resume your Codex,Pi,Grok, or Claude code sessions anywhere. 0-Intrusion mobile control bridge via Telegram/\u5fae\u4fe1/\u98de\u4e66.   No hooks, no skills, no MCP.",
+  "summary": "Stop babysitting local AI agents. Just notifications, approve, and resume your Codex,Pi,Grok, or Claude code sessions anywhere. 0-Intrusion mobile control bridge via Telegram/微信/飞书.   No hooks, no skills, no MCP.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

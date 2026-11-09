@@ -1,7 +1,7 @@
 {
   "full_name": "0xSero/glm-5.2-sm120",
   "url": "https://github.com/0xSero/glm-5.2-sm120",
-  "description": "GLM-5.2-NVFP4-REAP-469B serving on SM120 (4\u00d7 RTX PRO 6000 Blackwell) \u2014 one-command vLLM launch recipe, 250K context, DeepSeek Sparse Attention + MTP speculative decode",
+  "description": "GLM-5.2-NVFP4-REAP-469B serving on SM120 (4× RTX PRO 6000 Blackwell) — one-command vLLM launch recipe, 250K context, DeepSeek Sparse Attention + MTP speculative decode",
   "language": "Shell",
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "GLM-5.2-NVFP4-REAP-469B serving on SM120 (4\u00d7 RTX PRO 6000 Blackwell) \u2014 one-command vLLM launch recipe, 250K context, DeepSeek Sparse Attention + MTP speculative decode",
+  "summary": "GLM-5.2-NVFP4-REAP-469B serving on SM120 (4× RTX PRO 6000 Blackwell) — one-command vLLM launch recipe, 250K context, DeepSeek Sparse Attention + MTP speculative decode",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

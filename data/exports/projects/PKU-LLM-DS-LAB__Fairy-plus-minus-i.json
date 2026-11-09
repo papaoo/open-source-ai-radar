@@ -1,11 +1,11 @@
 {
   "full_name": "PKU-LLM-DS-LAB/Fairy-plus-minus-i",
   "url": "https://github.com/PKU-LLM-DS-LAB/Fairy-plus-minus-i",
-  "description": "Fairy\u00b1i (iFairy): Complex-valued Quantization Framework for Large Language Models",
+  "description": "Fairy±i (iFairy): Complex-valued Quantization Framework for Large Language Models",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 137,
+  "stars": 136,
   "forks": 10,
   "open_issues": 0,
   "watchers": 4,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "quantization",
-  "summary": "Fairy\u00b1i (iFairy): Complex-valued Quantization Framework for Large Language Models",
+  "summary": "Fairy±i (iFairy): Complex-valued Quantization Framework for Large Language Models",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

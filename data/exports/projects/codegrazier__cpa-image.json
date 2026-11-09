@@ -1,12 +1,12 @@
 {
   "full_name": "codegrazier/cpa-image",
   "url": "https://github.com/codegrazier/cpa-image",
-  "description": "CPA Image \u662f\u4e00\u4e2a\u672c\u5730\u4f18\u5148\u7684 OpenAI \u517c\u5bb9\u56fe\u50cf\u751f\u6210\u4e0e\u7f16\u8f91\u63a7\u5236\u53f0\u3002",
+  "description": "CPA Image 是一个本地优先的 OpenAI 兼容图像生成与编辑控制台。",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
-  "stars": 75,
-  "forks": 14,
+  "stars": 78,
+  "forks": 13,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-06-08T03:09:37Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "CPA Image \u662f\u4e00\u4e2a\u672c\u5730\u4f18\u5148\u7684 OpenAI \u517c\u5bb9\u56fe\u50cf\u751f\u6210\u4e0e\u7f16\u8f91\u63a7\u5236\u53f0\u3002",
+  "summary": "CPA Image 是一个本地优先的 OpenAI 兼容图像生成与编辑控制台。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

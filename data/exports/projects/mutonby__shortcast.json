@@ -1,11 +1,11 @@
 {
   "full_name": "mutonby/shortcast",
   "url": "https://github.com/mutonby/shortcast",
-  "description": "Native macOS app: drop a long video \u2192 auto-cut viral shorts, captioned for TikTok/Reels/YouTube, reframed to vertical, and scheduled. 100% on-device (Gemma 4 12B + WhisperKit + MLX).",
+  "description": "Native macOS app: drop a long video → auto-cut viral shorts, captioned for TikTok/Reels/YouTube, reframed to vertical, and scheduled. 100% on-device (Gemma 4 12B + WhisperKit + MLX).",
   "language": "Swift",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 389,
+  "stars": 397,
   "forks": 53,
   "open_issues": 6,
   "watchers": 2,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "local runner",
-  "summary": "Native macOS app: drop a long video \u2192 auto-cut viral shorts, captioned for TikTok/Reels/YouTube, reframed to vertical, and scheduled. 100% on-device (Gemma 4 12B + WhisperKit + MLX).",
+  "summary": "Native macOS app: drop a long video → auto-cut viral shorts, captioned for TikTok/Reels/YouTube, reframed to vertical, and scheduled. 100% on-device (Gemma 4 12B + WhisperKit + MLX).",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

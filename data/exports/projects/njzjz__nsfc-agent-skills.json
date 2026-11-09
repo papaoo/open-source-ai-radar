@@ -1,12 +1,12 @@
 {
   "full_name": "njzjz/nsfc-agent-skills",
   "url": "https://github.com/njzjz/nsfc-agent-skills",
-  "description": "\u7528\u4e8e\u5199NSFC\u672c\u5b50\u7684Agent Skills",
+  "description": "用于写NSFC本子的Agent Skills",
   "language": "Python",
   "license": null,
   "topics": [],
-  "stars": 666,
-  "forks": 80,
+  "stars": 763,
+  "forks": 87,
   "open_issues": 1,
   "watchers": 4,
   "created_at": "2026-02-16T17:36:29Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\u7528\u4e8e\u5199NSFC\u672c\u5b50\u7684Agent Skills",
+  "summary": "用于写NSFC本子的Agent Skills",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

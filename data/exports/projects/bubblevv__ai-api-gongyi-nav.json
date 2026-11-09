@@ -1,13 +1,13 @@
 {
   "full_name": "bubblevv/ai-api-gongyi-nav",
   "url": "https://github.com/bubblevv/ai-api-gongyi-nav",
-  "description": "AI API \u516c\u76ca\u4e2d\u8f6c\u7ad9\u5bfc\u822a\uff1aGPT Claude Codex DeepSeek \u514d\u8d39 API ",
+  "description": "AI API 公益中转站导航：GPT Claude Codex DeepSeek 免费 API ",
   "language": "HTML",
   "license": null,
   "topics": [],
-  "stars": 104,
-  "forks": 4,
-  "open_issues": 11,
+  "stars": 117,
+  "forks": 5,
+  "open_issues": 16,
   "watchers": 0,
   "created_at": "2026-06-04T16:52:59Z",
   "pushed_at": "2026-10-09T03:55:53Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "AI API \u516c\u76ca\u4e2d\u8f6c\u7ad9\u5bfc\u822a\uff1aGPT Claude Codex DeepSeek \u514d\u8d39 API ",
+  "summary": "AI API 公益中转站导航：GPT Claude Codex DeepSeek 免费 API ",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

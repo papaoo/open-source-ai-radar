@@ -1,7 +1,7 @@
 {
   "full_name": "zanetworker/mcp-playground",
   "url": "https://github.com/zanetworker/mcp-playground",
-  "description": "Simple MCP Client for remote MCP Servers \ud83c\udf10",
+  "description": "Simple MCP Client for remote MCP Servers 🌐",
   "language": "Python",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "Simple MCP Client for remote MCP Servers \ud83c\udf10",
+  "summary": "Simple MCP Client for remote MCP Servers 🌐",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

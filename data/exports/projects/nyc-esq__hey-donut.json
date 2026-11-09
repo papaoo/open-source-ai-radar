@@ -1,7 +1,7 @@
 {
   "full_name": "nyc-esq/hey-donut",
   "url": "https://github.com/nyc-esq/hey-donut",
-  "description": "A custom \"Hey Donut\" wake word for Home Assistant \u2014 62 KB, runs on-device, zero false accepts per hour. Includes the full training pipeline so you can teach your assistant any name. CC0.",
+  "description": "A custom \"Hey Donut\" wake word for Home Assistant — 62 KB, runs on-device, zero false accepts per hour. Includes the full training pipeline so you can teach your assistant any name. CC0.",
   "language": "Python",
   "license": "CC0-1.0",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "local runner",
-  "summary": "A custom \"Hey Donut\" wake word for Home Assistant \u2014 62 KB, runs on-device, zero false accepts per hour. Includes the full training pipeline so you can teach your assistant any name. CC0.",
+  "summary": "A custom \"Hey Donut\" wake word for Home Assistant — 62 KB, runs on-device, zero false accepts per hour. Includes the full training pipeline so you can teach your assistant any name. CC0.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

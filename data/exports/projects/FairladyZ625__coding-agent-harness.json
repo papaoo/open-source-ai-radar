@@ -1,11 +1,11 @@
 {
   "full_name": "FairladyZ625/coding-agent-harness",
   "url": "https://github.com/FairladyZ625/coding-agent-harness",
-  "description": "No longer maintained \u2014 completely rewritten as Harness Anything: a self-evolving harness for durable agent decisions, tasks, facts, and evidence-backed completion.",
+  "description": "No longer maintained — completely rewritten as Harness Anything: a self-evolving harness for durable agent decisions, tasks, facts, and evidence-backed completion.",
   "language": "JavaScript",
   "license": "AGPL-3.0",
   "topics": [],
-  "stars": 59,
+  "stars": 60,
   "forks": 9,
   "open_issues": 1,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
-  "summary": "No longer maintained \u2014 completely rewritten as Harness Anything: a self-evolving harness for durable agent decisions, tasks, facts, and evidence-backed completion.",
+  "summary": "No longer maintained — completely rewritten as Harness Anything: a self-evolving harness for durable agent decisions, tasks, facts, and evidence-backed completion.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

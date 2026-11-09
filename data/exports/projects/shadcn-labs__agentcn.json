@@ -1,11 +1,11 @@
 {
   "full_name": "shadcn-labs/agentcn",
   "url": "https://github.com/shadcn-labs/agentcn",
-  "description": "shadcn/ui, but for building agents. \ud83e\udd16",
+  "description": "shadcn/ui, but for building agents. 🤖",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
-  "stars": 490,
+  "stars": 502,
   "forks": 31,
   "open_issues": 1,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "shadcn/ui, but for building agents. \ud83e\udd16",
+  "summary": "shadcn/ui, but for building agents. 🤖",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,13 +1,13 @@
 {
   "full_name": "Association-DataRing/Louis",
   "url": "https://github.com/Association-DataRing/Louis",
-  "description": "Plateforme IA juridique souveraine, auto-h\u00e9bergeable et open-source. Bring Your Own Key, agr\u00e9gateur de mod\u00e8les FR/EU/US, RAG pgvector, orchestration multi-agents.",
+  "description": "Plateforme IA juridique souveraine, auto-hébergeable et open-source. Bring Your Own Key, agrégateur de modèles FR/EU/US, RAG pgvector, orchestration multi-agents.",
   "language": "TypeScript",
   "license": "AGPL-3.0",
   "topics": [],
-  "stars": 26,
-  "forks": 3,
-  "open_issues": 10,
+  "stars": 27,
+  "forks": 5,
+  "open_issues": 15,
   "watchers": 0,
   "created_at": "2026-05-21T21:06:11Z",
   "pushed_at": "2026-08-11T14:06:46Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "RAG",
   "sub_category": "vector database",
-  "summary": "Plateforme IA juridique souveraine, auto-h\u00e9bergeable et open-source. Bring Your Own Key, agr\u00e9gateur de mod\u00e8les FR/EU/US, RAG pgvector, orchestration multi-agents.",
+  "summary": "Plateforme IA juridique souveraine, auto-hébergeable et open-source. Bring Your Own Key, agrégateur de modèles FR/EU/US, RAG pgvector, orchestration multi-agents.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

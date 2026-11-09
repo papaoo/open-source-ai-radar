@@ -1,7 +1,7 @@
 {
   "full_name": "ApurvaMisra/claude-code-assistant",
   "url": "https://github.com/ApurvaMisra/claude-code-assistant",
-  "description": "Joey \u2014 a personalized social media manager assistant built with Claude Code (course demo)",
+  "description": "Joey — a personalized social media manager assistant built with Claude Code (course demo)",
   "language": "Shell",
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "Joey \u2014 a personalized social media manager assistant built with Claude Code (course demo)",
+  "summary": "Joey — a personalized social media manager assistant built with Claude Code (course demo)",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

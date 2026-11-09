@@ -1,12 +1,12 @@
 {
   "full_name": "Swfdong/reliable-coding-agent",
   "url": "https://github.com/Swfdong/reliable-coding-agent",
-  "description": "Non\u2011intrusive enhancements for Coding Agents, applying engineering best practices and a Testing\u2011Memory\u2011Documentation (TMD) loop to boost stability and  efficiency on complex projects.",
+  "description": "Non‑intrusive enhancements for Coding Agents, applying engineering best practices and a Testing‑Memory‑Documentation (TMD) loop to boost stability and  efficiency on complex projects.",
   "language": "Shell",
   "license": "MIT",
   "topics": [],
-  "stars": 160,
-  "forks": 20,
+  "stars": 158,
+  "forks": 19,
   "open_issues": 0,
   "watchers": 2,
   "created_at": "2025-10-03T18:05:58Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "code review",
-  "summary": "Non\u2011intrusive enhancements for Coding Agents, applying engineering best practices and a Testing\u2011Memory\u2011Documentation (TMD) loop to boost stability and  efficiency on complex projects.",
+  "summary": "Non‑intrusive enhancements for Coding Agents, applying engineering best practices and a Testing‑Memory‑Documentation (TMD) loop to boost stability and  efficiency on complex projects.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

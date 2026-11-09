@@ -1,13 +1,13 @@
 {
   "full_name": "shitianfang/jev-use",
   "url": "https://github.com/shitianfang/jev-use",
-  "description": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) \u2014 measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM",
+  "description": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) — measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM",
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
-  "stars": 60,
+  "stars": 69,
   "forks": 14,
-  "open_issues": 1,
+  "open_issues": 2,
   "watchers": 0,
   "created_at": "2026-09-19T10:13:56Z",
   "pushed_at": "2026-09-22T10:37:02Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
-  "summary": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) \u2014 measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM",
+  "summary": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) — measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,13 +1,13 @@
 {
   "full_name": "graniet/llm",
   "url": "https://github.com/graniet/llm",
-  "description": "A powerful Rust library and CLI tool to unify and orchestrate multiple LLM, Agent and voice backends (OpenAI, Claude, Gemini, Ollama, ElevenLabs...) with a single, extensible API. Build, chain, evaluate, and serve complex multi-step AI workflows \u2014 including speech-to-text, text-to-speech, completions, vision, and reasoning.",
+  "description": "A powerful Rust library and CLI tool to unify and orchestrate multiple LLM, Agent and voice backends (OpenAI, Claude, Gemini, Ollama, ElevenLabs...) with a single, extensible API. Build, chain, evaluate, and serve complex multi-step AI workflows — including speech-to-text, text-to-speech, completions, vision, and reasoning.",
   "language": "Rust",
   "license": "MIT",
   "topics": [],
   "stars": 365,
-  "forks": 91,
-  "open_issues": 18,
+  "forks": 90,
+  "open_issues": 19,
   "watchers": 6,
   "created_at": "2025-01-15T18:13:12Z",
   "pushed_at": "2026-06-06T05:46:15Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "",
-  "summary": "A powerful Rust library and CLI tool to unify and orchestrate multiple LLM, Agent and voice backends (OpenAI, Claude, Gemini, Ollama, ElevenLabs...) with a single, extensible API. Build, chain, evaluate, and serve complex multi-step AI workflows \u2014 including speech-to-text, text-to-speech, completion",
+  "summary": "A powerful Rust library and CLI tool to unify and orchestrate multiple LLM, Agent and voice backends (OpenAI, Claude, Gemini, Ollama, ElevenLabs...) with a single, extensible API. Build, chain, evaluate, and serve complex multi-step AI workflows — including speech-to-text, text-to-speech, completion",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

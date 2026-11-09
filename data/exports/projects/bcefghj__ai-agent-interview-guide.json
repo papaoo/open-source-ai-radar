@@ -1,14 +1,14 @@
 {
   "full_name": "bcefghj/ai-agent-interview-guide",
   "url": "https://github.com/bcefghj/ai-agent-interview-guide",
-  "description": "AI Agent \u9762\u8bd5\u5168\u653b\u7565\uff1a\u4ece\u96f6\u5230Offer\uff0c\u5305\u542b200+\u9762\u8bd5\u9898\u3001\u4f01\u4e1a\u7ea7\u9879\u76ee(Python/Java/Go)\u3001\u7b80\u5386\u6a21\u677f\u3001STAR\u9762\u8bd5\u7a3f\u3001\u54c6\u5566A\u68a6\u6f2b\u753b\u56fe\u89e3",
+  "description": "AI Agent 面试全攻略：从零到Offer，包含200+面试题、企业级项目(Python/Java/Go)、简历模板、STAR面试稿、哆啦A梦漫画图解",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 3156,
-  "forks": 303,
+  "stars": 3745,
+  "forks": 352,
   "open_issues": 5,
-  "watchers": 4,
+  "watchers": 5,
   "created_at": "2026-04-01T12:38:36Z",
   "pushed_at": "2026-04-01T12:38:52Z",
   "owner_login": "",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Agents",
   "sub_category": "coding agent",
-  "summary": "AI Agent \u9762\u8bd5\u5168\u653b\u7565\uff1a\u4ece\u96f6\u5230Offer\uff0c\u5305\u542b200+\u9762\u8bd5\u9898\u3001\u4f01\u4e1a\u7ea7\u9879\u76ee(Python/Java/Go)\u3001\u7b80\u5386\u6a21\u677f\u3001STAR\u9762\u8bd5\u7a3f\u3001\u54c6\u5566A\u68a6\u6f2b\u753b\u56fe\u89e3",
+  "summary": "AI Agent 面试全攻略：从零到Offer，包含200+面试题、企业级项目(Python/Java/Go)、简历模板、STAR面试稿、哆啦A梦漫画图解",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

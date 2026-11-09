@@ -1,16 +1,16 @@
 {
   "full_name": "YouMind-OpenLab/awesome-gemini-3-prompts",
   "url": "https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts",
-  "description": "\u264a 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library",
+  "description": "♊ 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library",
   "language": "TypeScript",
   "license": "NOASSERTION",
   "topics": [],
-  "stars": 520,
+  "stars": 522,
   "forks": 60,
   "open_issues": 2,
   "watchers": 4,
   "created_at": "2025-11-27T11:07:31Z",
-  "pushed_at": "2026-10-12T17:18:33Z",
+  "pushed_at": "2026-11-09T04:28:35Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/YouMind-OpenLab.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
-  "summary": "\u264a 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library",
+  "summary": "♊ 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

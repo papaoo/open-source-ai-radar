@@ -1,12 +1,12 @@
 {
   "full_name": "saravanaspar/F.R.I.D.A.Y",
   "url": "https://github.com/saravanaspar/F.R.I.D.A.Y",
-  "description": "F.R.I.D.A.Y \u2014 a secure self-improving personal AI agent. Local-first, with memory, tools, voice, MCP, automation, and verified self-extension.",
+  "description": "F.R.I.D.A.Y — a secure self-improving personal AI agent. Local-first, with memory, tools, voice, MCP, automation, and verified self-extension.",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
-  "stars": 22,
-  "forks": 2,
+  "stars": 24,
+  "forks": 3,
   "open_issues": 7,
   "watchers": 0,
   "created_at": "2026-09-02T14:56:12Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "tool",
-  "summary": "F.R.I.D.A.Y \u2014 a secure self-improving personal AI agent. Local-first, with memory, tools, voice, MCP, automation, and verified self-extension.",
+  "summary": "F.R.I.D.A.Y — a secure self-improving personal AI agent. Local-first, with memory, tools, voice, MCP, automation, and verified self-extension.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,11 +1,11 @@
 {
   "full_name": "AbhinavTheDev/coding-agent",
   "url": "https://github.com/AbhinavTheDev/coding-agent",
-  "description": "Your own Coding Agent \ud83e\udd16",
+  "description": "Your own Coding Agent 🤖",
   "language": "TypeScript",
   "license": null,
   "topics": [],
-  "stars": 107,
+  "stars": 108,
   "forks": 27,
   "open_issues": 1,
   "watchers": 2,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "Your own Coding Agent \ud83e\udd16",
+  "summary": "Your own Coding Agent 🤖",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

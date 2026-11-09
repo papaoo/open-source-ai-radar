@@ -1,7 +1,7 @@
 {
   "full_name": "xubuvd/LLMs",
   "url": "https://github.com/xubuvd/LLMs",
-  "description": "\u4e13\u6ce8\u4e8e\u4e2d\u6587\u9886\u57df\u5927\u8bed\u8a00\u6a21\u578b\uff0c\u843d\u5730\u5230\u67d0\u4e2a\u884c\u4e1a\u67d0\u4e2a\u9886\u57df\uff0c\u6210\u4e3a\u4e00\u4e2a\u884c\u4e1a\u5927\u6a21\u578b\u3001\u516c\u53f8\u7ea7\u522b\u6216\u884c\u4e1a\u7ea7\u522b\u9886\u57df\u5927\u6a21\u578b\u3002",
+  "description": "专注于中文领域大语言模型，落地到某个行业某个领域，成为一个行业大模型、公司级别或行业级别领域大模型。",
   "language": "Python",
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "\u4e13\u6ce8\u4e8e\u4e2d\u6587\u9886\u57df\u5927\u8bed\u8a00\u6a21\u578b\uff0c\u843d\u5730\u5230\u67d0\u4e2a\u884c\u4e1a\u67d0\u4e2a\u9886\u57df\uff0c\u6210\u4e3a\u4e00\u4e2a\u884c\u4e1a\u5927\u6a21\u578b\u3001\u516c\u53f8\u7ea7\u522b\u6216\u884c\u4e1a\u7ea7\u522b\u9886\u57df\u5927\u6a21\u578b\u3002",
+  "summary": "专注于中文领域大语言模型，落地到某个行业某个领域，成为一个行业大模型、公司级别或行业级别领域大模型。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

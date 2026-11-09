@@ -1,7 +1,7 @@
 {
   "full_name": "Value99/Tifa-Deepsex-OllamaWebUI",
   "url": "https://github.com/Value99/Tifa-Deepsex-OllamaWebUI",
-  "description": "\u7b80\u5355\u7684\u804a\u5929\u7f51\u9875\uff0c\u9002\u914d\u601d\u7ef4\u94fe\u6a21\u578b",
+  "description": "简单的聊天网页，适配思维链模型",
   "language": "HTML",
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\u7b80\u5355\u7684\u804a\u5929\u7f51\u9875\uff0c\u9002\u914d\u601d\u7ef4\u94fe\u6a21\u578b",
+  "summary": "简单的聊天网页，适配思维链模型",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

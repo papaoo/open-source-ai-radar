@@ -1,16 +1,16 @@
 {
   "full_name": "aw3703/batchin-public",
   "url": "https://github.com/aw3703/batchin-public",
-  "description": "\u26a1 Ultra-Reliable AI Inference Gateway & Verifiable Agent Control Plane. Dual-Dispatch, Zero-Token JSON Auto-Healer, VaaS On-Chain Attestation, FastMCP & Vercel AI SDK.",
+  "description": "⚡ Ultra-Reliable AI Inference Gateway & Verifiable Agent Control Plane. Dual-Dispatch, Zero-Token JSON Auto-Healer, VaaS On-Chain Attestation, FastMCP & Vercel AI SDK.",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 94,
+  "stars": 89,
   "forks": 0,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-05-26T21:45:17Z",
-  "pushed_at": "2026-10-12T20:54:22Z",
+  "pushed_at": "2026-11-02T07:00:37Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/aw3703.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\u26a1 Ultra-Reliable AI Inference Gateway & Verifiable Agent Control Plane. Dual-Dispatch, Zero-Token JSON Auto-Healer, VaaS On-Chain Attestation, FastMCP & Vercel AI SDK.",
+  "summary": "⚡ Ultra-Reliable AI Inference Gateway & Verifiable Agent Control Plane. Dual-Dispatch, Zero-Token JSON Auto-Healer, VaaS On-Chain Attestation, FastMCP & Vercel AI SDK.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

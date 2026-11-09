@@ -1,7 +1,7 @@
 {
   "full_name": "whispem/sussurro.cpp",
   "url": "https://github.com/whispem/sussurro.cpp",
-  "description": "Offline neural translation across English, Spanish, French & Italian \u2014 type or speak, read or hear it. Built on ggml.",
+  "description": "Offline neural translation across English, Spanish, French & Italian — type or speak, read or hear it. Built on ggml.",
   "language": "C++",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "Offline neural translation across English, Spanish, French & Italian \u2014 type or speak, read or hear it. Built on ggml.",
+  "summary": "Offline neural translation across English, Spanish, French & Italian — type or speak, read or hear it. Built on ggml.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

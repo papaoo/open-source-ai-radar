@@ -1,16 +1,16 @@
 {
   "full_name": "ailake-io/ai-lakehouse",
   "url": "https://github.com/ailake-io/ai-lakehouse",
-  "description": "AI-Lake Format: self-contained Parquet + HNSW index \u2014 unifying tabular data, embeddings, and vector search in a single Iceberg-compatible file",
+  "description": "AI-Lake Format: self-contained Parquet + HNSW index — unifying tabular data, embeddings, and vector search in a single Iceberg-compatible file",
   "language": "Rust",
   "license": "NOASSERTION",
   "topics": [],
-  "stars": 44,
+  "stars": 45,
   "forks": 3,
   "open_issues": 0,
   "watchers": 4,
   "created_at": "2026-05-18T20:24:06Z",
-  "pushed_at": "2026-10-09T18:50:42Z",
+  "pushed_at": "2026-11-06T15:50:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ailake-io.png",
   "radar_score": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "RAG",
   "sub_category": "vector database",
-  "summary": "AI-Lake Format: self-contained Parquet + HNSW index \u2014 unifying tabular data, embeddings, and vector search in a single Iceberg-compatible file",
+  "summary": "AI-Lake Format: self-contained Parquet + HNSW index — unifying tabular data, embeddings, and vector search in a single Iceberg-compatible file",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

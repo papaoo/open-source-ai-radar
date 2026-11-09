@@ -1,7 +1,7 @@
 {
   "full_name": "CompVis/retrieval-augmented-diffusion-models",
   "url": "https://github.com/CompVis/retrieval-augmented-diffusion-models",
-  "description": "Official codebase for the Paper \u201cRetrieval-Augmented Diffusion Models\u201d",
+  "description": "Official codebase for the Paper “Retrieval-Augmented Diffusion Models”",
   "language": "Jupyter Notebook",
   "license": "NOASSERTION",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Generative AI",
   "sub_category": "image",
-  "summary": "Official codebase for the Paper \u201cRetrieval-Augmented Diffusion Models\u201d",
+  "summary": "Official codebase for the Paper “Retrieval-Augmented Diffusion Models”",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

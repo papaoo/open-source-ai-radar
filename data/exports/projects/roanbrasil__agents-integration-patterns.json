@@ -1,7 +1,7 @@
 {
   "full_name": "roanbrasil/agents-integration-patterns",
   "url": "https://github.com/roanbrasil/agents-integration-patterns",
-  "description": "A catalog of integration patterns for multi-agent AI systems \u2014 the missing vocabulary between Enterprise Integration Patterns and the agentic era.",
+  "description": "A catalog of integration patterns for multi-agent AI systems — the missing vocabulary between Enterprise Integration Patterns and the agentic era.",
   "language": null,
   "license": "NOASSERTION",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Agents",
   "sub_category": "",
-  "summary": "A catalog of integration patterns for multi-agent AI systems \u2014 the missing vocabulary between Enterprise Integration Patterns and the agentic era.",
+  "summary": "A catalog of integration patterns for multi-agent AI systems — the missing vocabulary between Enterprise Integration Patterns and the agentic era.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

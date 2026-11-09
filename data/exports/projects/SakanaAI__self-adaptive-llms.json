@@ -1,11 +1,11 @@
 {
   "full_name": "SakanaAI/self-adaptive-llms",
   "url": "https://github.com/SakanaAI/self-adaptive-llms",
-  "description": "A Self-adaptation Framework\ud83d\udc19 that adapts LLMs for unseen tasks in real-time!",
+  "description": "A Self-adaptation Framework🐙 that adapts LLMs for unseen tasks in real-time!",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 1225,
+  "stars": 1227,
   "forks": 142,
   "open_issues": 7,
   "watchers": 19,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "A Self-adaptation Framework\ud83d\udc19 that adapts LLMs for unseen tasks in real-time!",
+  "summary": "A Self-adaptation Framework🐙 that adapts LLMs for unseen tasks in real-time!",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

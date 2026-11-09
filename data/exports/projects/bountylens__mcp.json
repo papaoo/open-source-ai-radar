@@ -1,7 +1,7 @@
 {
   "full_name": "bountylens/mcp",
   "url": "https://github.com/bountylens/mcp",
-  "description": "BountyLens MCP server \u2014 connect Claude Code to your Hunter Tracker",
+  "description": "BountyLens MCP server — connect Claude Code to your Hunter Tracker",
   "language": "JavaScript",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "BountyLens MCP server \u2014 connect Claude Code to your Hunter Tracker",
+  "summary": "BountyLens MCP server — connect Claude Code to your Hunter Tracker",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

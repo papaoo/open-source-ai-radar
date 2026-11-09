@@ -1,11 +1,11 @@
 {
   "full_name": "NanoFlow-io/engram",
   "url": "https://github.com/NanoFlow-io/engram",
-  "description": "\ud83e\udde0 Hybrid long-term memory plugin for OpenClaw agents \u2014 SQLite+FTS5 for structured facts, LanceDB for semantic recall",
+  "description": "🧠 Hybrid long-term memory plugin for OpenClaw agents — SQLite+FTS5 for structured facts, LanceDB for semantic recall",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
-  "stars": 79,
+  "stars": 70,
   "forks": 1,
   "open_issues": 0,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\ud83e\udde0 Hybrid long-term memory plugin for OpenClaw agents \u2014 SQLite+FTS5 for structured facts, LanceDB for semantic recall",
+  "summary": "🧠 Hybrid long-term memory plugin for OpenClaw agents — SQLite+FTS5 for structured facts, LanceDB for semantic recall",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

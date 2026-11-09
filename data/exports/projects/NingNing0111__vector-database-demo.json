@@ -1,7 +1,7 @@
 {
   "full_name": "NingNing0111/vector-database-demo",
   "url": "https://github.com/NingNing0111/vector-database-demo",
-  "description": "\u57fa\u4e8eSpring AI \u548c PGvector \u5b9e\u73b0\u7684\u68c0\u7d22\u589e\u5f3a\u751f\u6210\uff08RAG\uff09\u5bf9\u8bdd\u63a5\u53e3demo",
+  "description": "基于Spring AI 和 PGvector 实现的检索增强生成（RAG）对话接口demo",
   "language": "Java",
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "RAG",
   "sub_category": "vector database",
-  "summary": "\u57fa\u4e8eSpring AI \u548c PGvector \u5b9e\u73b0\u7684\u68c0\u7d22\u589e\u5f3a\u751f\u6210\uff08RAG\uff09\u5bf9\u8bdd\u63a5\u53e3demo",
+  "summary": "基于Spring AI 和 PGvector 实现的检索增强生成（RAG）对话接口demo",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

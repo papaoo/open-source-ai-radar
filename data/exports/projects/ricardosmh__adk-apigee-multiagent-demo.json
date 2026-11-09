@@ -1,7 +1,7 @@
 {
   "full_name": "ricardosmh/adk-apigee-multiagent-demo",
   "url": "https://github.com/ricardosmh/adk-apigee-multiagent-demo",
-  "description": "Multi-agent demo with Google ADK on Vertex AI Agent Engine \u2014 every LLM, A2A, and MCP call routed through Apigee X for API-key auth, per-user quotas, and token analytics.",
+  "description": "Multi-agent demo with Google ADK on Vertex AI Agent Engine — every LLM, A2A, and MCP call routed through Apigee X for API-key auth, per-user quotas, and token analytics.",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "",
-  "summary": "Multi-agent demo with Google ADK on Vertex AI Agent Engine \u2014 every LLM, A2A, and MCP call routed through Apigee X for API-key auth, per-user quotas, and token analytics.",
+  "summary": "Multi-agent demo with Google ADK on Vertex AI Agent Engine — every LLM, A2A, and MCP call routed through Apigee X for API-key auth, per-user quotas, and token analytics.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,7 +1,7 @@
 {
   "full_name": "himanshu-jadhav108/Transformer-Mastery",
   "url": "https://github.com/himanshu-jadhav108/Transformer-Mastery",
-  "description": "A structured, hands-on journey to mastering Transformers \u2014 from attention and mathematical foundations to building, training, and understanding modern Transformer architectures with PyTorch.",
+  "description": "A structured, hands-on journey to mastering Transformers — from attention and mathematical foundations to building, training, and understanding modern Transformer architectures with PyTorch.",
   "language": "Jupyter Notebook",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "A structured, hands-on journey to mastering Transformers \u2014 from attention and mathematical foundations to building, training, and understanding modern Transformer architectures with PyTorch.",
+  "summary": "A structured, hands-on journey to mastering Transformers — from attention and mathematical foundations to building, training, and understanding modern Transformer architectures with PyTorch.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

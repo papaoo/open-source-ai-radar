@@ -1,7 +1,7 @@
 {
   "full_name": "jackaduma/awesome_LLMs_interview_notes",
   "url": "https://github.com/jackaduma/awesome_LLMs_interview_notes",
-  "description": "LLMs interview notes and answers:\u8be5\u4ed3\u5e93\u4e3b\u8981\u8bb0\u5f55\u5927\u6a21\u578b\uff08LLMs\uff09\u7b97\u6cd5\u5de5\u7a0b\u5e08\u76f8\u5173\u7684\u9762\u8bd5\u9898\u548c\u53c2\u8003\u7b54\u6848",
+  "description": "LLMs interview notes and answers:该仓库主要记录大模型（LLMs）算法工程师相关的面试题和参考答案",
   "language": null,
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "LLMs interview notes and answers:\u8be5\u4ed3\u5e93\u4e3b\u8981\u8bb0\u5f55\u5927\u6a21\u578b\uff08LLMs\uff09\u7b97\u6cd5\u5de5\u7a0b\u5e08\u76f8\u5173\u7684\u9762\u8bd5\u9898\u548c\u53c2\u8003\u7b54\u6848",
+  "summary": "LLMs interview notes and answers:该仓库主要记录大模型（LLMs）算法工程师相关的面试题和参考答案",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

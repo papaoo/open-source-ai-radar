@@ -1,7 +1,7 @@
 {
   "full_name": "Mai-xiyu/Codex-Prompt",
   "url": "https://github.com/Mai-xiyu/Codex-Prompt",
-  "description": "Rational engineering system prompt for Codex and LLMs \u2014 focused on accuracy, software engineering, AI, security research, bug bounty, and reverse engineering. | \u9762\u5411 Codex \u4e0e LLM \u7684\u7406\u6027\u5de5\u7a0b\u7cfb\u7edf\u63d0\u793a\u8bcd\uff1a\u5f3a\u8c03\u51c6\u786e\u6027\u3001\u8f6f\u4ef6\u5de5\u7a0b\u3001AI\u3001\u7f51\u7edc\u5b89\u5168\u3001\u6f0f\u6d1e\u7814\u7a76\u4e0e\u9006\u5411\u5de5\u7a0b\u3002",
+  "description": "Rational engineering system prompt for Codex and LLMs — focused on accuracy, software engineering, AI, security research, bug bounty, and reverse engineering. | 面向 Codex 与 LLM 的理性工程系统提示词：强调准确性、软件工程、AI、网络安全、漏洞研究与逆向工程。",
   "language": null,
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
-  "summary": "Rational engineering system prompt for Codex and LLMs \u2014 focused on accuracy, software engineering, AI, security research, bug bounty, and reverse engineering. | \u9762\u5411 Codex \u4e0e LLM \u7684\u7406\u6027\u5de5\u7a0b\u7cfb\u7edf\u63d0\u793a\u8bcd\uff1a\u5f3a\u8c03\u51c6\u786e\u6027\u3001\u8f6f\u4ef6\u5de5\u7a0b\u3001AI\u3001\u7f51\u7edc\u5b89\u5168\u3001\u6f0f\u6d1e\u7814\u7a76\u4e0e\u9006\u5411\u5de5\u7a0b\u3002",
+  "summary": "Rational engineering system prompt for Codex and LLMs — focused on accuracy, software engineering, AI, security research, bug bounty, and reverse engineering. | 面向 Codex 与 LLM 的理性工程系统提示词：强调准确性、软件工程、AI、网络安全、漏洞研究与逆向工程。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

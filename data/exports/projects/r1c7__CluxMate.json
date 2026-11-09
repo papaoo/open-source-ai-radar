@@ -1,11 +1,11 @@
 {
   "full_name": "r1c7/CluxMate",
   "url": "https://github.com/r1c7/CluxMate",
-  "description": "AI coding agent with one Python core and three front-ends \u2014 headless CLI, Textual TUI, and an Electron desktop. Works with any OpenAI-compatible API, with risk-tiered permissions, event-sourced replayable sessions, and a fail-closed OS-level sandbox. ",
+  "description": "AI coding agent with one Python core and three front-ends — headless CLI, Textual TUI, and an Electron desktop. Works with any OpenAI-compatible API, with risk-tiered permissions, event-sourced replayable sessions, and a fail-closed OS-level sandbox. ",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 146,
+  "stars": 140,
   "forks": 1,
   "open_issues": 0,
   "watchers": 1,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "cli tool",
-  "summary": "AI coding agent with one Python core and three front-ends \u2014 headless CLI, Textual TUI, and an Electron desktop. Works with any OpenAI-compatible API, with risk-tiered permissions, event-sourced replayable sessions, and a fail-closed OS-level sandbox. ",
+  "summary": "AI coding agent with one Python core and three front-ends — headless CLI, Textual TUI, and an Electron desktop. Works with any OpenAI-compatible API, with risk-tiered permissions, event-sourced replayable sessions, and a fail-closed OS-level sandbox. ",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

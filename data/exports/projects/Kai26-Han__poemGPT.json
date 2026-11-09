@@ -1,7 +1,7 @@
 {
   "full_name": "Kai26-Han/poemGPT",
   "url": "https://github.com/Kai26-Han/poemGPT",
-  "description": "\u4e00\u4e2a\u5fae\u578b\u5199\u8bd7GPT--\u53ea\u7528\u6d4f\u89c8\u5668\u8dd1\u901a\u5b8c\u6574\u6d41\u7a0b \uff08A Tiny Poem\u2011Generating GPT \u2014 Full Workflow That Runs Purely in the Browser\uff09",
+  "description": "一个微型写诗GPT--只用浏览器跑通完整流程 （A Tiny Poem‑Generating GPT — Full Workflow That Runs Purely in the Browser）",
   "language": "HTML",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\u4e00\u4e2a\u5fae\u578b\u5199\u8bd7GPT--\u53ea\u7528\u6d4f\u89c8\u5668\u8dd1\u901a\u5b8c\u6574\u6d41\u7a0b \uff08A Tiny Poem\u2011Generating GPT \u2014 Full Workflow That Runs Purely in the Browser\uff09",
+  "summary": "一个微型写诗GPT--只用浏览器跑通完整流程 （A Tiny Poem‑Generating GPT — Full Workflow That Runs Purely in the Browser）",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T01:18:59.415006+00:00",
+  "generated_at": "2026-11-09T09:35:17.062663+00:00",
   "rising_stars_count": 0,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -7,5 +7,54 @@
   "anomalies_count": 0,
   "top_rising": [],
   "top_gems": [],
-  "categories": []
+  "categories": [
+    {
+      "category": "Uncategorized",
+      "count": 1502
+    },
+    {
+      "category": "AI Coding Tools",
+      "count": 955
+    },
+    {
+      "category": "LLM Frameworks",
+      "count": 710
+    },
+    {
+      "category": "AI Agents",
+      "count": 572
+    },
+    {
+      "category": "MCP",
+      "count": 569
+    },
+    {
+      "category": "Local AI",
+      "count": 507
+    },
+    {
+      "category": "RAG",
+      "count": 412
+    },
+    {
+      "category": "AI Infrastructure",
+      "count": 55
+    },
+    {
+      "category": "Multimodal AI",
+      "count": 47
+    },
+    {
+      "category": "Generative AI",
+      "count": 44
+    },
+    {
+      "category": "Evaluation & Benchmarks",
+      "count": 33
+    },
+    {
+      "category": "AI Safety & Alignment",
+      "count": 18
+    }
+  ]
 }

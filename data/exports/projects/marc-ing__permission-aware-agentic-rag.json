@@ -1,7 +1,7 @@
 {
   "full_name": "marc-ing/permission-aware-agentic-rag",
   "url": "https://github.com/marc-ing/permission-aware-agentic-rag",
-  "description": "Permission-aware Agentic RAG for enterprise knowledge bases \u2014 folder ACLs, hybrid retrieval, OCR, grounded citations, and secure LLM evidence.",
+  "description": "Permission-aware Agentic RAG for enterprise knowledge bases — folder ACLs, hybrid retrieval, OCR, grounded citations, and secure LLM evidence.",
   "language": "Python",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "RAG",
   "sub_category": "rag framework",
-  "summary": "Permission-aware Agentic RAG for enterprise knowledge bases \u2014 folder ACLs, hybrid retrieval, OCR, grounded citations, and secure LLM evidence.",
+  "summary": "Permission-aware Agentic RAG for enterprise knowledge bases — folder ACLs, hybrid retrieval, OCR, grounded citations, and secure LLM evidence.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

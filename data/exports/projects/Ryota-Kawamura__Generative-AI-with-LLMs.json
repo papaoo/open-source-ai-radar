@@ -1,12 +1,12 @@
 {
   "full_name": "Ryota-Kawamura/Generative-AI-with-LLMs",
   "url": "https://github.com/Ryota-Kawamura/Generative-AI-with-LLMs",
-  "description": "In Generative AI with Large Language Models (LLMs), you\u2019ll learn the fundamentals of how generative AI works, and how to deploy it in real-world applications.",
+  "description": "In Generative AI with Large Language Models (LLMs), you’ll learn the fundamentals of how generative AI works, and how to deploy it in real-world applications.",
   "language": "Jupyter Notebook",
   "license": null,
   "topics": [],
-  "stars": 648,
-  "forks": 446,
+  "stars": 655,
+  "forks": 445,
   "open_issues": 0,
   "watchers": 7,
   "created_at": "2023-07-01T03:49:22Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
-  "summary": "In Generative AI with Large Language Models (LLMs), you\u2019ll learn the fundamentals of how generative AI works, and how to deploy it in real-world applications.",
+  "summary": "In Generative AI with Large Language Models (LLMs), you’ll learn the fundamentals of how generative AI works, and how to deploy it in real-world applications.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

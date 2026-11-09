@@ -1,11 +1,11 @@
 {
   "full_name": "opengenesishq/EastGenesis",
   "url": "https://github.com/opengenesishq/EastGenesis",
-  "description": "CaoGen \u2014 a vendor-neutral, local-first AI work desktop. Multi-provider agent runtime, GUI automation, MCP, Git worktree, task orchestration, effect ledger, and 3D office workspace. macOS/Windows/Linux.",
+  "description": "CaoGen — a vendor-neutral, local-first AI work desktop. Multi-provider agent runtime, GUI automation, MCP, Git worktree, task orchestration, effect ledger, and 3D office workspace. macOS/Windows/Linux.",
   "language": "TypeScript",
   "license": "AGPL-3.0",
   "topics": [],
-  "stars": 118,
+  "stars": 112,
   "forks": 4,
   "open_issues": 0,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "CaoGen \u2014 a vendor-neutral, local-first AI work desktop. Multi-provider agent runtime, GUI automation, MCP, Git worktree, task orchestration, effect ledger, and 3D office workspace. macOS/Windows/Linux.",
+  "summary": "CaoGen — a vendor-neutral, local-first AI work desktop. Multi-provider agent runtime, GUI automation, MCP, Git worktree, task orchestration, effect ledger, and 3D office workspace. macOS/Windows/Linux.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

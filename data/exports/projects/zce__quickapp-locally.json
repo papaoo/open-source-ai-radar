@@ -1,7 +1,7 @@
 {
   "full_name": "zce/quickapp-locally",
   "url": "https://github.com/zce/quickapp-locally",
-  "description": ":construction: :construction: \u4e00\u4e2a\u5feb\u5e94\u7528\u7684\u793a\u4f8b\u9879\u76ee",
+  "description": ":construction: :construction: 一个快应用的示例项目",
   "language": null,
   "license": null,
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "local runner",
-  "summary": ":construction: :construction: \u4e00\u4e2a\u5feb\u5e94\u7528\u7684\u793a\u4f8b\u9879\u76ee",
+  "summary": ":construction: :construction: 一个快应用的示例项目",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

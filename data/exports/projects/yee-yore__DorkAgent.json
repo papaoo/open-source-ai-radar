@@ -1,12 +1,12 @@
 {
   "full_name": "yee-yore/DorkAgent",
   "url": "https://github.com/yee-yore/DorkAgent",
-  "description": "\ud83e\udd16 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
+  "description": "🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 326,
-  "forks": 53,
+  "stars": 335,
+  "forks": 55,
   "open_issues": 0,
   "watchers": 4,
   "created_at": "2025-02-26T04:56:34Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "\ud83e\udd16 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
+  "summary": "🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

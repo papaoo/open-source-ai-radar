@@ -1,7 +1,7 @@
 {
   "full_name": "joeseesun/codex-assistant",
   "url": "https://github.com/joeseesun/codex-assistant",
-  "description": "\u901a\u8fc7\u81ea\u7136\u8bed\u8a00\u8c03\u7528 OpenAI Codex CLI \u6267\u884c\u4ee3\u7801\u4efb\u52a1",
+  "description": "通过自然语言调用 OpenAI Codex CLI 执行代码任务",
   "language": null,
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "cli tool",
-  "summary": "\u901a\u8fc7\u81ea\u7136\u8bed\u8a00\u8c03\u7528 OpenAI Codex CLI \u6267\u884c\u4ee3\u7801\u4efb\u52a1",
+  "summary": "通过自然语言调用 OpenAI Codex CLI 执行代码任务",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

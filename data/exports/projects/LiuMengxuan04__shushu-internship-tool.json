@@ -1,12 +1,12 @@
 {
   "full_name": "LiuMengxuan04/shushu-internship-tool",
   "url": "https://github.com/LiuMengxuan04/shushu-internship-tool",
-  "description": "\u628a\u5c97\u4f4d\u63cf\u8ff0\u53d8\u9879\u76ee\uff0c\u628a\u9879\u76ee\u53d8\u7b80\u5386\uff0c\u628a\u7b80\u5386\u53d8\u9762\u8bd5\u3002",
+  "description": "把岗位描述变项目，把项目变简历，把简历变面试。",
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [],
-  "stars": 2089,
-  "forks": 103,
+  "stars": 2178,
+  "forks": 106,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-05-17T11:25:47Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "\u628a\u5c97\u4f4d\u63cf\u8ff0\u53d8\u9879\u76ee\uff0c\u628a\u9879\u76ee\u53d8\u7b80\u5386\uff0c\u628a\u7b80\u5386\u53d8\u9762\u8bd5\u3002",
+  "summary": "把岗位描述变项目，把项目变简历，把简历变面试。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

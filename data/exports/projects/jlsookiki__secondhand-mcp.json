@@ -1,12 +1,12 @@
 {
   "full_name": "jlsookiki/secondhand-mcp",
   "url": "https://github.com/jlsookiki/secondhand-mcp",
-  "description": "MCP server for searching secondhand marketplaces \u2014 Facebook Marketplace, eBay, and Depop. Works with Claude Desktop, Claude Code, and other MCP clients.",
+  "description": "MCP server for searching secondhand marketplaces — Facebook Marketplace, eBay, and Depop. Works with Claude Desktop, Claude Code, and other MCP clients.",
   "language": "TypeScript",
   "license": "MIT",
   "topics": [],
-  "stars": 91,
-  "forks": 23,
+  "stars": 101,
+  "forks": 28,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-02-05T19:13:42Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "MCP server for searching secondhand marketplaces \u2014 Facebook Marketplace, eBay, and Depop. Works with Claude Desktop, Claude Code, and other MCP clients.",
+  "summary": "MCP server for searching secondhand marketplaces — Facebook Marketplace, eBay, and Depop. Works with Claude Desktop, Claude Code, and other MCP clients.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

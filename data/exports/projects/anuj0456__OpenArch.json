@@ -1,12 +1,12 @@
 {
   "full_name": "anuj0456/OpenArch",
   "url": "https://github.com/anuj0456/OpenArch",
-  "description": "PyTorch implementations of modern open-source LLM architectures (Llama, Qwen, DeepSeek, Gemma, GPT-OSS, Kimi, and more) \u2014 written from scratch for readability and learning, based on Sebastian Raschka's LLM Architecture Gallery.",
+  "description": "PyTorch implementations of modern open-source LLM architectures (Llama, Qwen, DeepSeek, Gemma, GPT-OSS, Kimi, and more) — written from scratch for readability and learning, based on Sebastian Raschka's LLM Architecture Gallery.",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 425,
-  "forks": 34,
+  "stars": 427,
+  "forks": 35,
   "open_issues": 4,
   "watchers": 3,
   "created_at": "2026-05-27T14:24:46Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "LLM Frameworks",
   "sub_category": "",
-  "summary": "PyTorch implementations of modern open-source LLM architectures (Llama, Qwen, DeepSeek, Gemma, GPT-OSS, Kimi, and more) \u2014 written from scratch for readability and learning, based on Sebastian Raschka's LLM Architecture Gallery.",
+  "summary": "PyTorch implementations of modern open-source LLM architectures (Llama, Qwen, DeepSeek, Gemma, GPT-OSS, Kimi, and more) — written from scratch for readability and learning, based on Sebastian Raschka's LLM Architecture Gallery.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

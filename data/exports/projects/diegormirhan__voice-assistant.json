@@ -1,11 +1,11 @@
 {
   "full_name": "diegormirhan/voice-assistant",
   "url": "https://github.com/diegormirhan/voice-assistant",
-  "description": "Full-duplex, vision-enabled voice assistant for Windows \u2014 100% local, on-device. Barge-in interrupts, desktop screenshots give the LLM visual context, and STT (whisper.cpp) + LLM (llama.cpp) run on Vulkan with no PyTorch/CUDA. Streaming Piper TTS in pt-BR. GGML edge AI.",
+  "description": "Full-duplex, vision-enabled voice assistant for Windows — 100% local, on-device. Barge-in interrupts, desktop screenshots give the LLM visual context, and STT (whisper.cpp) + LLM (llama.cpp) run on Vulkan with no PyTorch/CUDA. Streaming Piper TTS in pt-BR. GGML edge AI.",
   "language": "Python",
   "license": null,
   "topics": [],
-  "stars": 11,
+  "stars": 12,
   "forks": 2,
   "open_issues": 0,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "local runner",
-  "summary": "Full-duplex, vision-enabled voice assistant for Windows \u2014 100% local, on-device. Barge-in interrupts, desktop screenshots give the LLM visual context, and STT (whisper.cpp) + LLM (llama.cpp) run on Vulkan with no PyTorch/CUDA. Streaming Piper TTS in pt-BR. GGML edge AI.",
+  "summary": "Full-duplex, vision-enabled voice assistant for Windows — 100% local, on-device. Barge-in interrupts, desktop screenshots give the LLM visual context, and STT (whisper.cpp) + LLM (llama.cpp) run on Vulkan with no PyTorch/CUDA. Streaming Piper TTS in pt-BR. GGML edge AI.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

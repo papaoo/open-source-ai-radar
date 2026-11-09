@@ -1,7 +1,7 @@
 {
   "full_name": "raullenchai/rapid-mlx-dsh-provider",
   "url": "https://github.com/raullenchai/rapid-mlx-dsh-provider",
-  "description": "Native Rapid-MLX provider for DeepSeek Harness (dsh) \u2014 dsh reads model facts from the server instead of your settings.yaml.",
+  "description": "Native Rapid-MLX provider for DeepSeek Harness (dsh) — dsh reads model facts from the server instead of your settings.yaml.",
   "language": "JavaScript",
   "license": "Apache-2.0",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "",
-  "summary": "Native Rapid-MLX provider for DeepSeek Harness (dsh) \u2014 dsh reads model facts from the server instead of your settings.yaml.",
+  "summary": "Native Rapid-MLX provider for DeepSeek Harness (dsh) — dsh reads model facts from the server instead of your settings.yaml.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

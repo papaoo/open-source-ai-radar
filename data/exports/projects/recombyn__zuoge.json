@@ -1,11 +1,11 @@
 {
   "full_name": "recombyn/zuoge",
   "url": "https://github.com/recombyn/zuoge",
-  "description": "zuoge \u2014 open-source AI design workspace with a document-derived SoA infinite artboard and Design Agent",
+  "description": "zuoge — open-source AI design workspace with a document-derived SoA infinite artboard and Design Agent",
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 55,
+  "stars": 57,
   "forks": 9,
   "open_issues": 0,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Uncategorized",
   "sub_category": "",
-  "summary": "zuoge \u2014 open-source AI design workspace with a document-derived SoA infinite artboard and Design Agent",
+  "summary": "zuoge — open-source AI design workspace with a document-derived SoA infinite artboard and Design Agent",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

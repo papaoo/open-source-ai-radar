@@ -1,12 +1,12 @@
 {
   "full_name": "arielshakaramiro/arielshakaramiro",
   "url": "https://github.com/arielshakaramiro/arielshakaramiro",
-  "description": "AI/ML Engineer in progress \u2014 LLM, RAG, Computer Vision. Open to full-time AI Engineer roles.",
+  "description": "AI/ML Engineer in progress — LLM, RAG, Computer Vision. Open to full-time AI Engineer roles.",
   "language": null,
   "license": "MIT",
   "topics": [],
-  "stars": 57,
-  "forks": 3,
+  "stars": 82,
+  "forks": 7,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-07-15T02:43:48Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "RAG",
   "sub_category": "rag framework",
-  "summary": "AI/ML Engineer in progress \u2014 LLM, RAG, Computer Vision. Open to full-time AI Engineer roles.",
+  "summary": "AI/ML Engineer in progress — LLM, RAG, Computer Vision. Open to full-time AI Engineer roles.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

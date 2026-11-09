@@ -1,11 +1,11 @@
 {
   "full_name": "7anX/AgentScan",
   "url": "https://github.com/7anX/AgentScan",
-  "description": "AI protocol scanner \u2014 discover exposed MCP servers, A2A Agent Cards, and open LLM APIs in one command. \u4e00\u6761\u547d\u4ee4\u76d8\u70b9 MCP\u3001A2A Agent Card \u548c LLM \u5f00\u653e\u63a5\u53e3\u66b4\u9732\u9762\u3002",
+  "description": "AI protocol scanner — discover exposed MCP servers, A2A Agent Cards, and open LLM APIs in one command. 一条命令盘点 MCP、A2A Agent Card 和 LLM 开放接口暴露面。",
   "language": "Go",
   "license": "MIT",
   "topics": [],
-  "stars": 108,
+  "stars": 110,
   "forks": 6,
   "open_issues": 1,
   "watchers": 0,
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "AI protocol scanner \u2014 discover exposed MCP servers, A2A Agent Cards, and open LLM APIs in one command. \u4e00\u6761\u547d\u4ee4\u76d8\u70b9 MCP\u3001A2A Agent Card \u548c LLM \u5f00\u653e\u63a5\u53e3\u66b4\u9732\u9762\u3002",
+  "summary": "AI protocol scanner — discover exposed MCP servers, A2A Agent Cards, and open LLM APIs in one command. 一条命令盘点 MCP、A2A Agent Card 和 LLM 开放接口暴露面。",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

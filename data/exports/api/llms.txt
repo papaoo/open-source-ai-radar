@@ -1,7 +1,7 @@
 # Open Source AI Radar
 
-> Intelligence platform tracking 0 open-source AI repositories
-> (0 combined stars) with a three-axis score: Impact (40%),
+> Intelligence platform tracking 5,424 open-source AI repositories
+> (37,212,147 combined stars) with a three-axis score: Impact (40%),
 > Velocity (35%), Health (25%). Data refreshes daily via automated
 > GitHub Actions; last export 2026-11-09.
 
@@ -11,7 +11,7 @@ and category momentum.
 
 ## Datasets (static JSON, no auth, CC-BY-4.0)
 
-- [All repos](https://erbharatmalhotra.github.io/open-source-ai-radar/api/repos.json): 0 records — name, description, language, license, stars, forks, timestamps
+- [All repos](https://erbharatmalhotra.github.io/open-source-ai-radar/api/repos.json): 5,424 records — name, description, language, license, stars, forks, timestamps
 - [Top ranked](https://erbharatmalhotra.github.io/open-source-ai-radar/api/top.json): highest radar scores with axis breakdowns
 - [Trending](https://erbharatmalhotra.github.io/open-source-ai-radar/api/trending.json): sorted by velocity (stars/day momentum)
 - [Hidden gems](https://erbharatmalhotra.github.io/open-source-ai-radar/api/gems.json): low-star, high-velocity emerging projects
@@ -24,7 +24,17 @@ and category momentum.
 
 ## Categories (2026-11-09)
 
-
+- [AI Agents](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 572 projects, trend new
+- [AI Coding Tools](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 955 projects, trend new
+- [AI Infrastructure](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 55 projects, trend new
+- [AI Safety & Alignment](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 18 projects, trend new
+- [Evaluation & Benchmarks](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 33 projects, trend new
+- [Generative AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 44 projects, trend new
+- [LLM Frameworks](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 710 projects, trend new
+- [Local AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 507 projects, trend new
+- [MCP](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 569 projects, trend new
+- [Multimodal AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 47 projects, trend new
+- [RAG](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 412 projects, trend new
 
 ## Top projects right now
 

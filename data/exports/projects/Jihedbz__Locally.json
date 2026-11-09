@@ -1,7 +1,7 @@
 {
   "full_name": "Jihedbz/Locally",
   "url": "https://github.com/Jihedbz/Locally",
-  "description": "Locally is a lightweight, Rust-powered desktop app that helps you manage all your local dev projects in one place \u2014 with visual package management, multi-framework support, and a clean UI.",
+  "description": "Locally is a lightweight, Rust-powered desktop app that helps you manage all your local dev projects in one place — with visual package management, multi-framework support, and a clean UI.",
   "language": null,
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "Local AI",
   "sub_category": "local runner",
-  "summary": "Locally is a lightweight, Rust-powered desktop app that helps you manage all your local dev projects in one place \u2014 with visual package management, multi-framework support, and a clean UI.",
+  "summary": "Locally is a lightweight, Rust-powered desktop app that helps you manage all your local dev projects in one place — with visual package management, multi-framework support, and a clean UI.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

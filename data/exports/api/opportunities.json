@@ -1,7 +1,104 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-11-09T01:18:59.440035+00:00",
+  "generated_at": "2026-11-09T09:35:31.163956+00:00",
   "total_candidates": 0,
   "candidates": [],
-  "whitespace": []
+  "whitespace": [
+    {
+      "category": "AI Safety & Alignment",
+      "total_tracked": 18,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 36.4
+    },
+    {
+      "category": "Evaluation & Benchmarks",
+      "total_tracked": 33,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 33.4
+    },
+    {
+      "category": "Generative AI",
+      "total_tracked": 44,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 31.2
+    },
+    {
+      "category": "Multimodal AI",
+      "total_tracked": 47,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 30.6
+    },
+    {
+      "category": "AI Infrastructure",
+      "total_tracked": 55,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 29.0
+    },
+    {
+      "category": "AI Agents",
+      "total_tracked": 572,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    },
+    {
+      "category": "AI Coding Tools",
+      "total_tracked": 955,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    },
+    {
+      "category": "LLM Frameworks",
+      "total_tracked": 710,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    },
+    {
+      "category": "Local AI",
+      "total_tracked": 507,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    },
+    {
+      "category": "MCP",
+      "total_tracked": 569,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    },
+    {
+      "category": "RAG",
+      "total_tracked": 412,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    },
+    {
+      "category": "Uncategorized",
+      "total_tracked": 1502,
+      "avg_velocity": 0.0,
+      "momentum_score": 0.0,
+      "trend": "new",
+      "whitespace_score": 0.0
+    }
+  ]
 }

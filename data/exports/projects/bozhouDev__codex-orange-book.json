@@ -1,12 +1,12 @@
 {
   "full_name": "bozhouDev/codex-orange-book",
   "url": "https://github.com/bozhouDev/codex-orange-book",
-  "description": "Codex \u6a59\u76ae\u4e66\uff1a\u4ece\u5b89\u88c5\u5230\u5b9e\u6218\u6848\u4f8b\u7684\u5168\u94fe\u8def Codex \u4f7f\u7528\u6307\u5357\uff08\u975e\u5b98\u65b9\u5f00\u6e90\uff0c\u542b\u53ef\u4e0b\u8f7d PDF\uff09",
+  "description": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
   "language": "HTML",
   "license": "MIT",
   "topics": [],
-  "stars": 3435,
-  "forks": 325,
+  "stars": 3507,
+  "forks": 333,
   "open_issues": 3,
   "watchers": 7,
   "created_at": "2026-06-23T02:36:54Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "Codex \u6a59\u76ae\u4e66\uff1a\u4ece\u5b89\u88c5\u5230\u5b9e\u6218\u6848\u4f8b\u7684\u5168\u94fe\u8def Codex \u4f7f\u7528\u6307\u5357\uff08\u975e\u5b98\u65b9\u5f00\u6e90\uff0c\u542b\u53ef\u4e0b\u8f7d PDF\uff09",
+  "summary": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -1,12 +1,12 @@
 {
   "full_name": "muyun1314/codex-assistant",
   "url": "https://github.com/muyun1314/codex-assistant",
-  "description": "Codex\u4ee3\u7406\uff1a\u4e00\u952e\u517c\u5bb9 DeepSeek/MiMo/OpenAI\uff0c\u652f\u63011M\u4e0a\u4e0b\u6587\uff0cWeb \u7ba1\u7406\u754c\u9762 + \u684c\u9762\u5e94\u7528\uff0cAPI Key \u52a0\u5bc6\u5b58\u50a8\uff0c",
+  "description": "Codex代理：一键兼容 DeepSeek/MiMo/OpenAI，支持1M上下文，Web 管理界面 + 桌面应用，API Key 加密存储，",
   "language": "HTML",
   "license": null,
   "topics": [],
   "stars": 27,
-  "forks": 3,
+  "forks": 4,
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-05-30T15:35:54Z",
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "AI Coding Tools",
   "sub_category": "",
-  "summary": "Codex\u4ee3\u7406\uff1a\u4e00\u952e\u517c\u5bb9 DeepSeek/MiMo/OpenAI\uff0c\u652f\u63011M\u4e0a\u4e0b\u6587\uff0cWeb \u7ba1\u7406\u754c\u9762 + \u684c\u9762\u5e94\u7528\uff0cAPI Key \u52a0\u5bc6\u5b58\u50a8\uff0c",
+  "summary": "Codex代理：一键兼容 DeepSeek/MiMo/OpenAI，支持1M上下文，Web 管理界面 + 桌面应用，API Key 加密存储，",
   "maturity": "Unknown",
   "snapshot_count": 0
 }

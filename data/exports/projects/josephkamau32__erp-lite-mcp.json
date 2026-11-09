@@ -1,7 +1,7 @@
 {
   "full_name": "josephkamau32/erp-lite-mcp",
   "url": "https://github.com/josephkamau32/erp-lite-mcp",
-  "description": "A Model Context Protocol (MCP) server exposing ERP-style data (sales orders, inventory, purchase requisitions) to AI agents \u2014 with a real human-in-the-loop approval gate on write actions. FastAPI + FastMCP + PostgreSQL, Streamable HTTP transport, Dockerized, tested.",
+  "description": "A Model Context Protocol (MCP) server exposing ERP-style data (sales orders, inventory, purchase requisitions) to AI agents — with a real human-in-the-loop approval gate on write actions. FastAPI + FastMCP + PostgreSQL, Streamable HTTP transport, Dockerized, tested.",
   "language": "Python",
   "license": "MIT",
   "topics": [],
@@ -20,7 +20,7 @@
   "global_percentile": 0,
   "category": "MCP",
   "sub_category": "server",
-  "summary": "A Model Context Protocol (MCP) server exposing ERP-style data (sales orders, inventory, purchase requisitions) to AI agents \u2014 with a real human-in-the-loop approval gate on write actions. FastAPI + FastMCP + PostgreSQL, Streamable HTTP transport, Dockerized, tested.",
+  "summary": "A Model Context Protocol (MCP) server exposing ERP-style data (sales orders, inventory, purchase requisitions) to AI agents — with a real human-in-the-loop approval gate on write actions. FastAPI + FastMCP + PostgreSQL, Streamable HTTP transport, Dockerized, tested.",
   "maturity": "Unknown",
   "snapshot_count": 0
 }
