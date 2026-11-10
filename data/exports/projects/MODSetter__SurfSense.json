@@ -4,7 +4,17 @@
   "description": "Air-gapped, privacy-focused, open-source NotebookLM alternative. AI agent that researches, transforms, and edits your documents. Join our Discord: https://discord.gg/ejRNvftDp9",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "ai",
+    "rag",
+    "notebooklm",
+    "agent",
+    "agents",
+    "notebooklm-alternative",
+    "web-scraping",
+    "self-hosted",
+    "self-hosted-ai"
+  ],
   "stars": 16831,
   "forks": 1607,
   "open_issues": 54,
@@ -14,10 +24,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/MODSetter.png",
   "radar_score": 73.4,
-  "impact": 89.2,
+  "impact": 89.21,
   "velocity": 62.23,
   "health": 63.75,
-  "global_percentile": 49.0,
+  "global_percentile": 48.43,
   "category": "AI Agents",
   "sub_category": "research agent",
   "summary": "Air-gapped, privacy-focused, open-source NotebookLM alternative. AI agent that researches, transforms, and edits your documents. Join our Discord: https://discord.gg/ejRNvftDp9",
@@ -32,5 +42,5 @@
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

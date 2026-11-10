@@ -4,8 +4,15 @@
   "description": "A straightforward method for training your LLM, from downloading data to generating text.",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
-  "stars": 13186,
+  "topics": [
+    "gemini",
+    "large-language-models",
+    "llm",
+    "openai",
+    "training",
+    "transformers"
+  ],
+  "stars": 13185,
   "forks": 1831,
   "open_issues": 1,
   "watchers": 93,
@@ -14,10 +21,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/FareedKhan-dev.png",
   "radar_score": 62.54,
-  "impact": 88.57,
-  "velocity": 43.7,
+  "impact": 88.59,
+  "velocity": 43.68,
   "health": 47.28,
-  "global_percentile": 4.14,
+  "global_percentile": 4.71,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "A straightforward method for training your LLM, from downloading data to generating text.",
@@ -32,5 +39,5 @@
   "forks_30d": 3,
   "days_since_last_push": 39,
   "freshness_score": 0.6770568744981647,
-  "snapshot_count": 4
+  "snapshot_count": 5
 }

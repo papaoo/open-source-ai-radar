@@ -14,10 +14,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/Yeachan-Heo.png",
   "radar_score": 72.95,
-  "impact": 92.26,
-  "velocity": 61.31,
+  "impact": 92.28,
+  "velocity": 61.3,
   "health": 58.35,
-  "global_percentile": 45.57,
+  "global_percentile": 44.86,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
@@ -32,5 +32,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

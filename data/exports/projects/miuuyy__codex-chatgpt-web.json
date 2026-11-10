@@ -4,7 +4,18 @@
   "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "chatgpt",
+    "chatgpt-pro",
+    "codex",
+    "mcp",
+    "openai",
+    "playwright",
+    "responses-api",
+    "typescript",
+    "free-ai",
+    "quickstart"
+  ],
   "stars": 15654,
   "forks": 1227,
   "open_issues": 10,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-08T23:51:06Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/miuuyy.png",
-  "radar_score": 71.58,
-  "impact": 86.63,
+  "radar_score": 71.6,
+  "impact": 86.66,
   "velocity": 64.11,
   "health": 57.98,
-  "global_percentile": 37.29,
+  "global_percentile": 37.57,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
@@ -32,5 +43,5 @@
   "forks_30d": 2,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

@@ -4,8 +4,18 @@
   "description": "Your self-hosted, globally interconnected microblogging community",
   "language": "Ruby",
   "license": "AGPL-3.0",
-  "topics": [],
-  "stars": 50506,
+  "topics": [
+    "mastodon",
+    "docker",
+    "microblog",
+    "activity-stream",
+    "webfinger",
+    "social-network",
+    "activitypub",
+    "fediverse",
+    "social-web"
+  ],
+  "stars": 50505,
   "forks": 7541,
   "open_issues": 4405,
   "watchers": 712,
@@ -14,10 +24,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/mastodon.png",
   "radar_score": 76.1,
-  "impact": 97.6,
+  "impact": 97.61,
   "velocity": 62.91,
   "health": 60.15,
-  "global_percentile": 72.43,
+  "global_percentile": 71.71,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Your self-hosted, globally interconnected microblogging community",
@@ -32,5 +42,5 @@
   "forks_30d": 2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

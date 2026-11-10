@@ -17,7 +17,7 @@
   "impact": 86.18,
   "velocity": 54.43,
   "health": 63.38,
-  "global_percentile": 21.29,
+  "global_percentile": 23.71,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "MiniCPM5: SOTA on-device LLMs, small yet powerful.",
@@ -32,5 +32,5 @@
   "forks_30d": 0,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

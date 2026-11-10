@@ -4,7 +4,15 @@
   "description": "The ultimate LLM/AI application development framework in Go.",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "ai",
+    "langchaingo",
+    "ai-application",
+    "llm-application",
+    "langchain-for-go",
+    "ai-framework",
+    "langchain"
+  ],
   "stars": 13609,
   "forks": 1168,
   "open_issues": 160,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-09T15:08:23Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/cloudwego.png",
-  "radar_score": 72.83,
-  "impact": 87.34,
+  "radar_score": 72.84,
+  "impact": 87.37,
   "velocity": 62.99,
   "health": 63.38,
-  "global_percentile": 44.43,
+  "global_percentile": 43.71,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "The ultimate LLM/AI application development framework in Go.",
@@ -32,5 +40,5 @@
   "forks_30d": 1,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

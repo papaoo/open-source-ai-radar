@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 20:50:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 21:47:01 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -53,7 +53,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all f</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-10T20:30:46Z</pubDate>
+      <pubDate>2026-11-10T21:40:48Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -77,7 +77,7 @@
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
       <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-10T20:01:41Z</pubDate>
+      <pubDate>2026-11-10T21:19:26Z</pubDate>
       <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>
@@ -85,7 +85,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-10T20:41:05Z</pubDate>
+      <pubDate>2026-11-10T21:40:08Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -93,7 +93,7 @@
       <link>https://github.com/jub0t/Concat</link>
       <description>Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API &amp; MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-10T20:41:55Z</pubDate>
+      <pubDate>2026-11-10T21:13:03Z</pubDate>
       <guid>https://github.com/jub0t/Concat</guid>
     </item>
     <item>
@@ -101,7 +101,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Every agent&apos;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-10T20:30:37Z</pubDate>
+      <pubDate>2026-11-10T21:30:49Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -113,19 +113,11 @@
       <guid>https://github.com/ChatGPTNextWeb/NextChat</guid>
     </item>
     <item>
-      <title>Kuberwastaken/claurst</title>
-      <link>https://github.com/Kuberwastaken/claurst</link>
-      <description>Agentic Coding for Builders who Ship</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-10-26T16:08:43Z</pubDate>
-      <guid>https://github.com/Kuberwastaken/claurst</guid>
-    </item>
-    <item>
       <title>morluto/rea</title>
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-10T20:39:05Z</pubDate>
+      <pubDate>2026-11-10T21:30:05Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -141,16 +133,8 @@
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-10T20:44:15Z</pubDate>
+      <pubDate>2026-11-10T21:31:02Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
-    </item>
-    <item>
-      <title>CopilotKit/OpenBot</title>
-      <link>https://github.com/CopilotKit/OpenBot</link>
-      <description>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-10T20:36:27Z</pubDate>
-      <guid>https://github.com/CopilotKit/OpenBot</guid>
     </item>
     <item>
       <title>decolua/9router</title>
@@ -165,8 +149,24 @@
       <link>https://github.com/google/elephant-goldfish-model</link>
       <description>Open-source plugin for designing and reviewing software with agents</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-10T19:06:00Z</pubDate>
+      <pubDate>2026-11-10T21:25:12Z</pubDate>
       <guid>https://github.com/google/elephant-goldfish-model</guid>
+    </item>
+    <item>
+      <title>dataelement/dsh-desktop</title>
+      <link>https://github.com/dataelement/dsh-desktop</link>
+      <description>DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版</description>
+      <category>LLM Frameworks</category>
+      <pubDate>2026-11-10T17:46:39Z</pubDate>
+      <guid>https://github.com/dataelement/dsh-desktop</guid>
+    </item>
+    <item>
+      <title>Ebony-Vinyl/dsh-our-free-model</title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <description>在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,</description>
+      <category>LLM Frameworks</category>
+      <pubDate>2026-11-10T12:45:26Z</pubDate>
+      <guid>https://github.com/Ebony-Vinyl/dsh-our-free-model</guid>
     </item>
   </channel>
 </rss>

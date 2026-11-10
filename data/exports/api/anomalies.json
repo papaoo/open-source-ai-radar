@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-10T20:50:33.713841+00:00",
+  "detected_at": "2026-11-10T21:47:01.397925+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "ai-dynamo/dynamo",
-      "stars": 8465,
-      "forks": 1839,
-      "language": "Rust",
-      "url": "https://github.com/ai-dynamo/dynamo",
-      "radar_score": 71.49,
+      "repo_full_name": "VoltAgent/voltagent",
+      "stars": 10944,
+      "forks": 1197,
+      "language": "TypeScript",
+      "url": "https://github.com/VoltAgent/voltagent",
+      "radar_score": 70.7,
       "metric": "forks",
-      "current_rate": 0.3,
-      "normal_rate": 0.1,
+      "current_rate": 0.1,
+      "normal_rate": 0.0,
       "deviation": 4.3,
-      "forks_7d": 2,
-      "forks_30d": 2,
+      "forks_7d": 1,
+      "forks_30d": 1,
       "anomaly_type": "fork_spikes"
     }
   ],

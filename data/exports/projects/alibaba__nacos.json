@@ -4,7 +4,24 @@
   "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
   "language": "Java",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "nacos",
+    "dubbo",
+    "kubernetes",
+    "istio",
+    "spring-cloud",
+    "microservices",
+    "configuration-management",
+    "distributed-configuration",
+    "ai-registry",
+    "mcp",
+    "mcp-registry",
+    "a2a-registry",
+    "mcp-management",
+    "prompt",
+    "skills",
+    "agent"
+  ],
   "stars": 33512,
   "forks": 13283,
   "open_issues": 181,
@@ -15,7 +32,7 @@
   "owner_avatar": "https://github.com/alibaba.png",
   "radar_score": 77.81,
   "impact": 96.86,
-  "velocity": 67.93,
+  "velocity": 67.94,
   "health": 61.15,
   "global_percentile": 86.29,
   "category": "Uncategorized",
@@ -32,5 +49,5 @@
   "forks_30d": -1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

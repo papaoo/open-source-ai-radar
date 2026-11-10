@@ -4,7 +4,17 @@
   "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "large-language-models",
+    "nlp",
+    "knowledge-curation",
+    "naacl",
+    "report-generation",
+    "retrieval-augmented-generation",
+    "emnlp2024",
+    "agentic-rag",
+    "deep-research"
+  ],
   "stars": 31851,
   "forks": 3007,
   "open_issues": 64,
@@ -14,10 +24,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/stanford-oval.png",
   "radar_score": 65.06,
-  "impact": 94.1,
-  "velocity": 50.62,
+  "impact": 94.11,
+  "velocity": 50.63,
   "health": 38.81,
-  "global_percentile": 8.43,
+  "global_percentile": 10.29,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
@@ -30,7 +40,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": -1,
   "forks_30d": -1,
-  "days_since_last_push": 405,
-  "freshness_score": 0.017422374639493515,
-  "snapshot_count": 5
+  "days_since_last_push": 406,
+  "freshness_score": 0.017249019115346265,
+  "snapshot_count": 6
 }

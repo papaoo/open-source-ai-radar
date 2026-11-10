@@ -4,7 +4,19 @@
   "description": "The official GitHub page for the survey paper \"A Survey of Large Language Models\".",
   "language": "Python",
   "license": null,
-  "topics": [],
+  "topics": [
+    "chain-of-thought",
+    "chatgpt",
+    "in-context-learning",
+    "instruction-tuning",
+    "large-language-models",
+    "llm",
+    "llms",
+    "natural-language-processing",
+    "pre-trained-language-models",
+    "pre-training",
+    "rlhf"
+  ],
   "stars": 12228,
   "forks": 929,
   "open_issues": 26,
@@ -13,11 +25,11 @@
   "pushed_at": "2025-03-11T09:51:42Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/RUCAIBox.png",
-  "radar_score": 57.38,
-  "impact": 87.8,
+  "radar_score": 57.4,
+  "impact": 87.83,
   "velocity": 40.22,
   "health": 32.75,
-  "global_percentile": 0.57,
+  "global_percentile": 0.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "The official GitHub page for the survey paper \"A Survey of Large Language Models\".",
@@ -32,5 +44,5 @@
   "forks_30d": 0,
   "days_since_last_push": 609,
   "freshness_score": 0.002265408914814322,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }

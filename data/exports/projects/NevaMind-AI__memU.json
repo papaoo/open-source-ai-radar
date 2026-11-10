@@ -4,7 +4,18 @@
   "description": "Personal memory across agents",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "mcp",
+    "memory",
+    "sandbox",
+    "agent-memory",
+    "claude-skills",
+    "skills",
+    "openclaw",
+    "openclaw-skills",
+    "harness",
+    "loop-engineering"
+  ],
   "stars": 14612,
   "forks": 1099,
   "open_issues": 69,
@@ -14,10 +25,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/NevaMind-AI.png",
   "radar_score": 72.44,
-  "impact": 87.02,
-  "velocity": 64.11,
+  "impact": 87.04,
+  "velocity": 64.12,
   "health": 60.75,
-  "global_percentile": 41.71,
+  "global_percentile": 41.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Personal memory across agents",
@@ -32,5 +43,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }
