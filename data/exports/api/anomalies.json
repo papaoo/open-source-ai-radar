@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-10T17:45:07.635274+00:00",
+  "detected_at": "2026-11-10T20:50:33.713841+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,8 +12,8 @@
   "fork_spikes": [
     {
       "repo_full_name": "ai-dynamo/dynamo",
-      "stars": 8464,
-      "forks": 1838,
+      "stars": 8465,
+      "forks": 1839,
       "language": "Rust",
       "url": "https://github.com/ai-dynamo/dynamo",
       "radar_score": 71.49,

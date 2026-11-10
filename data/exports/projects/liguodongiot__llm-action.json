@@ -4,13 +4,7 @@
   "description": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
   "language": "HTML",
   "license": "Apache-2.0",
-  "topics": [
-    "llm",
-    "llm-inference",
-    "llm-serving",
-    "llm-training",
-    "llmops"
-  ],
+  "topics": [],
   "stars": 25271,
   "forks": 2862,
   "open_issues": 18,

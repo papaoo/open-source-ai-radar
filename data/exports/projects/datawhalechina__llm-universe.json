@@ -4,10 +4,7 @@
   "description": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
   "language": "Jupyter Notebook",
   "license": null,
-  "topics": [
-    "langchain",
-    "rag"
-  ],
+  "topics": [],
   "stars": 14287,
   "forks": 1445,
   "open_issues": 9,

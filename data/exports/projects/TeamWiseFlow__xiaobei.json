@@ -4,16 +4,8 @@
   "description": "为OPC/中小微企业量身打造的自媒体获客智能体",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [
-    "mas",
-    "multi-agent",
-    "multi-agent-systems",
-    "makemoney",
-    "crawler",
-    "digital-employee",
-    "rpa"
-  ],
-  "stars": 8710,
+  "topics": [],
+  "stars": 8711,
   "forks": 1478,
   "open_issues": 0,
   "watchers": 81,

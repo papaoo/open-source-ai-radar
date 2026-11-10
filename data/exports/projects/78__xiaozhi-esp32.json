@@ -4,13 +4,9 @@
   "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
   "language": "C++",
   "license": "MIT",
-  "topics": [
-    "chatbot",
-    "esp32",
-    "mcp"
-  ],
-  "stars": 33006,
-  "forks": 7802,
+  "topics": [],
+  "stars": 33007,
+  "forks": 7804,
   "open_issues": 632,
   "watchers": 257,
   "created_at": "2024-08-31T10:08:16Z",
