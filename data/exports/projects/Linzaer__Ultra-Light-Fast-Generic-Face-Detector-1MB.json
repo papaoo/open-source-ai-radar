@@ -4,13 +4,7 @@
   "description": " 💎1MB lightweight face detection model  (1MB轻量级人脸检测模型)",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "face-detection",
-    "arm",
-    "inference",
-    "mnn",
-    "ncnn"
-  ],
+  "topics": [],
   "stars": 7551,
   "forks": 1549,
   "open_issues": 126,

@@ -4,16 +4,8 @@
   "description": "Meta-programming for Swift, stop writing boilerplate code.",
   "language": "Swift",
   "license": "MIT",
-  "topics": [
-    "metaprogramming",
-    "swift",
-    "codegen",
-    "codegenerator",
-    "ios",
-    "templates",
-    "code-generation"
-  ],
-  "stars": 8031,
+  "topics": [],
+  "stars": 8032,
   "forks": 633,
   "open_issues": 88,
   "watchers": 82,
