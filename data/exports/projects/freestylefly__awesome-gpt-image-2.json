@@ -4,7 +4,18 @@
   "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
   "language": "JavaScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "agents",
+    "ai-image-generation",
+    "gpt-image-2",
+    "image-prompts",
+    "prompt-as-code",
+    "prompt-engineering",
+    "workflow-automation",
+    "chatgpt",
+    "skills",
+    "dsh-plugin"
+  ],
   "stars": 35633,
   "forks": 3376,
   "open_issues": 14,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-05T03:17:57Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/freestylefly.png",
-  "radar_score": 73.45,
-  "impact": 94.21,
-  "velocity": 61.55,
+  "radar_score": 73.46,
+  "impact": 94.23,
+  "velocity": 61.56,
   "health": 56.89,
-  "global_percentile": 49.43,
+  "global_percentile": 49.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
@@ -32,5 +43,5 @@
   "forks_30d": 0,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

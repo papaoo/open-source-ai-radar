@@ -4,7 +4,10 @@
   "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "artificial-intelligence",
+    "large-language-model"
+  ],
   "stars": 65066,
   "forks": 8525,
   "open_issues": 30,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-10-27T06:57:09Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/jingyaogong.png",
-  "radar_score": 72.94,
-  "impact": 97.57,
-  "velocity": 58.37,
+  "radar_score": 72.95,
+  "impact": 97.58,
+  "velocity": 58.38,
   "health": 53.92,
-  "global_percentile": 45.43,
+  "global_percentile": 44.57,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
@@ -28,9 +31,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 3,
-  "forks_30d": 3,
+  "forks_7d": 4,
+  "forks_30d": 4,
   "days_since_last_push": 13,
   "freshness_score": 0.8780954309205613,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

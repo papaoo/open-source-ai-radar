@@ -13,9 +13,9 @@
   "pushed_at": "2026-10-29T16:42:13Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/openai.png",
-  "radar_score": 71.67,
-  "impact": 91.36,
-  "velocity": 57.53,
+  "radar_score": 71.68,
+  "impact": 91.4,
+  "velocity": 57.54,
   "health": 59.95,
   "global_percentile": 37.57,
   "category": "Uncategorized",
@@ -32,5 +32,5 @@
   "forks_30d": 0,
   "days_since_last_push": 11,
   "freshness_score": 0.8958341352965282,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

@@ -4,7 +4,10 @@
   "description": "Examples and guides for using the Gemini API",
   "language": "Jupyter Notebook",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "gemini",
+    "gemini-api"
+  ],
   "stars": 17914,
   "forks": 2830,
   "open_issues": 4,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-11-09T06:57:52Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/google-gemini.png",
-  "radar_score": 71.73,
-  "impact": 92.12,
-  "velocity": 57.99,
+  "radar_score": 71.76,
+  "impact": 92.15,
+  "velocity": 58.02,
   "health": 58.35,
-  "global_percentile": 38.43,
+  "global_percentile": 38.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Examples and guides for using the Gemini API",
@@ -28,9 +31,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": -1,
-  "forks_30d": -1,
+  "forks_7d": -2,
+  "forks_30d": -2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

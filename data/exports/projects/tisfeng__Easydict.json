@@ -4,7 +4,23 @@
   "description": "一个简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，🍎 苹果系统词典，🍎 苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。A concise and elegant Dictionary and Translator macOS App for looking up words and translating text. ",
   "language": "Swift",
   "license": "GPL-3.0",
-  "topics": [],
+  "topics": [
+    "dictionary",
+    "translate",
+    "app",
+    "macos",
+    "baidu",
+    "deepl",
+    "google",
+    "translator",
+    "youdao",
+    "ocr",
+    "shortcuts",
+    "bing",
+    "tencent",
+    "gemini",
+    "openai"
+  ],
   "stars": 15261,
   "forks": 809,
   "open_issues": 170,
@@ -13,8 +29,8 @@
   "pushed_at": "2026-11-09T03:13:32Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/tisfeng.png",
-  "radar_score": 70.24,
-  "impact": 85.64,
+  "radar_score": 70.25,
+  "impact": 85.67,
   "velocity": 57.27,
   "health": 63.75,
   "global_percentile": 29.14,
@@ -32,5 +48,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

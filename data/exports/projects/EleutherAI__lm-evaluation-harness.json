@@ -4,7 +4,11 @@
   "description": "A framework for few-shot evaluation of language models.",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "evaluation-framework",
+    "language-model",
+    "transformer"
+  ],
   "stars": 14433,
   "forks": 3781,
   "open_issues": 678,
@@ -13,11 +17,11 @@
   "pushed_at": "2026-11-04T14:34:40Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/EleutherAI.png",
-  "radar_score": 70.38,
-  "impact": 88.89,
+  "radar_score": 70.4,
+  "impact": 88.94,
   "velocity": 57.1,
   "health": 59.34,
-  "global_percentile": 30.0,
+  "global_percentile": 29.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A framework for few-shot evaluation of language models.",
@@ -32,5 +36,5 @@
   "forks_30d": 0,
   "days_since_last_push": 5,
   "freshness_score": 0.951229424500714,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

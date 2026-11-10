@@ -4,7 +4,19 @@
   "description": "Example 📓 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using 🧠 Amazon SageMaker. ",
   "language": "Jupyter Notebook",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "sagemaker",
+    "aws",
+    "reinforcement-learning",
+    "machine-learning",
+    "deep-learning",
+    "examples",
+    "jupyter-notebook",
+    "mlops",
+    "data-science",
+    "training",
+    "inference"
+  ],
   "stars": 11002,
   "forks": 6940,
   "open_issues": 725,
@@ -13,11 +25,11 @@
   "pushed_at": "2026-10-14T18:17:30Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/aws.png",
-  "radar_score": 69.78,
-  "impact": 91.36,
-  "velocity": 59.62,
+  "radar_score": 69.8,
+  "impact": 91.4,
+  "velocity": 59.63,
   "health": 49.48,
-  "global_percentile": 26.29,
+  "global_percentile": 26.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Example 📓 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using 🧠 Amazon SageMaker. ",
@@ -32,5 +44,5 @@
   "forks_30d": 0,
   "days_since_last_push": 26,
   "freshness_score": 0.7710515858035663,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

@@ -4,7 +4,16 @@
   "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agent",
+    "agentic",
+    "ai",
+    "openclaw",
+    "infra",
+    "ml",
+    "os",
+    "zeroclaw"
+  ],
   "stars": 33300,
   "forks": 5004,
   "open_issues": 739,
@@ -13,8 +22,8 @@
   "pushed_at": "2026-11-09T22:42:27Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/zeroclaw-labs.png",
-  "radar_score": 78.47,
-  "impact": 93.41,
+  "radar_score": 78.48,
+  "impact": 93.44,
   "velocity": 71.92,
   "health": 63.75,
   "global_percentile": 90.29,
@@ -32,6 +41,6 @@
   "forks_30d": -1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 2,
+  "snapshot_count": 3,
   "why_trending": "Above-average growth velocity. Active in the Uncategorized category."
 }

@@ -4,8 +4,13 @@
   "description": "🧠 Laws, Theories, Principles and Patterns for developers and technologists.",
   "language": "HTML",
   "license": "CC-BY-SA-4.0",
-  "topics": [],
-  "stars": 27345,
+  "topics": [
+    "principles",
+    "laws",
+    "coding",
+    "computerscience"
+  ],
+  "stars": 27344,
   "forks": 1567,
   "open_issues": 145,
   "watchers": 435,
@@ -13,11 +18,11 @@
   "pushed_at": "2026-11-07T06:48:37Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/dwmkerr.png",
-  "radar_score": 71.17,
-  "impact": 93.0,
+  "radar_score": 71.18,
+  "impact": 93.02,
   "velocity": 54.2,
   "health": 60.01,
-  "global_percentile": 34.71,
+  "global_percentile": 34.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🧠 Laws, Theories, Principles and Patterns for developers and technologists.",
@@ -28,9 +33,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 0,
-  "forks_30d": 0,
+  "forks_7d": 1,
+  "forks_30d": 1,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

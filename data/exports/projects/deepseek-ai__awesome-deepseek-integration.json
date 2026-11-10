@@ -4,7 +4,10 @@
   "description": "Integrate the DeepSeek API into popular software",
   "language": null,
   "license": "CC0-1.0",
-  "topics": [],
+  "topics": [
+    "awesome",
+    "deepseek"
+  ],
   "stars": 39769,
   "forks": 4323,
   "open_issues": 44,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-02-23T16:27:47Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/deepseek-ai.png",
-  "radar_score": 65.95,
-  "impact": 96.2,
-  "velocity": 50.44,
+  "radar_score": 65.96,
+  "impact": 96.21,
+  "velocity": 50.46,
   "health": 39.26,
-  "global_percentile": 11.0,
+  "global_percentile": 11.43,
   "category": "LLM Frameworks",
   "sub_category": "serving",
   "summary": "Integrate the DeepSeek API into popular software",
@@ -32,5 +35,5 @@
   "forks_30d": 2,
   "days_since_last_push": 259,
   "freshness_score": 0.07502004008532698,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

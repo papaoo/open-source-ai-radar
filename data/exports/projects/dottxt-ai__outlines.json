@@ -4,7 +4,16 @@
   "description": "Structured Outputs",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "generative-ai",
+    "llms",
+    "prompt-engineering",
+    "symbolic-ai",
+    "cfg",
+    "json",
+    "regex",
+    "structured-generation"
+  ],
   "stars": 16006,
   "forks": 914,
   "open_issues": 106,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-09-21T17:58:05Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/dottxt-ai.png",
-  "radar_score": 63.63,
-  "impact": 86.56,
-  "velocity": 46.62,
+  "radar_score": 63.65,
+  "impact": 86.61,
+  "velocity": 46.64,
   "health": 50.74,
-  "global_percentile": 6.14,
+  "global_percentile": 6.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Structured Outputs",
@@ -32,5 +41,5 @@
   "forks_30d": 2,
   "days_since_last_push": 49,
   "freshness_score": 0.6126263941844161,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

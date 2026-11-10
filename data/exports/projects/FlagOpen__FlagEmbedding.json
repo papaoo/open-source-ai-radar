@@ -4,7 +4,14 @@
   "description": "Retrieval and Retrieval-augmented LLMs",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "embeddings",
+    "information-retrieval",
+    "llm",
+    "sentence-embeddings",
+    "text-semantic-similarity",
+    "retrieval-augmented-generation"
+  ],
   "stars": 12307,
   "forks": 948,
   "open_issues": 886,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-10-27T09:50:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/FlagOpen.png",
-  "radar_score": 66.69,
-  "impact": 85.64,
+  "radar_score": 66.71,
+  "impact": 85.7,
   "velocity": 52.86,
   "health": 55.72,
-  "global_percentile": 14.14,
+  "global_percentile": 14.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Retrieval and Retrieval-augmented LLMs",
@@ -32,5 +39,5 @@
   "forks_30d": 0,
   "days_since_last_push": 13,
   "freshness_score": 0.8780954309205613,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

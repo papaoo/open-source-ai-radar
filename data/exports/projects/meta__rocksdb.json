@@ -4,7 +4,10 @@
   "description": "A library that provides an embeddable, persistent key-value store for fast storage.",
   "language": "C++",
   "license": "GPL-2.0",
-  "topics": [],
+  "topics": [
+    "database",
+    "storage-engine"
+  ],
   "stars": 32255,
   "forks": 7016,
   "open_issues": 982,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-11-09T22:36:28Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/meta.png",
-  "radar_score": 75.32,
-  "impact": 96.29,
+  "radar_score": 75.33,
+  "impact": 96.31,
   "velocity": 59.61,
   "health": 63.75,
-  "global_percentile": 66.86,
+  "global_percentile": 66.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A library that provides an embeddable, persistent key-value store for fast storage.",
@@ -32,5 +35,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

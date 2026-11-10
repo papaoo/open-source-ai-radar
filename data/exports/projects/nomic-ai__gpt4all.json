@@ -4,8 +4,11 @@
   "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
   "language": "C++",
   "license": "MIT",
-  "topics": [],
-  "stars": 77354,
+  "topics": [
+    "llm-inference",
+    "ai-chat"
+  ],
+  "stars": 77353,
   "forks": 8260,
   "open_issues": 733,
   "watchers": 693,
@@ -13,11 +16,11 @@
   "pushed_at": "2025-05-27T20:05:19Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/nomic-ai.png",
-  "radar_score": 67.64,
-  "impact": 98.37,
-  "velocity": 53.15,
+  "radar_score": 67.65,
+  "impact": 98.38,
+  "velocity": 53.16,
   "health": 38.76,
-  "global_percentile": 17.0,
+  "global_percentile": 17.43,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
@@ -32,5 +35,5 @@
   "forks_30d": -1,
   "days_since_last_push": 531,
   "freshness_score": 0.004941926717679818,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

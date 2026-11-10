@@ -4,7 +4,16 @@
   "description": "Open-source Agent Operating System",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agent-framework",
+    "ai-agents",
+    "llm",
+    "mcp",
+    "open-source",
+    "openclaw",
+    "operating-system",
+    "rust"
+  ],
   "stars": 18242,
   "forks": 2281,
   "open_issues": 76,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-07-02T08:13:12Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/RightNow-AI.png",
-  "radar_score": 66.63,
-  "impact": 90.98,
-  "velocity": 56.18,
+  "radar_score": 66.65,
+  "impact": 91.01,
+  "velocity": 56.19,
   "health": 42.31,
-  "global_percentile": 13.86,
+  "global_percentile": 13.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Open-source Agent Operating System",
@@ -32,5 +41,5 @@
   "forks_30d": -2,
   "days_since_last_push": 130,
   "freshness_score": 0.2725317930340126,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

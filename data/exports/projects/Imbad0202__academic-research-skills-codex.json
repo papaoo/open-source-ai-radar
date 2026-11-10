@@ -4,7 +4,18 @@
   "description": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "academic-pipeline",
+    "academic-research",
+    "academic-writing",
+    "ai-research",
+    "codex",
+    "literature-review",
+    "openai-codex",
+    "peer-review",
+    "prompt-engineering",
+    "research-assistant"
+  ],
   "stars": 14270,
   "forks": 616,
   "open_issues": 1,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-06T05:45:42Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Imbad0202.png",
-  "radar_score": 64.76,
-  "impact": 81.55,
-  "velocity": 56.34,
+  "radar_score": 64.79,
+  "impact": 81.6,
+  "velocity": 56.36,
   "health": 49.7,
-  "global_percentile": 7.86,
+  "global_percentile": 8.29,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
@@ -32,5 +43,5 @@
   "forks_30d": 0,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

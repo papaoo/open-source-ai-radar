@@ -4,7 +4,19 @@
   "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "topics": [],
+  "topics": [
+    "note-taking",
+    "local-first",
+    "knowledge-base",
+    "markdown",
+    "self-hosted",
+    "siyuan",
+    "ai-agent",
+    "mcp",
+    "agentic-ai",
+    "workspace",
+    "mindmap"
+  ],
   "stars": 47145,
   "forks": 3103,
   "open_issues": 10,
@@ -13,11 +25,11 @@
   "pushed_at": "2026-11-09T17:57:27Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/siyuan-note.png",
-  "radar_score": 73.1,
-  "impact": 95.24,
-  "velocity": 58.34,
+  "radar_score": 73.12,
+  "impact": 95.26,
+  "velocity": 58.36,
   "health": 58.35,
-  "global_percentile": 46.71,
+  "global_percentile": 46.0,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
@@ -32,5 +44,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

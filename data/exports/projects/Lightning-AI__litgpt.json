@@ -4,7 +4,15 @@
   "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "ai",
+    "artificial-intelligence",
+    "deep-learning",
+    "large-language-models",
+    "llm",
+    "llm-inference",
+    "llms"
+  ],
   "stars": 13746,
   "forks": 1546,
   "open_issues": 253,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-01T10:26:54Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Lightning-AI.png",
-  "radar_score": 69.48,
-  "impact": 88.79,
-  "velocity": 53.53,
+  "radar_score": 69.5,
+  "impact": 88.83,
+  "velocity": 53.54,
   "health": 60.92,
-  "global_percentile": 24.29,
+  "global_percentile": 24.14,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
@@ -32,5 +40,5 @@
   "forks_30d": 1,
   "days_since_last_push": 8,
   "freshness_score": 0.9231163463866358,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

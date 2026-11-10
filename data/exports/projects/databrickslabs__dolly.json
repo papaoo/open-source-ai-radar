@@ -4,7 +4,12 @@
   "description": "Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "databricks",
+    "gpt",
+    "chatbot",
+    "dolly"
+  ],
   "stars": 10806,
   "forks": 1128,
   "open_issues": 5,
@@ -13,11 +18,11 @@
   "pushed_at": "2023-06-30T18:36:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/databrickslabs.png",
-  "radar_score": 56.04,
-  "impact": 87.18,
-  "velocity": 36.65,
+  "radar_score": 56.07,
+  "impact": 87.23,
+  "velocity": 36.69,
   "health": 33.35,
-  "global_percentile": 0.57,
+  "global_percentile": 0.0,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform",
@@ -32,5 +37,5 @@
   "forks_30d": 0,
   "days_since_last_push": 1228,
   "freshness_score": 4.643695800696877e-06,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

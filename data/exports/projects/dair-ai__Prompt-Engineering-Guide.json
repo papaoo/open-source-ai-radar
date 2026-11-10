@@ -4,7 +4,19 @@
   "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
   "language": "MDX",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "deep-learning",
+    "prompt-engineering",
+    "openai",
+    "chatgpt",
+    "language-model",
+    "generative-ai",
+    "agents",
+    "ai-agents",
+    "llms",
+    "agent",
+    "rag"
+  ],
   "stars": 79950,
   "forks": 8772,
   "open_issues": 189,
@@ -15,9 +27,9 @@
   "owner_avatar": "https://github.com/dair-ai.png",
   "radar_score": 67.59,
   "impact": 98.51,
-  "velocity": 52.38,
+  "velocity": 52.39,
   "health": 39.4,
-  "global_percentile": 16.86,
+  "global_percentile": 17.29,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
@@ -32,5 +44,5 @@
   "forks_30d": 0,
   "days_since_last_push": 243,
   "freshness_score": 0.08803683258237255,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

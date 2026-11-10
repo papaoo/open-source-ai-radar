@@ -4,9 +4,14 @@
   "description": "",
   "language": null,
   "license": null,
-  "topics": [],
+  "topics": [
+    "wechat",
+    "pyqt",
+    "chatgpt",
+    "llms"
+  ],
   "stars": 42338,
-  "forks": 5424,
+  "forks": 5423,
   "open_issues": 0,
   "watchers": 225,
   "created_at": "2023-01-11T05:03:49Z",
@@ -14,10 +19,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/LC044.png",
   "radar_score": 59.01,
-  "impact": 96.12,
+  "impact": 96.14,
   "velocity": 39.04,
   "health": 27.58,
-  "global_percentile": 2.0,
+  "global_percentile": 0.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "",
@@ -28,9 +33,9 @@
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 0,
-  "forks_30d": 0,
+  "forks_7d": -1,
+  "forks_30d": -1,
   "days_since_last_push": 314,
   "freshness_score": 0.043282797901965896,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

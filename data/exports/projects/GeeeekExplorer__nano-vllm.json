@@ -4,7 +4,14 @@
   "description": "Nano vLLM",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "inference",
+    "llm",
+    "pytorch",
+    "transformer",
+    "deep-learning",
+    "nlp"
+  ],
   "stars": 16378,
   "forks": 2846,
   "open_issues": 31,
@@ -13,9 +20,9 @@
   "pushed_at": "2026-04-26T05:10:12Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/GeeeekExplorer.png",
-  "radar_score": 64.19,
-  "impact": 90.14,
-  "velocity": 51.77,
+  "radar_score": 64.2,
+  "impact": 90.17,
+  "velocity": 51.79,
   "health": 40.05,
   "global_percentile": 7.14,
   "category": "LLM Frameworks",
@@ -32,5 +39,5 @@
   "forks_30d": 2,
   "days_since_last_push": 197,
   "freshness_score": 0.13945685621505094,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }
