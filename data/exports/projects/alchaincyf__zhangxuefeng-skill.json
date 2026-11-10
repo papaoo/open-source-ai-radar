@@ -26,7 +26,7 @@
     "prompt-engineering",
     "skills"
   ],
-  "stars": 10736,
+  "stars": 10737,
   "forks": 2687,
   "open_issues": 24,
   "watchers": 42,
@@ -36,16 +36,16 @@
   "owner_avatar": "https://github.com/alchaincyf.png",
   "radar_score": 69.67,
   "impact": 86.36,
-  "velocity": 62.81,
+  "velocity": 62.8,
   "health": 52.58,
-  "global_percentile": 25.29,
+  "global_percentile": 22.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
   "maturity": "Unknown",
-  "stars_7d": 4,
-  "stars_30d": 4,
-  "stars_90d": 4,
+  "stars_7d": 5,
+  "stars_30d": 5,
+  "stars_90d": 5,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -53,5 +53,5 @@
   "forks_30d": 0,
   "days_since_last_push": 28,
   "freshness_score": 0.7557837414557255,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }

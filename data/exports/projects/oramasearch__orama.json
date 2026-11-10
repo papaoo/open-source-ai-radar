@@ -29,11 +29,11 @@
   "pushed_at": "2026-10-18T16:53:33Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/oramasearch.png",
-  "radar_score": 59.56,
+  "radar_score": 59.5,
   "impact": 81.62,
   "velocity": 41.77,
-  "health": 49.17,
-  "global_percentile": 1.57,
+  "health": 48.91,
+  "global_percentile": 2.0,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
@@ -46,7 +46,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": -1,
   "forks_30d": -1,
-  "days_since_last_push": 22,
-  "freshness_score": 0.8025187979624785,
-  "snapshot_count": 3
+  "days_since_last_push": 23,
+  "freshness_score": 0.794533602503334,
+  "snapshot_count": 4
 }

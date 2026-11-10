@@ -36,9 +36,9 @@
   "owner_avatar": "https://github.com/opendataloader-project.png",
   "radar_score": 73.25,
   "impact": 92.68,
-  "velocity": 61.69,
+  "velocity": 61.68,
   "health": 58.35,
-  "global_percentile": 47.14,
+  "global_percentile": 48.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
@@ -46,12 +46,12 @@
   "stars_7d": 19,
   "stars_30d": 19,
   "stars_90d": 19,
-  "star_growth_rate_7d": 0.0,
-  "star_growth_rate_30d": 0.0,
+  "star_growth_rate_7d": 19.0,
+  "star_growth_rate_30d": 19.0,
   "star_growth_acceleration": 1.0,
   "forks_7d": 3,
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 4
+  "snapshot_count": 5
 }
