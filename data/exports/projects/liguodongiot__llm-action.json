@@ -23,7 +23,7 @@
   "impact": 93.18,
   "velocity": 52.35,
   "health": 50.28,
-  "global_percentile": 19.57,
+  "global_percentile": 31.14,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
@@ -38,5 +38,5 @@
   "forks_30d": 0,
   "days_since_last_push": 26,
   "freshness_score": 0.7710515858035663,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

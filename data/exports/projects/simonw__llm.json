@@ -9,7 +9,7 @@
     "openai",
     "ai"
   ],
-  "stars": 12736,
+  "stars": 12737,
   "forks": 1080,
   "open_issues": 431,
   "watchers": 61,
@@ -18,17 +18,17 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/simonw.png",
   "radar_score": 70.06,
-  "impact": 86.29,
+  "impact": 86.28,
   "velocity": 56.82,
   "health": 62.65,
-  "global_percentile": 27.57,
+  "global_percentile": 41.14,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Access large language models from the command-line",
   "maturity": "Unknown",
-  "stars_7d": 4,
-  "stars_30d": 4,
-  "stars_90d": 4,
+  "stars_7d": 5,
+  "stars_30d": 5,
+  "stars_90d": 5,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -36,5 +36,5 @@
   "forks_30d": 2,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

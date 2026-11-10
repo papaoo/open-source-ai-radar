@@ -13,11 +13,11 @@
   "pushed_at": "2026-10-12T02:06:40Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/muratcankoylan.png",
-  "radar_score": 68.19,
+  "radar_score": 68.13,
   "impact": 89.56,
   "velocity": 56.92,
-  "health": 49.78,
-  "global_percentile": 20.0,
+  "health": 49.53,
+  "global_percentile": 31.0,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
@@ -30,7 +30,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 28,
-  "freshness_score": 0.7557837414557255,
-  "snapshot_count": 2
+  "days_since_last_push": 29,
+  "freshness_score": 0.7482635675785653,
+  "snapshot_count": 3
 }

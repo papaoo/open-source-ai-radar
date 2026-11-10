@@ -10,7 +10,7 @@
     "codex-skills",
     "openclaw-skills"
   ],
-  "stars": 27423,
+  "stars": 27428,
   "forks": 2991,
   "open_issues": 1,
   "watchers": 108,
@@ -22,14 +22,14 @@
   "impact": 92.48,
   "velocity": 58.33,
   "health": 57.25,
-  "global_percentile": 38.0,
+  "global_percentile": 52.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "",
   "maturity": "Unknown",
-  "stars_7d": 8,
-  "stars_30d": 8,
-  "stars_90d": 8,
+  "stars_7d": 13,
+  "stars_30d": 13,
+  "stars_90d": 13,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -37,5 +37,5 @@
   "forks_30d": 3,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }

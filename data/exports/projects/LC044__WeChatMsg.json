@@ -10,7 +10,7 @@
     "chatgpt",
     "llms"
   ],
-  "stars": 42338,
+  "stars": 42339,
   "forks": 5423,
   "open_issues": 0,
   "watchers": 225,
@@ -22,14 +22,14 @@
   "impact": 96.14,
   "velocity": 39.04,
   "health": 27.58,
-  "global_percentile": 0.86,
+  "global_percentile": 5.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "",
   "maturity": "Unknown",
-  "stars_7d": 4,
-  "stars_30d": 4,
-  "stars_90d": 4,
+  "stars_7d": 5,
+  "stars_30d": 5,
+  "stars_90d": 5,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -37,5 +37,5 @@
   "forks_30d": -1,
   "days_since_last_push": 314,
   "freshness_score": 0.043282797901965896,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }

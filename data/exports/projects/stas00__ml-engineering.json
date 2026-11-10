@@ -30,11 +30,11 @@
   "pushed_at": "2026-11-04T04:44:04Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/stas00.png",
-  "radar_score": 63.15,
-  "impact": 90.51,
+  "radar_score": 63.14,
+  "impact": 90.49,
   "velocity": 38.73,
   "health": 53.54,
-  "global_percentile": 5.43,
+  "global_percentile": 13.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Machine Learning Engineering Open Book",
@@ -49,5 +49,5 @@
   "forks_30d": 0,
   "days_since_last_push": 5,
   "freshness_score": 0.951229424500714,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }

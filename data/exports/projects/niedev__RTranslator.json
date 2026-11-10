@@ -28,11 +28,11 @@
   "pushed_at": "2026-11-07T00:26:31Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/niedev.png",
-  "radar_score": 66.88,
+  "radar_score": 66.79,
   "impact": 85.64,
   "velocity": 48.19,
-  "health": 63.01,
-  "global_percentile": 14.71,
+  "health": 62.65,
+  "global_percentile": 25.14,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Open source real-time translation app for Android that runs locally",
@@ -45,7 +45,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 0,
   "forks_30d": 0,
-  "days_since_last_push": 2,
-  "freshness_score": 0.9801986733067553,
-  "snapshot_count": 2
+  "days_since_last_push": 3,
+  "freshness_score": 0.9704455335485082,
+  "snapshot_count": 3
 }

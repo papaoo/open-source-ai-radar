@@ -4,7 +4,15 @@
   "description": "Bindu: The identity, communication, and payments layer for AI agents.",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "agent-communication",
+    "autonomous-agents",
+    "agent-orchestration",
+    "a2a",
+    "ai-agent",
+    "machine-learning",
+    "eu-ai-act"
+  ],
   "stars": 9999,
   "forks": 666,
   "open_issues": 35,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-09-06T14:24:36Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/GetBindu.png",
-  "radar_score": 60.25,
-  "impact": 80.49,
-  "velocity": 47.79,
+  "radar_score": 60.28,
+  "impact": 80.57,
+  "velocity": 47.77,
   "health": 45.32,
-  "global_percentile": 2.86,
+  "global_percentile": 8.29,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "Bindu: The identity, communication, and payments layer for AI agents.",
@@ -32,5 +40,5 @@
   "forks_30d": 0,
   "days_since_last_push": 64,
   "freshness_score": 0.5272924240430485,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

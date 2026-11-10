@@ -8,7 +8,7 @@
     "skills",
     "ui-skills"
   ],
-  "stars": 10896,
+  "stars": 10902,
   "forks": 517,
   "open_issues": 3,
   "watchers": 28,
@@ -18,16 +18,16 @@
   "owner_avatar": "https://github.com/ibelick.png",
   "radar_score": 66.44,
   "impact": 81.36,
-  "velocity": 58.95,
+  "velocity": 58.96,
   "health": 53.06,
-  "global_percentile": 13.0,
+  "global_percentile": 23.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Skills for Design Engineers",
   "maturity": "Unknown",
-  "stars_7d": 2,
-  "stars_30d": 2,
-  "stars_90d": 2,
+  "stars_7d": 8,
+  "stars_30d": 8,
+  "stars_90d": 8,
   "star_growth_rate_7d": 0.0,
   "star_growth_rate_30d": 0.0,
   "star_growth_acceleration": 1.0,
@@ -35,5 +35,5 @@
   "forks_30d": 0,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }
