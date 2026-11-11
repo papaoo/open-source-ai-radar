@@ -4,15 +4,8 @@
   "description": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "bilibili",
-    "douyin",
-    "tiktok",
-    "xiaohongshu",
-    "youtube",
-    "agent-skills"
-  ],
-  "stars": 16432,
+  "topics": [],
+  "stars": 16433,
   "forks": 2785,
   "open_issues": 50,
   "watchers": 95,

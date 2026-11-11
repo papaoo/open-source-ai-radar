@@ -4,16 +4,8 @@
   "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "ai-agent",
-    "chinese",
-    "codex",
-    "codex-skill",
-    "lgbtq",
-    "psychology",
-    "relationship-advice"
-  ],
-  "stars": 9543,
+  "topics": [],
+  "stars": 9545,
   "forks": 980,
   "open_issues": 7,
   "watchers": 18,

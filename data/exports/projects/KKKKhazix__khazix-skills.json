@@ -4,17 +4,7 @@
   "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agent-skills",
-    "ai-agents",
-    "claude",
-    "claude-code",
-    "codex",
-    "developer-tools",
-    "llm",
-    "skills",
-    "vibe-coding"
-  ],
+  "topics": [],
   "stars": 22180,
   "forks": 2328,
   "open_issues": 0,

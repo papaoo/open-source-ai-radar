@@ -4,12 +4,7 @@
   "description": "🖥️ Run AI Agent in your browser.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "ai-agent",
-    "browser-automation",
-    "browser-use-box",
-    "cloud-browser"
-  ],
+  "topics": [],
   "stars": 16649,
   "forks": 2758,
   "open_issues": 270,

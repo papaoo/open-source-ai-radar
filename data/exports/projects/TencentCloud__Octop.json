@@ -4,16 +4,8 @@
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agent",
-    "agentic-ai",
-    "ai",
-    "ai-agent",
-    "ai-agents",
-    "local-first",
-    "long-term-memory"
-  ],
-  "stars": 11921,
+  "topics": [],
+  "stars": 11924,
   "forks": 1656,
   "open_issues": 421,
   "watchers": 70,

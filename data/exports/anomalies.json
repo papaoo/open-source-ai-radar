@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-11T17:58:25.020537+00:00",
+  "detected_at": "2026-11-11T21:10:22.719409+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,8 +12,8 @@
   "fork_spikes": [
     {
       "repo_full_name": "MariaDB/server",
-      "stars": 8571,
-      "forks": 2273,
+      "stars": 8572,
+      "forks": 2274,
       "language": "C++",
       "url": "https://github.com/MariaDB/server",
       "radar_score": 63.13,

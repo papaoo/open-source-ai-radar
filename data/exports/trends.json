@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:58:15.483472+00:00",
+  "generated_at": "2026-11-11T21:10:13.303955+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 1,
@@ -16,8 +16,8 @@
       "radar_score": 82.4,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 70022,
-      "forks": 56807,
+      "stars": 70102,
+      "forks": 56819,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -52,8 +52,8 @@
       "radar_score": 82.36,
       "global_percentile": 99.71,
       "category_percentile": 0.0,
-      "stars": 56379,
-      "forks": 7252,
+      "stars": 56450,
+      "forks": 7259,
       "language": "Python",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "category": "Uncategorized",
@@ -88,8 +88,8 @@
       "radar_score": 77.45,
       "global_percentile": 84.57,
       "category_percentile": 0.0,
-      "stars": 19630,
-      "forks": 872,
+      "stars": 19665,
+      "forks": 876,
       "language": "Dart",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "category": "LLM Frameworks",
@@ -101,27 +101,27 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1534
+      "count": 1543
     },
     {
       "category": "AI Coding Tools",
-      "count": 975
+      "count": 977
     },
     {
       "category": "LLM Frameworks",
-      "count": 721
+      "count": 722
     },
     {
       "category": "AI Agents",
-      "count": 585
+      "count": 586
     },
     {
       "category": "MCP",
-      "count": 576
+      "count": 578
     },
     {
       "category": "Local AI",
-      "count": 514
+      "count": 515
     },
     {
       "category": "RAG",
@@ -145,7 +145,7 @@
     },
     {
       "category": "AI Safety & Alignment",
-      "count": 19
+      "count": 20
     }
   ]
 }

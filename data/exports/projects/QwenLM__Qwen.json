@@ -4,14 +4,7 @@
   "description": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "chinese",
-    "large-language-models",
-    "natural-language-processing",
-    "flash-attention",
-    "llm",
-    "pretrained-models"
-  ],
+  "topics": [],
   "stars": 22028,
   "forks": 2011,
   "open_issues": 18,
