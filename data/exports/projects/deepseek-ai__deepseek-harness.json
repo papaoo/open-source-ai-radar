@@ -4,14 +4,9 @@
   "description": "DeepSeek Harness: Everything is a Plugin.",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [
-    "cordis",
-    "dsh",
-    "dsh-plugin",
-    "ai-agents"
-  ],
-  "stars": 278219,
-  "forks": 34168,
+  "topics": [],
+  "stars": 278555,
+  "forks": 34252,
   "open_issues": 0,
   "watchers": 1159,
   "created_at": "2026-08-13T11:56:32Z",
