@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "topics": [],
   "stars": 27746,
-  "forks": 5242,
+  "forks": 5244,
   "open_issues": 0,
   "watchers": 243,
   "created_at": "2026-07-14T20:04:23Z",
@@ -14,7 +14,7 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/xai-org.png",
   "radar_score": 65.96,
-  "impact": 94.67,
+  "impact": 94.68,
   "velocity": 47.07,
   "health": 46.47,
   "global_percentile": 11.29,
@@ -28,9 +28,9 @@
   "star_growth_rate_7d": 8.0,
   "star_growth_rate_30d": 8.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": -1,
-  "forks_30d": -1,
+  "forks_7d": 0,
+  "forks_30d": 0,
   "days_since_last_push": 43,
   "freshness_score": 0.6505090947233165,
-  "snapshot_count": 8
+  "snapshot_count": 9
 }

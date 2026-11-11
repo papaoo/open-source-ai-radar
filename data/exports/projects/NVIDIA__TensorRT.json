@@ -4,7 +4,13 @@
   "description": "NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT.",
   "language": "C++",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "tensorrt",
+    "nvidia",
+    "deep-learning",
+    "inference",
+    "gpu-acceleration"
+  ],
   "stars": 13449,
   "forks": 2422,
   "open_issues": 619,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-11-05T18:43:29Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/NVIDIA.png",
-  "radar_score": 70.08,
-  "impact": 90.23,
+  "radar_score": 70.0,
+  "impact": 90.24,
   "velocity": 52.86,
-  "health": 61.94,
-  "global_percentile": 26.86,
+  "health": 61.6,
+  "global_percentile": 26.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT.",
@@ -30,7 +36,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 5,
-  "freshness_score": 0.951229424500714,
-  "snapshot_count": 8
+  "days_since_last_push": 6,
+  "freshness_score": 0.9417645335842487,
+  "snapshot_count": 9
 }

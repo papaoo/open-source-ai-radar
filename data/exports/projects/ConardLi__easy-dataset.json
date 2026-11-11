@@ -4,7 +4,13 @@
   "description": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "dataset",
+    "javascript",
+    "llm",
+    "fine-tuning",
+    "rag"
+  ],
   "stars": 15107,
   "forks": 1544,
   "open_issues": 119,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-05-01T15:03:32Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ConardLi.png",
-  "radar_score": 62.4,
-  "impact": 88.02,
+  "radar_score": 62.41,
+  "impact": 88.04,
   "velocity": 51.19,
   "health": 37.11,
-  "global_percentile": 4.29,
+  "global_percentile": 3.43,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
@@ -32,5 +38,5 @@
   "forks_30d": -1,
   "days_since_last_push": 194,
   "freshness_score": 0.14370394977770293,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

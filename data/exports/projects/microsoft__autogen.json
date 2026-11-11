@@ -4,7 +4,18 @@
   "description": "A programming framework for agentic AI",
   "language": "Python",
   "license": "CC-BY-4.0",
-  "topics": [],
+  "topics": [
+    "chatgpt",
+    "llm-agent",
+    "llm-framework",
+    "agentic",
+    "agentic-agi",
+    "agents",
+    "ai",
+    "autogen",
+    "framework",
+    "autogen-ecosystem"
+  ],
   "stars": 61787,
   "forks": 9391,
   "open_issues": 575,
@@ -14,10 +25,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/microsoft.png",
   "radar_score": 75.8,
-  "impact": 98.03,
+  "impact": 98.04,
   "velocity": 62.37,
   "health": 59.01,
-  "global_percentile": 70.43,
+  "global_percentile": 69.71,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A programming framework for agentic AI",
@@ -32,5 +43,5 @@
   "forks_30d": -1,
   "days_since_last_push": 14,
   "freshness_score": 0.8693582353988059,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

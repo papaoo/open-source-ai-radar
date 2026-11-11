@@ -4,7 +4,20 @@
   "description": "The open-source hub to build & deploy GPT/LLM Agents ⚡️",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "agent",
+    "ai",
+    "botpress",
+    "chatbot",
+    "chatgpt",
+    "gpt",
+    "gpt-4",
+    "llm",
+    "openai",
+    "langchain",
+    "nlp",
+    "prompt"
+  ],
   "stars": 14993,
   "forks": 2297,
   "open_issues": 16,
@@ -13,11 +26,11 @@
   "pushed_at": "2026-11-11T16:36:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/botpress.png",
-  "radar_score": 69.96,
-  "impact": 91.21,
+  "radar_score": 69.97,
+  "impact": 91.23,
   "velocity": 50.11,
   "health": 63.75,
-  "global_percentile": 26.43,
+  "global_percentile": 25.86,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "The open-source hub to build & deploy GPT/LLM Agents ⚡️",
@@ -32,5 +45,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 7
+  "snapshot_count": 8
 }

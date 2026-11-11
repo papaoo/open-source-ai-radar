@@ -4,7 +4,14 @@
   "description": "Translate the video from one language to another and embed dubbing & subtitles.",
   "language": "Python",
   "license": "GPL-3.0",
-  "topics": [],
+  "topics": [
+    "text-to-speech",
+    "video-transition",
+    "speech-to-text",
+    "stt",
+    "subtitle-translation",
+    "tts"
+  ],
   "stars": 19710,
   "forks": 2444,
   "open_issues": 10,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-11T15:10:02Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/jianchang512.png",
-  "radar_score": 71.54,
-  "impact": 91.06,
-  "velocity": 58.65,
+  "radar_score": 71.55,
+  "impact": 91.09,
+  "velocity": 58.66,
   "health": 58.35,
-  "global_percentile": 37.14,
+  "global_percentile": 36.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Translate the video from one language to another and embed dubbing & subtitles.",
@@ -32,5 +39,5 @@
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

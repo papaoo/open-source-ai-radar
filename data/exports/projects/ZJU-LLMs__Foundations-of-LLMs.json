@@ -13,11 +13,11 @@
   "pushed_at": "2025-12-12T01:55:18Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ZJU-LLMs.png",
-  "radar_score": 62.59,
-  "impact": 91.3,
-  "velocity": 48.82,
+  "radar_score": 62.6,
+  "impact": 91.33,
+  "velocity": 48.81,
   "health": 35.92,
-  "global_percentile": 5.0,
+  "global_percentile": 4.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "A book for Learning the Foundations of LLMs",
@@ -32,5 +32,5 @@
   "forks_30d": 5,
   "days_since_last_push": 334,
   "freshness_score": 0.03543695772159864,
-  "snapshot_count": 7
+  "snapshot_count": 8
 }

@@ -4,7 +4,14 @@
   "description": "整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。",
   "language": null,
   "license": null,
-  "topics": [],
+  "topics": [
+    "llm",
+    "nlp",
+    "chatglm",
+    "chinese",
+    "llama",
+    "awesome-lists"
+  ],
   "stars": 22781,
   "forks": 2143,
   "open_issues": 13,
@@ -15,7 +22,7 @@
   "owner_avatar": "https://github.com/AiHubCN.png",
   "radar_score": 59.91,
   "impact": 92.64,
-  "velocity": 44.65,
+  "velocity": 44.64,
   "health": 28.91,
   "global_percentile": 1.43,
   "category": "LLM Frameworks",
@@ -25,12 +32,12 @@
   "stars_7d": 2,
   "stars_30d": 2,
   "stars_90d": 2,
-  "star_growth_rate_7d": 2.0,
-  "star_growth_rate_30d": 2.0,
+  "star_growth_rate_7d": 1.0,
+  "star_growth_rate_30d": 1.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": -1,
-  "forks_30d": -1,
+  "forks_7d": 0,
+  "forks_30d": 0,
   "days_since_last_push": 185,
   "freshness_score": 0.1572371663136276,
-  "snapshot_count": 4
+  "snapshot_count": 5
 }

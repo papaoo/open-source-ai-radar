@@ -240,6 +240,21 @@
       "top_project": "promptfoo/promptfoo",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 204,
+      "category": "AI Safety & Alignment",
+      "timestamp": "2026-11-11T22:35:19.165643+00:00",
+      "total_tracked": 20,
+      "new_this_period": 0,
+      "avg_stars": 4170.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 52.7,
+      "avg_health": 54.0,
+      "total_stars": 83403,
+      "top_project": "promptfoo/promptfoo",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

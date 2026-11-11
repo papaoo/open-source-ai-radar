@@ -4,7 +4,12 @@
   "description": "主要记录大语言大模型（LLMs） 算法（应用）工程师相关的知识及面试题",
   "language": "HTML",
   "license": null,
-  "topics": [],
+  "topics": [
+    "llm",
+    "llms",
+    "interview",
+    "llm-interview"
+  ],
   "stars": 15384,
   "forks": 1494,
   "open_issues": 18,
@@ -13,11 +18,11 @@
   "pushed_at": "2026-06-14T14:57:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/wdndev.png",
-  "radar_score": 59.22,
-  "impact": 87.21,
-  "velocity": 44.24,
+  "radar_score": 59.23,
+  "impact": 87.24,
+  "velocity": 44.26,
   "health": 35.38,
-  "global_percentile": 2.0,
+  "global_percentile": 0.71,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "主要记录大语言大模型（LLMs） 算法（应用）工程师相关的知识及面试题",
@@ -32,5 +37,5 @@
   "forks_30d": -1,
   "days_since_last_push": 150,
   "freshness_score": 0.22313016014842982,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }
