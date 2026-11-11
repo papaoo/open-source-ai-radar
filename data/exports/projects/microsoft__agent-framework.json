@@ -18,7 +18,7 @@
   ],
   "stars": 14623,
   "forks": 2606,
-  "open_issues": 674,
+  "open_issues": 676,
   "watchers": 113,
   "created_at": "2025-04-28T19:40:42Z",
   "pushed_at": "2026-11-10T20:24:49Z",
@@ -28,7 +28,7 @@
   "impact": 90.04,
   "velocity": 69.21,
   "health": 63.75,
-  "global_percentile": 73.0,
+  "global_percentile": 77.43,
   "category": "AI Agents",
   "sub_category": "task agent",
   "summary": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
@@ -43,5 +43,5 @@
   "forks_30d": 9,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

@@ -33,11 +33,11 @@
   "pushed_at": "2026-10-21T16:19:25Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/dipakkr.png",
-  "radar_score": 69.41,
+  "radar_score": 69.42,
   "impact": 94.37,
-  "velocity": 49.56,
+  "velocity": 49.57,
   "health": 57.27,
-  "global_percentile": 24.0,
+  "global_percentile": 34.43,
   "category": "MCP",
   "sub_category": "tool",
   "summary": "🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.",
@@ -52,5 +52,5 @@
   "forks_30d": 1,
   "days_since_last_push": 20,
   "freshness_score": 0.8187307530779818,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

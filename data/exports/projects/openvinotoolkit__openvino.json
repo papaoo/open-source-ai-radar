@@ -27,17 +27,17 @@
   ],
   "stars": 11143,
   "forks": 3545,
-  "open_issues": 382,
+  "open_issues": 381,
   "watchers": 189,
   "created_at": "2018-10-15T10:54:40Z",
-  "pushed_at": "2026-11-10T20:54:01Z",
+  "pushed_at": "2026-11-11T00:46:20Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/openvinotoolkit.png",
   "radar_score": 72.04,
   "impact": 90.32,
   "velocity": 58.93,
   "health": 61.15,
-  "global_percentile": 40.0,
+  "global_percentile": 51.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
@@ -52,5 +52,5 @@
   "forks_30d": -1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

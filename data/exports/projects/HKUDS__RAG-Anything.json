@@ -20,7 +20,7 @@
   "impact": 92.26,
   "velocity": 59.86,
   "health": 60.92,
-  "global_percentile": 46.14,
+  "global_percentile": 57.14,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "\"RAG-Anything: All-in-One RAG Framework\"",
@@ -35,5 +35,5 @@
   "forks_30d": -2,
   "days_since_last_push": 8,
   "freshness_score": 0.9231163463866358,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

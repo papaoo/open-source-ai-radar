@@ -35,10 +35,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/zilliztech.png",
   "radar_score": 62.75,
-  "impact": 85.67,
-  "velocity": 50.71,
+  "impact": 85.66,
+  "velocity": 50.7,
   "health": 42.94,
-  "global_percentile": 5.71,
+  "global_percentile": 12.0,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
@@ -53,5 +53,5 @@
   "forks_30d": 0,
   "days_since_last_push": 119,
   "freshness_score": 0.3042212640667041,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

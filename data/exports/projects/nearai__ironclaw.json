@@ -23,7 +23,7 @@
   "impact": 87.49,
   "velocity": 71.07,
   "health": 59.78,
-  "global_percentile": 60.14,
+  "global_percentile": 66.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "IronClaw is an Agent OS focused on privacy, security and extensibility",
@@ -38,6 +38,6 @@
   "forks_30d": 3,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 5,
+  "snapshot_count": 6,
   "why_trending": "Above-average growth velocity. Active in the Uncategorized category."
 }

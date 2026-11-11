@@ -17,11 +17,11 @@
   "pushed_at": "2026-11-02T08:25:57Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/HKUDS.png",
-  "radar_score": 70.09,
-  "impact": 90.65,
+  "radar_score": 70.08,
+  "impact": 90.64,
   "velocity": 56.99,
   "health": 55.52,
-  "global_percentile": 27.71,
+  "global_percentile": 39.14,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)\"",
@@ -36,5 +36,5 @@
   "forks_30d": -1,
   "days_since_last_push": 8,
   "freshness_score": 0.9231163463866358,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

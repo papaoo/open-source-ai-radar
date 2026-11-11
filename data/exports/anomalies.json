@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-10T21:47:01.151638+00:00",
+  "detected_at": "2026-11-11T01:48:19.150642+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,12 +11,12 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "VoltAgent/voltagent",
-      "stars": 10944,
-      "forks": 1197,
-      "language": "TypeScript",
-      "url": "https://github.com/VoltAgent/voltagent",
-      "radar_score": 70.7,
+      "repo_full_name": "MinishLab/semble",
+      "stars": 6394,
+      "forks": 289,
+      "language": "Python",
+      "url": "https://github.com/MinishLab/semble",
+      "radar_score": 63.94,
       "metric": "forks",
       "current_rate": 0.1,
       "normal_rate": 0.0,

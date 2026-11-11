@@ -20,11 +20,11 @@
   "pushed_at": "2026-11-10T21:00:02Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/kubernetes.png",
-  "radar_score": 75.19,
-  "impact": 95.83,
-  "velocity": 59.77,
+  "radar_score": 75.18,
+  "impact": 95.81,
+  "velocity": 59.76,
   "health": 63.75,
-  "global_percentile": 64.14,
+  "global_percentile": 69.71,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Run Kubernetes locally",
@@ -39,5 +39,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

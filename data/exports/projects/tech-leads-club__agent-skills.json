@@ -4,8 +4,16 @@
   "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
-  "stars": 7154,
+  "topics": [
+    "agent",
+    "skills",
+    "ai",
+    "antigravity",
+    "claude-code",
+    "copilot",
+    "cursor"
+  ],
+  "stars": 7153,
   "forks": 569,
   "open_issues": 31,
   "watchers": 65,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-10T18:51:58Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/tech-leads-club.png",
-  "radar_score": 70.84,
-  "impact": 81.58,
-  "velocity": 65.78,
+  "radar_score": 70.9,
+  "impact": 81.65,
+  "velocity": 65.85,
   "health": 60.75,
-  "global_percentile": 46.57,
+  "global_percentile": 45.0,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
   "summary": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
@@ -32,5 +40,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 1
+  "snapshot_count": 2
 }

@@ -20,7 +20,7 @@
   "impact": 92.88,
   "velocity": 57.25,
   "health": 39.35,
-  "global_percentile": 16.29,
+  "global_percentile": 23.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
@@ -35,5 +35,5 @@
   "forks_30d": 3,
   "days_since_last_push": 249,
   "freshness_score": 0.08290996657517266,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

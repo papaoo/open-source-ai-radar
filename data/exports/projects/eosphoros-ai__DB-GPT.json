@@ -26,11 +26,11 @@
   "pushed_at": "2026-11-10T16:21:50Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/eosphoros-ai.png",
-  "radar_score": 75.15,
+  "radar_score": 75.14,
   "impact": 92.16,
-  "velocity": 63.84,
+  "velocity": 63.83,
   "health": 63.75,
-  "global_percentile": 63.14,
+  "global_percentile": 69.29,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "open-source agentic AI data assistant for the next generation of AI + Data products.",
@@ -45,5 +45,5 @@
   "forks_30d": 4,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

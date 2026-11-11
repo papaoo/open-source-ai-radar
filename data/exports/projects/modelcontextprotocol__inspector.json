@@ -20,11 +20,11 @@
   "pushed_at": "2026-11-05T23:07:44Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/modelcontextprotocol.png",
-  "radar_score": 68.87,
+  "radar_score": 68.78,
   "impact": 86.82,
-  "velocity": 55.19,
-  "health": 59.29,
-  "global_percentile": 21.29,
+  "velocity": 55.18,
+  "health": 58.94,
+  "global_percentile": 31.0,
   "category": "MCP",
   "sub_category": "server",
   "summary": "Deterministic testing tools for MCP servers",
@@ -37,7 +37,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 5,
   "forks_30d": 5,
-  "days_since_last_push": 4,
-  "freshness_score": 0.9607894391523232,
-  "snapshot_count": 6
+  "days_since_last_push": 5,
+  "freshness_score": 0.951229424500714,
+  "snapshot_count": 7
 }
