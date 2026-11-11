@@ -1,6 +1,6 @@
 {
   "Python": 2005,
-  "TypeScript": 955,
+  "TypeScript": 956,
   "JavaScript": 379,
   "Unknown": 334,
   "Rust": 332,
@@ -10,7 +10,7 @@
   "C++": 152,
   "Swift": 143,
   "Java": 90,
-  "Shell": 79,
+  "Shell": 80,
   "Kotlin": 67,
   "C": 61,
   "C#": 56,

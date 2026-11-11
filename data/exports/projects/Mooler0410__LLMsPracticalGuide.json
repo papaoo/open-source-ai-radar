@@ -4,7 +4,12 @@
   "description": "A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)",
   "language": null,
   "license": null,
-  "topics": [],
+  "topics": [
+    "large-language-models",
+    "natural-language-processing",
+    "nlp",
+    "survey"
+  ],
   "stars": 10213,
   "forks": 783,
   "open_issues": 9,
@@ -13,11 +18,11 @@
   "pushed_at": "2026-04-08T18:26:44Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Mooler0410.png",
-  "radar_score": 54.65,
-  "impact": 86.59,
-  "velocity": 36.94,
+  "radar_score": 54.68,
+  "impact": 86.66,
+  "velocity": 36.96,
   "health": 28.33,
-  "global_percentile": 1.29,
+  "global_percentile": 0.43,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)",
@@ -32,5 +37,5 @@
   "forks_30d": -1,
   "days_since_last_push": 216,
   "freshness_score": 0.11532512103806251,
-  "snapshot_count": 2
+  "snapshot_count": 3
 }
