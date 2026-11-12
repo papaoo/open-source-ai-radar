@@ -3496,6 +3496,7 @@
 "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.": "开源生成式 UI 框架：代理流式传输布局数据，应用程序使用 React、Angular、Lit、Flutter、SwiftUI 和 Jetpack Compose 中的本机组件进行渲染。",
 "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes.": "开源健身房和体重追踪器，现已在 App Store（iPhone + Apple Watch）中以 Android APK 形式提供。计划日常活动、记录锻炼、查看哪些肌肉得到了训练、从 Strong/Hevy/FitNotes 导入。",
 "Open-source implementation of AlphaEvolve": "AlphaEvolve 的开源实现",
+"Open-source inference platform for language, vision, embedding, reranking, image, audio, and video models. Deploy with multiple engines across heterogeneous hardware, from a laptop to a distributed cl": "用于语言、视觉、嵌入、重新排名、图像、音频和视频模型的开源推理平台。跨异构硬件（从笔记本电脑到分布式集群）部署多个引擎",
 "Open-source inference server and production cluster for all the models your agent needs.": "适用于代理所需的所有模型的开源推理服务器和生产集群。",
 "Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready agent-skill corpora—with retrieval and evaluation tooling included.": "开源基础设施，可将分散的 SKILL.md 文件转变为精选的、可检索的代理技能语料库，其中包含检索和评估工具。",
 "Open-source knowledge base for people and AI agents. Rich-text editing, hybrid search, GraphRAG, and MCP. Self-host with Docker or use DocsMint Cloud.": "面向人类和人工智能代理的开源知识库。富文本编辑、混合搜索、GraphRAG 和 MCP。使用 Docker 自托管或使用 DocsMint Cloud。",

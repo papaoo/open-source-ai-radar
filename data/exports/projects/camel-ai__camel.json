@@ -25,9 +25,9 @@
   "owner_avatar": "https://github.com/camel-ai.png",
   "radar_score": 73.1,
   "impact": 90.92,
-  "velocity": 60.21,
+  "velocity": 60.2,
   "health": 62.65,
-  "global_percentile": 45.57,
+  "global_percentile": 46.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
@@ -35,12 +35,12 @@
   "stars_7d": 8,
   "stars_30d": 8,
   "stars_90d": 8,
-  "star_growth_rate_7d": 4.0,
-  "star_growth_rate_30d": 4.0,
+  "star_growth_rate_7d": 2.6666666666666665,
+  "star_growth_rate_30d": 2.6666666666666665,
   "star_growth_acceleration": 1.0,
   "forks_7d": 2,
   "forks_30d": 2,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }

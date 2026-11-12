@@ -34,10 +34,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/jnMetaCode.png",
   "radar_score": 71.6,
-  "impact": 92.49,
+  "impact": 92.48,
   "velocity": 57.46,
   "health": 57.98,
-  "global_percentile": 36.14,
+  "global_percentile": 37.29,
   "category": "AI Coding Tools",
   "sub_category": "code completion",
   "summary": "🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上位机/机械设计）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
@@ -45,12 +45,12 @@
   "stars_7d": 61,
   "stars_30d": 61,
   "stars_90d": 61,
-  "star_growth_rate_7d": 30.5,
-  "star_growth_rate_30d": 30.5,
+  "star_growth_rate_7d": 20.333333333333332,
+  "star_growth_rate_30d": 20.333333333333332,
   "star_growth_acceleration": 1.0,
   "forks_7d": 5,
   "forks_30d": 5,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 11
+  "snapshot_count": 12
 }

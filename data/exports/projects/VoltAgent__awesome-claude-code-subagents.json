@@ -25,10 +25,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/VoltAgent.png",
   "radar_score": 67.51,
-  "impact": 93.72,
+  "impact": 93.71,
   "velocity": 46.58,
   "health": 54.87,
-  "global_percentile": 16.57,
+  "global_percentile": 16.71,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
   "summary": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
@@ -36,12 +36,12 @@
   "stars_7d": 66,
   "stars_30d": 66,
   "stars_90d": 66,
-  "star_growth_rate_7d": 33.0,
-  "star_growth_rate_30d": 33.0,
+  "star_growth_rate_7d": 22.0,
+  "star_growth_rate_30d": 22.0,
   "star_growth_acceleration": 1.0,
   "forks_7d": 11,
   "forks_30d": 11,
   "days_since_last_push": 10,
   "freshness_score": 0.9048374180359595,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }

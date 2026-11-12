@@ -17,11 +17,11 @@
   "pushed_at": "2026-11-09T12:49:08Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/LouisShark.png",
-  "radar_score": 66.19,
+  "radar_score": 66.1,
   "impact": 87.62,
-  "velocity": 47.82,
-  "health": 57.61,
-  "global_percentile": 12.29,
+  "velocity": 47.81,
+  "health": 57.25,
+  "global_percentile": 12.43,
   "category": "AI Safety & Alignment",
   "sub_category": "",
   "summary": "A collection of GPT system prompts and various prompt injection/leaking knowledge.",
@@ -34,7 +34,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 2,
-  "freshness_score": 0.9801986733067553,
-  "snapshot_count": 8
+  "days_since_last_push": 3,
+  "freshness_score": 0.9704455335485082,
+  "snapshot_count": 9
 }

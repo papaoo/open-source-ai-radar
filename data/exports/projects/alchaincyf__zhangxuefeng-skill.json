@@ -35,10 +35,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/alchaincyf.png",
   "radar_score": 65.81,
-  "impact": 86.5,
+  "impact": 86.49,
   "velocity": 55.83,
   "health": 46.69,
-  "global_percentile": 9.86,
+  "global_percentile": 10.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
@@ -53,5 +53,5 @@
   "forks_30d": 3,
   "days_since_last_push": 30,
   "freshness_score": 0.7408182206817179,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }

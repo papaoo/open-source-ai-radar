@@ -30,7 +30,7 @@
   "impact": 88.2,
   "velocity": 52.73,
   "health": 32.22,
-  "global_percentile": 3.43,
+  "global_percentile": 3.86,
   "category": "AI Coding Tools",
   "sub_category": "cli tool",
   "summary": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
@@ -38,12 +38,12 @@
   "stars_7d": 42,
   "stars_30d": 42,
   "stars_90d": 42,
-  "star_growth_rate_7d": 21.0,
-  "star_growth_rate_30d": 21.0,
+  "star_growth_rate_7d": 14.0,
+  "star_growth_rate_30d": 14.0,
   "star_growth_acceleration": 1.0,
   "forks_7d": 10,
   "forks_30d": 10,
   "days_since_last_push": 109,
   "freshness_score": 0.33621649370673334,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }

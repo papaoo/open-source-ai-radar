@@ -13,7 +13,7 @@
     "oreilly",
     "oreilly-books"
   ],
-  "stars": 30125,
+  "stars": 30124,
   "forks": 6842,
   "open_issues": 31,
   "watchers": 292,
@@ -30,15 +30,15 @@
   "sub_category": "",
   "summary": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
   "maturity": "Unknown",
-  "stars_7d": 28,
-  "stars_30d": 28,
-  "stars_90d": 28,
-  "star_growth_rate_7d": 14.0,
-  "star_growth_rate_30d": 14.0,
+  "stars_7d": 27,
+  "stars_30d": 27,
+  "stars_90d": 27,
+  "star_growth_rate_7d": 9.0,
+  "star_growth_rate_30d": 9.0,
   "star_growth_acceleration": 1.0,
   "forks_7d": 4,
   "forks_30d": 4,
   "days_since_last_push": 202,
   "freshness_score": 0.13265546508012172,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }
