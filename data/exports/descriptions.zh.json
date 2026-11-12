@@ -1124,6 +1124,7 @@
 "An open-source RAG-based tool for chatting with your documents.": "一个基于 RAG 的开源工具，用于与文档聊天。",
 "An open-source coding agent for the Grok API": "Grok API 的开源编码代理",
 "An open-source coding agent for your terminal, powered by MiniMax.": "适用于您的终端的开源编码代理，由 MiniMax 提供支持。",
+"An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.": "用于您的终端的开源编码代理，用 Rust 编写。它适用于任何模型，可以将一项任务分配给多个代理，并且每一行都可供您阅读。",
 "An open-source collaborative developer sandbox. Features real-time CRDT synchronization and secure remote code execution for human-AI pair programming.": "开源协作开发人员沙箱。具有实时 CRDT 同步和安全远程代码执行功能，适用于人类与人工智能结对编程。",
 "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.": "具有 SOTA 准确性和速度的开源文档解析模型，在训练后使用 RSI 循环。",
 "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.": "一个开源引擎，可将连续的内容流转化为搜索和监控。持久摄取、混合搜索、警报以及格式、模型和业务规则的插件。",

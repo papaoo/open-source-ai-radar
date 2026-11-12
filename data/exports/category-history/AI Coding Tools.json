@@ -285,6 +285,21 @@
       "top_project": "jwasham/coding-interview-university",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 229,
+      "category": "AI Coding Tools",
+      "timestamp": "2026-11-12T12:32:57.978704+00:00",
+      "total_tracked": 983,
+      "new_this_period": 0,
+      "avg_stars": 8102.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 63.3,
+      "avg_health": 58.1,
+      "total_stars": 7964471,
+      "top_project": "jwasham/coding-interview-university",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }
