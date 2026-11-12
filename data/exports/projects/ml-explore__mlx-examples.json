@@ -4,7 +4,9 @@
   "description": "Examples in the MLX framework",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "mlx"
+  ],
   "stars": 9062,
   "forks": 1227,
   "open_issues": 145,
@@ -14,10 +16,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/ml-explore.png",
   "radar_score": 59.69,
-  "impact": 85.9,
+  "impact": 85.93,
   "velocity": 44.0,
-  "health": 39.7,
-  "global_percentile": 2.43,
+  "health": 39.69,
+  "global_percentile": 4.71,
   "category": "Local AI",
   "sub_category": "",
   "summary": "Examples in the MLX framework",
@@ -28,9 +30,9 @@
   "star_growth_rate_7d": 4.0,
   "star_growth_rate_30d": 4.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 2,
-  "forks_30d": 2,
-  "days_since_last_push": 218,
-  "freshness_score": 0.11304153064044985,
-  "snapshot_count": 4
+  "forks_7d": 1,
+  "forks_30d": 1,
+  "days_since_last_push": 219,
+  "freshness_score": 0.11191674861732888,
+  "snapshot_count": 5
 }

@@ -17,7 +17,7 @@
   "impact": 93.58,
   "velocity": 53.38,
   "health": 44.74,
-  "global_percentile": 16.57,
+  "global_percentile": 20.86,
   "category": "AI Agents",
   "sub_category": "research agent",
   "summary": "An autonomous agent for deep financial research",
@@ -32,5 +32,5 @@
   "forks_30d": 2,
   "days_since_last_push": 49,
   "freshness_score": 0.6126263941844161,
-  "snapshot_count": 7
+  "snapshot_count": 8
 }

@@ -23,11 +23,11 @@
   "pushed_at": "2026-11-06T05:46:19Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/presenton.png",
-  "radar_score": 70.86,
-  "impact": 86.92,
+  "radar_score": 70.85,
+  "impact": 86.91,
   "velocity": 58.86,
   "health": 61.94,
-  "global_percentile": 31.57,
+  "global_percentile": 40.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
@@ -42,5 +42,5 @@
   "forks_30d": 3,
   "days_since_last_push": 5,
   "freshness_score": 0.951229424500714,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

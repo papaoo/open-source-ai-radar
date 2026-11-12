@@ -38,7 +38,7 @@
   "impact": 96.16,
   "velocity": 62.18,
   "health": 56.2,
-  "global_percentile": 57.14,
+  "global_percentile": 61.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
@@ -53,5 +53,5 @@
   "forks_30d": 5,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

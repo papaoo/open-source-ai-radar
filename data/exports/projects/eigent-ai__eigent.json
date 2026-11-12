@@ -24,10 +24,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/eigent-ai.png",
   "radar_score": 74.94,
-  "impact": 89.25,
+  "impact": 89.24,
   "velocity": 66.59,
   "health": 63.75,
-  "global_percentile": 61.14,
+  "global_percentile": 65.14,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
@@ -42,5 +42,5 @@
   "forks_30d": 2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }

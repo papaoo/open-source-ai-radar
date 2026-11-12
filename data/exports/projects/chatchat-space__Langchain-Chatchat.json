@@ -34,11 +34,11 @@
   "pushed_at": "2025-11-10T09:27:42Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/chatchat-space.png",
-  "radar_score": 63.53,
-  "impact": 96.26,
-  "velocity": 47.61,
+  "radar_score": 63.52,
+  "impact": 96.25,
+  "velocity": 47.6,
   "health": 33.45,
-  "global_percentile": 5.57,
+  "global_percentile": 10.0,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
@@ -53,5 +53,5 @@
   "forks_30d": 1,
   "days_since_last_push": 366,
   "freshness_score": 0.02573251272635994,
-  "snapshot_count": 7
+  "snapshot_count": 8
 }

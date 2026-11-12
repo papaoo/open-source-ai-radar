@@ -28,10 +28,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/1Panel-dev.png",
   "radar_score": 76.81,
-  "impact": 94.9,
+  "impact": 94.89,
   "velocity": 65.48,
   "health": 63.75,
-  "global_percentile": 79.29,
+  "global_percentile": 80.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服务器打造的管理面板。",
@@ -46,5 +46,5 @@
   "forks_30d": -3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

@@ -20,9 +20,9 @@
   "owner_avatar": "https://github.com/Cinnamon.png",
   "radar_score": 65.99,
   "impact": 92.11,
-  "velocity": 52.66,
+  "velocity": 52.65,
   "health": 42.88,
-  "global_percentile": 11.71,
+  "global_percentile": 16.14,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "An open-source RAG-based tool for chatting with your documents.",
@@ -37,5 +37,5 @@
   "forks_30d": 2,
   "days_since_last_push": 120,
   "freshness_score": 0.30119421191220214,
-  "snapshot_count": 6
+  "snapshot_count": 7
 }

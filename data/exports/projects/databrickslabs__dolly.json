@@ -20,9 +20,9 @@
   "owner_avatar": "https://github.com/databrickslabs.png",
   "radar_score": 56.14,
   "impact": 87.36,
-  "velocity": 36.74,
+  "velocity": 36.73,
   "health": 33.35,
-  "global_percentile": 0.0,
+  "global_percentile": 1.14,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform",
@@ -37,5 +37,5 @@
   "forks_30d": 0,
   "days_since_last_push": 1230,
   "freshness_score": 4.551744463083231e-06,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

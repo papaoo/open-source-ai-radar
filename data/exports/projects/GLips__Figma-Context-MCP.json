@@ -23,7 +23,7 @@
   "impact": 87.74,
   "velocity": 51.73,
   "health": 53.31,
-  "global_percentile": 14.29,
+  "global_percentile": 17.71,
   "category": "MCP",
   "sub_category": "server",
   "summary": "MCP server to provide Figma layout information to AI coding agents like Cursor",
@@ -38,5 +38,5 @@
   "forks_30d": 4,
   "days_since_last_push": 15,
   "freshness_score": 0.8607079764250578,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

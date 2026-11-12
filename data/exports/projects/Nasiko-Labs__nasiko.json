@@ -29,7 +29,7 @@
   "impact": 85.06,
   "velocity": 71.47,
   "health": 58.15,
-  "global_percentile": 49.86,
+  "global_percentile": 56.0,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "The Open Runtime for AI Agents",
@@ -44,6 +44,6 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 7,
+  "snapshot_count": 8,
   "why_trending": "Above-average growth velocity. Active in the AI Agents category."
 }

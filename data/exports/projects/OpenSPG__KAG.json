@@ -4,7 +4,13 @@
   "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "knowledge-graph",
+    "large-language-model",
+    "logical-reasoning",
+    "multi-hop-question-answering",
+    "trustfulness"
+  ],
   "stars": 9164,
   "forks": 719,
   "open_issues": 164,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-01-28T13:30:54Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/OpenSPG.png",
-  "radar_score": 59.11,
-  "impact": 84.05,
+  "radar_score": 59.13,
+  "impact": 84.08,
   "velocity": 44.92,
   "health": 39.09,
-  "global_percentile": 1.86,
+  "global_percentile": 3.86,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation",
@@ -32,5 +38,5 @@
   "forks_30d": 0,
   "days_since_last_push": 287,
   "freshness_score": 0.0566989265798469,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }
