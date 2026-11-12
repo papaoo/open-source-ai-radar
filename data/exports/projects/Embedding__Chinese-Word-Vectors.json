@@ -4,14 +4,7 @@
   "description": "100+ Chinese Word Vectors 上百种预训练中文词向量 ",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "chinese",
-    "chinese-word-segmentation",
-    "embeddings",
-    "word-embeddings",
-    "vectors-trained",
-    "embedding"
-  ],
+  "topics": [],
   "stars": 12252,
   "forks": 2322,
   "open_issues": 60,
