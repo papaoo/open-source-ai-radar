@@ -4,7 +4,12 @@
   "description": "",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "openclaw-skills"
+  ],
   "stars": 27495,
   "forks": 2996,
   "open_issues": 1,
@@ -15,7 +20,7 @@
   "owner_avatar": "https://github.com/JimLiu.png",
   "radar_score": 70.72,
   "impact": 92.58,
-  "velocity": 56.1,
+  "velocity": 56.11,
   "health": 56.2,
   "global_percentile": 31.0,
   "category": "Uncategorized",
@@ -32,5 +37,5 @@
   "forks_30d": 8,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

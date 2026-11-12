@@ -36,7 +36,7 @@
   "impact": 92.97,
   "velocity": 54.74,
   "health": 58.35,
-  "global_percentile": 32.86,
+  "global_percentile": 32.57,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "A reliable coding agent for complex software engineering tasks.",
@@ -51,5 +51,5 @@
   "forks_30d": 17,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

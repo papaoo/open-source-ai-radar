@@ -4,7 +4,20 @@
   "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "video-transcription",
+    "video-translation",
+    "dubbing",
+    "localization",
+    "tts",
+    "agent-skills",
+    "codex-cli",
+    "deskop-app",
+    "image-generation",
+    "skills",
+    "video-editing",
+    "video-generation"
+  ],
   "stars": 14314,
   "forks": 1600,
   "open_issues": 35,
@@ -17,7 +30,7 @@
   "impact": 87.99,
   "velocity": 60.71,
   "health": 63.01,
-  "global_percentile": 39.71,
+  "global_percentile": 39.43,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
   "summary": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.",
@@ -32,5 +45,5 @@
   "forks_30d": 12,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }

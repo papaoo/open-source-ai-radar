@@ -4,7 +4,15 @@
   "description": "High-performance In-browser LLM Inference Engine ",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "deep-learning",
+    "llm",
+    "tvm",
+    "webgpu",
+    "webml",
+    "chatgpt",
+    "language-model"
+  ],
   "stars": 19373,
   "forks": 1412,
   "open_issues": 136,
@@ -17,7 +25,7 @@
   "impact": 90.47,
   "velocity": 58.83,
   "health": 63.01,
-  "global_percentile": 42.29,
+  "global_percentile": 41.71,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "High-performance In-browser LLM Inference Engine ",
@@ -32,5 +40,5 @@
   "forks_30d": 4,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 11
+  "snapshot_count": 12
 }

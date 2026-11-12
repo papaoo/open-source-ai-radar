@@ -17,7 +17,7 @@
   "impact": 91.38,
   "velocity": 61.93,
   "health": 55.19,
-  "global_percentile": 39.14,
+  "global_percentile": 39.0,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
@@ -32,5 +32,5 @@
   "forks_30d": 25,
   "days_since_last_push": 9,
   "freshness_score": 0.9139311852712282,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

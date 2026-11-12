@@ -4,7 +4,13 @@
   "description": "open-source coding agent",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "open-source",
+    "developer-tools",
+    "ai",
+    "agent",
+    "cli"
+  ],
   "stars": 36464,
   "forks": 5559,
   "open_issues": 284,
@@ -17,7 +23,7 @@
   "impact": 95.16,
   "velocity": 64.21,
   "health": 61.26,
-  "global_percentile": 70.43,
+  "global_percentile": 70.29,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "open-source coding agent",
@@ -32,5 +38,5 @@
   "forks_30d": 3,
   "days_since_last_push": 7,
   "freshness_score": 0.9323938199059483,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

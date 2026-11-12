@@ -4,7 +4,24 @@
   "description": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
   "language": "Python",
   "license": "AGPL-3.0",
-  "topics": [],
+  "topics": [
+    "yolov5",
+    "object-detection",
+    "pytorch",
+    "onnx",
+    "coreml",
+    "tflite",
+    "yolo",
+    "deep-learning",
+    "ultralytics",
+    "computer-vision",
+    "image-classification",
+    "inference",
+    "instance-segmentation",
+    "model-export",
+    "model-training",
+    "tensorrt"
+  ],
   "stars": 58262,
   "forks": 17435,
   "open_issues": 24,
@@ -32,5 +49,5 @@
   "forks_30d": -4,
   "days_since_last_push": 5,
   "freshness_score": 0.951229424500714,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

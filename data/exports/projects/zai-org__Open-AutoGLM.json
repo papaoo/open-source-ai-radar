@@ -4,7 +4,10 @@
   "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agent",
+    "phone-use-agent"
+  ],
   "stars": 26581,
   "forks": 4070,
   "open_issues": 198,
@@ -17,7 +20,7 @@
   "impact": 92.94,
   "velocity": 57.26,
   "health": 39.33,
-  "global_percentile": 15.29,
+  "global_percentile": 16.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
@@ -32,5 +35,5 @@
   "forks_30d": -2,
   "days_since_last_push": 251,
   "freshness_score": 0.08126823924089167,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

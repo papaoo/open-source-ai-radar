@@ -4,7 +4,21 @@
   "description": "《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程",
   "language": "Jupyter Notebook",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "llm",
+    "chatglm",
+    "internlm2",
+    "llama3",
+    "lora",
+    "minicpm",
+    "qwen",
+    "qwen1-5",
+    "chatglm3",
+    "gemma-2b-it",
+    "glm-4",
+    "qwen2",
+    "q-wen"
+  ],
   "stars": 32761,
   "forks": 3156,
   "open_issues": 154,
@@ -15,9 +29,9 @@
   "owner_avatar": "https://github.com/datawhalechina.png",
   "radar_score": 73.33,
   "impact": 94.14,
-  "velocity": 59.76,
+  "velocity": 59.77,
   "health": 59.01,
-  "global_percentile": 48.43,
+  "global_percentile": 47.71,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程",
@@ -32,5 +46,5 @@
   "forks_30d": 1,
   "days_since_last_push": 14,
   "freshness_score": 0.8693582353988059,
-  "snapshot_count": 11
+  "snapshot_count": 12
 }

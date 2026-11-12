@@ -4,7 +4,18 @@
   "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "agent",
+    "claude-code",
+    "teaching",
+    "agent-development",
+    "ai-agent",
+    "claude",
+    "educational",
+    "llm",
+    "python",
+    "tutorial"
+  ],
   "stars": 80335,
   "forks": 12839,
   "open_issues": 40,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-10-27T04:47:00Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/shareAI-lab.png",
-  "radar_score": 72.72,
-  "impact": 98.28,
-  "velocity": 57.57,
+  "radar_score": 72.71,
+  "impact": 98.29,
+  "velocity": 57.56,
   "health": 53.02,
-  "global_percentile": 43.29,
+  "global_percentile": 42.86,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
@@ -32,5 +43,5 @@
   "forks_30d": 21,
   "days_since_last_push": 16,
   "freshness_score": 0.8521437889662113,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

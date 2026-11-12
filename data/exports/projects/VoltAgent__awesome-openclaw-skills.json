@@ -4,8 +4,21 @@
   "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
   "language": null,
   "license": "MIT",
-  "topics": [],
-  "stars": 53722,
+  "topics": [
+    "agent-skills",
+    "awesome-list",
+    "clawdbot",
+    "clawdbot-skill",
+    "clawd",
+    "clawdhub",
+    "moltbot",
+    "moltbot-skills",
+    "openclaw",
+    "openclaw-skills",
+    "awesome",
+    "awesome-lists"
+  ],
+  "stars": 53723,
   "forks": 5069,
   "open_issues": 1,
   "watchers": 307,
@@ -13,9 +26,9 @@
   "pushed_at": "2026-10-30T13:21:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/VoltAgent.png",
-  "radar_score": 70.94,
-  "impact": 96.93,
-  "velocity": 53.41,
+  "radar_score": 70.95,
+  "impact": 96.92,
+  "velocity": 53.43,
   "health": 53.92,
   "global_percentile": 32.86,
   "category": "Uncategorized",
@@ -32,5 +45,5 @@
   "forks_30d": -2,
   "days_since_last_push": 13,
   "freshness_score": 0.8780954309205613,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

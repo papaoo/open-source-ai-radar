@@ -4,7 +4,17 @@
   "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
   "language": "Swift",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "claude-code",
+    "claude-desktop",
+    "codex",
+    "codex-cli",
+    "hacktoberfest",
+    "agent-orchestration",
+    "ai-agents",
+    "coding-agents",
+    "grok"
+  ],
   "stars": 24608,
   "forks": 2121,
   "open_issues": 681,
@@ -15,9 +25,9 @@
   "owner_avatar": "https://github.com/slopus.png",
   "radar_score": 75.55,
   "impact": 90.89,
-  "velocity": 66.46,
+  "velocity": 66.45,
   "health": 63.75,
-  "global_percentile": 67.29,
+  "global_percentile": 67.71,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
@@ -32,5 +42,5 @@
   "forks_30d": 7,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }

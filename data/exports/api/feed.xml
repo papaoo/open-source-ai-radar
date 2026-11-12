@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 21:25:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 22:11:05 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -37,7 +37,7 @@
       <link>https://github.com/ccch1mneyyy/dsh-Go</link>
       <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-12T20:56:41Z</pubDate>
+      <pubDate>2026-11-12T22:05:11Z</pubDate>
       <guid>https://github.com/ccch1mneyyy/dsh-Go</guid>
     </item>
     <item>
@@ -45,7 +45,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all f</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-12T21:00:21Z</pubDate>
+      <pubDate>2026-11-12T21:50:23Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -53,7 +53,7 @@
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs direct</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-12T18:28:24Z</pubDate>
+      <pubDate>2026-11-12T21:33:03Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
     </item>
     <item>
@@ -77,7 +77,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-12T21:18:52Z</pubDate>
+      <pubDate>2026-11-12T22:04:45Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -85,7 +85,7 @@
       <link>https://github.com/jub0t/Concat</link>
       <description>Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API &amp; MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-12T21:14:24Z</pubDate>
+      <pubDate>2026-11-12T21:35:51Z</pubDate>
       <guid>https://github.com/jub0t/Concat</guid>
     </item>
     <item>
@@ -93,7 +93,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Every agent&apos;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-12T21:16:10Z</pubDate>
+      <pubDate>2026-11-12T21:45:34Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -103,14 +103,6 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-10-20T10:19:31Z</pubDate>
       <guid>https://github.com/ChatGPTNextWeb/NextChat</guid>
-    </item>
-    <item>
-      <title>Kuberwastaken/claurst</title>
-      <link>https://github.com/Kuberwastaken/claurst</link>
-      <description>Agentic Coding for Builders who Ship</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-10-26T16:08:43Z</pubDate>
-      <guid>https://github.com/Kuberwastaken/claurst</guid>
     </item>
     <item>
       <title>morluto/rea</title>
@@ -133,7 +125,7 @@
       <link>https://github.com/CopilotKit/OpenBot</link>
       <description>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-12T21:12:24Z</pubDate>
+      <pubDate>2026-11-12T21:59:13Z</pubDate>
       <guid>https://github.com/CopilotKit/OpenBot</guid>
     </item>
     <item>
@@ -141,7 +133,7 @@
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-12T21:20:24Z</pubDate>
+      <pubDate>2026-11-12T21:57:12Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
     </item>
     <item>
@@ -157,8 +149,16 @@
       <link>https://github.com/google/elephant-goldfish-model</link>
       <description>Open-source plugin for designing and reviewing software with agents</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-12T20:07:16Z</pubDate>
+      <pubDate>2026-11-12T21:42:19Z</pubDate>
       <guid>https://github.com/google/elephant-goldfish-model</guid>
+    </item>
+    <item>
+      <title>pingdotgg/t3code</title>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <description>The best way to control Claude Code, Codex and more from any computer or phone</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-12T22:00:11Z</pubDate>
+      <guid>https://github.com/pingdotgg/t3code</guid>
     </item>
     <item>
       <title>Ebony-Vinyl/dsh-our-free-model</title>

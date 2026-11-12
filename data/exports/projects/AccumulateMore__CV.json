@@ -4,7 +4,24 @@
   "description": "✅（已完结）超级全面的 深度学习 笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】【大飞 大模型Agent】",
   "language": "Jupyter Notebook",
   "license": null,
-  "topics": [],
+  "topics": [
+    "book",
+    "chinese",
+    "computer-vision",
+    "deep-learning",
+    "machine-learning",
+    "natural-language-processing",
+    "notebook",
+    "python",
+    "jupyter-notebook",
+    "agent",
+    "agents",
+    "cv",
+    "llm",
+    "llms",
+    "nlp",
+    "rag"
+  ],
   "stars": 24282,
   "forks": 2673,
   "open_issues": 25,
@@ -32,5 +49,5 @@
   "forks_30d": 2,
   "days_since_last_push": 53,
   "freshness_score": 0.5886049696783552,
-  "snapshot_count": 9
+  "snapshot_count": 10
 }

@@ -13,11 +13,11 @@
   "pushed_at": "2026-11-12T15:25:56Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/BigPizzaV3.png",
-  "radar_score": 76.12,
+  "radar_score": 76.13,
   "impact": 91.77,
-  "velocity": 67.07,
+  "velocity": 67.1,
   "health": 63.75,
-  "global_percentile": 73.0,
+  "global_percentile": 73.14,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex和其他 AI Agent变得更好用更舒服",
@@ -32,5 +32,5 @@
   "forks_30d": 11,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }
