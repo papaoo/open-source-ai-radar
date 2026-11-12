@@ -4,16 +4,8 @@
   "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
   "language": null,
   "license": "MIT",
-  "topics": [
-    "ai-agent",
-    "chinese",
-    "codex-skill",
-    "handdrawn",
-    "illustration",
-    "image-generation",
-    "xiaohei"
-  ],
-  "stars": 13182,
+  "topics": [],
+  "stars": 13183,
   "forks": 1507,
   "open_issues": 11,
   "watchers": 20,
