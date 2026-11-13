@@ -4,7 +4,14 @@
   "description": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "chinese",
+    "large-language-models",
+    "natural-language-processing",
+    "flash-attention",
+    "llm",
+    "pretrained-models"
+  ],
   "stars": 22030,
   "forks": 2009,
   "open_issues": 19,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-03-05T13:55:17Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/QwenLM.png",
-  "radar_score": 61.11,
-  "impact": 91.85,
-  "velocity": 45.39,
+  "radar_score": 61.15,
+  "impact": 91.86,
+  "velocity": 45.51,
   "health": 33.92,
-  "global_percentile": 2.57,
+  "global_percentile": 2.71,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
@@ -32,5 +39,5 @@
   "forks_30d": 3,
   "days_since_last_push": 252,
   "freshness_score": 0.08045960674953244,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }
