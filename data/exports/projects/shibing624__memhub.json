@@ -1,7 +1,7 @@
 {
   "full_name": "shibing624/memhub",
   "url": "https://github.com/shibing624/memhub",
-  "description": "All your agents. One memory. Layered, versioned long-term memory for LLM agents, shared across Claude Code, Codex, Cursor and more. 让你的所有AI工具共享一份长期记忆：分层整理、版本演化，偏好变了也记得准。",
+  "description": "Local-first, versioned memory hub & Python SDK for AI agents. Share evolving facts, profiles & coding procedures across 18 tools (Claude Code, Codex, Cursor, OpenClaw...) — no SaaS lock-in, zero-server Git sync, #1 on LoCoMo / LongMemEval / PersonaMem-v2.",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
@@ -10,7 +10,7 @@
   "open_issues": 0,
   "watchers": 0,
   "created_at": "2026-06-18T07:03:42Z",
-  "pushed_at": "2026-11-13T07:23:35Z",
+  "pushed_at": "2026-11-13T14:56:41Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/shibing624.png",
   "radar_score": 0,

@@ -405,6 +405,21 @@
       "top_project": "ollama/ollama",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 329,
+      "category": "Local AI",
+      "timestamp": "2026-11-13T20:52:42.137323+00:00",
+      "total_tracked": 520,
+      "new_this_period": 0,
+      "avg_stars": 4313.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 59.8,
+      "avg_health": 59.9,
+      "total_stars": 2242545,
+      "top_project": "ollama/ollama",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }
