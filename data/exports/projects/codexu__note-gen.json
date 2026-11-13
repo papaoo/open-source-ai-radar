@@ -22,7 +22,7 @@
     "open-source",
     "personal-knowledge-management"
   ],
-  "stars": 13013,
+  "stars": 13016,
   "forks": 987,
   "open_issues": 51,
   "watchers": 52,
@@ -39,15 +39,15 @@
   "sub_category": "",
   "summary": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
   "maturity": "Unknown",
-  "stars_7d": 18,
-  "stars_30d": 18,
-  "stars_90d": 18,
-  "star_growth_rate_7d": 6.0,
-  "star_growth_rate_30d": 6.0,
+  "stars_7d": 21,
+  "stars_30d": 21,
+  "stars_90d": 21,
+  "star_growth_rate_7d": 5.25,
+  "star_growth_rate_30d": 5.25,
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }

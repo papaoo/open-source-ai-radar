@@ -26,7 +26,7 @@
     "langchain",
     "llm"
   ],
-  "stars": 15730,
+  "stars": 15731,
   "forks": 1400,
   "open_issues": 193,
   "watchers": 75,
@@ -43,15 +43,15 @@
   "sub_category": "",
   "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning",
   "maturity": "Unknown",
-  "stars_7d": 27,
-  "stars_30d": 27,
-  "stars_90d": 27,
-  "star_growth_rate_7d": 9.0,
-  "star_growth_rate_30d": 9.0,
+  "stars_7d": 28,
+  "stars_30d": 28,
+  "stars_90d": 28,
+  "star_growth_rate_7d": 7.0,
+  "star_growth_rate_30d": 7.0,
   "star_growth_acceleration": 1.0,
   "forks_7d": 13,
   "forks_30d": 13,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }
