@@ -1,11 +1,11 @@
 {
   "full_name": "cutetailbud/FastAIToken",
   "url": "https://github.com/cutetailbud/FastAIToken",
-  "description": "FastAIToken是实际面向程序员coding群体和企业的AI中转站：一个API Key 接入Claude Code、Codex、GPT、Claude、Gemini、DeepSeek 等模型，最低0.06折",
+  "description": "面向程序员coding群体和企业的AI中转站，最低0.6折",
   "language": "Python",
   "license": "NOASSERTION",
   "topics": [],
-  "stars": 130,
+  "stars": 157,
   "forks": 0,
   "open_issues": 0,
   "watchers": 1,

@@ -1,7 +1,7 @@
 {
   "full_name": "Licoy/Quosparr",
   "url": "https://github.com/Licoy/Quosparr",
-  "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude Code、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
+  "description": "🐦 Native menu bar & tray app for macOS, Windows and Linux: track Codex, Claude, Gemini (Antigravity) and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and API relay switching | 原生 macOS、Windows、Linux 菜单栏与托盘应用，统一查看 Codex、Claude、Gemini（Antigravity）、Grok 额度、重置动态、API 等价成本与本机会话，支持多账号与中转 API 切换",
   "language": "Go",
   "license": "AGPL-3.0",
   "topics": [],
@@ -10,7 +10,7 @@
   "open_issues": 1,
   "watchers": 0,
   "created_at": "2026-06-29T00:39:56Z",
-  "pushed_at": "2026-11-12T00:58:04Z",
+  "pushed_at": "2026-11-13T08:31:41Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Licoy.png",
   "radar_score": 0,

@@ -4,13 +4,7 @@
   "description": "☁️ Cloud Torrent: a self-hosted remote torrent client",
   "language": "Go",
   "license": null,
-  "topics": [
-    "torrent",
-    "torrent-client",
-    "self-hosted",
-    "golang",
-    "cloud"
-  ],
+  "topics": [],
   "stars": 6247,
   "forks": 1808,
   "open_issues": 125,
