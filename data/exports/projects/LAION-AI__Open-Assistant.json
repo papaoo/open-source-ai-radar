@@ -4,7 +4,17 @@
   "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "chatgpt",
+    "language-model",
+    "rlhf",
+    "ai",
+    "assistant",
+    "discord-bot",
+    "machine-learning",
+    "nextjs",
+    "python"
+  ],
   "stars": 37348,
   "forks": 3256,
   "open_issues": 227,
@@ -14,10 +24,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/LAION-AI.png",
   "radar_score": 66.08,
-  "impact": 95.58,
+  "impact": 95.59,
   "velocity": 51.88,
   "health": 38.75,
-  "global_percentile": 11.86,
+  "global_percentile": 11.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
@@ -32,5 +42,5 @@
   "forks_30d": -3,
   "days_since_last_push": 818,
   "freshness_score": 0.000280201940128712,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }

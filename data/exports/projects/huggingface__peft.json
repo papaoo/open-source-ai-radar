@@ -4,7 +4,18 @@
   "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "adapter",
+    "diffusion",
+    "llm",
+    "parameter-efficient-learning",
+    "python",
+    "pytorch",
+    "transformers",
+    "lora",
+    "fine-tuning",
+    "peft"
+  ],
   "stars": 21887,
   "forks": 2665,
   "open_issues": 67,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-13T09:56:58Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/huggingface.png",
-  "radar_score": 74.0,
-  "impact": 91.73,
-  "velocity": 61.04,
+  "radar_score": 74.01,
+  "impact": 91.75,
+  "velocity": 61.05,
   "health": 63.75,
-  "global_percentile": 54.71,
+  "global_percentile": 54.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
@@ -32,5 +43,5 @@
   "forks_30d": 13,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

@@ -13,11 +13,11 @@
   "pushed_at": "2025-07-31T02:38:24Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Hannibal046.png",
-  "radar_score": 64.2,
-  "impact": 94.19,
+  "radar_score": 64.21,
+  "impact": 94.2,
   "velocity": 48.1,
   "health": 38.77,
-  "global_percentile": 6.86,
+  "global_percentile": 6.29,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Awesome-LLM: a curated list of Large Language Model",
@@ -32,5 +32,5 @@
   "forks_30d": 0,
   "days_since_last_push": 470,
   "freshness_score": 0.009095277101695816,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }

@@ -30,11 +30,11 @@
   "pushed_at": "2026-11-11T00:45:00Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/codexu.png",
-  "radar_score": 70.45,
-  "impact": 85.98,
-  "velocity": 58.02,
+  "radar_score": 70.46,
+  "impact": 86.0,
+  "velocity": 58.01,
   "health": 63.01,
-  "global_percentile": 28.86,
+  "global_percentile": 27.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
@@ -49,5 +49,5 @@
   "forks_30d": 1,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 11
+  "snapshot_count": 12
 }

@@ -4,7 +4,12 @@
   "description": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "browser",
+    "javascript",
+    "transformers",
+    "webml"
+  ],
   "stars": 16417,
   "forks": 1231,
   "open_issues": 236,
@@ -13,11 +18,11 @@
   "pushed_at": "2026-11-13T14:44:28Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/huggingface.png",
-  "radar_score": 72.25,
-  "impact": 88.93,
+  "radar_score": 72.26,
+  "impact": 88.95,
   "velocity": 59.26,
   "health": 63.75,
-  "global_percentile": 39.86,
+  "global_percentile": 38.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
@@ -32,5 +37,5 @@
   "forks_30d": 2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

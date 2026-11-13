@@ -13,11 +13,11 @@
   "pushed_at": "2026-10-21T11:17:29Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/nashsu.png",
-  "radar_score": 71.34,
-  "impact": 90.93,
+  "radar_score": 71.35,
+  "impact": 90.95,
   "velocity": 61.74,
   "health": 53.46,
-  "global_percentile": 35.14,
+  "global_percentile": 34.29,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
@@ -32,5 +32,5 @@
   "forks_30d": 9,
   "days_since_last_push": 23,
   "freshness_score": 0.794533602503334,
-  "snapshot_count": 16
+  "snapshot_count": 17
 }

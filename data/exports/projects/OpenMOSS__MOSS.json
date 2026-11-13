@@ -4,7 +4,14 @@
   "description": "An open-source, tool-augmented conversational language model from Fudan University",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "chatgpt",
+    "deep-learning",
+    "dialogue-systems",
+    "large-language-models",
+    "natural-language-processing",
+    "text-generation"
+  ],
   "stars": 12365,
   "forks": 1129,
   "open_issues": 236,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-09-06T06:19:22Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/OpenMOSS.png",
-  "radar_score": 63.49,
-  "impact": 88.01,
+  "radar_score": 63.5,
+  "impact": 88.04,
   "velocity": 46.7,
   "health": 47.76,
-  "global_percentile": 5.71,
+  "global_percentile": 4.71,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "An open-source, tool-augmented conversational language model from Fudan University",
@@ -32,5 +39,5 @@
   "forks_30d": -1,
   "days_since_last_push": 68,
   "freshness_score": 0.5066169923655895,
-  "snapshot_count": 8
+  "snapshot_count": 9
 }

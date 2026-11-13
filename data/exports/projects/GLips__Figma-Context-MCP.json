@@ -4,7 +4,13 @@
   "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "ai",
+    "cursor",
+    "figma",
+    "mcp",
+    "typescript"
+  ],
   "stars": 16203,
   "forks": 1287,
   "open_issues": 8,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-10-27T05:37:12Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/GLips.png",
-  "radar_score": 66.41,
-  "impact": 87.82,
-  "velocity": 51.73,
+  "radar_score": 66.43,
+  "impact": 87.86,
+  "velocity": 51.72,
   "health": 52.72,
-  "global_percentile": 12.14,
+  "global_percentile": 12.0,
   "category": "MCP",
   "sub_category": "server",
   "summary": "MCP server to provide Figma layout information to AI coding agents like Cursor",
@@ -32,5 +38,5 @@
   "forks_30d": 7,
   "days_since_last_push": 17,
   "freshness_score": 0.8436648165963837,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

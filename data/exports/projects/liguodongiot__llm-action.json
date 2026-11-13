@@ -4,7 +4,13 @@
   "description": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
   "language": "HTML",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "llm",
+    "llm-inference",
+    "llm-serving",
+    "llm-training",
+    "llmops"
+  ],
   "stars": 25275,
   "forks": 2859,
   "open_issues": 18,
@@ -14,10 +20,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/liguodongiot.png",
   "radar_score": 67.96,
-  "impact": 93.24,
-  "velocity": 52.4,
+  "impact": 93.25,
+  "velocity": 52.39,
   "health": 49.29,
-  "global_percentile": 17.29,
+  "global_percentile": 17.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
@@ -32,5 +38,5 @@
   "forks_30d": -2,
   "days_since_last_push": 30,
   "freshness_score": 0.7408182206817179,
-  "snapshot_count": 11
+  "snapshot_count": 12
 }

@@ -4,7 +4,18 @@
   "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "nextjs",
+    "openai",
+    "llm",
+    "rag",
+    "claude",
+    "deepseek",
+    "qwen",
+    "workflow",
+    "agent",
+    "mcp"
+  ],
   "stars": 30037,
   "forks": 7383,
   "open_issues": 109,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-13T11:08:34Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/labring.png",
-  "radar_score": 76.99,
-  "impact": 94.59,
-  "velocity": 68.48,
+  "radar_score": 77.0,
+  "impact": 94.6,
+  "velocity": 68.49,
   "health": 60.75,
-  "global_percentile": 80.29,
+  "global_percentile": 80.43,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive s",
@@ -32,5 +43,5 @@
   "forks_30d": 10,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 16
+  "snapshot_count": 17
 }

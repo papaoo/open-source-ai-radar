@@ -4,8 +4,23 @@
   "description": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
-  "stars": 65523,
+  "topics": [
+    "automatic-api",
+    "airtable",
+    "no-code",
+    "no-code-database",
+    "postgresql",
+    "sqlite",
+    "airtable-alternative",
+    "low-code",
+    "spreadsheet",
+    "rest-api",
+    "restful-api",
+    "swagger",
+    "hacktoberfest",
+    "no-code-platform"
+  ],
+  "stars": 65522,
   "forks": 5138,
   "open_issues": 351,
   "watchers": 385,
@@ -17,7 +32,7 @@
   "impact": 97.43,
   "velocity": 63.66,
   "health": 60.75,
-  "global_percentile": 75.71,
+  "global_percentile": 75.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
@@ -32,5 +47,5 @@
   "forks_30d": 12,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }
