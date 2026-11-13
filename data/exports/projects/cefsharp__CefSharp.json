@@ -4,7 +4,15 @@
   "description": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework",
   "language": "C#",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "cefsharp",
+    "c-sharp",
+    "c-plus-plus",
+    "wpf",
+    "winforms",
+    "browser",
+    "framework"
+  ],
   "stars": 10269,
   "forks": 2909,
   "open_issues": 59,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-03T11:20:05Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/cefsharp.png",
-  "radar_score": 66.07,
-  "impact": 90.51,
+  "radar_score": 66.06,
+  "impact": 90.49,
   "velocity": 46.05,
   "health": 54.99,
-  "global_percentile": 12.29,
+  "global_percentile": 22.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework",
@@ -32,5 +40,5 @@
   "forks_30d": -1,
   "days_since_last_push": 9,
   "freshness_score": 0.9139311852712282,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }

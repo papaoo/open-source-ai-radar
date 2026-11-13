@@ -31,8 +31,8 @@
   "radar_score": 63.93,
   "impact": 97.72,
   "velocity": 46.74,
-  "health": 33.92,
-  "global_percentile": 7.29,
+  "health": 33.91,
+  "global_percentile": 16.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Learn how to develop, deploy and iterate on production-grade ML applications.",
@@ -45,7 +45,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 2,
   "forks_30d": 2,
-  "days_since_last_push": 252,
-  "freshness_score": 0.08045960674953244,
-  "snapshot_count": 13
+  "days_since_last_push": 253,
+  "freshness_score": 0.07965902028589801,
+  "snapshot_count": 14
 }

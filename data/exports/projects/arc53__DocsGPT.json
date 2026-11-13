@@ -38,7 +38,7 @@
   "impact": 90.48,
   "velocity": 58.93,
   "health": 63.75,
-  "global_percentile": 43.14,
+  "global_percentile": 57.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.",
@@ -53,5 +53,5 @@
   "forks_30d": 8,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

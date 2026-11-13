@@ -4,7 +4,13 @@
   "description": "LangChain 的中文入门教程",
   "language": null,
   "license": null,
-  "topics": [],
+  "topics": [
+    "chatgpt",
+    "langchain",
+    "openai",
+    "openai-api",
+    "aigc"
+  ],
   "stars": 9147,
   "forks": 704,
   "open_issues": 0,
@@ -13,8 +19,8 @@
   "pushed_at": "2026-04-22T16:31:50Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/liaokongVFX.png",
-  "radar_score": 49.83,
-  "impact": 82.91,
+  "radar_score": 49.82,
+  "impact": 82.89,
   "velocity": 27.24,
   "health": 28.52,
   "global_percentile": 0.0,
@@ -32,5 +38,5 @@
   "forks_30d": -1,
   "days_since_last_push": 204,
   "freshness_score": 0.1300287108784259,
-  "snapshot_count": 4
+  "snapshot_count": 5
 }

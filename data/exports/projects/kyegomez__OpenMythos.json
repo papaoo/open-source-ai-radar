@@ -36,7 +36,7 @@
   "impact": 91.51,
   "velocity": 56.61,
   "health": 40.62,
-  "global_percentile": 14.29,
+  "global_percentile": 24.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
@@ -51,5 +51,5 @@
   "forks_30d": -1,
   "days_since_last_push": 173,
   "freshness_score": 0.17728440996987782,
-  "snapshot_count": 10
+  "snapshot_count": 11
 }

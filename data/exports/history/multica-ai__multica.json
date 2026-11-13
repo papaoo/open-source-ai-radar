@@ -84,6 +84,27 @@
       "forks": 7376,
       "open_issues": 1093,
       "contributors": 424
+    },
+    {
+      "timestamp": "2026-11-12T18:00:25.831212+00:00",
+      "stars": 55878,
+      "forks": 7382,
+      "open_issues": 1097,
+      "contributors": 424
+    },
+    {
+      "timestamp": "2026-11-12T22:00:44.957651+00:00",
+      "stars": 55890,
+      "forks": 7382,
+      "open_issues": 1098,
+      "contributors": 424
+    },
+    {
+      "timestamp": "2026-11-13T02:19:38.297586+00:00",
+      "stars": 55909,
+      "forks": 7385,
+      "open_issues": 1101,
+      "contributors": 424
     }
   ],
   "scores": [
@@ -168,6 +189,27 @@
       "timestamp": "2026-11-12T12:32:42.353942+00:00",
       "radar_score": 78.87,
       "impact": 96.65,
+      "velocity": 71.48,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-12T18:10:19.174931+00:00",
+      "radar_score": 78.87,
+      "impact": 96.66,
+      "velocity": 71.48,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-12T22:10:48.898301+00:00",
+      "radar_score": 78.87,
+      "impact": 96.67,
+      "velocity": 71.48,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-13T02:29:36.571924+00:00",
+      "radar_score": 78.87,
+      "impact": 96.67,
       "velocity": 71.48,
       "health": 60.75
     }
@@ -279,6 +321,33 @@
       "stars_90d": 450,
       "star_growth_rate_7d": 225.0,
       "star_growth_rate_30d": 225.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-12T18:00:25.831212+00:00",
+      "stars_7d": 483,
+      "stars_30d": 483,
+      "stars_90d": 483,
+      "star_growth_rate_7d": 161.0,
+      "star_growth_rate_30d": 161.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-12T22:00:44.957651+00:00",
+      "stars_7d": 495,
+      "stars_30d": 495,
+      "stars_90d": 495,
+      "star_growth_rate_7d": 165.0,
+      "star_growth_rate_30d": 165.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-13T02:19:38.297586+00:00",
+      "stars_7d": 514,
+      "stars_30d": 514,
+      "stars_90d": 514,
+      "star_growth_rate_7d": 171.33333333333334,
+      "star_growth_rate_30d": 171.33333333333334,
       "freshness_score": 1.0
     }
   ]

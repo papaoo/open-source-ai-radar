@@ -35,10 +35,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/Canner.png",
   "radar_score": 72.94,
-  "impact": 90.43,
+  "impact": 90.42,
   "velocity": 62.19,
   "health": 60.01,
-  "global_percentile": 44.43,
+  "global_percentile": 59.14,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
@@ -53,5 +53,5 @@
   "forks_30d": 7,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }
