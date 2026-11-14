@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-14T02:06:43.922150+00:00",
+  "detected_at": "2026-11-14T08:54:39.276809+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,7 +12,7 @@
   "fork_spikes": [
     {
       "repo_full_name": "generalaction/emdash",
-      "stars": 6247,
+      "stars": 6248,
       "forks": 665,
       "language": "TypeScript",
       "url": "https://github.com/generalaction/emdash",

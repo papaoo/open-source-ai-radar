@@ -4,12 +4,7 @@
   "description": "ChatGLM2-6B: An Open Bilingual Chat LLM | 开源双语对话语言模型",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [
-    "chatglm",
-    "chatglm-6b",
-    "large-language-models",
-    "llm"
-  ],
+  "topics": [],
   "stars": 15476,
   "forks": 1775,
   "open_issues": 428,

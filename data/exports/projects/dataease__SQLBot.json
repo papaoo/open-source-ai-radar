@@ -4,16 +4,7 @@
   "description": "🔥 基于大模型和 RAG 的智能问数系统，对话式数据分析神器。Text-to-SQL Generation via LLMs using RAG.",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "topics": [
-    "deepseek",
-    "llm",
-    "rag",
-    "sqlbot",
-    "text-to-sql",
-    "chatbi",
-    "nl2sql",
-    "text2sql"
-  ],
+  "topics": [],
   "stars": 7148,
   "forks": 945,
   "open_issues": 58,
