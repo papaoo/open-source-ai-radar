@@ -4,13 +4,7 @@
   "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agent",
-    "gpt",
-    "llm",
-    "metagpt",
-    "multi-agent"
-  ],
+  "topics": [],
   "stars": 71279,
   "forks": 9109,
   "open_issues": 8,

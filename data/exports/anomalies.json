@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-14T16:37:26.218295+00:00",
+  "detected_at": "2026-11-14T19:03:29.764518+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,7 +12,7 @@
   "fork_spikes": [
     {
       "repo_full_name": "firecrawl/firecrawl-mcp-server",
-      "stars": 7818,
+      "stars": 7819,
       "forks": 932,
       "language": "JavaScript",
       "url": "https://github.com/firecrawl/firecrawl-mcp-server",

@@ -4,14 +4,9 @@
   "description": "Hindsight: Agent Memory That Learns",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agentic-ai",
-    "memory",
-    "agents",
-    "ai-memory"
-  ],
-  "stars": 61030,
-  "forks": 7363,
+  "topics": [],
+  "stars": 61040,
+  "forks": 7365,
   "open_issues": 225,
   "watchers": 115,
   "created_at": "2025-10-30T11:49:48Z",
