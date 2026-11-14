@@ -36,9 +36,9 @@
   "owner_avatar": "https://github.com/typesense.png",
   "radar_score": 70.43,
   "impact": 90.83,
-  "velocity": 55.39,
+  "velocity": 55.4,
   "health": 58.83,
-  "global_percentile": 28.43,
+  "global_percentile": 30.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
@@ -46,12 +46,12 @@
   "stars_7d": 24,
   "stars_30d": 24,
   "stars_90d": 24,
-  "star_growth_rate_7d": 6.0,
-  "star_growth_rate_30d": 6.0,
+  "star_growth_rate_7d": 4.8,
+  "star_growth_rate_30d": 4.8,
   "star_growth_acceleration": 1.0,
   "forks_7d": 0,
   "forks_30d": 0,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

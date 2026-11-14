@@ -17,7 +17,7 @@
     "multi-agents"
   ],
   "stars": 52899,
-  "forks": 8560,
+  "forks": 8558,
   "open_issues": 403,
   "watchers": 284,
   "created_at": "2022-11-02T04:24:54Z",
@@ -28,7 +28,7 @@
   "impact": 97.28,
   "velocity": 68.49,
   "health": 63.75,
-  "global_percentile": 92.29,
+  "global_percentile": 92.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "LlamaIndex is the document processing platform for AI",
@@ -36,12 +36,12 @@
   "stars_7d": 42,
   "stars_30d": 42,
   "stars_90d": 42,
-  "star_growth_rate_7d": 10.5,
-  "star_growth_rate_30d": 10.5,
+  "star_growth_rate_7d": 8.4,
+  "star_growth_rate_30d": 8.4,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 27,
-  "forks_30d": 27,
+  "forks_7d": 25,
+  "forks_30d": 25,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 17
+  "snapshot_count": 18
 }

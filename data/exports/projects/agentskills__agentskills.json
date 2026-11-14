@@ -7,7 +7,7 @@
   "topics": [
     "agent-skills"
   ],
-  "stars": 27278,
+  "stars": 27286,
   "forks": 2029,
   "open_issues": 58,
   "watchers": 245,
@@ -19,20 +19,20 @@
   "impact": 93.15,
   "velocity": 61.34,
   "health": 60.59,
-  "global_percentile": 52.43,
+  "global_percentile": 54.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Specification and documentation for Agent Skills",
   "maturity": "Unknown",
-  "stars_7d": 183,
-  "stars_30d": 183,
-  "stars_90d": 183,
-  "star_growth_rate_7d": 45.75,
-  "star_growth_rate_30d": 45.75,
+  "stars_7d": 191,
+  "stars_30d": 191,
+  "stars_90d": 191,
+  "star_growth_rate_7d": 38.2,
+  "star_growth_rate_30d": 38.2,
   "star_growth_acceleration": 1.0,
   "forks_7d": 15,
   "forks_30d": 15,
   "days_since_last_push": 9,
   "freshness_score": 0.9139311852712282,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }

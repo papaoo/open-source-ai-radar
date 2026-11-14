@@ -25,7 +25,7 @@
     "openclaw"
   ],
   "stars": 17571,
-  "forks": 3980,
+  "forks": 3981,
   "open_issues": 26,
   "watchers": 75,
   "created_at": "2025-07-24T07:07:51Z",
@@ -36,7 +36,7 @@
   "impact": 90.93,
   "velocity": 55.77,
   "health": 49.06,
-  "global_percentile": 18.43,
+  "global_percentile": 18.71,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed clo",
@@ -44,12 +44,12 @@
   "stars_7d": 84,
   "stars_30d": 84,
   "stars_90d": 84,
-  "star_growth_rate_7d": 21.0,
-  "star_growth_rate_30d": 21.0,
+  "star_growth_rate_7d": 16.8,
+  "star_growth_rate_30d": 16.8,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 62,
-  "forks_30d": 62,
+  "forks_7d": 63,
+  "forks_30d": 63,
   "days_since_last_push": 42,
   "freshness_score": 0.6570468198150567,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }
