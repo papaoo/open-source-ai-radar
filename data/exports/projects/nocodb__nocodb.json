@@ -32,7 +32,7 @@
   "impact": 97.43,
   "velocity": 63.66,
   "health": 60.75,
-  "global_percentile": 75.14,
+  "global_percentile": 78.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
@@ -47,5 +47,5 @@
   "forks_30d": 12,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

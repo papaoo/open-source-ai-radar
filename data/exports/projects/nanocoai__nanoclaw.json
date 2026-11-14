@@ -19,9 +19,9 @@
   "pushed_at": "2026-11-13T20:45:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/nanocoai.png",
-  "radar_score": 80.9,
+  "radar_score": 80.89,
   "impact": 94.8,
-  "velocity": 79.11,
+  "velocity": 79.1,
   "health": 61.15,
   "global_percentile": 99.14,
   "category": "Uncategorized",
@@ -38,6 +38,6 @@
   "forks_30d": -15,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 18,
+  "snapshot_count": 19,
   "why_trending": "Above-average growth velocity. Active in the Uncategorized category."
 }

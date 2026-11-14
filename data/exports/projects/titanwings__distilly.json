@@ -37,7 +37,7 @@
   "impact": 90.6,
   "velocity": 54.7,
   "health": 49.05,
-  "global_percentile": 16.14,
+  "global_percentile": 24.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
@@ -52,5 +52,5 @@
   "forks_30d": 4,
   "days_since_last_push": 31,
   "freshness_score": 0.7334469562242892,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }

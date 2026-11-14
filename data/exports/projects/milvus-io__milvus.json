@@ -26,17 +26,17 @@
   ],
   "stars": 46654,
   "forks": 4328,
-  "open_issues": 1089,
+  "open_issues": 1092,
   "watchers": 334,
   "created_at": "2019-09-16T06:43:43Z",
-  "pushed_at": "2026-11-13T21:42:01Z",
+  "pushed_at": "2026-11-14T01:34:05Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/milvus-io.png",
   "radar_score": 76.83,
   "impact": 96.51,
-  "velocity": 63.68,
+  "velocity": 63.69,
   "health": 63.75,
-  "global_percentile": 79.14,
+  "global_percentile": 82.14,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
@@ -51,5 +51,5 @@
   "forks_30d": 4,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }

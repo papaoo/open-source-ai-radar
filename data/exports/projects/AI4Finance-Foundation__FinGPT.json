@@ -31,7 +31,7 @@
   "impact": 93.43,
   "velocity": 52.69,
   "health": 57.55,
-  "global_percentile": 25.86,
+  "global_percentile": 37.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
@@ -46,5 +46,5 @@
   "forks_30d": 10,
   "days_since_last_push": 19,
   "freshness_score": 0.8269591339433623,
-  "snapshot_count": 16
+  "snapshot_count": 17
 }

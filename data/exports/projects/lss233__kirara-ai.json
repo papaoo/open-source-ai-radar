@@ -38,7 +38,7 @@
   "impact": 90.44,
   "velocity": 43.84,
   "health": 51.32,
-  "global_percentile": 6.57,
+  "global_percentile": 13.43,
   "category": "Local AI",
   "sub_category": "",
   "summary": "🤖 可 DIY 的 多模态 AI 聊天机器人 | 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 | 🦈支持DeepSeek、Grok、Claude、Ollama、Gemini、OpenAI | 工作流系统、网页搜索、AI画图、人设调教、虚拟女仆、语音对话 | ",
@@ -53,5 +53,5 @@
   "forks_30d": 1,
   "days_since_last_push": 22,
   "freshness_score": 0.8025187979624785,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

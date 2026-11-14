@@ -4,7 +4,17 @@
   "description": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "claude",
+    "copilot",
+    "cursor",
+    "git",
+    "llm",
+    "mcp"
+  ],
   "stars": 8515,
   "forks": 766,
   "open_issues": 62,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-05-08T14:21:24Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/idosal.png",
-  "radar_score": 59.15,
-  "impact": 82.82,
-  "velocity": 45.63,
+  "radar_score": 59.16,
+  "impact": 82.86,
+  "velocity": 45.61,
   "health": 40.22,
-  "global_percentile": 1.29,
+  "global_percentile": 4.29,
   "category": "MCP",
   "sub_category": "server",
   "summary": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
@@ -32,5 +42,5 @@
   "forks_30d": 4,
   "days_since_last_push": 189,
   "freshness_score": 0.15107180883637084,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

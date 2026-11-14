@@ -37,7 +37,7 @@
   "impact": 90.9,
   "velocity": 55.49,
   "health": 58.35,
-  "global_percentile": 27.14,
+  "global_percentile": 38.57,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "BISHENG is an open-source enterprise Agent platform for building, deploying, and managing AI applications. It combines AI agents, workflows, RAG and knowledge management, desktop agent integration, and vibecoding app hosting with unified model management, evaluation, observability, access control, a",
@@ -52,5 +52,5 @@
   "forks_30d": 26,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

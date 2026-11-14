@@ -19,14 +19,14 @@
   "open_issues": 4028,
   "watchers": 338,
   "created_at": "2021-07-08T18:48:08Z",
-  "pushed_at": "2026-11-13T21:31:29Z",
+  "pushed_at": "2026-11-14T00:57:00Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/warpdotdev.png",
   "radar_score": 77.38,
   "impact": 97.45,
   "velocity": 66.74,
   "health": 60.15,
-  "global_percentile": 83.43,
+  "global_percentile": 86.14,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Warp is an agentic development environment, born out of the terminal.",
@@ -41,5 +41,5 @@
   "forks_30d": 7,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

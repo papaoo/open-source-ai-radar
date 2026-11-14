@@ -1,0 +1,101 @@
+{
+  "full_name": "kingcharleslzy-ai/dsh-purge",
+  "snapshots": [
+    {
+      "timestamp": "2026-11-11T01:47:46.948767+00:00",
+      "stars": 6574,
+      "forks": 3007,
+      "open_issues": 21,
+      "contributors": 23
+    },
+    {
+      "timestamp": "2026-11-12T02:48:04.109091+00:00",
+      "stars": 7047,
+      "forks": 3174,
+      "open_issues": 21,
+      "contributors": 23
+    },
+    {
+      "timestamp": "2026-11-13T02:27:11.158088+00:00",
+      "stars": 7496,
+      "forks": 3362,
+      "open_issues": 16,
+      "contributors": 24
+    },
+    {
+      "timestamp": "2026-11-14T02:03:43.608572+00:00",
+      "stars": 7933,
+      "forks": 3517,
+      "open_issues": 16,
+      "contributors": 26
+    }
+  ],
+  "scores": [
+    {
+      "timestamp": "2026-11-11T01:48:07.534113+00:00",
+      "radar_score": 78.25,
+      "impact": 79.89,
+      "velocity": 88.58,
+      "health": 61.15
+    },
+    {
+      "timestamp": "2026-11-12T02:48:27.847962+00:00",
+      "radar_score": 78.53,
+      "impact": 80.77,
+      "velocity": 88.37,
+      "health": 61.15
+    },
+    {
+      "timestamp": "2026-11-13T02:29:36.571924+00:00",
+      "radar_score": 78.5,
+      "impact": 81.22,
+      "velocity": 87.78,
+      "health": 61.15
+    },
+    {
+      "timestamp": "2026-11-14T02:06:33.477001+00:00",
+      "radar_score": 78.77,
+      "impact": 82.03,
+      "velocity": 87.64,
+      "health": 61.15
+    }
+  ],
+  "growth": [
+    {
+      "timestamp": "2026-11-11T01:47:46.948767+00:00",
+      "stars_7d": 0,
+      "stars_30d": 0,
+      "stars_90d": 0,
+      "star_growth_rate_7d": 0.0,
+      "star_growth_rate_30d": 0.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-12T02:48:04.109091+00:00",
+      "stars_7d": 473,
+      "stars_30d": 473,
+      "stars_90d": 473,
+      "star_growth_rate_7d": 473.0,
+      "star_growth_rate_30d": 473.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-13T02:27:11.158088+00:00",
+      "stars_7d": 922,
+      "stars_30d": 922,
+      "stars_90d": 922,
+      "star_growth_rate_7d": 461.0,
+      "star_growth_rate_30d": 461.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-14T02:03:43.608572+00:00",
+      "stars_7d": 1359,
+      "stars_30d": 1359,
+      "stars_90d": 1359,
+      "star_growth_rate_7d": 453.0,
+      "star_growth_rate_30d": 453.0,
+      "freshness_score": 1.0
+    }
+  ]
+}

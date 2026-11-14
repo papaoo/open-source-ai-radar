@@ -19,11 +19,11 @@
   "pushed_at": "2026-02-05T13:09:26Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/mlabonne.png",
-  "radar_score": 65.88,
-  "impact": 98.66,
+  "radar_score": 65.87,
+  "impact": 98.65,
   "velocity": 51.38,
   "health": 33.72,
-  "global_percentile": 10.71,
+  "global_percentile": 17.86,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
@@ -38,5 +38,5 @@
   "forks_30d": 16,
   "days_since_last_push": 281,
   "freshness_score": 0.06020499239237354,
-  "snapshot_count": 17
+  "snapshot_count": 18
 }

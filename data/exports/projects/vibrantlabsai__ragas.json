@@ -21,7 +21,7 @@
   "impact": 88.74,
   "velocity": 60.91,
   "health": 63.75,
-  "global_percentile": 42.57,
+  "global_percentile": 53.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Supercharge Your LLM Application Evaluations 🚀",
@@ -36,5 +36,5 @@
   "forks_30d": 10,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

@@ -25,11 +25,11 @@
   "pushed_at": "2026-11-10T01:39:37Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/google.png",
-  "radar_score": 75.39,
-  "impact": 94.56,
-  "velocity": 62.59,
-  "health": 62.65,
-  "global_percentile": 65.57,
+  "radar_score": 74.52,
+  "impact": 94.55,
+  "velocity": 60.35,
+  "health": 62.29,
+  "global_percentile": 64.86,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
@@ -42,7 +42,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 3,
-  "freshness_score": 0.9704455335485082,
-  "snapshot_count": 13
+  "days_since_last_push": 4,
+  "freshness_score": 0.9607894391523232,
+  "snapshot_count": 14
 }
