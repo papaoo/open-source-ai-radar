@@ -4,9 +4,12 @@
   "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
   "language": "C++",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "llm-inference",
+    "ai-chat"
+  ],
   "stars": 77344,
-  "forks": 8260,
+  "forks": 8259,
   "open_issues": 733,
   "watchers": 693,
   "created_at": "2023-03-27T18:49:32Z",
@@ -22,15 +25,15 @@
   "sub_category": "",
   "summary": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
   "maturity": "Unknown",
-  "stars_7d": -7,
-  "stars_30d": -7,
-  "stars_90d": -7,
-  "star_growth_rate_7d": -1.75,
-  "star_growth_rate_30d": -1.75,
+  "stars_7d": -8,
+  "stars_30d": -8,
+  "stars_90d": -8,
+  "star_growth_rate_7d": -2.0,
+  "star_growth_rate_30d": -2.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": -4,
-  "forks_30d": -4,
+  "forks_7d": -2,
+  "forks_30d": -2,
   "days_since_last_push": 535,
   "freshness_score": 0.004748150999411473,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }

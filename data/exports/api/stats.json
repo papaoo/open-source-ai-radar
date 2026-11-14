@@ -1,9 +1,9 @@
 {
   "repos": 5626,
-  "snapshots": 14000,
-  "scores": 14000,
+  "snapshots": 14700,
+  "scores": 14700,
   "analyzed": 5626,
-  "total_stars": 38059501,
+  "total_stars": 38065009,
   "snapshot_dates": [
     "2026-11-14",
     "2026-11-13",
@@ -24,9 +24,9 @@
     "Java": 91
   },
   "total_repos": 5626,
-  "processed": 1096,
-  "unprocessed": 4530,
-  "last_run": "2026-11-14T02:06:33.696336+00:00",
+  "processed": 1098,
+  "unprocessed": 4528,
+  "last_run": "2026-11-14T11:28:14.770748+00:00",
   "api_version": "1.0",
-  "generated_at": "2026-11-14T08:54:39.688294+00:00"
+  "generated_at": "2026-11-14T11:28:25.729221+00:00"
 }

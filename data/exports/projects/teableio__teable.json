@@ -4,7 +4,20 @@
   "description": "✨ AI Spreadsheet for Business",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "airtable",
+    "airtable-alternative",
+    "database",
+    "no-code",
+    "postgres",
+    "postgresql",
+    "low-code",
+    "spreadsheet",
+    "app-builder",
+    "internal-tool",
+    "ai-agent",
+    "sandbox"
+  ],
   "stars": 21982,
   "forks": 1362,
   "open_issues": 100,
@@ -32,5 +45,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }
