@@ -13,11 +13,11 @@
   "pushed_at": "2026-11-02T00:03:50Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/claude-code-best.png",
-  "radar_score": 77.76,
-  "impact": 94.13,
-  "velocity": 78.14,
+  "radar_score": 77.78,
+  "impact": 94.18,
+  "velocity": 78.16,
   "health": 51.03,
-  "global_percentile": 86.0,
+  "global_percentile": 85.86,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "原汁原昧 Claude Code 可运行,可构建, 可调试版; 生产级工程化, 企业级可靠性; 安全无毒, 内存泄露修复",
@@ -32,6 +32,6 @@
   "forks_30d": -2,
   "days_since_last_push": 12,
   "freshness_score": 0.8869204367171575,
-  "snapshot_count": 20,
+  "snapshot_count": 21,
   "why_trending": "Steady growth with 74 new stars this week. Above-average growth velocity. Active in the AI Coding Tools category."
 }

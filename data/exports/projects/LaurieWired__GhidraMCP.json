@@ -13,11 +13,11 @@
   "pushed_at": "2026-10-10T20:08:37Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/LaurieWired.png",
-  "radar_score": 66.32,
-  "impact": 87.21,
-  "velocity": 51.42,
-  "health": 53.76,
-  "global_percentile": 12.14,
+  "radar_score": 66.31,
+  "impact": 87.32,
+  "velocity": 51.43,
+  "health": 53.54,
+  "global_percentile": 12.0,
   "category": "MCP",
   "sub_category": "server",
   "summary": "MCP Server for Ghidra",
@@ -30,7 +30,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 15,
   "forks_30d": 15,
-  "days_since_last_push": 34,
-  "freshness_score": 0.7117703227626097,
-  "snapshot_count": 19
+  "days_since_last_push": 35,
+  "freshness_score": 0.7046880897187134,
+  "snapshot_count": 20
 }

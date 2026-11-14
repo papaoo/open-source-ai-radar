@@ -4,7 +4,16 @@
   "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "agent",
+    "ai",
+    "web",
+    "ai-agents",
+    "javascript",
+    "typescript",
+    "browser-automation",
+    "mcp"
+  ],
   "stars": 29688,
   "forks": 2642,
   "open_issues": 55,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-11-13T12:47:39Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/alibaba.png",
-  "radar_score": 75.34,
-  "impact": 92.58,
-  "velocity": 64.18,
+  "radar_score": 75.36,
+  "impact": 92.63,
+  "velocity": 64.19,
   "health": 63.38,
-  "global_percentile": 66.29,
+  "global_percentile": 65.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
@@ -32,5 +41,5 @@
   "forks_30d": 1,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }

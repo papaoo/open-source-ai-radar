@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-14T19:03:29.764518+00:00",
+  "detected_at": "2026-11-14T20:27:00.088763+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "firecrawl/firecrawl-mcp-server",
-      "stars": 7819,
-      "forks": 932,
-      "language": "JavaScript",
-      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
-      "radar_score": 69.71,
+      "repo_full_name": "makecindy/cindy",
+      "stars": 10120,
+      "forks": 1275,
+      "language": "TypeScript",
+      "url": "https://github.com/makecindy/cindy",
+      "radar_score": 72.71,
       "metric": "forks",
-      "current_rate": 0.6,
-      "normal_rate": 0.1,
+      "current_rate": 10.6,
+      "normal_rate": 2.5,
       "deviation": 4.3,
-      "forks_7d": 4,
-      "forks_30d": 4,
+      "forks_7d": 74,
+      "forks_30d": 74,
       "anomaly_type": "fork_spikes"
     }
   ],

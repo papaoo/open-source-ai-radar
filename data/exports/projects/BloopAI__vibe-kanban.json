@@ -4,8 +4,14 @@
   "description": "Get 10X more out of Claude Code, Codex or any coding agent",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [],
-  "stars": 28689,
+  "topics": [
+    "agent",
+    "ai-agents",
+    "kanban",
+    "management",
+    "task-manager"
+  ],
+  "stars": 28688,
   "forks": 3063,
   "open_issues": 383,
   "watchers": 112,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-11-12T14:00:45Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/BloopAI.png",
-  "radar_score": 75.76,
-  "impact": 92.86,
-  "velocity": 65.31,
+  "radar_score": 75.78,
+  "impact": 92.92,
+  "velocity": 65.32,
   "health": 63.01,
-  "global_percentile": 70.57,
+  "global_percentile": 69.86,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Get 10X more out of Claude Code, Codex or any coding agent",
@@ -32,5 +38,5 @@
   "forks_30d": 4,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

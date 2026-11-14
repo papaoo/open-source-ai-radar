@@ -13,11 +13,11 @@
   "pushed_at": "2026-08-17T17:38:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/oobabooga.png",
-  "radar_score": 69.89,
-  "impact": 96.95,
+  "radar_score": 69.88,
+  "impact": 96.98,
   "velocity": 56.44,
-  "health": 45.43,
-  "global_percentile": 26.0,
+  "health": 45.33,
+  "global_percentile": 25.57,
   "category": "LLM Frameworks",
   "sub_category": "serving",
   "summary": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private.",
@@ -30,7 +30,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": -4,
   "forks_30d": -4,
-  "days_since_last_push": 88,
-  "freshness_score": 0.4147829116815814,
-  "snapshot_count": 15
+  "days_since_last_push": 89,
+  "freshness_score": 0.4106557527523455,
+  "snapshot_count": 16
 }
