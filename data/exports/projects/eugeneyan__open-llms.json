@@ -22,7 +22,7 @@
   "impact": 89.0,
   "velocity": 38.57,
   "health": 33.35,
-  "global_percentile": 0.29,
+  "global_percentile": 2.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "📋 A list of open LLMs available for commercial use.",
@@ -37,5 +37,5 @@
   "forks_30d": 0,
   "days_since_last_push": 639,
   "freshness_score": 0.0016782562013892464,
-  "snapshot_count": 7
+  "snapshot_count": 8
 }

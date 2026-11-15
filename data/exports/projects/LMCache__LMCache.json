@@ -25,11 +25,11 @@
   "pushed_at": "2026-11-14T09:48:55Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/LMCache.png",
-  "radar_score": 73.39,
+  "radar_score": 73.38,
   "impact": 88.14,
-  "velocity": 63.4,
+  "velocity": 63.39,
   "health": 63.75,
-  "global_percentile": 49.14,
+  "global_percentile": 54.29,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
@@ -44,5 +44,5 @@
   "forks_30d": 19,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

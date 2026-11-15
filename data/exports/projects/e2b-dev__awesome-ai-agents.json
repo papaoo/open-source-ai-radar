@@ -20,7 +20,7 @@
     "copilot"
   ],
   "stars": 30935,
-  "forks": 3810,
+  "forks": 3811,
   "open_issues": 170,
   "watchers": 300,
   "created_at": "2023-06-19T00:20:06Z",
@@ -29,9 +29,9 @@
   "owner_avatar": "https://github.com/e2b-dev.png",
   "radar_score": 67.98,
   "impact": 95.06,
-  "velocity": 55.06,
+  "velocity": 55.05,
   "health": 42.74,
-  "global_percentile": 18.14,
+  "global_percentile": 23.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A list of AI autonomous agents",
@@ -42,9 +42,9 @@
   "star_growth_rate_7d": 13.4,
   "star_growth_rate_30d": 13.4,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 28,
-  "forks_30d": 28,
+  "forks_7d": 29,
+  "forks_30d": 29,
   "days_since_last_push": 85,
   "freshness_score": 0.4274149319487267,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

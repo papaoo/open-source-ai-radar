@@ -4,7 +4,15 @@
   "description": "Your self hosted YouTube media server",
   "language": "Python",
   "license": "GPL-3.0",
-  "topics": [],
+  "topics": [
+    "youtube",
+    "youtube-dl",
+    "archive",
+    "elasticsearch",
+    "media-server",
+    "download-manager",
+    "download-videos"
+  ],
   "stars": 8597,
   "forks": 436,
   "open_issues": 16,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-10-25T07:56:41Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/tubearchivist.png",
-  "radar_score": 60.35,
-  "impact": 80.68,
-  "velocity": 39.3,
+  "radar_score": 60.44,
+  "impact": 80.81,
+  "velocity": 39.43,
   "health": 57.27,
-  "global_percentile": 2.57,
+  "global_percentile": 5.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Your self hosted YouTube media server",
@@ -32,5 +40,5 @@
   "forks_30d": 4,
   "days_since_last_push": 20,
   "freshness_score": 0.8187307530779818,
-  "snapshot_count": 7
+  "snapshot_count": 8
 }

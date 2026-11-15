@@ -32,7 +32,7 @@
   "impact": 87.0,
   "velocity": 49.34,
   "health": 48.36,
-  "global_percentile": 7.0,
+  "global_percentile": 10.86,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
@@ -47,5 +47,5 @@
   "forks_30d": 7,
   "days_since_last_push": 34,
   "freshness_score": 0.7117703227626097,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }

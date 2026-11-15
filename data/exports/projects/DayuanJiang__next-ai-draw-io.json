@@ -32,9 +32,9 @@
   "owner_avatar": "https://github.com/DayuanJiang.png",
   "radar_score": 74.58,
   "impact": 94.55,
-  "velocity": 63.36,
+  "velocity": 63.35,
   "health": 58.35,
-  "global_percentile": 59.43,
+  "global_percentile": 63.57,
   "category": "MCP",
   "sub_category": "server",
   "summary": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
@@ -49,5 +49,5 @@
   "forks_30d": -5,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

@@ -4,7 +4,13 @@
   "description": "Accessible large language models via k-bit quantization for PyTorch.",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "llm",
+    "machine-learning",
+    "pytorch",
+    "qlora",
+    "quantization"
+  ],
   "stars": 8539,
   "forks": 950,
   "open_issues": 56,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-11-02T14:36:37Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/bitsandbytes-foundation.png",
-  "radar_score": 64.29,
-  "impact": 83.7,
+  "radar_score": 64.34,
+  "impact": 83.81,
   "velocity": 45.44,
   "health": 59.63,
-  "global_percentile": 7.29,
+  "global_percentile": 11.14,
   "category": "LLM Frameworks",
   "sub_category": "quantization",
   "summary": "Accessible large language models via k-bit quantization for PyTorch.",
@@ -32,5 +38,5 @@
   "forks_30d": 8,
   "days_since_last_push": 12,
   "freshness_score": 0.8869204367171575,
-  "snapshot_count": 5
+  "snapshot_count": 6
 }

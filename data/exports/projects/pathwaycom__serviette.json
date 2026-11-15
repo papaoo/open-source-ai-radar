@@ -34,11 +34,11 @@
   "pushed_at": "2026-11-10T17:46:00Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/pathwaycom.png",
-  "radar_score": 69.19,
+  "radar_score": 69.18,
   "impact": 93.13,
-  "velocity": 53.85,
+  "velocity": 53.84,
   "health": 52.34,
-  "global_percentile": 21.57,
+  "global_percentile": 29.29,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.",
@@ -53,5 +53,5 @@
   "forks_30d": 1,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

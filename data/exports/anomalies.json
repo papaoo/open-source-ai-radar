@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-14T20:27:00.088763+00:00",
+  "detected_at": "2026-11-15T01:37:42.263723+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "makecindy/cindy",
-      "stars": 10120,
-      "forks": 1275,
+      "repo_full_name": "21st-dev/magic-mcp",
+      "stars": 6544,
+      "forks": 534,
       "language": "TypeScript",
-      "url": "https://github.com/makecindy/cindy",
-      "radar_score": 72.71,
+      "url": "https://github.com/21st-dev/magic-mcp",
+      "radar_score": 56.57,
       "metric": "forks",
-      "current_rate": 10.6,
-      "normal_rate": 2.5,
+      "current_rate": 1.7,
+      "normal_rate": 0.4,
       "deviation": 4.3,
-      "forks_7d": 74,
-      "forks_30d": 74,
+      "forks_7d": 12,
+      "forks_30d": 12,
       "anomaly_type": "fork_spikes"
     }
   ],

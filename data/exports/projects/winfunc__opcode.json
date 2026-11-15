@@ -33,7 +33,7 @@
   "impact": 90.8,
   "velocity": 59.63,
   "health": 60.92,
-  "global_percentile": 40.71,
+  "global_percentile": 47.86,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
@@ -48,5 +48,5 @@
   "forks_30d": 5,
   "days_since_last_push": 8,
   "freshness_score": 0.9231163463866358,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

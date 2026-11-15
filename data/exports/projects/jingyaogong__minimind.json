@@ -9,7 +9,7 @@
     "large-language-model"
   ],
   "stars": 65230,
-  "forks": 8542,
+  "forks": 8544,
   "open_issues": 31,
   "watchers": 288,
   "created_at": "2024-07-27T04:34:12Z",
@@ -17,10 +17,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/jingyaogong.png",
   "radar_score": 71.87,
-  "impact": 97.66,
+  "impact": 97.65,
   "velocity": 56.29,
   "health": 52.43,
-  "global_percentile": 37.29,
+  "global_percentile": 45.14,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
@@ -31,9 +31,9 @@
   "star_growth_rate_7d": 35.4,
   "star_growth_rate_30d": 35.4,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 21,
-  "forks_30d": 21,
+  "forks_7d": 23,
+  "forks_30d": 23,
   "days_since_last_push": 18,
   "freshness_score": 0.835270211411272,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }
