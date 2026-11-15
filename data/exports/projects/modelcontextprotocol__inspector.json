@@ -4,15 +4,8 @@
   "description": "Deterministic testing tools for MCP servers",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [
-    "tool",
-    "debug",
-    "mcp",
-    "cli",
-    "tui",
-    "web"
-  ],
-  "stars": 11292,
+  "topics": [],
+  "stars": 11294,
   "forks": 1575,
   "open_issues": 19,
   "watchers": 67,

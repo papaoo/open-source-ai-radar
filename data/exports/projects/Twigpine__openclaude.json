@@ -4,16 +4,10 @@
   "description": "runs anywhere. uses anything",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [
-    "ai",
-    "ai-agent",
-    "ai-tools",
-    "cli",
-    "coding"
-  ],
+  "topics": [],
   "stars": 34374,
   "forks": 9122,
-  "open_issues": 27,
+  "open_issues": 28,
   "watchers": 218,
   "created_at": "2026-04-01T03:15:49Z",
   "pushed_at": "2026-11-13T08:06:59Z",

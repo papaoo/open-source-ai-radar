@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-15T01:37:42.519259+00:00",
+  "detected_at": "2026-11-15T09:06:41.518863+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,8 +12,8 @@
   "fork_spikes": [
     {
       "repo_full_name": "21st-dev/magic-mcp",
-      "stars": 6544,
-      "forks": 534,
+      "stars": 6553,
+      "forks": 536,
       "language": "TypeScript",
       "url": "https://github.com/21st-dev/magic-mcp",
       "radar_score": 56.57,

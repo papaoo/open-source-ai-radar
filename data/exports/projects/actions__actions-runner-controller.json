@@ -4,12 +4,8 @@
   "description": "Kubernetes controller for GitHub Actions self-hosted runners",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [
-    "github-actions",
-    "kubernetes",
-    "operator"
-  ],
-  "stars": 6660,
+  "topics": [],
+  "stars": 6662,
   "forks": 1507,
   "open_issues": 289,
   "watchers": 71,

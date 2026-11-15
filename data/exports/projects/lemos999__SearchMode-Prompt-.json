@@ -18,9 +18,5 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
-  "category": "LLM Frameworks",
-  "sub_category": "inference engine",
-  "summary": "A prompt engineering framework that strictly enforces behavior based on a specific time threshold",
-  "maturity": "Unknown",
   "snapshot_count": 0
 }

@@ -4,13 +4,10 @@
   "description": "Run LLMs with MLX",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "llms",
-    "mlx"
-  ],
-  "stars": 7658,
-  "forks": 1186,
-  "open_issues": 172,
+  "topics": [],
+  "stars": 7660,
+  "forks": 1188,
+  "open_issues": 173,
   "watchers": 57,
   "created_at": "2025-03-11T16:38:30Z",
   "pushed_at": "2026-11-06T11:23:26Z",

@@ -4,14 +4,8 @@
   "description": "Use your locally running AI models to assist you in your web browsing",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [
-    "chat-application",
-    "chrome-extension",
-    "open-source",
-    "localllm",
-    "ollama"
-  ],
-  "stars": 8335,
+  "topics": [],
+  "stars": 8336,
   "forks": 811,
   "open_issues": 360,
   "watchers": 55,

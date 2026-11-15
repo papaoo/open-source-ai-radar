@@ -4,15 +4,10 @@
   "description": "Run your GitHub Actions locally 🚀",
   "language": "Go",
   "license": "MIT",
-  "topics": [
-    "github-actions",
-    "golang",
-    "ci",
-    "devops"
-  ],
+  "topics": [],
   "stars": 72695,
-  "forks": 2126,
-  "open_issues": 270,
+  "forks": 2125,
+  "open_issues": 247,
   "watchers": 202,
   "created_at": "2019-01-02T19:53:43Z",
   "pushed_at": "2026-11-14T05:41:11Z",
