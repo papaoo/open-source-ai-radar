@@ -4,15 +4,8 @@
   "description": "Modern embedded framework, using Rust and async.",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [
-    "async",
-    "embedded",
-    "executor",
-    "rust",
-    "hal",
-    "drivers"
-  ],
-  "stars": 10119,
+  "topics": [],
+  "stars": 10121,
   "forks": 1745,
   "open_issues": 473,
   "watchers": 50,

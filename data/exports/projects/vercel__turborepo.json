@@ -4,14 +4,8 @@
   "description": "The build system for coding agents.",
   "language": "Rust",
   "license": "MIT",
-  "topics": [
-    "monorepo",
-    "javascript",
-    "typescript",
-    "build-tool",
-    "build-system"
-  ],
-  "stars": 31347,
+  "topics": [],
+  "stars": 31349,
   "forks": 2490,
   "open_issues": 6,
   "watchers": 143,

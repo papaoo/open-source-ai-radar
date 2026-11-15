@@ -4,14 +4,8 @@
   "description": "Accessible large language models via k-bit quantization for PyTorch.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "llm",
-    "machine-learning",
-    "pytorch",
-    "qlora",
-    "quantization"
-  ],
-  "stars": 8540,
+  "topics": [],
+  "stars": 8541,
   "forks": 950,
   "open_issues": 56,
   "watchers": 51,

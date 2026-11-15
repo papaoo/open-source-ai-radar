@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-15T17:03:37.650074+00:00",
+  "detected_at": "2026-11-15T19:39:10.244727+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,7 +12,7 @@
   "fork_spikes": [
     {
       "repo_full_name": "ccch1mneyyy/dsh-TUI",
-      "stars": 7754,
+      "stars": 7757,
       "forks": 370,
       "language": "TypeScript",
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",

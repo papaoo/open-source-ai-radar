@@ -4,12 +4,8 @@
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [
-    "agent",
-    "dsh-plugin",
-    "browser-use"
-  ],
-  "stars": 10422,
+  "topics": [],
+  "stars": 10424,
   "forks": 752,
   "open_issues": 50,
   "watchers": 25,
