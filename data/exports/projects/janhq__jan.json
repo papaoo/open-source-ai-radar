@@ -4,8 +4,17 @@
   "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
   "language": "Rust",
   "license": "NOASSERTION",
-  "topics": [],
-  "stars": 45731,
+  "topics": [
+    "llamacpp",
+    "localai",
+    "self-hosted",
+    "gpt",
+    "tauri",
+    "chatgpt",
+    "llm",
+    "open-source"
+  ],
+  "stars": 45730,
   "forks": 3175,
   "open_issues": 409,
   "watchers": 227,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-11-14T02:53:25Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/janhq.png",
-  "radar_score": 76.37,
-  "impact": 95.68,
-  "velocity": 65.73,
+  "radar_score": 76.38,
+  "impact": 95.69,
+  "velocity": 65.74,
   "health": 60.38,
-  "global_percentile": 75.43,
+  "global_percentile": 75.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
@@ -32,5 +41,5 @@
   "forks_30d": 9,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

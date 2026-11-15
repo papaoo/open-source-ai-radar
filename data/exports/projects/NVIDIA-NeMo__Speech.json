@@ -4,7 +4,18 @@
   "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "machine-translation",
+    "speaker-recognition",
+    "asr",
+    "tts",
+    "generative-ai",
+    "deeplearning",
+    "neural-networks",
+    "speaker-diariazation",
+    "speech-translation",
+    "speech-synthesis"
+  ],
   "stars": 18754,
   "forks": 3693,
   "open_issues": 145,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-15T11:33:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/NVIDIA-NeMo.png",
-  "radar_score": 73.7,
-  "impact": 93.13,
+  "radar_score": 73.71,
+  "impact": 93.15,
   "velocity": 58.59,
   "health": 63.75,
-  "global_percentile": 53.14,
+  "global_percentile": 51.43,
   "category": "Multimodal AI",
   "sub_category": "audio-language",
   "summary": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
@@ -32,5 +43,5 @@
   "forks_30d": 9,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 22
+  "snapshot_count": 23
 }

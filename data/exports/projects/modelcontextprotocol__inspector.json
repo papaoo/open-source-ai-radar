@@ -4,7 +4,14 @@
   "description": "Deterministic testing tools for MCP servers",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "tool",
+    "debug",
+    "mcp",
+    "cli",
+    "tui",
+    "web"
+  ],
   "stars": 11298,
   "forks": 1575,
   "open_issues": 19,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-12T08:37:35Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/modelcontextprotocol.png",
-  "radar_score": 69.95,
-  "impact": 87.15,
+  "radar_score": 69.97,
+  "impact": 87.19,
   "velocity": 57.67,
   "health": 59.65,
-  "global_percentile": 27.86,
+  "global_percentile": 25.43,
   "category": "MCP",
   "sub_category": "server",
   "summary": "Deterministic testing tools for MCP servers",
@@ -32,5 +39,5 @@
   "forks_30d": 12,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }

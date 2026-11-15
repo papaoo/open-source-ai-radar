@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-15T19:39:09.842611+00:00",
+  "detected_at": "2026-11-15T20:51:40.481069+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "ccch1mneyyy/dsh-TUI",
-      "stars": 7757,
-      "forks": 370,
-      "language": "TypeScript",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-      "radar_score": 68.32,
+      "repo_full_name": "jamwithai/production-agentic-rag-course",
+      "stars": 10116,
+      "forks": 2211,
+      "language": "Python",
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "radar_score": 63.22,
       "metric": "forks",
-      "current_rate": 2.6,
-      "normal_rate": 0.6,
+      "current_rate": 3.9,
+      "normal_rate": 0.9,
       "deviation": 4.3,
-      "forks_7d": 18,
-      "forks_30d": 18,
+      "forks_7d": 27,
+      "forks_30d": 27,
       "anomaly_type": "fork_spikes"
     }
   ],

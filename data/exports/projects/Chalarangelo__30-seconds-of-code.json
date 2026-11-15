@@ -4,7 +4,21 @@
   "description": "Coding articles to level up your development skills",
   "language": "JavaScript",
   "license": "CC-BY-4.0",
-  "topics": [],
+  "topics": [
+    "awesome-list",
+    "javascript",
+    "snippets",
+    "learning-resources",
+    "learn-to-code",
+    "programming",
+    "education",
+    "es6-javascript",
+    "nodejs",
+    "css",
+    "git",
+    "html",
+    "astro"
+  ],
   "stars": 129522,
   "forks": 12520,
   "open_issues": 0,
@@ -14,10 +28,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/Chalarangelo.png",
   "radar_score": 72.45,
-  "impact": 99.33,
+  "impact": 99.34,
   "velocity": 52.05,
   "health": 57.98,
-  "global_percentile": 43.57,
+  "global_percentile": 40.0,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Coding articles to level up your development skills",
@@ -32,5 +46,5 @@
   "forks_30d": 6,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

@@ -4,8 +4,15 @@
   "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
-  "stars": 15237,
+  "topics": [
+    "ai",
+    "real-time",
+    "voice",
+    "video",
+    "agents",
+    "openai"
+  ],
+  "stars": 15236,
   "forks": 4143,
   "open_issues": 254,
   "watchers": 100,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-15T18:14:51Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/livekit.png",
-  "radar_score": 74.86,
-  "impact": 91.0,
-  "velocity": 66.2,
+  "radar_score": 74.87,
+  "impact": 91.02,
+  "velocity": 66.21,
   "health": 61.15,
-  "global_percentile": 62.86,
+  "global_percentile": 61.57,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
@@ -32,5 +39,5 @@
   "forks_30d": 43,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 25
+  "snapshot_count": 26
 }

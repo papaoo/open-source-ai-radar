@@ -4,7 +4,16 @@
   "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
   "language": "Python",
   "license": "GPL-3.0",
-  "topics": [],
+  "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "deepseek-r1",
+    "llm",
+    "llm-agents",
+    "voice-assistant",
+    "autonomous-agents"
+  ],
   "stars": 27663,
   "forks": 3111,
   "open_issues": 18,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-11-15T14:16:41Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Fosowl.png",
-  "radar_score": 74.04,
-  "impact": 93.59,
-  "velocity": 62.91,
+  "radar_score": 74.05,
+  "impact": 93.62,
+  "velocity": 62.92,
   "health": 58.35,
-  "global_percentile": 56.14,
+  "global_percentile": 55.14,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
@@ -32,5 +41,5 @@
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

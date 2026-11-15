@@ -1,41 +1,23 @@
 {
-  "generated_at": "2026-11-15T19:38:54.992429+00:00",
+  "generated_at": "2026-11-15T20:51:25.322325+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
-  "new_promising_count": 15,
-  "anomalies_count": 1,
+  "new_promising_count": 14,
+  "anomalies_count": 0,
   "top_rising": [
     {
-      "id": 18139,
-      "repo_full_name": "wangzan101/Mika",
-      "timestamp": "2026-11-15T17:03:29.660865+00:00",
-      "impact": 81.73,
-      "velocity": 84.3,
-      "health": 63.75,
-      "radar_score": 78.13,
-      "global_percentile": 88.43,
-      "category_percentile": 0.0,
-      "stars": 8711,
-      "forks": 1992,
-      "language": "Kotlin",
-      "url": "https://github.com/wangzan101/Mika",
-      "category": "Local AI",
-      "sub_category": "local runner",
-      "trend_type": "rising_stars"
-    },
-    {
-      "id": 17598,
+      "id": 18301,
       "repo_full_name": "ZhuLinsen/daily_stock_analysis",
-      "timestamp": "2026-11-15T17:03:29.660865+00:00",
-      "impact": 98.29,
+      "timestamp": "2026-11-15T20:51:24.080679+00:00",
+      "impact": 98.28,
       "velocity": 83.73,
       "health": 55.75,
       "radar_score": 82.56,
       "global_percentile": 99.71,
       "category_percentile": 0.0,
-      "stars": 72458,
-      "forks": 57563,
+      "stars": 72468,
+      "forks": 57565,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -43,14 +25,14 @@
       "trend_type": "rising_stars"
     },
     {
-      "id": 17950,
+      "id": 18731,
       "repo_full_name": "NanmiCoder/cc-haha",
-      "timestamp": "2026-11-15T17:03:29.660865+00:00",
-      "impact": 90.35,
-      "velocity": 82.67,
+      "timestamp": "2026-11-15T20:51:24.080679+00:00",
+      "impact": 90.39,
+      "velocity": 82.68,
       "health": 58.15,
-      "radar_score": 79.61,
-      "global_percentile": 96.71,
+      "radar_score": 79.63,
+      "global_percentile": 96.57,
       "category_percentile": 0.0,
       "stars": 15448,
       "forks": 8619,
@@ -61,17 +43,17 @@
       "trend_type": "rising_stars"
     },
     {
-      "id": 17635,
+      "id": 18337,
       "repo_full_name": "Gathin23/cleanyourtv",
-      "timestamp": "2026-11-15T17:03:29.660865+00:00",
-      "impact": 96.61,
-      "velocity": 82.08,
+      "timestamp": "2026-11-15T20:51:24.080679+00:00",
+      "impact": 96.63,
+      "velocity": 82.1,
       "health": 60.75,
-      "radar_score": 82.56,
-      "global_percentile": 99.71,
+      "radar_score": 82.57,
+      "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 58211,
-      "forks": 7593,
+      "stars": 58229,
+      "forks": 7601,
       "language": "Python",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "category": "Uncategorized",
@@ -79,21 +61,39 @@
       "trend_type": "rising_stars"
     },
     {
-      "id": 18150,
-      "repo_full_name": "kingcharleslzy-ai/dsh-purge",
-      "timestamp": "2026-11-15T17:03:29.660865+00:00",
-      "impact": 83.35,
-      "velocity": 82.03,
-      "health": 60.78,
-      "radar_score": 77.24,
-      "global_percentile": 81.71,
+      "id": 18591,
+      "repo_full_name": "ccch1mneyyy/dsh-Go",
+      "timestamp": "2026-11-15T20:51:24.080679+00:00",
+      "impact": 88.57,
+      "velocity": 80.36,
+      "health": 59.2,
+      "radar_score": 78.35,
+      "global_percentile": 89.57,
       "category_percentile": 0.0,
-      "stars": 8710,
-      "forks": 3783,
-      "language": "JavaScript",
-      "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+      "stars": 23701,
+      "forks": 1117,
+      "language": "Dart",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "category": "LLM Frameworks",
       "sub_category": "",
+      "trend_type": "rising_stars"
+    },
+    {
+      "id": 18635,
+      "repo_full_name": "rocketride-org/rocketride-server",
+      "timestamp": "2026-11-15T20:51:24.080679+00:00",
+      "impact": 85.92,
+      "velocity": 80.05,
+      "health": 61.15,
+      "radar_score": 77.68,
+      "global_percentile": 85.43,
+      "category_percentile": 0.0,
+      "stars": 20030,
+      "forks": 8700,
+      "language": "Python",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "category": "AI Agents",
+      "sub_category": "coding agent",
       "trend_type": "rising_stars"
     }
   ],
@@ -101,15 +101,15 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1587
+      "count": 1606
     },
     {
       "category": "AI Coding Tools",
-      "count": 1041
+      "count": 1045
     },
     {
       "category": "LLM Frameworks",
-      "count": 730
+      "count": 731
     },
     {
       "category": "AI Agents",
@@ -117,7 +117,7 @@
     },
     {
       "category": "MCP",
-      "count": 592
+      "count": 597
     },
     {
       "category": "Local AI",
@@ -125,7 +125,7 @@
     },
     {
       "category": "RAG",
-      "count": 427
+      "count": 428
     },
     {
       "category": "AI Infrastructure",
@@ -133,7 +133,7 @@
     },
     {
       "category": "Multimodal AI",
-      "count": 47
+      "count": 48
     },
     {
       "category": "Generative AI",

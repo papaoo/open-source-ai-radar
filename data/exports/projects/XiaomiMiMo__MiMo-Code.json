@@ -4,7 +4,13 @@
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "mimo",
+    "mimo-code"
+  ],
   "stars": 13786,
   "forks": 1478,
   "open_issues": 858,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-11-13T14:22:56Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/XiaomiMiMo.png",
-  "radar_score": 74.3,
-  "impact": 88.11,
+  "radar_score": 74.32,
+  "impact": 88.14,
   "velocity": 69.17,
   "health": 59.41,
-  "global_percentile": 58.57,
+  "global_percentile": 57.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "MiMo Code: Where Models and Agents Co-Evolve",
@@ -32,6 +38,6 @@
   "forks_30d": 1,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 20,
+  "snapshot_count": 21,
   "why_trending": "Above-average growth velocity. Active in the Uncategorized category."
 }

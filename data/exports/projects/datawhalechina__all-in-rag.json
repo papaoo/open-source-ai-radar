@@ -4,7 +4,20 @@
   "description": "🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/",
   "language": "Python",
   "license": null,
-  "topics": [],
+  "topics": [
+    "embedding",
+    "kimi-k2",
+    "langchain",
+    "llama-index",
+    "llm",
+    "milvus",
+    "multimodal",
+    "rag",
+    "ai",
+    "neo4j",
+    "python",
+    "deepseek"
+  ],
   "stars": 13143,
   "forks": 6719,
   "open_issues": 21,
@@ -13,8 +26,8 @@
   "pushed_at": "2026-09-30T21:49:22Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/datawhalechina.png",
-  "radar_score": 68.13,
-  "impact": 87.88,
+  "radar_score": 68.15,
+  "impact": 87.93,
   "velocity": 63.59,
   "health": 42.88,
   "global_percentile": 18.14,
@@ -32,5 +45,5 @@
   "forks_30d": 98,
   "days_since_last_push": 45,
   "freshness_score": 0.6376281516217733,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }

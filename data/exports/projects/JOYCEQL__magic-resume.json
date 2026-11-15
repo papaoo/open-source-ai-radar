@@ -4,7 +4,17 @@
   "description": "free online AI resume editor，the only official website is  https://magicv.art",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "react",
+    "resume-website",
+    "ai",
+    "deepseek",
+    "doubao",
+    "motion",
+    "shadcn-ui",
+    "tanstack",
+    "tanstack-start"
+  ],
   "stars": 11434,
   "forks": 1184,
   "open_issues": 1,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-11-02T15:20:45Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/JOYCEQL.png",
-  "radar_score": 62.12,
-  "impact": 84.55,
-  "velocity": 44.48,
+  "radar_score": 62.16,
+  "impact": 84.6,
+  "velocity": 44.53,
   "health": 50.92,
-  "global_percentile": 4.86,
+  "global_percentile": 3.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "free online AI resume editor，the only official website is  https://magicv.art",
@@ -32,5 +42,5 @@
   "forks_30d": 6,
   "days_since_last_push": 13,
   "freshness_score": 0.8780954309205613,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

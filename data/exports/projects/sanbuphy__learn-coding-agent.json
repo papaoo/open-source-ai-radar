@@ -13,11 +13,11 @@
   "pushed_at": "2026-04-01T10:55:06Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/sanbuphy.png",
-  "radar_score": 68.76,
-  "impact": 90.33,
-  "velocity": 71.09,
+  "radar_score": 68.78,
+  "impact": 90.37,
+  "velocity": 71.1,
   "health": 30.97,
-  "global_percentile": 20.57,
+  "global_percentile": 19.29,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Research on Coding Agents",
@@ -32,6 +32,6 @@
   "forks_30d": -21,
   "days_since_last_push": 228,
   "freshness_score": 0.10228420671553744,
-  "snapshot_count": 16,
+  "snapshot_count": 17,
   "why_trending": "Above-average growth velocity. Active in the AI Coding Tools category."
 }

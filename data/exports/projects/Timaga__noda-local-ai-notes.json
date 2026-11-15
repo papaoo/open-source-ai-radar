@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "RAG",
+  "sub_category": "rag framework",
+  "summary": "Local-first AI note-taking app for Windows: Markdown notes, a personal knowledge base, knowledge graph, semantic search and chat with cited sources.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

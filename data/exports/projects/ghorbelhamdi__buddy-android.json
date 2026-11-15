@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "AI Coding Tools",
+  "sub_category": "cli tool",
+  "summary": "Android AI assistant in a floating bubble: Claude Code, Codex, OpenCode, Gemini (Antigravity CLI) or Grok use your phone for you — read the screen, tap, type. Runs on your own plan, open source, no root, no adb, no PC.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

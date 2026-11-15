@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "AI Coding Tools",
+  "sub_category": "cli tool",
+  "summary": "A concise list of CLI coding tools similar to Claude Code",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

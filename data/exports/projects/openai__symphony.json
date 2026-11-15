@@ -13,11 +13,11 @@
   "pushed_at": "2026-09-15T22:14:59Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/openai.png",
-  "radar_score": 63.89,
-  "impact": 93.59,
+  "radar_score": 63.9,
+  "impact": 93.61,
   "velocity": 44.49,
   "health": 43.51,
-  "global_percentile": 7.57,
+  "global_percentile": 6.57,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
@@ -32,5 +32,5 @@
   "forks_30d": 4,
   "days_since_last_push": 60,
   "freshness_score": 0.5488116360940264,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

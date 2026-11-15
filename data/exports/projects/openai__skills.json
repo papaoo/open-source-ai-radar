@@ -13,11 +13,11 @@
   "pushed_at": "2026-10-28T17:31:41Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/openai.png",
-  "radar_score": 71.04,
-  "impact": 92.86,
-  "velocity": 59.61,
-  "health": 52.12,
-  "global_percentile": 34.43,
+  "radar_score": 70.98,
+  "impact": 92.88,
+  "velocity": 59.62,
+  "health": 51.83,
+  "global_percentile": 30.57,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Skills Catalog for Codex",
@@ -30,7 +30,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 20,
   "forks_30d": 20,
-  "days_since_last_push": 17,
-  "freshness_score": 0.8436648165963837,
-  "snapshot_count": 24
+  "days_since_last_push": 18,
+  "freshness_score": 0.835270211411272,
+  "snapshot_count": 25
 }

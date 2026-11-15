@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "AI Coding Tools",
+  "sub_category": "",
+  "summary": "Turn agent runs into training data. Roller rolls out Claude Code, Codex, OpenClaw and four other Harnesses in disposable Docker containers, grades benchmark tasks in place, and exports SFT-ready trajectories that keep reasoning, images and compacted-context segments.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }
