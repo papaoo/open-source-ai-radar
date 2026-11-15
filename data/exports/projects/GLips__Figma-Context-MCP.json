@@ -20,10 +20,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/GLips.png",
   "radar_score": 66.38,
-  "impact": 88.02,
+  "impact": 88.01,
   "velocity": 51.81,
   "health": 52.15,
-  "global_percentile": 12.57,
+  "global_percentile": 13.0,
   "category": "MCP",
   "sub_category": "server",
   "summary": "MCP server to provide Figma layout information to AI coding agents like Cursor",
@@ -31,12 +31,12 @@
   "stars_7d": 32,
   "stars_30d": 32,
   "stars_90d": 32,
-  "star_growth_rate_7d": 6.4,
-  "star_growth_rate_30d": 6.4,
+  "star_growth_rate_7d": 5.333333333333333,
+  "star_growth_rate_30d": 5.333333333333333,
   "star_growth_acceleration": 1.0,
   "forks_7d": 8,
   "forks_30d": 8,
   "days_since_last_push": 19,
   "freshness_score": 0.8269591339433623,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

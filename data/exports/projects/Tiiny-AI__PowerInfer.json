@@ -4,7 +4,13 @@
   "description": "High-speed Large Language Model Serving for Local Deployment",
   "language": "C++",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "large-language-models",
+    "llama",
+    "llm",
+    "llm-inference",
+    "local-inference"
+  ],
   "stars": 9887,
   "forks": 619,
   "open_issues": 127,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-05-11T06:48:06Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Tiiny-AI.png",
-  "radar_score": 58.87,
-  "impact": 84.9,
-  "velocity": 42.42,
-  "health": 40.26,
-  "global_percentile": 3.14,
+  "radar_score": 58.91,
+  "impact": 85.01,
+  "velocity": 42.43,
+  "health": 40.24,
+  "global_percentile": 1.71,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "High-speed Large Language Model Serving for Local Deployment",
@@ -30,7 +36,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 187,
-  "freshness_score": 0.1541236618151314,
-  "snapshot_count": 10
+  "days_since_last_push": 188,
+  "freshness_score": 0.15259010575688386,
+  "snapshot_count": 11
 }

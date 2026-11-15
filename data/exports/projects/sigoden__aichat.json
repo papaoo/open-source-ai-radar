@@ -29,10 +29,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/sigoden.png",
   "radar_score": 58.2,
-  "impact": 85.74,
+  "impact": 85.73,
   "velocity": 40.29,
   "health": 39.22,
-  "global_percentile": 0.29,
+  "global_percentile": 1.43,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
@@ -47,5 +47,5 @@
   "forks_30d": 2,
   "days_since_last_push": 265,
   "freshness_score": 0.0706512130604296,
-  "snapshot_count": 11
+  "snapshot_count": 12
 }

@@ -19,9 +19,9 @@
   "owner_avatar": "https://github.com/electric-sql.png",
   "radar_score": 69.86,
   "impact": 85.49,
-  "velocity": 59.62,
+  "velocity": 59.61,
   "health": 59.2,
-  "global_percentile": 25.29,
+  "global_percentile": 26.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Embeddable Postgres with real-time, reactive bindings.",
@@ -36,5 +36,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 3
+  "snapshot_count": 4
 }

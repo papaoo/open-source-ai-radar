@@ -17,7 +17,7 @@
     "peft"
   ],
   "stars": 21891,
-  "forks": 2669,
+  "forks": 2670,
   "open_issues": 66,
   "watchers": 114,
   "created_at": "2022-11-25T03:51:09Z",
@@ -28,7 +28,7 @@
   "impact": 91.89,
   "velocity": 61.05,
   "health": 63.75,
-  "global_percentile": 54.71,
+  "global_percentile": 56.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
@@ -36,12 +36,12 @@
   "stars_7d": 11,
   "stars_30d": 11,
   "stars_90d": 11,
-  "star_growth_rate_7d": 2.2,
-  "star_growth_rate_30d": 2.2,
+  "star_growth_rate_7d": 1.8333333333333333,
+  "star_growth_rate_30d": 1.8333333333333333,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 17,
-  "forks_30d": 17,
+  "forks_7d": 18,
+  "forks_30d": 18,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }

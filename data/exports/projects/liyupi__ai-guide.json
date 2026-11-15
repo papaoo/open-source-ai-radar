@@ -27,7 +27,7 @@
     "claude-code"
   ],
   "stars": 22115,
-  "forks": 2410,
+  "forks": 2411,
   "open_issues": 0,
   "watchers": 144,
   "created_at": "2025-02-13T05:47:46Z",
@@ -38,7 +38,7 @@
   "impact": 92.16,
   "velocity": 50.92,
   "health": 54.25,
-  "global_percentile": 19.57,
+  "global_percentile": 19.14,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
   "summary": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术",
@@ -46,12 +46,12 @@
   "stars_7d": 150,
   "stars_30d": 150,
   "stars_90d": 150,
-  "star_growth_rate_7d": 30.0,
-  "star_growth_rate_30d": 30.0,
+  "star_growth_rate_7d": 25.0,
+  "star_growth_rate_30d": 25.0,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 20,
-  "forks_30d": 20,
+  "forks_7d": 21,
+  "forks_30d": 21,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }
