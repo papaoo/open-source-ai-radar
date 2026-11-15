@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Local AI",
+  "sub_category": "local runner",
+  "summary": "Open full-duplex voice models that hear your tone and speak with one. One GPU with vLLM-Omni, or fully offline on a Mac with MLX. Zero-shot voice cloning, OpenAI Realtime / GPT-Live compatible, free hosted API trial. Apache-2.0.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

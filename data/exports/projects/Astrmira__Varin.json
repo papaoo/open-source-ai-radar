@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Uncategorized",
+  "sub_category": "",
+  "summary": "The open-source agent harness, ready out of the box and customizable in depth. Tools, context, durable execution, permissions and recovery for code, research and office work, with a long-running super-agent Bot that leads a team of agents.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

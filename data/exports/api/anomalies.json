@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-15T09:06:41.518863+00:00",
+  "detected_at": "2026-11-15T12:01:27.818913+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "21st-dev/magic-mcp",
-      "stars": 6553,
-      "forks": 536,
-      "language": "TypeScript",
-      "url": "https://github.com/21st-dev/magic-mcp",
-      "radar_score": 56.57,
+      "repo_full_name": "sigoden/aichat",
+      "stars": 10576,
+      "forks": 755,
+      "language": "Rust",
+      "url": "https://github.com/sigoden/aichat",
+      "radar_score": 58.2,
       "metric": "forks",
-      "current_rate": 1.7,
-      "normal_rate": 0.4,
+      "current_rate": 0.3,
+      "normal_rate": 0.1,
       "deviation": 4.3,
-      "forks_7d": 12,
-      "forks_30d": 12,
+      "forks_7d": 2,
+      "forks_30d": 2,
       "anomaly_type": "fork_spikes"
     }
   ],

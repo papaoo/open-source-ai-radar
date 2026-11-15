@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Uncategorized",
+  "sub_category": "",
+  "summary": "Pro Tools 2026 desktop setup with multitrack editing, MIDI sequencing, VST hosting and a portable mode for Windows 11",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

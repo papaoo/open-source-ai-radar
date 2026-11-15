@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "AI Agents",
+  "sub_category": "",
+  "summary": "Memory and state for AI agents: every correction kept with history, and agents that resume from their own records. Runs on your database.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

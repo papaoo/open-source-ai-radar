@@ -1,59 +1,23 @@
 {
-  "generated_at": "2026-11-15T09:06:31.226140+00:00",
+  "generated_at": "2026-11-15T12:01:15.149586+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
-  "new_promising_count": 15,
-  "anomalies_count": 0,
+  "new_promising_count": 14,
+  "anomalies_count": 1,
   "top_rising": [
     {
-      "id": 16665,
-      "repo_full_name": "kingcharleslzy-ai/dsh-purge",
-      "timestamp": "2026-11-15T01:37:31.922804+00:00",
-      "impact": 82.79,
-      "velocity": 87.92,
-      "health": 61.15,
-      "radar_score": 79.18,
-      "global_percentile": 94.86,
-      "category_percentile": 0.0,
-      "stars": 8492,
-      "forks": 3719,
-      "language": "JavaScript",
-      "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
-      "category": "LLM Frameworks",
-      "sub_category": "",
-      "trend_type": "rising_stars"
-    },
-    {
-      "id": 16646,
-      "repo_full_name": "wangzan101/Mika",
-      "timestamp": "2026-11-15T01:37:31.922804+00:00",
-      "impact": 81.59,
-      "velocity": 84.25,
-      "health": 63.75,
-      "radar_score": 78.06,
-      "global_percentile": 88.57,
-      "category_percentile": 0.0,
-      "stars": 8657,
-      "forks": 1973,
-      "language": "Kotlin",
-      "url": "https://github.com/wangzan101/Mika",
-      "category": "Local AI",
-      "sub_category": "local runner",
-      "trend_type": "rising_stars"
-    },
-    {
-      "id": 16196,
+      "id": 16901,
       "repo_full_name": "ZhuLinsen/daily_stock_analysis",
-      "timestamp": "2026-11-15T01:37:31.922804+00:00",
-      "impact": 98.27,
-      "velocity": 83.69,
+      "timestamp": "2026-11-15T12:01:14.102782+00:00",
+      "impact": 98.29,
+      "velocity": 83.73,
       "health": 55.75,
-      "radar_score": 82.54,
+      "radar_score": 82.56,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 72343,
-      "forks": 57512,
+      "stars": 72371,
+      "forks": 57527,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -61,16 +25,16 @@
       "trend_type": "rising_stars"
     },
     {
-      "id": 16491,
+      "id": 17342,
       "repo_full_name": "NanmiCoder/cc-haha",
-      "timestamp": "2026-11-15T01:37:31.922804+00:00",
-      "impact": 90.33,
-      "velocity": 82.63,
+      "timestamp": "2026-11-15T12:01:14.102782+00:00",
+      "impact": 90.35,
+      "velocity": 82.67,
       "health": 58.15,
-      "radar_score": 79.59,
+      "radar_score": 79.61,
       "global_percentile": 96.57,
       "category_percentile": 0.0,
-      "stars": 15444,
+      "stars": 15445,
       "forks": 8618,
       "language": "TypeScript",
       "url": "https://github.com/NanmiCoder/cc-haha",
@@ -79,21 +43,57 @@
       "trend_type": "rising_stars"
     },
     {
-      "id": 16232,
+      "id": 16942,
       "repo_full_name": "Gathin23/cleanyourtv",
-      "timestamp": "2026-11-15T01:37:31.922804+00:00",
-      "impact": 96.56,
-      "velocity": 82.01,
+      "timestamp": "2026-11-15T12:01:14.102782+00:00",
+      "impact": 96.6,
+      "velocity": 82.05,
       "health": 60.75,
-      "radar_score": 82.51,
+      "radar_score": 82.54,
       "global_percentile": 99.71,
       "category_percentile": 0.0,
-      "stars": 58008,
-      "forks": 7544,
+      "stars": 58054,
+      "forks": 7554,
       "language": "Python",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "category": "Uncategorized",
       "sub_category": "",
+      "trend_type": "rising_stars"
+    },
+    {
+      "id": 17206,
+      "repo_full_name": "ccch1mneyyy/dsh-Go",
+      "timestamp": "2026-11-15T12:01:14.102782+00:00",
+      "impact": 88.41,
+      "velocity": 80.33,
+      "health": 59.2,
+      "radar_score": 78.28,
+      "global_percentile": 89.0,
+      "category_percentile": 0.0,
+      "stars": 23349,
+      "forks": 1086,
+      "language": "Dart",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "category": "LLM Frameworks",
+      "sub_category": "",
+      "trend_type": "rising_stars"
+    },
+    {
+      "id": 17243,
+      "repo_full_name": "rocketride-org/rocketride-server",
+      "timestamp": "2026-11-15T12:01:14.102782+00:00",
+      "impact": 85.86,
+      "velocity": 80.05,
+      "health": 61.15,
+      "radar_score": 77.65,
+      "global_percentile": 85.57,
+      "category_percentile": 0.0,
+      "stars": 20034,
+      "forks": 8703,
+      "language": "Python",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "category": "AI Agents",
+      "sub_category": "coding agent",
       "trend_type": "rising_stars"
     }
   ],
@@ -101,35 +101,35 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1582
+      "count": 1587
     },
     {
       "category": "AI Coding Tools",
-      "count": 1023
+      "count": 1041
     },
     {
       "category": "LLM Frameworks",
-      "count": 728
+      "count": 730
     },
     {
       "category": "AI Agents",
-      "count": 601
+      "count": 617
     },
     {
       "category": "MCP",
-      "count": 590
+      "count": 592
     },
     {
       "category": "Local AI",
-      "count": 525
+      "count": 529
     },
     {
       "category": "RAG",
-      "count": 425
+      "count": 427
     },
     {
       "category": "AI Infrastructure",
-      "count": 55
+      "count": 56
     },
     {
       "category": "Multimodal AI",

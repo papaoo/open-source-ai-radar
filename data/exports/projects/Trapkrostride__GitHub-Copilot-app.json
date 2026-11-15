@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "AI Coding Tools",
+  "sub_category": "ide extension",
+  "summary": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }
