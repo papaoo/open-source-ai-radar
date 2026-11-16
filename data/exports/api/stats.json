@@ -1,9 +1,9 @@
 {
   "repos": 5776,
-  "snapshots": 19599,
-  "scores": 19600,
+  "snapshots": 20299,
+  "scores": 20300,
   "analyzed": 5776,
-  "total_stars": 38296144,
+  "total_stars": 38304791,
   "snapshot_dates": [
     "2026-11-16",
     "2026-11-15",
@@ -26,7 +26,7 @@
   "total_repos": 5776,
   "processed": 1103,
   "unprocessed": 4673,
-  "last_run": "2026-11-16T01:40:29.105910+00:00",
+  "last_run": "2026-11-16T12:44:32.911334+00:00",
   "api_version": "1.0",
-  "generated_at": "2026-11-16T09:22:06.638978+00:00"
+  "generated_at": "2026-11-16T12:44:46.419131+00:00"
 }
