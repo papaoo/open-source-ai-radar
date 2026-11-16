@@ -23,11 +23,11 @@
   "pushed_at": "2026-10-07T13:48:56Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/alibaba.png",
-  "radar_score": 67.1,
-  "impact": 89.06,
-  "velocity": 52.32,
-  "health": 52.68,
-  "global_percentile": 14.71,
+  "radar_score": 67.05,
+  "impact": 89.05,
+  "velocity": 52.31,
+  "health": 52.47,
+  "global_percentile": 13.57,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Agentic AI Framework for Java Developers",
@@ -40,7 +40,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 2,
   "forks_30d": 2,
-  "days_since_last_push": 39,
-  "freshness_score": 0.6770568744981647,
-  "snapshot_count": 16
+  "days_since_last_push": 40,
+  "freshness_score": 0.6703200460356393,
+  "snapshot_count": 17
 }

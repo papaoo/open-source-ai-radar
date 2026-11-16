@@ -21,7 +21,7 @@
   ],
   "stars": 11883,
   "forks": 1800,
-  "open_issues": 479,
+  "open_issues": 481,
   "watchers": 278,
   "created_at": "2017-06-22T12:45:27Z",
   "pushed_at": "2026-11-15T21:16:23Z",
@@ -31,7 +31,7 @@
   "impact": 90.1,
   "velocity": 53.55,
   "health": 63.75,
-  "global_percentile": 28.71,
+  "global_percentile": 29.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "F´ - A flight software and embedded systems framework",
@@ -39,12 +39,12 @@
   "stars_7d": 25,
   "stars_30d": 25,
   "stars_90d": 25,
-  "star_growth_rate_7d": 4.166666666666667,
-  "star_growth_rate_30d": 4.166666666666667,
+  "star_growth_rate_7d": 3.5714285714285716,
+  "star_growth_rate_30d": 3.5714285714285716,
   "star_growth_acceleration": 1.0,
   "forks_7d": 3,
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 24
+  "snapshot_count": 25
 }

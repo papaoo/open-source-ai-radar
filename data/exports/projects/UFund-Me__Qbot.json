@@ -35,7 +35,7 @@
   "impact": 92.03,
   "velocity": 46.47,
   "health": 39.34,
-  "global_percentile": 4.29,
+  "global_percentile": 4.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "[🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot   ✨ :news: qbot-mini: https://github.com/Charmve/iQuant",
@@ -43,12 +43,12 @@
   "stars_7d": 29,
   "stars_30d": 29,
   "stars_90d": 29,
-  "star_growth_rate_7d": 4.833333333333333,
-  "star_growth_rate_30d": 4.833333333333333,
+  "star_growth_rate_7d": 4.142857142857143,
+  "star_growth_rate_30d": 4.142857142857143,
   "star_growth_acceleration": 1.0,
   "forks_7d": 4,
   "forks_30d": 4,
   "days_since_last_push": 250,
   "freshness_score": 0.0820849986238988,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }

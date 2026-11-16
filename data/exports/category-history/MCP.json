@@ -662,16 +662,16 @@
       "momentum_score": 0.0
     },
     {
-      "id": 529,
+      "id": 531,
       "category": "MCP",
-      "timestamp": "2026-11-16T17:45:46.684677+00:00",
+      "timestamp": "2026-11-16T20:16:43.782036+00:00",
       "total_tracked": 599,
       "new_this_period": 0,
-      "avg_stars": 3663.0,
+      "avg_stars": 3665.0,
       "avg_growth_rate": 0.0,
-      "avg_velocity": 62.6,
-      "avg_health": 60.1,
-      "total_stars": 2194262,
+      "avg_velocity": 62.3,
+      "avg_health": 60.2,
+      "total_stars": 2195186,
       "top_project": "punkpeye/awesome-mcp-servers",
       "trend": "declining",
       "momentum_score": 0.0

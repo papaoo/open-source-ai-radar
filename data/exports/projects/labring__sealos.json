@@ -25,9 +25,9 @@
   "owner_avatar": "https://github.com/labring.png",
   "radar_score": 70.98,
   "impact": 92.51,
-  "velocity": 53.69,
+  "velocity": 53.68,
   "health": 60.75,
-  "global_percentile": 30.0,
+  "global_percentile": 30.57,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Deploy real projects from GitHub or your AI coding agent, then keep them running with AI-powered operations.",
@@ -35,12 +35,12 @@
   "stars_7d": 8,
   "stars_30d": 8,
   "stars_90d": 8,
-  "star_growth_rate_7d": 1.3333333333333333,
-  "star_growth_rate_30d": 1.3333333333333333,
+  "star_growth_rate_7d": 1.1428571428571428,
+  "star_growth_rate_30d": 1.1428571428571428,
   "star_growth_acceleration": 1.0,
   "forks_7d": -1,
   "forks_30d": -1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 16
+  "snapshot_count": 17
 }
