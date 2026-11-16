@@ -4,12 +4,8 @@
   "description": "Tools for merging pretrained large language models.",
   "language": "Python",
   "license": "LGPL-3.0",
-  "topics": [
-    "llama",
-    "llm",
-    "model-merging"
-  ],
-  "stars": 7452,
+  "topics": [],
+  "stars": 7454,
   "forks": 806,
   "open_issues": 238,
   "watchers": 60,

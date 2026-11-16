@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T01:40:29.664434+00:00",
+  "generated_at": "2026-11-16T09:21:59.099224+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 78.31,
       "global_percentile": 90.29,
       "category_percentile": 0.0,
-      "stars": 8723,
-      "forks": 1995,
+      "stars": 8789,
+      "forks": 2002,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -34,8 +34,8 @@
       "radar_score": 82.56,
       "global_percentile": 99.71,
       "category_percentile": 0.0,
-      "stars": 72517,
-      "forks": 57576,
+      "stars": 72657,
+      "forks": 57626,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -52,8 +52,8 @@
       "radar_score": 82.59,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 58292,
-      "forks": 7620,
+      "stars": 58421,
+      "forks": 7636,
       "language": "Python",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "category": "Uncategorized",
@@ -70,8 +70,8 @@
       "radar_score": 77.31,
       "global_percentile": 84.29,
       "category_percentile": 0.0,
-      "stars": 8763,
-      "forks": 3801,
+      "stars": 8966,
+      "forks": 3857,
       "language": "JavaScript",
       "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
       "category": "LLM Frameworks",
@@ -88,8 +88,8 @@
       "radar_score": 76.05,
       "global_percentile": 76.14,
       "category_percentile": 0.0,
-      "stars": 8142,
-      "forks": 708,
+      "stars": 8181,
+      "forks": 711,
       "language": "Python",
       "url": "https://github.com/rddmwmddr/android-ad-cleaner",
       "category": "Uncategorized",
@@ -101,31 +101,31 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1606
+      "count": 1614
     },
     {
       "category": "AI Coding Tools",
-      "count": 1045
+      "count": 1048
     },
     {
       "category": "LLM Frameworks",
-      "count": 731
+      "count": 732
     },
     {
       "category": "AI Agents",
-      "count": 617
+      "count": 618
     },
     {
       "category": "MCP",
-      "count": 597
+      "count": 599
     },
     {
       "category": "Local AI",
-      "count": 529
+      "count": 530
     },
     {
       "category": "RAG",
-      "count": 428
+      "count": 431
     },
     {
       "category": "AI Infrastructure",
@@ -137,7 +137,7 @@
     },
     {
       "category": "Generative AI",
-      "count": 45
+      "count": 47
     },
     {
       "category": "Evaluation & Benchmarks",

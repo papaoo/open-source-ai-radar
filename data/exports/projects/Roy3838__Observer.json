@@ -1,11 +1,11 @@
 {
   "full_name": "Roy3838/Observer",
   "url": "https://github.com/Roy3838/Observer",
-  "description": "The agent that deploys micro-agents that monitor anything for you. Running completely locally. Open Source.",
+  "description": "The orchestrator that deploys micro-agents that monitor anything for you. Running completely locally. Open Source.",
   "language": "TypeScript",
   "license": "AGPL-3.0",
   "topics": [],
-  "stars": 1804,
+  "stars": 1807,
   "forks": 157,
   "open_issues": 0,
   "watchers": 17,
