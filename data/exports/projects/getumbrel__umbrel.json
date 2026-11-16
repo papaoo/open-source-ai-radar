@@ -27,10 +27,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/getumbrel.png",
   "radar_score": 65.73,
-  "impact": 87.22,
+  "impact": 87.21,
   "velocity": 47.66,
   "health": 56.63,
-  "global_percentile": 10.0,
+  "global_percentile": 16.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "An elegant home server OS. Run AI agents, store your files, backup your photos, and do more with over 300 apps in the Umbrel App Store.",
@@ -45,5 +45,5 @@
   "forks_30d": 2,
   "days_since_last_push": 12,
   "freshness_score": 0.8869204367171575,
-  "snapshot_count": 20
+  "snapshot_count": 21
 }

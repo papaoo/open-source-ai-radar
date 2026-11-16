@@ -33,11 +33,11 @@
   "pushed_at": "2026-11-02T00:45:58Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/NirDiamant.png",
-  "radar_score": 69.59,
+  "radar_score": 69.51,
   "impact": 94.24,
   "velocity": 54.75,
-  "health": 50.92,
-  "global_percentile": 22.29,
+  "health": 50.61,
+  "global_percentile": 33.71,
   "category": "AI Agents",
   "sub_category": "conversational agent",
   "summary": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
@@ -50,7 +50,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 12,
   "forks_30d": 12,
-  "days_since_last_push": 13,
-  "freshness_score": 0.8780954309205613,
-  "snapshot_count": 24
+  "days_since_last_push": 14,
+  "freshness_score": 0.8693582353988059,
+  "snapshot_count": 25
 }

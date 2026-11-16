@@ -19,7 +19,7 @@
     "mcp-server",
     "gemini-cli-extension"
   ],
-  "stars": 90700,
+  "stars": 90706,
   "forks": 14081,
   "open_issues": 243,
   "watchers": 510,
@@ -36,16 +36,16 @@
   "sub_category": "",
   "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
   "maturity": "Unknown",
-  "stars_7d": 295,
-  "stars_30d": 295,
-  "stars_90d": 295,
-  "star_growth_rate_7d": 49.166666666666664,
-  "star_growth_rate_30d": 49.166666666666664,
+  "stars_7d": 301,
+  "stars_30d": 301,
+  "stars_90d": 301,
+  "star_growth_rate_7d": 50.166666666666664,
+  "star_growth_rate_30d": 50.166666666666664,
   "star_growth_acceleration": 1.0,
   "forks_7d": 67,
   "forks_30d": 67,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 27,
-  "why_trending": "Strong momentum with 295 new stars this week. Above-average growth velocity. High developer adoption with 67 new forks this week. Active in the Uncategorized category."
+  "snapshot_count": 28,
+  "why_trending": "Strong momentum with 301 new stars this week. Above-average growth velocity. High developer adoption with 67 new forks this week. Active in the Uncategorized category."
 }

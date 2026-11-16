@@ -26,11 +26,11 @@
   "pushed_at": "2026-07-26T01:14:54Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/composio-community.png",
-  "radar_score": 61.87,
-  "impact": 88.46,
+  "radar_score": 61.85,
+  "impact": 88.45,
   "velocity": 52.82,
-  "health": 32.01,
-  "global_percentile": 3.14,
+  "health": 31.94,
+  "global_percentile": 6.71,
   "category": "AI Coding Tools",
   "sub_category": "cli tool",
   "summary": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
@@ -43,7 +43,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 23,
   "forks_30d": 23,
-  "days_since_last_push": 112,
-  "freshness_score": 0.32627979462303947,
-  "snapshot_count": 21
+  "days_since_last_push": 113,
+  "freshness_score": 0.3230332564222529,
+  "snapshot_count": 22
 }

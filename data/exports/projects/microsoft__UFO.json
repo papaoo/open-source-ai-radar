@@ -20,11 +20,11 @@
   "pushed_at": "2026-10-30T21:40:57Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/microsoft.png",
-  "radar_score": 67.13,
+  "radar_score": 67.05,
   "impact": 88.74,
-  "velocity": 48.44,
-  "health": 58.71,
-  "global_percentile": 15.43,
+  "velocity": 48.43,
+  "health": 58.42,
+  "global_percentile": 21.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "UFO³: Weaving the Digital Agent Galaxy",
@@ -37,7 +37,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 5,
   "forks_30d": 5,
-  "days_since_last_push": 15,
-  "freshness_score": 0.8607079764250578,
-  "snapshot_count": 13
+  "days_since_last_push": 16,
+  "freshness_score": 0.8521437889662113,
+  "snapshot_count": 14
 }

@@ -1,31 +1,15 @@
 {
-  "detected_at": "2026-11-15T20:51:40.481069+00:00",
-  "total_anomalies": 1,
+  "detected_at": "2026-11-16T01:40:36.673421+00:00",
+  "total_anomalies": 0,
   "by_type": {
     "star_spikes": 0,
-    "fork_spikes": 1,
+    "fork_spikes": 0,
     "score_jumps": 0,
     "velocity_anomalies": 0,
     "health_drops": 0
   },
   "star_spikes": [],
-  "fork_spikes": [
-    {
-      "repo_full_name": "jamwithai/production-agentic-rag-course",
-      "stars": 10116,
-      "forks": 2211,
-      "language": "Python",
-      "url": "https://github.com/jamwithai/production-agentic-rag-course",
-      "radar_score": 63.22,
-      "metric": "forks",
-      "current_rate": 3.9,
-      "normal_rate": 0.9,
-      "deviation": 4.3,
-      "forks_7d": 27,
-      "forks_30d": 27,
-      "anomaly_type": "fork_spikes"
-    }
-  ],
+  "fork_spikes": [],
   "score_jumps": [],
   "velocity_anomalies": [],
   "health_drops": []

@@ -30,7 +30,7 @@
   "impact": 95.92,
   "velocity": 65.61,
   "health": 62.65,
-  "global_percentile": 80.29,
+  "global_percentile": 83.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Powerful AI Client",
@@ -45,5 +45,5 @@
   "forks_30d": 17,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 25
+  "snapshot_count": 26
 }

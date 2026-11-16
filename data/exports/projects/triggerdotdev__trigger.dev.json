@@ -28,10 +28,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/triggerdotdev.png",
   "radar_score": 71.39,
-  "impact": 88.45,
+  "impact": 88.44,
   "velocity": 57.88,
   "health": 63.01,
-  "global_percentile": 32.86,
+  "global_percentile": 46.14,
   "category": "AI Agents",
   "sub_category": "task agent",
   "summary": "Trigger.dev – build and deploy durable AI agents and workflows",
@@ -46,5 +46,5 @@
   "forks_30d": 10,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }

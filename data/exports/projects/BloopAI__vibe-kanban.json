@@ -12,7 +12,7 @@
     "task-manager"
   ],
   "stars": 28699,
-  "forks": 3064,
+  "forks": 3063,
   "open_issues": 382,
   "watchers": 112,
   "created_at": "2025-06-14T19:10:21Z",
@@ -23,7 +23,7 @@
   "impact": 93.0,
   "velocity": 66.82,
   "health": 63.75,
-  "global_percentile": 76.29,
+  "global_percentile": 79.71,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Get 10X more out of Claude Code, Codex or any coding agent",
@@ -34,9 +34,9 @@
   "star_growth_rate_7d": 12.166666666666666,
   "star_growth_rate_30d": 12.166666666666666,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 5,
-  "forks_30d": 5,
+  "forks_7d": 4,
+  "forks_30d": 4,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 24
+  "snapshot_count": 25
 }
