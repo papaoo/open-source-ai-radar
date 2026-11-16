@@ -1,11 +1,11 @@
 {
   "full_name": "Anionex/h3-image-mlx",
   "url": "https://github.com/Anionex/h3-image-mlx",
-  "description": "Local MiniMax H3 Image generation and editing on Apple Silicon with MLX, with ultra-low ram",
+  "description": "Faster local MiniMax H3 Image generation and editing on Apple Silicon with MLX, with ultra-low ram",
   "language": "Python",
   "license": "Apache-2.0",
   "topics": [],
-  "stars": 64,
+  "stars": 72,
   "forks": 9,
   "open_issues": 0,
   "watchers": 2,

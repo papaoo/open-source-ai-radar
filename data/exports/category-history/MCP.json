@@ -675,6 +675,21 @@
       "top_project": "punkpeye/awesome-mcp-servers",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 543,
+      "category": "MCP",
+      "timestamp": "2026-11-16T23:17:48.206065+00:00",
+      "total_tracked": 601,
+      "new_this_period": 0,
+      "avg_stars": 3663.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 62.3,
+      "avg_health": 60.2,
+      "total_stars": 2201287,
+      "top_project": "punkpeye/awesome-mcp-servers",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

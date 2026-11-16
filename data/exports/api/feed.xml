@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 20:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 23:17:48 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -29,7 +29,7 @@
       <link>https://github.com/ccch1mneyyy/dsh-Go</link>
       <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-16T19:38:44Z</pubDate>
+      <pubDate>2026-11-16T23:04:06Z</pubDate>
       <guid>https://github.com/ccch1mneyyy/dsh-Go</guid>
     </item>
     <item>
@@ -37,7 +37,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all f</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-16T20:04:17Z</pubDate>
+      <pubDate>2026-11-16T23:07:06Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -45,7 +45,7 @@
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs direct</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-16T19:40:50Z</pubDate>
+      <pubDate>2026-11-16T23:06:00Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
     </item>
     <item>
@@ -61,7 +61,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-16T20:11:56Z</pubDate>
+      <pubDate>2026-11-16T23:11:34Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -93,7 +93,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Every agent&apos;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-16T19:13:28Z</pubDate>
+      <pubDate>2026-11-16T22:40:09Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -109,7 +109,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-16T20:00:20Z</pubDate>
+      <pubDate>2026-11-16T22:49:38Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -133,7 +133,7 @@
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-16T20:02:24Z</pubDate>
+      <pubDate>2026-11-16T23:12:36Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
     </item>
     <item>
@@ -165,7 +165,7 @@
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
       <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-16T17:48:31Z</pubDate>
+      <pubDate>2026-11-16T20:22:52Z</pubDate>
       <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
   </channel>

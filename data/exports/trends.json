@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T20:16:32.357465+00:00",
+  "generated_at": "2026-11-16T23:17:33.060997+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,7 +16,7 @@
       "radar_score": 82.52,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 72773,
+      "stars": 72793,
       "forks": 57665,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
@@ -52,8 +52,8 @@
       "radar_score": 78.48,
       "global_percentile": 90.0,
       "category_percentile": 0.0,
-      "stars": 24722,
-      "forks": 1179,
+      "stars": 24745,
+      "forks": 1182,
       "language": "Dart",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "category": "LLM Frameworks",
@@ -88,8 +88,8 @@
       "radar_score": 80.96,
       "global_percentile": 99.29,
       "category_percentile": 0.0,
-      "stars": 31120,
-      "forks": 12646,
+      "stars": 31118,
+      "forks": 12644,
       "language": "TypeScript",
       "url": "https://github.com/nanocoai/nanoclaw",
       "category": "Uncategorized",
@@ -101,31 +101,31 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1614
+      "count": 1618
     },
     {
       "category": "AI Coding Tools",
-      "count": 1049
+      "count": 1051
     },
     {
       "category": "LLM Frameworks",
-      "count": 732
+      "count": 736
     },
     {
       "category": "AI Agents",
-      "count": 618
+      "count": 619
     },
     {
       "category": "MCP",
-      "count": 599
+      "count": 601
     },
     {
       "category": "Local AI",
-      "count": 530
+      "count": 533
     },
     {
       "category": "RAG",
-      "count": 431
+      "count": 433
     },
     {
       "category": "AI Infrastructure",
@@ -133,11 +133,11 @@
     },
     {
       "category": "Multimodal AI",
-      "count": 48
+      "count": 49
     },
     {
       "category": "Generative AI",
-      "count": 47
+      "count": 48
     },
     {
       "category": "Evaluation & Benchmarks",

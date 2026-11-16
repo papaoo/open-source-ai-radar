@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-16T20:16:44.122296+00:00",
+  "detected_at": "2026-11-16T23:17:48.618262+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,7 +12,7 @@
   "fork_spikes": [
     {
       "repo_full_name": "tryatlas/atlas",
-      "stars": 9437,
+      "stars": 9438,
       "forks": 376,
       "language": "TypeScript",
       "url": "https://github.com/tryatlas/atlas",
