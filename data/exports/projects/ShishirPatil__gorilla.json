@@ -4,7 +4,16 @@
   "description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "api",
+    "llm",
+    "api-documentation",
+    "chatgpt",
+    "gpt-4-api",
+    "claude-api",
+    "openai-api",
+    "openai-functions"
+  ],
   "stars": 13078,
   "forks": 1425,
   "open_issues": 172,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-10-17T06:06:24Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ShishirPatil.png",
-  "radar_score": 66.68,
-  "impact": 88.25,
+  "radar_score": 66.69,
+  "impact": 88.28,
   "velocity": 50.58,
   "health": 54.69,
-  "global_percentile": 11.43,
+  "global_percentile": 12.29,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
@@ -32,5 +41,5 @@
   "forks_30d": 3,
   "days_since_last_push": 30,
   "freshness_score": 0.7408182206817179,
-  "snapshot_count": 13
+  "snapshot_count": 14
 }

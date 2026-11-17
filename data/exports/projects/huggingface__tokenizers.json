@@ -4,7 +4,15 @@
   "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "nlp",
+    "natural-language-processing",
+    "natural-language-understanding",
+    "language-model",
+    "transformers",
+    "bert",
+    "gpt"
+  ],
   "stars": 11249,
   "forks": 1262,
   "open_issues": 76,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-16T18:24:49Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/huggingface.png",
-  "radar_score": 69.36,
-  "impact": 87.98,
-  "velocity": 52.09,
+  "radar_score": 69.37,
+  "impact": 88.02,
+  "velocity": 52.08,
   "health": 63.75,
-  "global_percentile": 21.71,
+  "global_percentile": 22.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
@@ -32,5 +40,5 @@
   "forks_30d": 14,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 21
+  "snapshot_count": 22
 }

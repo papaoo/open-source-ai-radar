@@ -4,7 +4,13 @@
   "description": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
   "language": null,
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "ai",
+    "low-code",
+    "self-hosted",
+    "starter-kit",
+    "ai-agents"
+  ],
   "stars": 15370,
   "forks": 3814,
   "open_issues": 0,
@@ -13,8 +19,8 @@
   "pushed_at": "2026-11-16T23:13:43Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/n8n-io.png",
-  "radar_score": 69.72,
-  "impact": 92.06,
+  "radar_score": 69.73,
+  "impact": 92.09,
   "velocity": 52.31,
   "health": 58.35,
   "global_percentile": 23.57,
@@ -28,9 +34,9 @@
   "star_growth_rate_7d": 4.285714285714286,
   "star_growth_rate_30d": 4.285714285714286,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 4,
-  "forks_30d": 4,
+  "forks_7d": 2,
+  "forks_30d": 2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 22
+  "snapshot_count": 23
 }

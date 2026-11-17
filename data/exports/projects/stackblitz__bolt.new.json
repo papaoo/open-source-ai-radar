@@ -4,7 +4,12 @@
   "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "anthropic",
+    "chatbot",
+    "webcontainers-api",
+    "ai-playground"
+  ],
   "stars": 16599,
   "forks": 14835,
   "open_issues": 0,
@@ -13,8 +18,8 @@
   "pushed_at": "2024-12-17T06:29:27Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/stackblitz.png",
-  "radar_score": 63.77,
-  "impact": 93.4,
+  "radar_score": 63.78,
+  "impact": 93.42,
   "velocity": 53.5,
   "health": 30.75,
   "global_percentile": 5.43,
@@ -28,9 +33,9 @@
   "star_growth_rate_7d": 1.4285714285714286,
   "star_growth_rate_30d": 1.4285714285714286,
   "star_growth_acceleration": 1.0,
-  "forks_7d": -3,
-  "forks_30d": -3,
+  "forks_7d": -2,
+  "forks_30d": -2,
   "days_since_last_push": 699,
   "freshness_score": 0.0009210465316693785,
-  "snapshot_count": 20
+  "snapshot_count": 21
 }

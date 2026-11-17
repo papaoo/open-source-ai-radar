@@ -4,7 +4,16 @@
   "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "agent-workflows",
+    "ai-skills",
+    "automation",
+    "book-to-skill",
+    "knowledge-distillation",
+    "prompt-engineering",
+    "skill-generator",
+    "templates"
+  ],
   "stars": 12918,
   "forks": 1531,
   "open_issues": 7,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-10-02T03:17:52Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/kangarooking.png",
-  "radar_score": 65.03,
-  "impact": 86.99,
-  "velocity": 53.46,
+  "radar_score": 65.05,
+  "impact": 87.04,
+  "velocity": 53.48,
   "health": 46.08,
-  "global_percentile": 7.71,
+  "global_percentile": 8.14,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）",
@@ -32,5 +41,5 @@
   "forks_30d": 63,
   "days_since_last_push": 45,
   "freshness_score": 0.6376281516217733,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }

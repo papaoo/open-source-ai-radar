@@ -4,7 +4,13 @@
   "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
   "language": null,
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "course",
+    "llm",
+    "machine-learning",
+    "roadmap",
+    "large-language-models"
+  ],
   "stars": 85128,
   "forks": 9901,
   "open_issues": 67,
@@ -14,10 +20,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/mlabonne.png",
   "radar_score": 65.9,
-  "impact": 98.68,
-  "velocity": 51.42,
+  "impact": 98.69,
+  "velocity": 51.41,
   "health": 33.7,
-  "global_percentile": 9.29,
+  "global_percentile": 10.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
@@ -32,5 +38,5 @@
   "forks_30d": 18,
   "days_since_last_push": 284,
   "freshness_score": 0.05842566596450083,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }

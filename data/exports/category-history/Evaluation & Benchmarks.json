@@ -690,6 +690,21 @@
       "top_project": "langfuse/langfuse",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 563,
+      "category": "Evaluation & Benchmarks",
+      "timestamp": "2026-11-17T00:07:26.368044+00:00",
+      "total_tracked": 33,
+      "new_this_period": 0,
+      "avg_stars": 2942.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 60.0,
+      "avg_health": 54.5,
+      "total_stars": 97075,
+      "top_project": "langfuse/langfuse",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

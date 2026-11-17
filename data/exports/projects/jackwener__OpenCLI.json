@@ -4,7 +4,15 @@
   "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "cli",
+    "browser-automation",
+    "browser-use",
+    "playwright"
+  ],
   "stars": 31120,
   "forks": 3045,
   "open_issues": 102,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-07T17:39:55Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/jackwener.png",
-  "radar_score": 73.99,
-  "impact": 92.09,
-  "velocity": 62.87,
+  "radar_score": 74.0,
+  "impact": 92.12,
+  "velocity": 62.88,
   "health": 60.59,
-  "global_percentile": 53.0,
+  "global_percentile": 52.0,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
@@ -32,5 +40,5 @@
   "forks_30d": 6,
   "days_since_last_push": 9,
   "freshness_score": 0.9139311852712282,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }

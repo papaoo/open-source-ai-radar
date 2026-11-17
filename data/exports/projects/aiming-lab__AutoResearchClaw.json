@@ -4,7 +4,17 @@
   "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "autonomous-research",
+    "citation-verification",
+    "llm-agents",
+    "multi-agent-debate",
+    "openclaw",
+    "paper-generation",
+    "scientific-discovery",
+    "self-evolving",
+    "metaclaw"
+  ],
   "stars": 14883,
   "forks": 1716,
   "open_issues": 6,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-08-19T03:35:13Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/aiming-lab.png",
-  "radar_score": 63.84,
-  "impact": 88.26,
-  "velocity": 53.02,
+  "radar_score": 63.86,
+  "impact": 88.3,
+  "velocity": 53.03,
   "health": 39.93,
-  "global_percentile": 5.86,
+  "global_percentile": 6.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
@@ -32,5 +42,5 @@
   "forks_30d": -2,
   "days_since_last_push": 89,
   "freshness_score": 0.4106557527523455,
-  "snapshot_count": 20
+  "snapshot_count": 21
 }

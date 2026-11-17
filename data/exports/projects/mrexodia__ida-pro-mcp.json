@@ -4,7 +4,17 @@
   "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "ida-plugin",
+    "ida-pro",
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "reverse-engineering",
+    "ai",
+    "aiagent",
+    "binary-analysis"
+  ],
   "stars": 13492,
   "forks": 1654,
   "open_issues": 35,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-11-12T11:01:58Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/mrexodia.png",
-  "radar_score": 71.65,
-  "impact": 88.07,
-  "velocity": 59.57,
+  "radar_score": 71.66,
+  "impact": 88.09,
+  "velocity": 59.58,
   "health": 62.29,
-  "global_percentile": 34.29,
+  "global_percentile": 33.57,
   "category": "MCP",
   "sub_category": "integration",
   "summary": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
@@ -32,5 +42,5 @@
   "forks_30d": 10,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 24
+  "snapshot_count": 25
 }

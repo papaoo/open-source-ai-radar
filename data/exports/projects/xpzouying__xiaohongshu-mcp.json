@@ -4,7 +4,11 @@
   "description": "MCP for xiaohongshu.com",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "mcp",
+    "mcp-server",
+    "xiaohongshu-mcp"
+  ],
   "stars": 17154,
   "forks": 2529,
   "open_issues": 53,
@@ -13,11 +17,11 @@
   "pushed_at": "2026-11-16T04:43:40Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/xpzouying.png",
-  "radar_score": 74.43,
-  "impact": 88.56,
-  "velocity": 65.92,
+  "radar_score": 74.45,
+  "impact": 88.59,
+  "velocity": 65.94,
   "health": 63.75,
-  "global_percentile": 57.29,
+  "global_percentile": 57.0,
   "category": "MCP",
   "sub_category": "",
   "summary": "MCP for xiaohongshu.com",
@@ -32,5 +36,5 @@
   "forks_30d": 27,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 22
+  "snapshot_count": 23
 }

@@ -13,11 +13,11 @@
   "pushed_at": "2026-11-16T13:39:24Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/huggingface.png",
-  "radar_score": 72.51,
-  "impact": 92.29,
+  "radar_score": 72.52,
+  "impact": 92.32,
   "velocity": 58.74,
   "health": 60.15,
-  "global_percentile": 40.43,
+  "global_percentile": 39.71,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "State-of-the-Art Embeddings, Retrieval, and Reranking",
@@ -32,5 +32,5 @@
   "forks_30d": 11,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

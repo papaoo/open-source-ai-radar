@@ -4,7 +4,11 @@
   "description": "📚 从零开始构建大模型",
   "language": "Jupyter Notebook",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "agent",
+    "llm",
+    "rag"
+  ],
   "stars": 34955,
   "forks": 3317,
   "open_issues": 56,
@@ -13,11 +17,11 @@
   "pushed_at": "2026-08-08T17:18:48Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/datawhalechina.png",
-  "radar_score": 65.76,
-  "impact": 93.61,
-  "velocity": 51.39,
+  "radar_score": 65.77,
+  "impact": 93.63,
+  "velocity": 51.4,
   "health": 41.33,
-  "global_percentile": 8.86,
+  "global_percentile": 9.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "📚 从零开始构建大模型",
@@ -32,5 +36,5 @@
   "forks_30d": 24,
   "days_since_last_push": 100,
   "freshness_score": 0.36787944117144233,
-  "snapshot_count": 22
+  "snapshot_count": 23
 }

@@ -4,7 +4,14 @@
   "description": "structured outputs for llms ",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "openai",
+    "python",
+    "pydantic-v2",
+    "openai-functions",
+    "validation",
+    "openai-function-calli"
+  ],
   "stars": 14115,
   "forks": 1385,
   "open_issues": 4,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-16T21:57:25Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/567-labs.png",
-  "radar_score": 67.61,
-  "impact": 87.34,
-  "velocity": 51.94,
-  "health": 57.98,
-  "global_percentile": 15.29,
+  "radar_score": 67.95,
+  "impact": 87.39,
+  "velocity": 52.58,
+  "health": 58.35,
+  "global_percentile": 16.86,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "structured outputs for llms ",
@@ -30,7 +37,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 20,
   "forks_30d": 20,
-  "days_since_last_push": 1,
-  "freshness_score": 0.9900498337491681,
-  "snapshot_count": 20
+  "days_since_last_push": 0,
+  "freshness_score": 1.0,
+  "snapshot_count": 21
 }

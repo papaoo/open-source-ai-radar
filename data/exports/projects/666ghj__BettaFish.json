@@ -4,7 +4,18 @@
   "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
   "language": "Python",
   "license": "GPL-2.0",
-  "topics": [],
+  "topics": [
+    "agent-framework",
+    "data-analysis",
+    "multi-agent-system",
+    "nlp",
+    "public-opinion-analysis",
+    "python3",
+    "sentiment-analysis",
+    "llms",
+    "deep-research",
+    "deep-search"
+  ],
   "stars": 42730,
   "forks": 7650,
   "open_issues": 5,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-10-16T03:33:52Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/666ghj.png",
-  "radar_score": 68.75,
-  "impact": 96.59,
-  "velocity": 51.0,
+  "radar_score": 68.76,
+  "impact": 96.6,
+  "velocity": 51.01,
   "health": 49.05,
-  "global_percentile": 18.71,
+  "global_percentile": 18.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
@@ -32,5 +43,5 @@
   "forks_30d": 32,
   "days_since_last_push": 31,
   "freshness_score": 0.7334469562242892,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }
