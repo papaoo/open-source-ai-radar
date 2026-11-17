@@ -4,7 +4,14 @@
   "description": "💬 Typebot is a powerful chatbot builder that you can self-host.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "form-builder",
+    "chatbot",
+    "conversational-bots",
+    "chat-application",
+    "nextjs",
+    "tailwindcss"
+  ],
   "stars": 10633,
   "forks": 3247,
   "open_issues": 12,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-07T10:19:56Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/baptisteArno.png",
-  "radar_score": 66.69,
-  "impact": 88.18,
+  "radar_score": 66.62,
+  "impact": 88.19,
   "velocity": 50.5,
-  "health": 54.99,
-  "global_percentile": 20.86,
+  "health": 54.67,
+  "global_percentile": 12.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "💬 Typebot is a powerful chatbot builder that you can self-host.",
@@ -30,7 +37,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 9,
-  "freshness_score": 0.9139311852712282,
-  "snapshot_count": 19
+  "days_since_last_push": 10,
+  "freshness_score": 0.9048374180359595,
+  "snapshot_count": 20
 }

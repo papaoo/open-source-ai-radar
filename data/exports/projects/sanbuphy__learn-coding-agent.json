@@ -15,9 +15,9 @@
   "owner_avatar": "https://github.com/sanbuphy.png",
   "radar_score": 68.8,
   "impact": 90.42,
-  "velocity": 71.11,
+  "velocity": 71.12,
   "health": 30.94,
-  "global_percentile": 18.71,
+  "global_percentile": 20.29,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Research on Coding Agents",
@@ -32,6 +32,6 @@
   "forks_30d": -31,
   "days_since_last_push": 230,
   "freshness_score": 0.1002588437228037,
-  "snapshot_count": 21,
+  "snapshot_count": 22,
   "why_trending": "Above-average growth velocity. Active in the AI Coding Tools category."
 }

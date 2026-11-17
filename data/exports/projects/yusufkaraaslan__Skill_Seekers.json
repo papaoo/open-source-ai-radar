@@ -25,7 +25,7 @@
     "multi-source"
   ],
   "stars": 15328,
-  "forks": 1564,
+  "forks": 1565,
   "open_issues": 49,
   "watchers": 69,
   "created_at": "2025-10-17T14:43:48Z",
@@ -36,7 +36,7 @@
   "impact": 88.67,
   "velocity": 64.47,
   "health": 63.38,
-  "global_percentile": 49.71,
+  "global_percentile": 50.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
@@ -47,9 +47,9 @@
   "star_growth_rate_7d": 4.857142857142857,
   "star_growth_rate_30d": 4.25,
   "star_growth_acceleration": 1.1428571428571428,
-  "forks_7d": 10,
-  "forks_30d": 10,
+  "forks_7d": 11,
+  "forks_30d": 11,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 22
+  "snapshot_count": 23
 }

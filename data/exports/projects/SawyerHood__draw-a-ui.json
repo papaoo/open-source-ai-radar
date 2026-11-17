@@ -19,11 +19,11 @@
   "pushed_at": "2025-07-26T17:12:18Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/SawyerHood.png",
-  "radar_score": 60.85,
-  "impact": 88.95,
+  "radar_score": 60.84,
+  "impact": 88.94,
   "velocity": 44.5,
   "health": 38.77,
-  "global_percentile": 1.57,
+  "global_percentile": 2.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Draw a mockup and generate html for it",
@@ -36,7 +36,7 @@
   "star_growth_acceleration": 1.0,
   "forks_7d": -3,
   "forks_30d": -3,
-  "days_since_last_push": 478,
-  "freshness_score": 0.00839599896749147,
-  "snapshot_count": 11
+  "days_since_last_push": 479,
+  "freshness_score": 0.008312457381923119,
+  "snapshot_count": 12
 }

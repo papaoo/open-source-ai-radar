@@ -35,7 +35,7 @@
   "impact": 87.58,
   "velocity": 65.98,
   "health": 58.35,
-  "global_percentile": 41.0,
+  "global_percentile": 42.43,
   "category": "AI Coding Tools",
   "sub_category": "cli tool",
   "summary": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
@@ -50,5 +50,5 @@
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 24
+  "snapshot_count": 25
 }

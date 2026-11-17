@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-17T13:05:35.981110+00:00",
+  "detected_at": "2026-11-17T19:11:52.460025+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "KKKKhazix/AIHOT",
-      "stars": 10888,
-      "forks": 2527,
-      "language": "TypeScript",
-      "url": "https://github.com/KKKKhazix/AIHOT",
-      "radar_score": 71.74,
+      "repo_full_name": "iflytek/astron-agent",
+      "stars": 8938,
+      "forks": 914,
+      "language": "Java",
+      "url": "https://github.com/iflytek/astron-agent",
+      "radar_score": 71.85,
       "metric": "forks",
-      "current_rate": 25.9,
-      "normal_rate": 6.0,
+      "current_rate": 0.4,
+      "normal_rate": 0.1,
       "deviation": 4.3,
-      "forks_7d": 181,
-      "forks_30d": 181,
+      "forks_7d": 3,
+      "forks_30d": 3,
       "anomaly_type": "fork_spikes"
     }
   ],

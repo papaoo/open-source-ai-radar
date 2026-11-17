@@ -14,10 +14,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/LaurieWired.png",
   "radar_score": 66.31,
-  "impact": 87.57,
-  "velocity": 51.45,
+  "impact": 87.56,
+  "velocity": 51.46,
   "health": 53.1,
-  "global_percentile": 11.0,
+  "global_percentile": 11.71,
   "category": "MCP",
   "sub_category": "server",
   "summary": "MCP Server for Ghidra",
@@ -32,5 +32,5 @@
   "forks_30d": 19,
   "days_since_last_push": 37,
   "freshness_score": 0.6907343306373547,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }
