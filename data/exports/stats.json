@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-17T04:27:24.694200+00:00",
-  "total_repos": 5797,
-  "total_stars": 38380322,
+  "generated_at": "2026-11-17T10:34:27.111762+00:00",
+  "total_repos": 5813,
+  "total_stars": 38413730,
   "top_languages": {
-    "Python": 2075,
-    "TypeScript": 1002,
+    "Python": 2080,
+    "TypeScript": 1006,
     "Unknown": 414,
-    "JavaScript": 389,
-    "Rust": 341,
+    "JavaScript": 393,
+    "Rust": 342,
     "Go": 254,
     "Jupyter Notebook": 217,
-    "HTML": 171,
+    "HTML": 173,
     "C++": 156,
     "Swift": 148
   }

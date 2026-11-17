@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:27:24.785172+00:00",
+  "generated_at": "2026-11-17T10:34:27.186246+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 1,
@@ -16,8 +16,8 @@
       "radar_score": 78.25,
       "global_percentile": 89.0,
       "category_percentile": 0.0,
-      "stars": 8886,
-      "forks": 2018,
+      "stars": 8921,
+      "forks": 2023,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -34,8 +34,8 @@
       "radar_score": 82.54,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 72868,
-      "forks": 57687,
+      "stars": 72966,
+      "forks": 57729,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -52,7 +52,7 @@
       "radar_score": 79.57,
       "global_percentile": 96.14,
       "category_percentile": 0.0,
-      "stars": 15470,
+      "stars": 15475,
       "forks": 8620,
       "language": "TypeScript",
       "url": "https://github.com/NanmiCoder/cc-haha",
@@ -70,8 +70,8 @@
       "radar_score": 77.49,
       "global_percentile": 85.0,
       "category_percentile": 0.0,
-      "stars": 9353,
-      "forks": 3976,
+      "stars": 9513,
+      "forks": 4018,
       "language": "JavaScript",
       "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
       "category": "LLM Frameworks",
@@ -88,7 +88,7 @@
       "radar_score": 76.16,
       "global_percentile": 76.14,
       "category_percentile": 0.0,
-      "stars": 8226,
+      "stars": 8249,
       "forks": 714,
       "language": "Python",
       "url": "https://github.com/rddmwmddr/android-ad-cleaner",
@@ -101,23 +101,23 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1618
+      "count": 1623
     },
     {
       "category": "AI Coding Tools",
-      "count": 1051
+      "count": 1052
     },
     {
       "category": "LLM Frameworks",
-      "count": 736
+      "count": 740
     },
     {
       "category": "AI Agents",
-      "count": 619
+      "count": 621
     },
     {
       "category": "MCP",
-      "count": 601
+      "count": 603
     },
     {
       "category": "Local AI",
@@ -125,7 +125,7 @@
     },
     {
       "category": "RAG",
-      "count": 433
+      "count": 434
     },
     {
       "category": "AI Infrastructure",
@@ -141,7 +141,7 @@
     },
     {
       "category": "Evaluation & Benchmarks",
-      "count": 33
+      "count": 34
     },
     {
       "category": "AI Safety & Alignment",

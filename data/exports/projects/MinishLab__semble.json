@@ -4,16 +4,8 @@
   "description": "Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agents",
-    "code-search",
-    "embeddings",
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "retrieval"
-  ],
-  "stars": 6433,
+  "topics": [],
+  "stars": 6434,
   "forks": 293,
   "open_issues": 3,
   "watchers": 17,

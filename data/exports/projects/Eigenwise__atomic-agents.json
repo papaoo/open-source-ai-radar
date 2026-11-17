@@ -4,16 +4,8 @@
   "description": "Building AI agents, atomically",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "ai",
-    "artificial-intelligence",
-    "large-language-model",
-    "large-language-models",
-    "llms",
-    "openai",
-    "openai-api"
-  ],
-  "stars": 6335,
+  "topics": [],
+  "stars": 6337,
   "forks": 565,
   "open_issues": 3,
   "watchers": 52,
