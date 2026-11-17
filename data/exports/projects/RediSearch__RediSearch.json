@@ -4,7 +4,17 @@
   "description": "A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations.",
   "language": "Rust",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "redis",
+    "redis-module",
+    "search",
+    "search-engine",
+    "inverted-index",
+    "fulltext",
+    "vector-database",
+    "geospatial",
+    "gis"
+  ],
   "stars": 6245,
   "forks": 602,
   "open_issues": 494,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-11-16T22:20:02Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/RediSearch.png",
-  "radar_score": 64.2,
-  "impact": 82.59,
+  "radar_score": 64.24,
+  "impact": 82.67,
   "velocity": 48.23,
   "health": 57.15,
-  "global_percentile": 11.43,
+  "global_percentile": 13.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations.",
@@ -32,5 +42,5 @@
   "forks_30d": 2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 4
+  "snapshot_count": 5
 }

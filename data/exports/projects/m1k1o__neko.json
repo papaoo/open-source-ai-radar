@@ -23,11 +23,11 @@
   "pushed_at": "2026-11-16T17:34:06Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/m1k1o.png",
-  "radar_score": 72.18,
-  "impact": 90.95,
+  "radar_score": 72.17,
+  "impact": 90.94,
   "velocity": 56.74,
   "health": 63.75,
-  "global_percentile": 37.57,
+  "global_percentile": 49.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A self hosted virtual browser that runs in docker and uses WebRTC.",
@@ -42,5 +42,5 @@
   "forks_30d": 6,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

@@ -17,7 +17,7 @@
   ],
   "stars": 50588,
   "forks": 7569,
-  "open_issues": 4397,
+  "open_issues": 4398,
   "watchers": 752,
   "created_at": "2016-02-22T15:01:25Z",
   "pushed_at": "2026-11-16T23:49:51Z",
@@ -27,7 +27,7 @@
   "impact": 97.67,
   "velocity": 62.92,
   "health": 60.15,
-  "global_percentile": 71.71,
+  "global_percentile": 75.71,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Your self-hosted, globally interconnected microblogging community",
@@ -42,5 +42,5 @@
   "forks_30d": 30,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }

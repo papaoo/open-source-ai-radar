@@ -14,7 +14,7 @@
   ],
   "stars": 32255,
   "forks": 5391,
-  "open_issues": 484,
+  "open_issues": 482,
   "watchers": 468,
   "created_at": "2016-04-15T22:38:35Z",
   "pushed_at": "2026-11-16T23:59:04Z",
@@ -24,7 +24,7 @@
   "impact": 95.95,
   "velocity": 59.77,
   "health": 63.75,
-  "global_percentile": 63.86,
+  "global_percentile": 70.29,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Run Kubernetes locally",
@@ -39,5 +39,5 @@
   "forks_30d": 6,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

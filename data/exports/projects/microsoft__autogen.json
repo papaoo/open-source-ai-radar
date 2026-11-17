@@ -28,7 +28,7 @@
   "impact": 98.11,
   "velocity": 64.63,
   "health": 62.29,
-  "global_percentile": 83.29,
+  "global_percentile": 84.29,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A programming framework for agentic AI",
@@ -43,5 +43,5 @@
   "forks_30d": 20,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }

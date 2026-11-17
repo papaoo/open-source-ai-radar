@@ -13,7 +13,7 @@
   ],
   "stars": 36496,
   "forks": 5568,
-  "open_issues": 282,
+  "open_issues": 281,
   "watchers": 162,
   "created_at": "2023-05-24T03:39:39Z",
   "pushed_at": "2026-11-16T07:08:52Z",
@@ -21,9 +21,9 @@
   "owner_avatar": "https://github.com/continuedev.png",
   "radar_score": 77.84,
   "impact": 95.28,
-  "velocity": 67.98,
+  "velocity": 67.97,
   "health": 63.75,
-  "global_percentile": 85.57,
+  "global_percentile": 86.57,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "open-source coding agent",
@@ -38,5 +38,5 @@
   "forks_30d": 12,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }

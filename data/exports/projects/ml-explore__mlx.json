@@ -16,10 +16,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/ml-explore.png",
   "radar_score": 75.29,
-  "impact": 93.66,
+  "impact": 93.65,
   "velocity": 63.33,
   "health": 62.65,
-  "global_percentile": 64.71,
+  "global_percentile": 70.86,
   "category": "Local AI",
   "sub_category": "",
   "summary": "MLX: An array framework for Apple silicon",
@@ -34,5 +34,5 @@
   "forks_30d": 19,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }
