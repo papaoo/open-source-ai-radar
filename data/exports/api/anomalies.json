@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-17T19:11:52.884034+00:00",
+  "detected_at": "2026-11-17T22:08:13.283008+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -13,7 +13,7 @@
     {
       "repo_full_name": "iflytek/astron-agent",
       "stars": 8938,
-      "forks": 914,
+      "forks": 912,
       "language": "Java",
       "url": "https://github.com/iflytek/astron-agent",
       "radar_score": 71.85,
