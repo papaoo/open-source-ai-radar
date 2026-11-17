@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-11-17T10:34:37.832872+00:00",
+  "generated_at": "2026-11-17T13:05:36.053546+00:00",
   "categories": [
-    {
-      "category": "AI Infrastructure",
-      "tracked": 56,
-      "new": 0,
-      "avg_stars": 3763.0,
-      "velocity": 68.5,
-      "health": 63.8,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "mudler/LocalAI"
-    },
     {
       "category": "Evaluation & Benchmarks",
       "tracked": 34,
@@ -24,34 +13,67 @@
       "top_project": "langfuse/langfuse"
     },
     {
-      "category": "AI Agents",
-      "tracked": 621,
+      "category": "AI Infrastructure",
+      "tracked": 56,
       "new": 0,
-      "avg_stars": 8295.0,
-      "velocity": 63.2,
-      "health": 59.6,
+      "avg_stars": 3763.0,
+      "velocity": 64.9,
+      "health": 62.3,
       "momentum": 0.0,
       "trend": "declining",
-      "top_project": "obra/superpowers"
+      "top_project": "mudler/LocalAI"
     },
     {
       "category": "AI Coding Tools",
       "tracked": 1052,
       "new": 0,
-      "avg_stars": 7789.0,
-      "velocity": 62.8,
-      "health": 58.0,
+      "avg_stars": 7791.0,
+      "velocity": 63.1,
+      "health": 57.6,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "jwasham/coding-interview-university"
+    },
+    {
+      "category": "AI Agents",
+      "tracked": 621,
+      "new": 0,
+      "avg_stars": 8296.0,
+      "velocity": 62.7,
+      "health": 58.6,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "obra/superpowers"
+    },
+    {
+      "category": "Multimodal AI",
+      "tracked": 49,
+      "new": 0,
+      "avg_stars": 8363.0,
+      "velocity": 62.5,
+      "health": 62.2,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "huggingface/transformers"
+    },
+    {
+      "category": "Generative AI",
+      "tracked": 48,
+      "new": 0,
+      "avg_stars": 5270.0,
+      "velocity": 62.3,
+      "health": 58.9,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "Comfy-Org/ComfyUI"
     },
     {
       "category": "MCP",
       "tracked": 603,
       "new": 0,
       "avg_stars": 3657.0,
-      "velocity": 59.4,
-      "health": 58.1,
+      "velocity": 62.0,
+      "health": 59.2,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "punkpeye/awesome-mcp-servers"
@@ -60,20 +82,31 @@
       "category": "Local AI",
       "tracked": 533,
       "new": 0,
-      "avg_stars": 4232.0,
-      "velocity": 58.8,
-      "health": 60.3,
+      "avg_stars": 4233.0,
+      "velocity": 60.9,
+      "health": 60.2,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "ollama/ollama"
     },
     {
+      "category": "RAG",
+      "tracked": 434,
+      "new": 0,
+      "avg_stars": 3594.0,
+      "velocity": 60.3,
+      "health": 55.9,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "langgenius/dify"
+    },
+    {
       "category": "LLM Frameworks",
       "tracked": 740,
       "new": 0,
-      "avg_stars": 5895.0,
-      "velocity": 58.7,
-      "health": 57.2,
+      "avg_stars": 5896.0,
+      "velocity": 58.3,
+      "health": 53.4,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "deepseek-ai/deepseek-harness"
@@ -83,44 +116,11 @@
       "tracked": 20,
       "new": 0,
       "avg_stars": 4216.0,
-      "velocity": 56.8,
-      "health": 56.6,
+      "velocity": 55.2,
+      "health": 52.2,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "promptfoo/promptfoo"
-    },
-    {
-      "category": "RAG",
-      "tracked": 434,
-      "new": 0,
-      "avg_stars": 3594.0,
-      "velocity": 54.3,
-      "health": 54.6,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "langgenius/dify"
-    },
-    {
-      "category": "Generative AI",
-      "tracked": 48,
-      "new": 0,
-      "avg_stars": 5270.0,
-      "velocity": 53.8,
-      "health": 53.0,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "Comfy-Org/ComfyUI"
-    },
-    {
-      "category": "Multimodal AI",
-      "tracked": 49,
-      "new": 0,
-      "avg_stars": 8362.0,
-      "velocity": 52.9,
-      "health": 55.7,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "huggingface/transformers"
     }
   ]
 }

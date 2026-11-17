@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-17T10:34:37.776393+00:00",
+  "detected_at": "2026-11-17T13:05:35.981110+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "monid-ai/monid",
-      "stars": 6209,
-      "forks": 798,
+      "repo_full_name": "KKKKhazix/AIHOT",
+      "stars": 10888,
+      "forks": 2527,
       "language": "TypeScript",
-      "url": "https://github.com/monid-ai/monid",
-      "radar_score": 75.51,
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "radar_score": 71.74,
       "metric": "forks",
-      "current_rate": 1.4,
-      "normal_rate": 0.3,
+      "current_rate": 25.9,
+      "normal_rate": 6.0,
       "deviation": 4.3,
-      "forks_7d": 10,
-      "forks_30d": 10,
+      "forks_7d": 181,
+      "forks_30d": 181,
       "anomaly_type": "fork_spikes"
     }
   ],
