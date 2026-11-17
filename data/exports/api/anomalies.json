@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-17T22:08:13.283008+00:00",
+  "detected_at": "2026-11-17T23:27:36.232854+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "iflytek/astron-agent",
-      "stars": 8938,
-      "forks": 912,
-      "language": "Java",
-      "url": "https://github.com/iflytek/astron-agent",
-      "radar_score": 71.85,
+      "repo_full_name": "Agents365-ai/drawio-skill",
+      "stars": 10820,
+      "forks": 742,
+      "language": "Python",
+      "url": "https://github.com/Agents365-ai/drawio-skill",
+      "radar_score": 66.31,
       "metric": "forks",
-      "current_rate": 0.4,
-      "normal_rate": 0.1,
+      "current_rate": 1.7,
+      "normal_rate": 0.4,
       "deviation": 4.3,
-      "forks_7d": 3,
-      "forks_30d": 3,
+      "forks_7d": 12,
+      "forks_30d": 12,
       "anomaly_type": "fork_spikes"
     }
   ],

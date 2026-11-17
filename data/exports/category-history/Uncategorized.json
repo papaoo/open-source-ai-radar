@@ -780,6 +780,21 @@
       "top_project": "morluto/rea",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 631,
+      "category": "Uncategorized",
+      "timestamp": "2026-11-17T23:27:35.865312+00:00",
+      "total_tracked": 1630,
+      "new_this_period": 0,
+      "avg_stars": 8375.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 59.9,
+      "avg_health": 57.0,
+      "total_stars": 13651009,
+      "top_project": "morluto/rea",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

@@ -4,7 +4,10 @@
   "description": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
   "language": "Jupyter Notebook",
   "license": null,
-  "topics": [],
+  "topics": [
+    "langchain",
+    "rag"
+  ],
   "stars": 14309,
   "forks": 1452,
   "open_issues": 9,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-08-27T03:08:26Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/datawhalechina.png",
-  "radar_score": 59.45,
-  "impact": 88.23,
-  "velocity": 44.27,
+  "radar_score": 59.48,
+  "impact": 88.28,
+  "velocity": 44.29,
   "health": 34.66,
-  "global_percentile": 1.71,
+  "global_percentile": 1.29,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
@@ -32,5 +35,5 @@
   "forks_30d": 8,
   "days_since_last_push": 82,
   "freshness_score": 0.44043165450599925,
-  "snapshot_count": 24
+  "snapshot_count": 25
 }
