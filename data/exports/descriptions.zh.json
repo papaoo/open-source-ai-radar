@@ -6120,6 +6120,7 @@
 "🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai": "🧠 让您的代理从经验中学习。现已作为 kayba.ai 的托管解决方案提供",
 "🧠 The memory that dreams — cross-session memory for DeepSeek Harness. Local SQLite + Markdown mirrors, autoDream consolidation, 4-way recall (keyword/vector/BM25/entity), and a memory panel. 10 model": "🧠 梦想的记忆——DeepSeek Harness 的跨会话记忆。本地 SQLite + Markdown 镜像、autoDream 整合、4 路调用（关键字/向量/BM25/实体）和内存面板。 10型号",
 "🧠 Train a 64M-parameter LLM from scratch in just 2h!": "🧠 只需 2 小时从头开始训练 64M 参数的 LLM！",
+"🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
 "🧠 给 AI 一个可信的第二大脑：本地 SQLite · 先审核再入库 · 不可篡改审计 · 记忆账本。🕷 蜘蛛侠皮肤 · 🔍 自建集 R@5 99.1% / LongMemEval-S 97.2% · 🧩 一个库接入 DSH / Claude Code / Codex / Cursor / 任意 MCP · ⭐ MIT 开源 · 🚀 零依赖开箱即用": "🧠 给 AI 一个可信的第二大脑：本地 SQLite · 先审核再入库 · 不可篡改审计 · 记忆账本。🕷 蜘蛛侠皮肤 · 🔍 自建集 R@5 99.1% / LongMemEval-S 97.2% · 🧩 一个库接入 DSH / Claude Code / Codex / Cursor / 任意 MCP · ⭐ MIT 开源 · 🚀 零依赖开箱即用",
 "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.": "🧩 FrontierAgent，我们的代理框架，与它一起开源 - 原生命令行 TUI、ReAct 和 Agent Team 模式，macOS 和 Linux 上的一个命令，无需预安装，无硬性 Docker 依赖。",
 "🧩 Kotlin coding puzzle and solutions": "🧩 Kotlin 编码难题及解决方案",

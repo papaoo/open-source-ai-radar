@@ -19,11 +19,11 @@
   "pushed_at": "2026-05-01T15:03:32Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ConardLi.png",
-  "radar_score": 62.54,
+  "radar_score": 62.53,
   "impact": 88.45,
-  "velocity": 51.17,
-  "health": 36.99,
-  "global_percentile": 4.29,
+  "velocity": 51.16,
+  "health": 36.98,
+  "global_percentile": 3.57,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
@@ -36,7 +36,7 @@
   "star_growth_acceleration": 1.0476190476190477,
   "forks_7d": 3,
   "forks_30d": 3,
-  "days_since_last_push": 200,
-  "freshness_score": 0.1353352832366127,
-  "snapshot_count": 23
+  "days_since_last_push": 201,
+  "freshness_score": 0.13398867466880493,
+  "snapshot_count": 24
 }

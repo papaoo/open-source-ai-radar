@@ -4,7 +4,14 @@
   "description": "Self hosted streaming media server. https://docs.streama-project.com/",
   "language": "JavaScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "media",
+    "streaming",
+    "video-player",
+    "video-streaming",
+    "media-server",
+    "media-player"
+  ],
   "stars": 9825,
   "forks": 979,
   "open_issues": 340,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-12T08:25:36Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/streamaserver.png",
-  "radar_score": 66.82,
-  "impact": 88.0,
+  "radar_score": 66.74,
+  "impact": 88.01,
   "velocity": 46.1,
-  "health": 61.94,
-  "global_percentile": 19.57,
+  "health": 61.6,
+  "global_percentile": 12.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Self hosted streaming media server. https://docs.streama-project.com/",
@@ -30,7 +37,7 @@
   "star_growth_acceleration": 0.9142857142857143,
   "forks_7d": 1,
   "forks_30d": 1,
-  "days_since_last_push": 5,
-  "freshness_score": 0.951229424500714,
-  "snapshot_count": 8
+  "days_since_last_push": 6,
+  "freshness_score": 0.9417645335842487,
+  "snapshot_count": 9
 }

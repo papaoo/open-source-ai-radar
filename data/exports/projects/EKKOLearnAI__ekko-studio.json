@@ -27,7 +27,7 @@
   ],
   "stars": 11793,
   "forks": 1479,
-  "open_issues": 422,
+  "open_issues": 423,
   "watchers": 47,
   "created_at": "2026-04-11T07:38:18Z",
   "pushed_at": "2026-11-18T09:17:40Z",
@@ -37,7 +37,7 @@
   "impact": 86.45,
   "velocity": 70.94,
   "health": 60.75,
-  "global_percentile": 58.29,
+  "global_percentile": 58.71,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
@@ -52,6 +52,6 @@
   "forks_30d": 20,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 31,
+  "snapshot_count": 32,
   "why_trending": "Steady growth with 53 new stars this week. Above-average growth velocity. High developer adoption with 21 new forks this week. Active in the AI Coding Tools category."
 }

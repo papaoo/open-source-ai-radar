@@ -21,11 +21,11 @@
   "pushed_at": "2026-11-18T12:46:30Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/emcie-co.png",
-  "radar_score": 71.11,
-  "impact": 90.16,
+  "radar_score": 71.1,
+  "impact": 90.14,
   "velocity": 58.45,
   "health": 58.35,
-  "global_percentile": 31.86,
+  "global_percentile": 31.43,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Parlant is an open platform for building customer-facing chat agents with AI. Describe how the agent should behave, and your coding agent implements it for you.",
@@ -40,5 +40,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }

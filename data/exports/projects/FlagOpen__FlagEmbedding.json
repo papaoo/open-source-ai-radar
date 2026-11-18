@@ -21,10 +21,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/FlagOpen.png",
   "radar_score": 65.49,
-  "impact": 86.28,
+  "impact": 86.27,
   "velocity": 50.57,
   "health": 53.12,
-  "global_percentile": 10.29,
+  "global_percentile": 8.71,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Retrieval and Retrieval-augmented LLMs",
@@ -39,5 +39,5 @@
   "forks_30d": 3,
   "days_since_last_push": 22,
   "freshness_score": 0.8025187979624785,
-  "snapshot_count": 25
+  "snapshot_count": 26
 }

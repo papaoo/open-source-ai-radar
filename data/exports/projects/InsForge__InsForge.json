@@ -27,11 +27,11 @@
   "pushed_at": "2026-11-08T17:17:42Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/InsForge.png",
-  "radar_score": 70.39,
-  "impact": 85.97,
+  "radar_score": 70.3,
+  "impact": 85.96,
   "velocity": 59.57,
-  "health": 60.59,
-  "global_percentile": 26.86,
+  "health": 60.27,
+  "global_percentile": 26.71,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.",
@@ -44,7 +44,7 @@
   "star_growth_acceleration": 1.0285714285714287,
   "forks_7d": -1,
   "forks_30d": -1,
-  "days_since_last_push": 9,
-  "freshness_score": 0.9139311852712282,
-  "snapshot_count": 23
+  "days_since_last_push": 10,
+  "freshness_score": 0.9048374180359595,
+  "snapshot_count": 24
 }

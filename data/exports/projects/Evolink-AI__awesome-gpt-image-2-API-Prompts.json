@@ -38,7 +38,7 @@
   "impact": 89.07,
   "velocity": 49.24,
   "health": 37.3,
-  "global_percentile": 4.14,
+  "global_percentile": 3.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "GPT-Image-2 API and Prompts",
@@ -53,5 +53,5 @@
   "forks_30d": 7,
   "days_since_last_push": 123,
   "freshness_score": 0.2922925776808594,
-  "snapshot_count": 26
+  "snapshot_count": 27
 }

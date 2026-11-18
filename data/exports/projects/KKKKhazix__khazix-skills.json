@@ -15,7 +15,7 @@
     "skills",
     "vibe-coding"
   ],
-  "stars": 22382,
+  "stars": 22388,
   "forks": 2351,
   "open_issues": 0,
   "watchers": 114,
@@ -32,15 +32,15 @@
   "sub_category": "",
   "summary": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
   "maturity": "Unknown",
-  "stars_7d": 224,
-  "stars_30d": 284,
-  "stars_90d": 284,
-  "star_growth_rate_7d": 32.0,
-  "star_growth_rate_30d": 31.555555555555557,
-  "star_growth_acceleration": 1.0140845070422535,
+  "stars_7d": 230,
+  "stars_30d": 290,
+  "stars_90d": 290,
+  "star_growth_rate_7d": 32.857142857142854,
+  "star_growth_rate_30d": 32.22222222222222,
+  "star_growth_acceleration": 1.019704433497537,
   "forks_7d": 26,
   "forks_30d": 30,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 31
+  "snapshot_count": 32
 }
