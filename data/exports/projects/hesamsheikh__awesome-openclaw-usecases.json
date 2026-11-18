@@ -4,7 +4,16 @@
   "description": "A community collection of OpenClaw use cases for making life easier.",
   "language": null,
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "awesome-list",
+    "clawdbot",
+    "moltbot",
+    "openclaw",
+    "openclaw-plugin",
+    "openclaw-setup",
+    "openclaw-skills",
+    "usecase"
+  ],
   "stars": 31634,
   "forks": 2709,
   "open_issues": 0,
@@ -14,7 +23,7 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/hesamsheikh.png",
   "radar_score": 60.74,
-  "impact": 94.46,
+  "impact": 94.45,
   "velocity": 41.27,
   "health": 34.04,
   "global_percentile": 1.71,
@@ -32,5 +41,5 @@
   "forks_30d": -1,
   "days_since_last_push": 239,
   "freshness_score": 0.09162968387750484,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

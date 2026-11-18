@@ -4,7 +4,11 @@
   "description": "Embeddable Postgres with real-time, reactive bindings.",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "database",
+    "postgres",
+    "wasm"
+  ],
   "stars": 16346,
   "forks": 483,
   "open_issues": 117,
@@ -15,9 +19,9 @@
   "owner_avatar": "https://github.com/electric-sql.png",
   "radar_score": 69.98,
   "impact": 85.76,
-  "velocity": 59.66,
+  "velocity": 59.65,
   "health": 59.2,
-  "global_percentile": 25.14,
+  "global_percentile": 24.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Embeddable Postgres with real-time, reactive bindings.",
@@ -32,5 +36,5 @@
   "forks_30d": 8,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 12
+  "snapshot_count": 13
 }

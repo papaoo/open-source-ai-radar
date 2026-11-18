@@ -4,7 +4,10 @@
   "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agent",
+    "phone-use-agent"
+  ],
   "stars": 26624,
   "forks": 4066,
   "open_issues": 197,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-03-06T08:38:39Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/zai-org.png",
-  "radar_score": 67.13,
+  "radar_score": 67.12,
   "impact": 93.15,
-  "velocity": 57.28,
+  "velocity": 57.27,
   "health": 39.28,
-  "global_percentile": 13.86,
+  "global_percentile": 14.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
@@ -32,5 +35,5 @@
   "forks_30d": -6,
   "days_since_last_push": 257,
   "freshness_score": 0.07653554542391151,
-  "snapshot_count": 30
+  "snapshot_count": 31
 }

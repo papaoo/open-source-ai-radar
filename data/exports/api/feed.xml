@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:51:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 22:59:32 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -33,14 +33,6 @@
       <guid>https://github.com/aden-hive/hive</guid>
     </item>
     <item>
-      <title>kingcharleslzy-ai/dsh-purge</title>
-      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
-      <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
-      <category>LLM Frameworks</category>
-      <pubDate>2026-11-18T10:24:45Z</pubDate>
-      <guid>https://github.com/kingcharleslzy-ai/dsh-purge</guid>
-    </item>
-    <item>
       <title>ccch1mneyyy/dsh-Go</title>
       <link>https://github.com/ccch1mneyyy/dsh-Go</link>
       <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
@@ -53,7 +45,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all f</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-18T21:02:51Z</pubDate>
+      <pubDate>2026-11-18T22:37:25Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -69,7 +61,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-18T21:40:58Z</pubDate>
+      <pubDate>2026-11-18T22:53:08Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -101,7 +93,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Every agent&apos;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-18T19:27:45Z</pubDate>
+      <pubDate>2026-11-18T22:33:11Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -111,14 +103,6 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-10-20T10:19:31Z</pubDate>
       <guid>https://github.com/ChatGPTNextWeb/NextChat</guid>
-    </item>
-    <item>
-      <title>Kuberwastaken/claurst</title>
-      <link>https://github.com/Kuberwastaken/claurst</link>
-      <description>Agentic Coding for Builders who Ship</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-10-26T16:08:43Z</pubDate>
-      <guid>https://github.com/Kuberwastaken/claurst</guid>
     </item>
     <item>
       <title>Gathin23/cleanyourtv</title>
@@ -133,7 +117,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-18T21:40:21Z</pubDate>
+      <pubDate>2026-11-18T22:46:42Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -157,7 +141,7 @@
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-18T21:39:41Z</pubDate>
+      <pubDate>2026-11-18T22:45:28Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
     </item>
     <item>
@@ -167,6 +151,22 @@
       <category>Uncategorized</category>
       <pubDate>2026-11-18T11:01:30Z</pubDate>
       <guid>https://github.com/google/elephant-goldfish-model</guid>
+    </item>
+    <item>
+      <title>datawhalechina/all-in-rag</title>
+      <link>https://github.com/datawhalechina/all-in-rag</link>
+      <description>🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/</description>
+      <category>RAG</category>
+      <pubDate>2026-11-16T11:47:34Z</pubDate>
+      <guid>https://github.com/datawhalechina/all-in-rag</guid>
+    </item>
+    <item>
+      <title>Edge0-AI/Edge0</title>
+      <link>https://github.com/Edge0-AI/Edge0</link>
+      <description>Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-18T14:38:30Z</pubDate>
+      <guid>https://github.com/Edge0-AI/Edge0</guid>
     </item>
   </channel>
 </rss>
