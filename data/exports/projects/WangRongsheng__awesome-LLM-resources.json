@@ -4,7 +4,20 @@
   "description": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. ",
   "language": null,
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "awesome-list",
+    "book",
+    "course",
+    "large-language-models",
+    "llama",
+    "llm",
+    "rag",
+    "retrieval-augmented-generation",
+    "webui",
+    "mistral",
+    "openai",
+    "qwen"
+  ],
   "stars": 9090,
   "forks": 1064,
   "open_issues": 0,
@@ -13,11 +26,11 @@
   "pushed_at": "2026-11-14T14:18:17Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/WangRongsheng.png",
-  "radar_score": 63.7,
-  "impact": 85.62,
+  "radar_score": 63.72,
+  "impact": 85.67,
   "velocity": 43.26,
   "health": 57.25,
-  "global_percentile": 5.43,
+  "global_percentile": 10.14,
   "category": "MCP",
   "sub_category": "",
   "summary": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. ",
@@ -32,5 +45,5 @@
   "forks_30d": 10,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 14
+  "snapshot_count": 15
 }

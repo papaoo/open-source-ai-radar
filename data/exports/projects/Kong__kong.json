@@ -35,10 +35,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/Kong.png",
   "radar_score": 75.26,
-  "impact": 97.23,
+  "impact": 97.24,
   "velocity": 58.38,
   "health": 63.75,
-  "global_percentile": 63.43,
+  "global_percentile": 67.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🦍 The API and AI Gateway",
@@ -53,5 +53,5 @@
   "forks_30d": 5,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 25
+  "snapshot_count": 26
 }

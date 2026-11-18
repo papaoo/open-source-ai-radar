@@ -12,11 +12,11 @@
     "openclaw"
   ],
   "stars": 31119,
-  "forks": 12646,
-  "open_issues": 315,
+  "forks": 12645,
+  "open_issues": 317,
   "watchers": 124,
   "created_at": "2026-01-31T15:47:22Z",
-  "pushed_at": "2026-11-17T22:58:23Z",
+  "pushed_at": "2026-11-18T00:41:33Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/nanocoai.png",
   "radar_score": 80.99,
@@ -34,10 +34,10 @@
   "star_growth_rate_7d": 3.142857142857143,
   "star_growth_rate_30d": 2.875,
   "star_growth_acceleration": 1.093167701863354,
-  "forks_7d": -10,
-  "forks_30d": -12,
+  "forks_7d": -9,
+  "forks_30d": -13,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 33,
+  "snapshot_count": 34,
   "why_trending": "Steady growth with 22 new stars this week. Above-average growth velocity. Active in the Uncategorized category."
 }

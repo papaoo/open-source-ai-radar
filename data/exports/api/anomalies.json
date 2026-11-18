@@ -1,31 +1,15 @@
 {
-  "detected_at": "2026-11-17T23:27:36.232854+00:00",
-  "total_anomalies": 1,
+  "detected_at": "2026-11-18T03:26:02.425148+00:00",
+  "total_anomalies": 0,
   "by_type": {
     "star_spikes": 0,
-    "fork_spikes": 1,
+    "fork_spikes": 0,
     "score_jumps": 0,
     "velocity_anomalies": 0,
     "health_drops": 0
   },
   "star_spikes": [],
-  "fork_spikes": [
-    {
-      "repo_full_name": "Agents365-ai/drawio-skill",
-      "stars": 10820,
-      "forks": 742,
-      "language": "Python",
-      "url": "https://github.com/Agents365-ai/drawio-skill",
-      "radar_score": 66.31,
-      "metric": "forks",
-      "current_rate": 1.7,
-      "normal_rate": 0.4,
-      "deviation": 4.3,
-      "forks_7d": 12,
-      "forks_30d": 12,
-      "anomaly_type": "fork_spikes"
-    }
-  ],
+  "fork_spikes": [],
   "score_jumps": [],
   "velocity_anomalies": [],
   "health_drops": []

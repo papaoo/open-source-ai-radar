@@ -28,7 +28,7 @@
   "impact": 90.48,
   "velocity": 69.23,
   "health": 63.75,
-  "global_percentile": 73.57,
+  "global_percentile": 76.71,
   "category": "AI Agents",
   "sub_category": "task agent",
   "summary": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",

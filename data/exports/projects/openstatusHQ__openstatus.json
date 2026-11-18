@@ -30,14 +30,14 @@
   "open_issues": 34,
   "watchers": 27,
   "created_at": "2023-06-19T15:32:41Z",
-  "pushed_at": "2026-11-17T19:00:42Z",
+  "pushed_at": "2026-11-17T22:13:21Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/openstatusHQ.png",
-  "radar_score": 67.67,
-  "impact": 82.38,
-  "velocity": 53.64,
+  "radar_score": 67.69,
+  "impact": 82.45,
+  "velocity": 53.65,
   "health": 63.75,
-  "global_percentile": 16.29,
+  "global_percentile": 22.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Open-source status page, incident response and uptime monitoring",
@@ -52,5 +52,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }
