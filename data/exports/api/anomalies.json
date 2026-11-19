@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-19T22:05:59.772628+00:00",
+  "detected_at": "2026-11-19T23:01:40.640451+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -11,18 +11,18 @@
   "star_spikes": [],
   "fork_spikes": [
     {
-      "repo_full_name": "elie222/rakazo",
-      "stars": 9221,
-      "forks": 1660,
-      "language": "TypeScript",
-      "url": "https://github.com/elie222/rakazo",
-      "radar_score": 75.11,
+      "repo_full_name": "alchaincyf/zhangxuefeng-skill",
+      "stars": 10801,
+      "forks": 2695,
+      "language": null,
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "radar_score": 65.33,
       "metric": "forks",
-      "current_rate": 29.6,
-      "normal_rate": 8.8,
-      "deviation": 3.4,
-      "forks_7d": 207,
-      "forks_30d": 264,
+      "current_rate": 1.1,
+      "normal_rate": 0.3,
+      "deviation": 4.3,
+      "forks_7d": 8,
+      "forks_30d": 8,
       "anomaly_type": "fork_spikes"
     }
   ],

@@ -4,7 +4,15 @@
   "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "graphrag",
+    "rag",
+    "llm",
+    "llms",
+    "gpt",
+    "gpt-4",
+    "gpt4"
+  ],
   "stars": 36695,
   "forks": 3887,
   "open_issues": 35,
@@ -14,10 +22,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/microsoft.png",
   "radar_score": 75.13,
-  "impact": 95.28,
-  "velocity": 64.07,
+  "impact": 95.3,
+  "velocity": 64.08,
   "health": 58.35,
-  "global_percentile": 62.29,
+  "global_percentile": 61.29,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
@@ -32,5 +40,5 @@
   "forks_30d": 11,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 32
+  "snapshot_count": 33
 }

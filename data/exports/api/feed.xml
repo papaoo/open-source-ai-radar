@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:05:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:01:40 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -17,12 +17,20 @@
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
     </item>
     <item>
-      <title>kingcharleslzy-ai/dsh-purge</title>
-      <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
-      <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
-      <category>LLM Frameworks</category>
-      <pubDate>2026-11-18T10:24:45Z</pubDate>
-      <guid>https://github.com/kingcharleslzy-ai/dsh-purge</guid>
+      <title>NanmiCoder/cc-haha</title>
+      <link>https://github.com/NanmiCoder/cc-haha</link>
+      <description>本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git wo</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-19T16:36:14Z</pubDate>
+      <guid>https://github.com/NanmiCoder/cc-haha</guid>
+    </item>
+    <item>
+      <title>aden-hive/hive</title>
+      <link>https://github.com/aden-hive/hive</link>
+      <description>Multi-Agent Harness for Production AI</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-17T17:53:37Z</pubDate>
+      <guid>https://github.com/aden-hive/hive</guid>
     </item>
     <item>
       <title>ccch1mneyyy/dsh-Go</title>
@@ -37,7 +45,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all f</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-19T21:36:57Z</pubDate>
+      <pubDate>2026-11-19T22:53:08Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -53,7 +61,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-19T21:53:15Z</pubDate>
+      <pubDate>2026-11-19T22:57:29Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -77,7 +85,7 @@
       <link>https://github.com/jub0t/Concat</link>
       <description>Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API &amp; MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-19T21:55:03Z</pubDate>
+      <pubDate>2026-11-19T22:13:13Z</pubDate>
       <guid>https://github.com/jub0t/Concat</guid>
     </item>
     <item>
@@ -109,7 +117,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-19T21:55:47Z</pubDate>
+      <pubDate>2026-11-19T22:47:49Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -133,7 +141,7 @@
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-19T21:58:20Z</pubDate>
+      <pubDate>2026-11-19T22:47:38Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
     </item>
     <item>
@@ -159,14 +167,6 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-11-18T02:24:22Z</pubDate>
       <guid>https://github.com/Ebony-Vinyl/dsh-our-free-model</guid>
-    </item>
-    <item>
-      <title>pingdotgg/t3code</title>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <description>The best way to control Claude Code, Codex and more from any computer or phone</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-11-19T21:55:23Z</pubDate>
-      <guid>https://github.com/pingdotgg/t3code</guid>
     </item>
   </channel>
 </rss>
