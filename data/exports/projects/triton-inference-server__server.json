@@ -4,7 +4,15 @@
   "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
   "language": "Python",
   "license": "BSD-3-Clause",
-  "topics": [],
+  "topics": [
+    "inference",
+    "gpu",
+    "machine-learning",
+    "deep-learning",
+    "cloud",
+    "datacenter",
+    "edge"
+  ],
   "stars": 11154,
   "forks": 1874,
   "open_issues": 775,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-18T20:38:50Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/triton-inference-server.png",
-  "radar_score": 69.84,
-  "impact": 89.12,
+  "radar_score": 69.87,
+  "impact": 89.19,
   "velocity": 54.73,
   "health": 60.15,
-  "global_percentile": 33.43,
+  "global_percentile": 24.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
@@ -32,5 +40,5 @@
   "forks_30d": 7,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }

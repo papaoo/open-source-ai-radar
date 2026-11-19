@@ -13,11 +13,11 @@
   "pushed_at": "2026-10-29T16:42:13Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/openai.png",
-  "radar_score": 70.48,
-  "impact": 91.79,
-  "velocity": 55.56,
+  "radar_score": 70.5,
+  "impact": 91.83,
+  "velocity": 55.58,
   "health": 57.27,
-  "global_percentile": 37.86,
+  "global_percentile": 26.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI",
@@ -32,5 +32,5 @@
   "forks_30d": 4,
   "days_since_last_push": 20,
   "freshness_score": 0.8187307530779818,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }

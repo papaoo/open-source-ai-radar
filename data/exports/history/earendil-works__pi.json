@@ -280,6 +280,13 @@
       "forks": 15840,
       "open_issues": 220,
       "contributors": 314
+    },
+    {
+      "timestamp": "2026-11-19T12:37:30.454494+00:00",
+      "stars": 122864,
+      "forks": 15852,
+      "open_issues": 227,
+      "contributors": 314
     }
   ],
   "scores": [
@@ -561,6 +568,13 @@
       "radar_score": 78.96,
       "impact": 98.87,
       "velocity": 67.08,
+      "health": 63.75
+    },
+    {
+      "timestamp": "2026-11-19T12:48:59.170056+00:00",
+      "radar_score": 78.98,
+      "impact": 98.88,
+      "velocity": 67.11,
       "health": 63.75
     }
   ],
@@ -923,6 +937,15 @@
       "stars_90d": 1779,
       "star_growth_rate_7d": 199.14285714285714,
       "star_growth_rate_30d": 197.66666666666666,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-19T12:37:30.454494+00:00",
+      "stars_7d": 1435,
+      "stars_30d": 1866,
+      "stars_90d": 1866,
+      "star_growth_rate_7d": 205.0,
+      "star_growth_rate_30d": 207.33333333333334,
       "freshness_score": 1.0
     }
   ]
