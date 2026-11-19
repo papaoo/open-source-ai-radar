@@ -26,7 +26,7 @@
   "impact": 88.04,
   "velocity": 63.27,
   "health": 58.35,
-  "global_percentile": 35.57,
+  "global_percentile": 48.14,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Sub-50mb agentic, voice and vision intelligence for consumer devices.",
@@ -41,5 +41,5 @@
   "forks_30d": 24,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 36
+  "snapshot_count": 37
 }

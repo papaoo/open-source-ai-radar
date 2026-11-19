@@ -885,6 +885,21 @@
       "top_project": "deepseek-ai/deepseek-harness",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 716,
+      "category": "LLM Frameworks",
+      "timestamp": "2026-11-19T03:04:32.657711+00:00",
+      "total_tracked": 748,
+      "new_this_period": 0,
+      "avg_stars": 5860.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 57.4,
+      "avg_health": 56.4,
+      "total_stars": 4383563,
+      "top_project": "deepseek-ai/deepseek-harness",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

@@ -24,9 +24,9 @@
   "owner_avatar": "https://github.com/microsoft.png",
   "radar_score": 70.05,
   "impact": 87.63,
-  "velocity": 54.97,
+  "velocity": 54.98,
   "health": 63.01,
-  "global_percentile": 25.29,
+  "global_percentile": 35.29,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
@@ -41,5 +41,5 @@
   "forks_30d": 2,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 17
+  "snapshot_count": 18
 }
