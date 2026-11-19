@@ -930,6 +930,21 @@
       "top_project": "huggingface/transformers",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 755,
+      "category": "Multimodal AI",
+      "timestamp": "2026-11-19T19:07:40.646236+00:00",
+      "total_tracked": 49,
+      "new_this_period": 0,
+      "avg_stars": 8367.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 53.1,
+      "avg_health": 55.8,
+      "total_stars": 409992,
+      "top_project": "huggingface/transformers",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

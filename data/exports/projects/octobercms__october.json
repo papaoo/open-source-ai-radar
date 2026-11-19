@@ -25,7 +25,7 @@
   "owner_avatar": "https://github.com/octobercms.png",
   "radar_score": 66.04,
   "impact": 90.62,
-  "velocity": 46.11,
+  "velocity": 46.12,
   "health": 54.61,
   "global_percentile": 10.86,
   "category": "Local AI",
@@ -42,5 +42,5 @@
   "forks_30d": -1,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

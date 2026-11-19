@@ -21,9 +21,9 @@
   "owner_avatar": "https://github.com/n8n-io.png",
   "radar_score": 69.06,
   "impact": 92.2,
-  "velocity": 50.79,
+  "velocity": 50.78,
   "health": 57.61,
-  "global_percentile": 20.86,
+  "global_percentile": 21.29,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
@@ -32,11 +32,11 @@
   "stars_30d": 39,
   "stars_90d": 39,
   "star_growth_rate_7d": 4.0,
-  "star_growth_rate_30d": 4.333333333333333,
-  "star_growth_acceleration": 0.9230769230769231,
+  "star_growth_rate_30d": 3.9,
+  "star_growth_acceleration": 1.0256410256410258,
   "forks_7d": 1,
   "forks_30d": -2,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 29
+  "snapshot_count": 30
 }
