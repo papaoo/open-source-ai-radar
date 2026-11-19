@@ -1,5 +1,5 @@
 {
-  "detected_at": "2026-11-19T19:07:41.022830+00:00",
+  "detected_at": "2026-11-19T22:05:59.772628+00:00",
   "total_anomalies": 1,
   "by_type": {
     "star_spikes": 0,
@@ -12,8 +12,8 @@
   "fork_spikes": [
     {
       "repo_full_name": "elie222/rakazo",
-      "stars": 9215,
-      "forks": 1659,
+      "stars": 9221,
+      "forks": 1660,
       "language": "TypeScript",
       "url": "https://github.com/elie222/rakazo",
       "radar_score": 75.11,

@@ -945,6 +945,21 @@
       "top_project": "mudler/LocalAI",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 757,
+      "category": "AI Infrastructure",
+      "timestamp": "2026-11-19T22:05:59.462065+00:00",
+      "total_tracked": 58,
+      "new_this_period": 0,
+      "avg_stars": 3658.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 66.0,
+      "avg_health": 62.5,
+      "total_stars": 212156,
+      "top_project": "mudler/LocalAI",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }
