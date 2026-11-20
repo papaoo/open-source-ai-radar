@@ -9,7 +9,7 @@
     "llm"
   ],
   "stars": 24915,
-  "forks": 2992,
+  "forks": 2993,
   "open_issues": 4,
   "watchers": 179,
   "created_at": "2023-04-28T16:03:37Z",
@@ -20,7 +20,7 @@
   "impact": 93.38,
   "velocity": 43.55,
   "health": 27.36,
-  "global_percentile": 1.14,
+  "global_percentile": 5.14,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
@@ -31,9 +31,9 @@
   "star_growth_rate_7d": 3.5714285714285716,
   "star_growth_rate_30d": 3.4,
   "star_growth_acceleration": 1.050420168067227,
-  "forks_7d": 3,
-  "forks_30d": 3,
+  "forks_7d": 4,
+  "forks_30d": 4,
   "days_since_last_push": 525,
   "freshness_score": 0.005247518399181385,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

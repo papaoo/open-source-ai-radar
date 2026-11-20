@@ -32,7 +32,7 @@
   "impact": 91.52,
   "velocity": 81.1,
   "health": 56.81,
-  "global_percentile": 94.43,
+  "global_percentile": 95.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Multi-Agent Harness for Production AI",
@@ -47,6 +47,6 @@
   "forks_30d": 0,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 30,
+  "snapshot_count": 31,
   "why_trending": "Among the fastest-growing projects in its category. Active in the Uncategorized category."
 }

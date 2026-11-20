@@ -33,10 +33,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/kyegomez.png",
   "radar_score": 66.73,
-  "impact": 91.89,
+  "impact": 91.88,
   "velocity": 56.76,
   "health": 40.43,
-  "global_percentile": 12.71,
+  "global_percentile": 20.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
@@ -51,5 +51,5 @@
   "forks_30d": -3,
   "days_since_last_push": 180,
   "freshness_score": 0.16529888822158653,
-  "snapshot_count": 27
+  "snapshot_count": 28
 }

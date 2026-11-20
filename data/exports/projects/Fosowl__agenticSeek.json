@@ -26,7 +26,7 @@
   "impact": 93.72,
   "velocity": 61.5,
   "health": 57.61,
-  "global_percentile": 47.0,
+  "global_percentile": 57.29,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
@@ -41,5 +41,5 @@
   "forks_30d": 2,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 30
+  "snapshot_count": 31
 }

@@ -27,7 +27,7 @@
     "grpc"
   ],
   "stars": 16955,
-  "forks": 1439,
+  "forks": 1440,
   "open_issues": 513,
   "watchers": 137,
   "created_at": "2016-03-30T15:03:17Z",
@@ -35,10 +35,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/weaviate.png",
   "radar_score": 69.91,
-  "impact": 90.45,
+  "impact": 90.46,
   "velocity": 52.98,
   "health": 60.75,
-  "global_percentile": 23.86,
+  "global_percentile": 33.43,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
@@ -50,8 +50,8 @@
   "star_growth_rate_30d": 1.1,
   "star_growth_acceleration": 1.4285714285714284,
   "forks_7d": 6,
-  "forks_30d": 5,
+  "forks_30d": 6,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

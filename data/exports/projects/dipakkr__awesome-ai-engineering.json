@@ -37,7 +37,7 @@
   "impact": 94.63,
   "velocity": 49.73,
   "health": 54.93,
-  "global_percentile": 20.29,
+  "global_percentile": 29.86,
   "category": "MCP",
   "sub_category": "tool",
   "summary": "🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.",
@@ -52,5 +52,5 @@
   "forks_30d": 11,
   "days_since_last_push": 29,
   "freshness_score": 0.7482635675785653,
-  "snapshot_count": 34
+  "snapshot_count": 35
 }

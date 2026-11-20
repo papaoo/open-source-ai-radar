@@ -21,7 +21,7 @@
     "rust"
   ],
   "stars": 17686,
-  "forks": 5695,
+  "forks": 5696,
   "open_issues": 4,
   "watchers": 135,
   "created_at": "2025-04-04T20:46:17Z",
@@ -32,7 +32,7 @@
   "impact": 92.82,
   "velocity": 62.34,
   "health": 53.6,
-  "global_percentile": 37.29,
+  "global_percentile": 49.29,
   "category": "MCP",
   "sub_category": "",
   "summary": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workfl",
@@ -44,8 +44,8 @@
   "star_growth_rate_30d": 5.6,
   "star_growth_acceleration": 1.1224489795918369,
   "forks_7d": 8,
-  "forks_30d": 11,
+  "forks_30d": 12,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 30
+  "snapshot_count": 31
 }

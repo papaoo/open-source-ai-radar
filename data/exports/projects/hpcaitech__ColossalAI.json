@@ -30,7 +30,7 @@
   "impact": 96.52,
   "velocity": 65.43,
   "health": 63.75,
-  "global_percentile": 82.57,
+  "global_percentile": 84.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Making large AI models cheaper, faster and more accessible",
@@ -45,5 +45,5 @@
   "forks_30d": -1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 32
+  "snapshot_count": 33
 }

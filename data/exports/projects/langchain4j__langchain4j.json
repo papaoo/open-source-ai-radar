@@ -38,7 +38,7 @@
   "impact": 90.41,
   "velocity": 62.82,
   "health": 60.15,
-  "global_percentile": 44.29,
+  "global_percentile": 55.43,
   "category": "LLM Frameworks",
   "sub_category": "serving",
   "summary": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Jav",
@@ -53,5 +53,5 @@
   "forks_30d": 19,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 34
+  "snapshot_count": 35
 }

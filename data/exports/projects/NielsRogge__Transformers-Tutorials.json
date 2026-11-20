@@ -20,11 +20,11 @@
   "pushed_at": "2026-09-17T08:10:06Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/NielsRogge.png",
-  "radar_score": 63.35,
+  "radar_score": 63.34,
   "impact": 89.25,
   "velocity": 44.37,
   "health": 48.47,
-  "global_percentile": 5.29,
+  "global_percentile": 10.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "This repository contains demos I made with the Transformers library by HuggingFace.",
@@ -39,5 +39,5 @@
   "forks_30d": -1,
   "days_since_last_push": 63,
   "freshness_score": 0.5325918010068972,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

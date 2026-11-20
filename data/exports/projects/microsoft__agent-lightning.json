@@ -19,11 +19,11 @@
   "pushed_at": "2026-11-12T03:27:22Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/microsoft.png",
-  "radar_score": 72.92,
-  "impact": 90.13,
+  "radar_score": 72.91,
+  "impact": 90.12,
   "velocity": 61.56,
   "health": 61.26,
-  "global_percentile": 41.71,
+  "global_percentile": 53.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "The absolute trainer to light up AI agents.",
@@ -38,5 +38,5 @@
   "forks_30d": 9,
   "days_since_last_push": 7,
   "freshness_score": 0.9323938199059483,
-  "snapshot_count": 29
+  "snapshot_count": 30
 }

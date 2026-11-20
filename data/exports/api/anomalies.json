@@ -1,31 +1,15 @@
 {
-  "detected_at": "2026-11-19T23:01:40.640451+00:00",
-  "total_anomalies": 1,
+  "detected_at": "2026-11-20T02:58:27.279887+00:00",
+  "total_anomalies": 0,
   "by_type": {
     "star_spikes": 0,
-    "fork_spikes": 1,
+    "fork_spikes": 0,
     "score_jumps": 0,
     "velocity_anomalies": 0,
     "health_drops": 0
   },
   "star_spikes": [],
-  "fork_spikes": [
-    {
-      "repo_full_name": "alchaincyf/zhangxuefeng-skill",
-      "stars": 10801,
-      "forks": 2695,
-      "language": null,
-      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "radar_score": 65.33,
-      "metric": "forks",
-      "current_rate": 1.1,
-      "normal_rate": 0.3,
-      "deviation": 4.3,
-      "forks_7d": 8,
-      "forks_30d": 8,
-      "anomaly_type": "fork_spikes"
-    }
-  ],
+  "fork_spikes": [],
   "score_jumps": [],
   "velocity_anomalies": [],
   "health_drops": []
