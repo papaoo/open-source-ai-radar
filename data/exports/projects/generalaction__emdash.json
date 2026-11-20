@@ -1,7 +1,7 @@
 {
   "full_name": "generalaction/emdash",
   "url": "https://github.com/generalaction/emdash",
-  "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+  "description": "Emdash Classic is the open-source desktop app for running coding agents in parallel. Use your favorite agents in isolated Git worktrees, locally or over SSH.",
   "language": "TypeScript",
   "license": "Apache-2.0",
   "topics": [],
@@ -10,7 +10,7 @@
   "open_issues": 48,
   "watchers": 24,
   "created_at": "2025-08-28T07:19:57Z",
-  "pushed_at": "2026-11-19T20:04:27Z",
+  "pushed_at": "2026-11-20T06:41:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/generalaction.png",
   "radar_score": 66.46,

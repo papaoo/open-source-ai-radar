@@ -4,15 +4,8 @@
   "description": "Run Kubernetes locally",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [
-    "minikube",
-    "kubernetes",
-    "cluster",
-    "containers",
-    "go",
-    "cncf"
-  ],
-  "stars": 32259,
+  "topics": [],
+  "stars": 32260,
   "forks": 5396,
   "open_issues": 487,
   "watchers": 467,

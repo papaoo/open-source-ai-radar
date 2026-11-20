@@ -4,14 +4,9 @@
   "description": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "topics": [
-    "browser",
-    "javascript",
-    "transformers",
-    "webml"
-  ],
-  "stars": 16434,
-  "forks": 1236,
+  "topics": [],
+  "stars": 16436,
+  "forks": 1238,
   "open_issues": 242,
   "watchers": 101,
   "created_at": "2023-02-13T13:51:45Z",
