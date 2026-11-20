@@ -4,7 +4,11 @@
   "description": "Access large language models from the command-line",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "llms",
+    "openai",
+    "ai"
+  ],
   "stars": 12788,
   "forks": 1104,
   "open_issues": 426,
@@ -13,11 +17,11 @@
   "pushed_at": "2026-11-17T19:00:39Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/simonw.png",
-  "radar_score": 70.43,
-  "impact": 86.96,
+  "radar_score": 70.35,
+  "impact": 86.97,
   "velocity": 56.85,
-  "health": 63.01,
-  "global_percentile": 26.86,
+  "health": 62.65,
+  "global_percentile": 25.29,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Access large language models from the command-line",
@@ -30,7 +34,7 @@
   "star_growth_acceleration": 0.6454081632653061,
   "forks_7d": 18,
   "forks_30d": 26,
-  "days_since_last_push": 2,
-  "freshness_score": 0.9801986733067553,
-  "snapshot_count": 39
+  "days_since_last_push": 3,
+  "freshness_score": 0.9704455335485082,
+  "snapshot_count": 40
 }

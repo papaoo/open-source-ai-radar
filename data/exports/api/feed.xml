@@ -5,17 +5,9 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:48:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 22:38:13 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
-    <item>
-      <title>wangzan101/Mika</title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
-      <category>Local AI</category>
-      <pubDate>2026-11-20T17:37:44Z</pubDate>
-      <guid>https://github.com/wangzan101/Mika</guid>
-    </item>
     <item>
       <title>ZhuLinsen/daily_stock_analysis</title>
       <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
@@ -33,20 +25,20 @@
       <guid>https://github.com/NanmiCoder/cc-haha</guid>
     </item>
     <item>
+      <title>aden-hive/hive</title>
+      <link>https://github.com/aden-hive/hive</link>
+      <description>Multi-Agent Harness for Production AI</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-17T17:53:37Z</pubDate>
+      <guid>https://github.com/aden-hive/hive</guid>
+    </item>
+    <item>
       <title>kingcharleslzy-ai/dsh-purge</title>
       <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
       <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
       <category>LLM Frameworks</category>
       <pubDate>2026-11-18T10:24:45Z</pubDate>
       <guid>https://github.com/kingcharleslzy-ai/dsh-purge</guid>
-    </item>
-    <item>
-      <title>BaaRai/ARTEX</title>
-      <link>https://github.com/BaaRai/ARTEX</link>
-      <description>ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-20T21:30:56Z</pubDate>
-      <guid>https://github.com/BaaRai/ARTEX</guid>
     </item>
     <item>
       <title>ccch1mneyyy/dsh-Go</title>
@@ -61,15 +53,23 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-20T20:48:16Z</pubDate>
+      <pubDate>2026-11-20T22:30:36Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
+    </item>
+    <item>
+      <title>BaaRai/ARTEX</title>
+      <link>https://github.com/BaaRai/ARTEX</link>
+      <description>ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-20T22:20:51Z</pubDate>
+      <guid>https://github.com/BaaRai/ARTEX</guid>
     </item>
     <item>
       <title>nanocoai/nanoclaw</title>
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T18:45:08Z</pubDate>
+      <pubDate>2026-11-20T22:28:00Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
     </item>
     <item>
@@ -77,7 +77,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-20T21:44:04Z</pubDate>
+      <pubDate>2026-11-20T22:27:43Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -113,14 +113,6 @@
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
-      <title>Kuberwastaken/claurst</title>
-      <link>https://github.com/Kuberwastaken/claurst</link>
-      <description>Agentic Coding for Builders who Ship</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-10-26T16:08:43Z</pubDate>
-      <guid>https://github.com/Kuberwastaken/claurst</guid>
-    </item>
-    <item>
       <title>Gathin23/cleanyourtv</title>
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <description>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</description>
@@ -133,7 +125,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T21:37:46Z</pubDate>
+      <pubDate>2026-11-20T22:25:36Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -157,7 +149,7 @@
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T21:42:58Z</pubDate>
+      <pubDate>2026-11-20T22:25:14Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
     </item>
     <item>
@@ -167,6 +159,14 @@
       <category>Uncategorized</category>
       <pubDate>2026-11-20T20:10:41Z</pubDate>
       <guid>https://github.com/google/elephant-goldfish-model</guid>
+    </item>
+    <item>
+      <title>Edge0-AI/Edge0</title>
+      <link>https://github.com/Edge0-AI/Edge0</link>
+      <description>Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-20T16:58:34Z</pubDate>
+      <guid>https://github.com/Edge0-AI/Edge0</guid>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,10 @@
   "description": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
   "language": "Jupyter Notebook",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "gemini",
+    "gemini-api"
+  ],
   "stars": 18372,
   "forks": 3056,
   "open_issues": 29,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-06-14T05:25:52Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/google-gemini.png",
-  "radar_score": 65.38,
-  "impact": 91.88,
+  "radar_score": 65.39,
+  "impact": 91.9,
   "velocity": 52.48,
   "health": 41.05,
-  "global_percentile": 9.57,
+  "global_percentile": 8.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
@@ -32,5 +35,5 @@
   "forks_30d": -1,
   "days_since_last_push": 159,
   "freshness_score": 0.20392561173421342,
-  "snapshot_count": 18
+  "snapshot_count": 19
 }
