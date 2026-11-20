@@ -4,15 +4,8 @@
   "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [
-    "ai",
-    "ai-infra",
-    "kubernetes",
-    "sandbox",
-    "ai-agent",
-    "aaif"
-  ],
-  "stars": 17721,
+  "topics": [],
+  "stars": 17730,
   "forks": 1709,
   "open_issues": 111,
   "watchers": 65,

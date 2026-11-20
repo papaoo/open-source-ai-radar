@@ -4,16 +4,8 @@
   "description": "This repository contains the Hugging Face Agents Course. ",
   "language": "MDX",
   "license": "Apache-2.0",
-  "topics": [
-    "agentic-ai",
-    "agents",
-    "course",
-    "huggingface",
-    "langchain",
-    "llamaindex",
-    "smolagents"
-  ],
-  "stars": 35231,
+  "topics": [],
+  "stars": 35232,
   "forks": 2529,
   "open_issues": 113,
   "watchers": 228,

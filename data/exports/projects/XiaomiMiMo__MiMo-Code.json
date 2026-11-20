@@ -4,14 +4,8 @@
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [
-    "ai",
-    "ai-agents",
-    "cli",
-    "mimo",
-    "mimo-code"
-  ],
-  "stars": 13796,
+  "topics": [],
+  "stars": 13795,
   "forks": 1478,
   "open_issues": 856,
   "watchers": 74,

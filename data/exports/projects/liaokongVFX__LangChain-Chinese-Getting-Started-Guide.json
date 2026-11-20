@@ -4,13 +4,7 @@
   "description": "LangChain 的中文入门教程",
   "language": null,
   "license": null,
-  "topics": [
-    "chatgpt",
-    "langchain",
-    "openai",
-    "openai-api",
-    "aigc"
-  ],
+  "topics": [],
   "stars": 9147,
   "forks": 705,
   "open_issues": 0,

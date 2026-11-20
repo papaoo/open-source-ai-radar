@@ -4,15 +4,8 @@
   "description": "The LLM Evaluation Framework",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "evaluation-metrics",
-    "evaluation-framework",
-    "llm-evaluation",
-    "llm-evaluation-framework",
-    "llm-evaluation-metrics",
-    "python"
-  ],
-  "stars": 19576,
+  "topics": [],
+  "stars": 19578,
   "forks": 2234,
   "open_issues": 346,
   "watchers": 66,
