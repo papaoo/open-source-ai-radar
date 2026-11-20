@@ -12,14 +12,14 @@
     "gpt-4"
   ],
   "stars": 71702,
-  "forks": 8312,
+  "forks": 8311,
   "open_issues": 299,
   "watchers": 298,
   "created_at": "2023-03-20T09:05:13Z",
   "pushed_at": "2026-01-25T12:33:10Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/binary-husky.png",
-  "radar_score": 67.46,
+  "radar_score": 67.45,
   "impact": 97.88,
   "velocity": 52.98,
   "health": 39.03,
@@ -32,11 +32,11 @@
   "stars_30d": 74,
   "stars_90d": 74,
   "star_growth_rate_7d": 6.285714285714286,
-  "star_growth_rate_30d": 7.4,
-  "star_growth_acceleration": 0.8494208494208494,
-  "forks_7d": -8,
-  "forks_30d": -7,
+  "star_growth_rate_30d": 6.7272727272727275,
+  "star_growth_acceleration": 0.9343629343629343,
+  "forks_7d": -9,
+  "forks_30d": -8,
   "days_since_last_push": 299,
   "freshness_score": 0.050287436723591865,
-  "snapshot_count": 33
+  "snapshot_count": 34
 }

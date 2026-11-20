@@ -25,15 +25,15 @@
   "sub_category": "",
   "summary": "The official Python library for the OpenAI API",
   "maturity": "Unknown",
-  "stars_7d": 77,
+  "stars_7d": 66,
   "stars_30d": 111,
   "stars_90d": 111,
-  "star_growth_rate_7d": 11.0,
-  "star_growth_rate_30d": 11.1,
-  "star_growth_acceleration": 0.990990990990991,
+  "star_growth_rate_7d": 9.428571428571429,
+  "star_growth_rate_30d": 10.090909090909092,
+  "star_growth_acceleration": 0.9343629343629343,
   "forks_7d": -5,
   "forks_30d": -482,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

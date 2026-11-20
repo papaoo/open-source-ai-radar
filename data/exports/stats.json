@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T12:48:27.365685+00:00",
-  "total_repos": 5950,
-  "total_stars": 38852502,
+  "generated_at": "2026-11-20T18:37:04.188068+00:00",
+  "total_repos": 5951,
+  "total_stars": 38887846,
   "top_languages": {
     "Python": 2126,
     "TypeScript": 1034,
     "Unknown": 423,
     "JavaScript": 403,
-    "Rust": 353,
+    "Rust": 354,
     "Go": 261,
     "Jupyter Notebook": 218,
     "HTML": 179,

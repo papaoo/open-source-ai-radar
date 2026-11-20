@@ -1,8 +1,19 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-11-20T12:48:43.311321+00:00",
+  "generated_at": "2026-11-20T18:37:17.818634+00:00",
   "total": 11,
   "categories": [
+    {
+      "category": "AI Infrastructure",
+      "tracked": 58,
+      "new": 0,
+      "avg_stars": 3661.0,
+      "velocity": 65.5,
+      "health": 62.4,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "mudler/LocalAI"
+    },
     {
       "category": "Evaluation & Benchmarks",
       "tracked": 35,
@@ -15,32 +26,32 @@
       "top_project": "langfuse/langfuse"
     },
     {
-      "category": "AI Infrastructure",
-      "tracked": 58,
-      "new": 0,
-      "avg_stars": 3660.0,
-      "velocity": 64.0,
-      "health": 62.0,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "mudler/LocalAI"
-    },
-    {
       "category": "AI Coding Tools",
       "tracked": 1082,
       "new": 0,
-      "avg_stars": 7662.0,
-      "velocity": 63.1,
-      "health": 57.6,
+      "avg_stars": 7666.0,
+      "velocity": 63.5,
+      "health": 57.7,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "jwasham/coding-interview-university"
     },
     {
+      "category": "AI Agents",
+      "tracked": 637,
+      "new": 0,
+      "avg_stars": 8189.0,
+      "velocity": 62.9,
+      "health": 58.7,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "obra/superpowers"
+    },
+    {
       "category": "Generative AI",
       "tracked": 49,
       "new": 0,
-      "avg_stars": 5195.0,
+      "avg_stars": 5197.0,
       "velocity": 62.8,
       "health": 59.0,
       "momentum": 0.0,
@@ -48,34 +59,56 @@
       "top_project": "Comfy-Org/ComfyUI"
     },
     {
-      "category": "AI Agents",
-      "tracked": 636,
-      "new": 0,
-      "avg_stars": 8163.0,
-      "velocity": 62.3,
-      "health": 58.2,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "obra/superpowers"
-    },
-    {
       "category": "MCP",
       "tracked": 621,
       "new": 0,
-      "avg_stars": 3582.0,
-      "velocity": 62.1,
-      "health": 59.1,
+      "avg_stars": 3583.0,
+      "velocity": 62.2,
+      "health": 60.4,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "punkpeye/awesome-mcp-servers"
+    },
+    {
+      "category": "Local AI",
+      "tracked": 537,
+      "new": 0,
+      "avg_stars": 4220.0,
+      "velocity": 60.1,
+      "health": 59.6,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "ollama/ollama"
+    },
+    {
+      "category": "LLM Frameworks",
+      "tracked": 754,
+      "new": 0,
+      "avg_stars": 5837.0,
+      "velocity": 59.4,
+      "health": 53.8,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "deepseek-ai/deepseek-harness"
+    },
+    {
+      "category": "RAG",
+      "tracked": 440,
+      "new": 0,
+      "avg_stars": 3553.0,
+      "velocity": 58.7,
+      "health": 56.2,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "langgenius/dify"
     },
     {
       "category": "AI Safety & Alignment",
       "tracked": 20,
       "new": 0,
       "avg_stars": 4230.0,
-      "velocity": 61.8,
-      "health": 63.8,
+      "velocity": 54.0,
+      "health": 59.1,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "promptfoo/promptfoo"
@@ -84,45 +117,12 @@
       "category": "Multimodal AI",
       "tracked": 49,
       "new": 0,
-      "avg_stars": 8369.0,
-      "velocity": 60.5,
-      "health": 60.1,
+      "avg_stars": 8370.0,
+      "velocity": 53.7,
+      "health": 55.7,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "huggingface/transformers"
-    },
-    {
-      "category": "Local AI",
-      "tracked": 537,
-      "new": 0,
-      "avg_stars": 4220.0,
-      "velocity": 60.4,
-      "health": 59.8,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "ollama/ollama"
-    },
-    {
-      "category": "RAG",
-      "tracked": 440,
-      "new": 0,
-      "avg_stars": 3552.0,
-      "velocity": 60.1,
-      "health": 56.2,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "langgenius/dify"
-    },
-    {
-      "category": "LLM Frameworks",
-      "tracked": 754,
-      "new": 0,
-      "avg_stars": 5835.0,
-      "velocity": 57.6,
-      "health": 53.0,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "deepseek-ai/deepseek-harness"
     }
   ]
 }
