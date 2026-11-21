@@ -34,11 +34,11 @@
   "pushed_at": "2026-11-06T14:57:04Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/VoltAgent.png",
-  "radar_score": 69.43,
+  "radar_score": 68.57,
   "impact": 87.33,
-  "velocity": 56.42,
-  "health": 59.01,
-  "global_percentile": 21.43,
+  "velocity": 54.16,
+  "health": 58.71,
+  "global_percentile": 20.0,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
@@ -51,7 +51,7 @@
   "star_growth_acceleration": 0.6182669789227165,
   "forks_7d": 13,
   "forks_30d": 19,
-  "days_since_last_push": 14,
-  "freshness_score": 0.8693582353988059,
-  "snapshot_count": 33
+  "days_since_last_push": 15,
+  "freshness_score": 0.8607079764250578,
+  "snapshot_count": 34
 }

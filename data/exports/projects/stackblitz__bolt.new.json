@@ -20,9 +20,9 @@
   "owner_avatar": "https://github.com/stackblitz.png",
   "radar_score": 63.82,
   "impact": 93.56,
-  "velocity": 53.46,
+  "velocity": 53.45,
   "health": 30.75,
-  "global_percentile": 5.43,
+  "global_percentile": 7.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
@@ -31,11 +31,11 @@
   "stars_30d": 21,
   "stars_90d": 21,
   "star_growth_rate_7d": 2.142857142857143,
-  "star_growth_rate_30d": 1.9090909090909092,
-  "star_growth_acceleration": 1.1224489795918366,
+  "star_growth_rate_30d": 1.75,
+  "star_growth_acceleration": 1.2244897959183674,
   "forks_7d": 2,
   "forks_30d": 5,
   "days_since_last_push": 704,
   "freshness_score": 0.0008761265622582417,
-  "snapshot_count": 33
+  "snapshot_count": 34
 }

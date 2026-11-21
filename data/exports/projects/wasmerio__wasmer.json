@@ -28,7 +28,7 @@
   "impact": 90.98,
   "velocity": 54.62,
   "health": 59.2,
-  "global_percentile": 24.71,
+  "global_percentile": 26.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "🚀 Fast and lightweight sandboxes for your apps and AI agents",
@@ -37,11 +37,11 @@
   "stars_30d": 26,
   "stars_90d": 26,
   "star_growth_rate_7d": 1.7142857142857142,
-  "star_growth_rate_30d": 2.3636363636363638,
-  "star_growth_acceleration": 0.7252747252747253,
+  "star_growth_rate_30d": 2.1666666666666665,
+  "star_growth_acceleration": 0.7912087912087912,
   "forks_7d": 4,
   "forks_30d": 7,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 37
+  "snapshot_count": 38
 }

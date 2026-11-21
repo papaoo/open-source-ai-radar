@@ -31,7 +31,7 @@
   "impact": 87.39,
   "velocity": 48.4,
   "health": 38.86,
-  "global_percentile": 2.14,
+  "global_percentile": 3.86,
   "category": "MCP",
   "sub_category": "tool",
   "summary": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -40,11 +40,11 @@
   "stars_30d": 1,
   "stars_90d": 1,
   "star_growth_rate_7d": -0.3333333333333333,
-  "star_growth_rate_30d": 0.09090909090909091,
-  "star_growth_acceleration": -3.6666666666666665,
+  "star_growth_rate_30d": 0.08333333333333333,
+  "star_growth_acceleration": -4.0,
   "forks_7d": 1,
   "forks_30d": 0,
-  "days_since_last_push": 361,
-  "freshness_score": 0.027051846866350416,
-  "snapshot_count": 20
+  "days_since_last_push": 362,
+  "freshness_score": 0.026782676492638175,
+  "snapshot_count": 21
 }

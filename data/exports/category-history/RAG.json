@@ -1110,6 +1110,21 @@
       "top_project": "langgenius/dify",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 897,
+      "category": "RAG",
+      "timestamp": "2026-11-21T17:23:10.717455+00:00",
+      "total_tracked": 445,
+      "new_this_period": 0,
+      "avg_stars": 3525.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 59.4,
+      "avg_health": 56.3,
+      "total_stars": 1568772,
+      "top_project": "langgenius/dify",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }
