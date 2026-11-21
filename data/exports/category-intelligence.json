@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-20T22:38:12.663660+00:00",
+  "generated_at": "2026-11-21T03:07:43.271323+00:00",
   "categories": [
-    {
-      "category": "AI Infrastructure",
-      "tracked": 58,
-      "new": 0,
-      "avg_stars": 3662.0,
-      "velocity": 64.0,
-      "health": 62.0,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "mudler/LocalAI"
-    },
-    {
-      "category": "AI Coding Tools",
-      "tracked": 1087,
-      "new": 0,
-      "avg_stars": 7637.0,
-      "velocity": 63.2,
-      "health": 57.4,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "jwasham/coding-interview-university"
-    },
-    {
-      "category": "Generative AI",
-      "tracked": 49,
-      "new": 0,
-      "avg_stars": 5198.0,
-      "velocity": 62.8,
-      "health": 59.0,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "Comfy-Org/ComfyUI"
-    },
-    {
-      "category": "Multimodal AI",
-      "tracked": 49,
-      "new": 0,
-      "avg_stars": 8370.0,
-      "velocity": 62.6,
-      "health": 62.0,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "huggingface/transformers"
-    },
-    {
-      "category": "AI Agents",
-      "tracked": 637,
-      "new": 0,
-      "avg_stars": 8192.0,
-      "velocity": 62.1,
-      "health": 58.2,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "obra/superpowers"
-    },
-    {
-      "category": "AI Safety & Alignment",
-      "tracked": 20,
-      "new": 0,
-      "avg_stars": 4233.0,
-      "velocity": 61.8,
-      "health": 63.8,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "promptfoo/promptfoo"
-    },
-    {
-      "category": "MCP",
-      "tracked": 622,
-      "new": 0,
-      "avg_stars": 3580.0,
-      "velocity": 61.8,
-      "health": 59.4,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "punkpeye/awesome-mcp-servers"
-    },
     {
       "category": "Evaluation & Benchmarks",
       "tracked": 35,
       "new": 0,
-      "avg_stars": 2782.0,
-      "velocity": 60.0,
-      "health": 54.5,
+      "avg_stars": 2783.0,
+      "velocity": 67.0,
+      "health": 60.8,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "langfuse/langfuse"
     },
     {
-      "category": "RAG",
-      "tracked": 442,
+      "category": "AI Infrastructure",
+      "tracked": 58,
       "new": 0,
-      "avg_stars": 3544.0,
-      "velocity": 60.0,
-      "health": 56.1,
+      "avg_stars": 3663.0,
+      "velocity": 65.9,
+      "health": 61.5,
       "momentum": 0.0,
       "trend": "declining",
-      "top_project": "langgenius/dify"
+      "top_project": "mudler/LocalAI"
+    },
+    {
+      "category": "AI Agents",
+      "tracked": 637,
+      "new": 0,
+      "avg_stars": 8193.0,
+      "velocity": 62.3,
+      "health": 58.8,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "obra/superpowers"
+    },
+    {
+      "category": "AI Coding Tools",
+      "tracked": 1087,
+      "new": 0,
+      "avg_stars": 7639.0,
+      "velocity": 62.1,
+      "health": 57.1,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "jwasham/coding-interview-university"
+    },
+    {
+      "category": "MCP",
+      "tracked": 622,
+      "new": 0,
+      "avg_stars": 3581.0,
+      "velocity": 59.6,
+      "health": 58.7,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "punkpeye/awesome-mcp-servers"
+    },
+    {
+      "category": "LLM Frameworks",
+      "tracked": 755,
+      "new": 0,
+      "avg_stars": 5833.0,
+      "velocity": 58.3,
+      "health": 56.8,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "deepseek-ai/deepseek-harness"
     },
     {
       "category": "Local AI",
       "tracked": 538,
       "new": 0,
       "avg_stars": 4216.0,
-      "velocity": 59.6,
-      "health": 59.8,
+      "velocity": 58.1,
+      "health": 59.3,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "ollama/ollama"
     },
     {
-      "category": "LLM Frameworks",
-      "tracked": 755,
+      "category": "Multimodal AI",
+      "tracked": 49,
       "new": 0,
-      "avg_stars": 5832.0,
-      "velocity": 58.1,
-      "health": 53.4,
+      "avg_stars": 8371.0,
+      "velocity": 57.2,
+      "health": 58.8,
       "momentum": 0.0,
       "trend": "declining",
-      "top_project": "deepseek-ai/deepseek-harness"
+      "top_project": "huggingface/transformers"
+    },
+    {
+      "category": "RAG",
+      "tracked": 442,
+      "new": 0,
+      "avg_stars": 3544.0,
+      "velocity": 55.0,
+      "health": 55.5,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "langgenius/dify"
+    },
+    {
+      "category": "AI Safety & Alignment",
+      "tracked": 20,
+      "new": 0,
+      "avg_stars": 4233.0,
+      "velocity": 52.5,
+      "health": 52.4,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "promptfoo/promptfoo"
+    },
+    {
+      "category": "Generative AI",
+      "tracked": 49,
+      "new": 0,
+      "avg_stars": 5199.0,
+      "velocity": 49.1,
+      "health": 46.8,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "Comfy-Org/ComfyUI"
     }
   ]
 }

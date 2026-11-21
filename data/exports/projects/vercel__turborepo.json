@@ -16,14 +16,14 @@
   "open_issues": 6,
   "watchers": 152,
   "created_at": "2021-10-05T17:37:11Z",
-  "pushed_at": "2026-11-20T22:27:24Z",
+  "pushed_at": "2026-11-21T00:18:57Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/vercel.png",
   "radar_score": 71.72,
   "impact": 93.7,
   "velocity": 56.14,
   "health": 58.35,
-  "global_percentile": 32.71,
+  "global_percentile": 48.0,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "The build system for coding agents.",
@@ -38,5 +38,5 @@
   "forks_30d": 18,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

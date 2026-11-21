@@ -18,7 +18,7 @@
     "transformer"
   ],
   "stars": 16586,
-  "forks": 2541,
+  "forks": 2542,
   "open_issues": 49,
   "watchers": 237,
   "created_at": "2019-04-15T07:40:18Z",
@@ -29,7 +29,7 @@
   "impact": 92.21,
   "velocity": 54.71,
   "health": 63.75,
-  "global_percentile": 34.71,
+  "global_percentile": 49.43,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
@@ -40,9 +40,9 @@
   "star_growth_rate_7d": 10.285714285714286,
   "star_growth_rate_30d": 11.545454545454545,
   "star_growth_acceleration": 0.890888638920135,
-  "forks_7d": 12,
-  "forks_30d": 30,
+  "forks_7d": 13,
+  "forks_30d": 31,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

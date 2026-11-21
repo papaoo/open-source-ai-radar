@@ -17,7 +17,7 @@
   "impact": 93.73,
   "velocity": 44.49,
   "health": 42.64,
-  "global_percentile": 5.14,
+  "global_percentile": 12.71,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
@@ -32,5 +32,5 @@
   "forks_30d": 10,
   "days_since_last_push": 66,
   "freshness_score": 0.5168513344916992,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

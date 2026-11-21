@@ -5,24 +5,16 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 22:38:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 03:07:43 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
-      <title>ZhuLinsen/daily_stock_analysis</title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f</description>
-      <category>LLM Frameworks</category>
-      <pubDate>2026-11-20T21:36:02Z</pubDate>
-      <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
-    </item>
-    <item>
-      <title>NanmiCoder/cc-haha</title>
-      <link>https://github.com/NanmiCoder/cc-haha</link>
-      <description>本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git wo</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-11-20T16:15:52Z</pubDate>
-      <guid>https://github.com/NanmiCoder/cc-haha</guid>
+      <title>wangzan101/Mika</title>
+      <link>https://github.com/wangzan101/Mika</link>
+      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
+      <category>Local AI</category>
+      <pubDate>2026-11-20T17:37:44Z</pubDate>
+      <guid>https://github.com/wangzan101/Mika</guid>
     </item>
     <item>
       <title>aden-hive/hive</title>
@@ -53,7 +45,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-20T22:30:36Z</pubDate>
+      <pubDate>2026-11-21T02:58:07Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -61,15 +53,23 @@
       <link>https://github.com/BaaRai/ARTEX</link>
       <description>ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T22:20:51Z</pubDate>
+      <pubDate>2026-11-21T00:34:03Z</pubDate>
       <guid>https://github.com/BaaRai/ARTEX</guid>
+    </item>
+    <item>
+      <title>rddmwmddr/android-ad-cleaner</title>
+      <link>https://github.com/rddmwmddr/android-ad-cleaner</link>
+      <description>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-19T01:45:30Z</pubDate>
+      <guid>https://github.com/rddmwmddr/android-ad-cleaner</guid>
     </item>
     <item>
       <title>nanocoai/nanoclaw</title>
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T22:28:00Z</pubDate>
+      <pubDate>2026-11-21T00:40:09Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
     </item>
     <item>
@@ -77,24 +77,24 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-20T22:27:43Z</pubDate>
+      <pubDate>2026-11-21T02:56:52Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
+    </item>
+    <item>
+      <title>Louis-CFM/coucou</title>
+      <link>https://github.com/Louis-CFM/coucou</link>
+      <description>A tiny friend in your Mac&apos;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Scree</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-20T16:30:22Z</pubDate>
+      <guid>https://github.com/Louis-CFM/coucou</guid>
     </item>
     <item>
       <title>JuneYaooo/rea-video</title>
       <link>https://github.com/JuneYaooo/rea-video</link>
       <description>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T06:30:28Z</pubDate>
+      <pubDate>2026-11-21T02:32:44Z</pubDate>
       <guid>https://github.com/JuneYaooo/rea-video</guid>
-    </item>
-    <item>
-      <title>claude-code-best/claude-code</title>
-      <link>https://github.com/claude-code-best/claude-code</link>
-      <description>原汁原昧 Claude Code 可运行,可构建, 可调试版; 生产级工程化, 企业级可靠性; 安全无毒, 内存泄露修复</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-11-02T00:03:50Z</pubDate>
-      <guid>https://github.com/claude-code-best/claude-code</guid>
     </item>
     <item>
       <title>jub0t/Concat</title>
@@ -109,8 +109,16 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Every agent&apos;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-20T20:48:53Z</pubDate>
+      <pubDate>2026-11-21T02:23:55Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
+    </item>
+    <item>
+      <title>Fei2411/DS-Bot</title>
+      <link>https://github.com/Fei2411/DS-Bot</link>
+      <description>A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.</description>
+      <category>LLM Frameworks</category>
+      <pubDate>2026-11-21T03:03:17Z</pubDate>
+      <guid>https://github.com/Fei2411/DS-Bot</guid>
     </item>
     <item>
       <title>Gathin23/cleanyourtv</title>
@@ -125,31 +133,31 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T22:25:36Z</pubDate>
+      <pubDate>2026-11-21T02:54:45Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
+    </item>
+    <item>
+      <title>Human-Agent-Society/reef</title>
+      <link>https://github.com/Human-Agent-Society/reef</link>
+      <description>Infrastructure for continually self‑improving agents</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-21T02:17:14Z</pubDate>
+      <guid>https://github.com/Human-Agent-Society/reef</guid>
     </item>
     <item>
       <title>awesome-dsh-plugin/awesome-dsh-plugin</title>
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
       <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-20T20:03:50Z</pubDate>
+      <pubDate>2026-11-20T23:21:21Z</pubDate>
       <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
-    </item>
-    <item>
-      <title>Wei-Shaw/sub2api</title>
-      <link>https://github.com/Wei-Shaw/sub2api</link>
-      <description>Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-20T11:04:39Z</pubDate>
-      <guid>https://github.com/Wei-Shaw/sub2api</guid>
     </item>
     <item>
       <title>openclaw/openclaw</title>
       <link>https://github.com/openclaw/openclaw</link>
       <description>The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-20T22:25:14Z</pubDate>
+      <pubDate>2026-11-21T02:54:52Z</pubDate>
       <guid>https://github.com/openclaw/openclaw</guid>
     </item>
     <item>
@@ -159,14 +167,6 @@
       <category>Uncategorized</category>
       <pubDate>2026-11-20T20:10:41Z</pubDate>
       <guid>https://github.com/google/elephant-goldfish-model</guid>
-    </item>
-    <item>
-      <title>Edge0-AI/Edge0</title>
-      <link>https://github.com/Edge0-AI/Edge0</link>
-      <description>Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-20T16:58:34Z</pubDate>
-      <guid>https://github.com/Edge0-AI/Edge0</guid>
     </item>
   </channel>
 </rss>

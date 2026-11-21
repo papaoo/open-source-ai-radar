@@ -28,7 +28,7 @@
   "impact": 89.78,
   "velocity": 46.89,
   "health": 37.22,
-  "global_percentile": 2.86,
+  "global_percentile": 8.57,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D avatar running locally across platforms",
@@ -43,5 +43,5 @@
   "forks_30d": 20,
   "days_since_last_push": 189,
   "freshness_score": 0.15107180883637084,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }
