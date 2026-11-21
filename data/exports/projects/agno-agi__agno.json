@@ -4,13 +4,7 @@
   "description": "The self-managing agent platform",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "developer-tools",
-    "python",
-    "agents",
-    "ai",
-    "ai-agents"
-  ],
+  "topics": [],
   "stars": 43254,
   "forks": 6321,
   "open_issues": 987,

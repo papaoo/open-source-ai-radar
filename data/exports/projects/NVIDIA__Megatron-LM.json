@@ -4,13 +4,9 @@
   "description": "Ongoing research training transformer models at scale",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [
-    "large-language-models",
-    "model-para",
-    "transformers"
-  ],
+  "topics": [],
   "stars": 18451,
-  "forks": 4765,
+  "forks": 4764,
   "open_issues": 523,
   "watchers": 163,
   "created_at": "2019-03-21T16:15:52Z",

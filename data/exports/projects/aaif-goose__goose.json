@@ -4,13 +4,8 @@
   "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [
-    "mcp",
-    "acp",
-    "ai",
-    "ai-agents"
-  ],
-  "stars": 56851,
+  "topics": [],
+  "stars": 56854,
   "forks": 6643,
   "open_issues": 368,
   "watchers": 287,

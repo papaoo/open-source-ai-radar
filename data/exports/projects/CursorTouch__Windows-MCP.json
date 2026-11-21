@@ -4,15 +4,8 @@
   "description": "MCP Server for Computer Use in Windows",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "desktop",
-    "mcp",
-    "tools",
-    "windows",
-    "ai",
-    "windows-automation"
-  ],
-  "stars": 11985,
+  "topics": [],
+  "stars": 11986,
   "forks": 1279,
   "open_issues": 19,
   "watchers": 49,
