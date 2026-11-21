@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:07:30.506836+00:00",
+  "generated_at": "2026-11-21T09:33:07.017584+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 78.45,
       "global_percentile": 90.86,
       "category_percentile": 0.0,
-      "stars": 9309,
-      "forks": 2088,
+      "stars": 9335,
+      "forks": 2093,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -34,7 +34,7 @@
       "radar_score": 79.1,
       "global_percentile": 94.71,
       "category_percentile": 0.0,
-      "stars": 11166,
+      "stars": 11165,
       "forks": 5632,
       "language": "Python",
       "url": "https://github.com/aden-hive/hive",
@@ -52,8 +52,8 @@
       "radar_score": 77.66,
       "global_percentile": 86.43,
       "category_percentile": 0.0,
-      "stars": 11019,
-      "forks": 4432,
+      "stars": 11113,
+      "forks": 4460,
       "language": "JavaScript",
       "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
       "category": "LLM Frameworks",
@@ -70,8 +70,8 @@
       "radar_score": 79.08,
       "global_percentile": 94.43,
       "category_percentile": 0.0,
-      "stars": 29058,
-      "forks": 1388,
+      "stars": 29241,
+      "forks": 1400,
       "language": "Dart",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "category": "LLM Frameworks",
@@ -88,8 +88,8 @@
       "radar_score": 77.91,
       "global_percentile": 88.0,
       "category_percentile": 0.0,
-      "stars": 20007,
-      "forks": 8677,
+      "stars": 20005,
+      "forks": 8674,
       "language": "Python",
       "url": "https://github.com/rocketride-org/rocketride-server",
       "category": "AI Agents",
@@ -101,31 +101,31 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1672
+      "count": 1677
     },
     {
       "category": "AI Coding Tools",
-      "count": 1087
+      "count": 1094
     },
     {
       "category": "LLM Frameworks",
-      "count": 755
+      "count": 757
     },
     {
       "category": "AI Agents",
-      "count": 637
+      "count": 640
     },
     {
       "category": "MCP",
-      "count": 622
+      "count": 623
     },
     {
       "category": "Local AI",
-      "count": 538
+      "count": 540
     },
     {
       "category": "RAG",
-      "count": 442
+      "count": 445
     },
     {
       "category": "AI Infrastructure",

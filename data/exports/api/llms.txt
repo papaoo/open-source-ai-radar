@@ -1,7 +1,7 @@
 # Open Source AI Radar
 
-> Intelligence platform tracking 5,964 open-source AI repositories
-> (38,929,979 combined stars) with a three-axis score: Impact (40%),
+> Intelligence platform tracking 5,987 open-source AI repositories
+> (38,967,449 combined stars) with a three-axis score: Impact (40%),
 > Velocity (35%), Health (25%). Data refreshes daily via automated
 > GitHub Actions; last export 2026-11-21.
 
@@ -11,7 +11,7 @@ and category momentum.
 
 ## Datasets (static JSON, no auth, CC-BY-4.0)
 
-- [All repos](https://erbharatmalhotra.github.io/open-source-ai-radar/api/repos.json): 5,964 records — name, description, language, license, stars, forks, timestamps
+- [All repos](https://erbharatmalhotra.github.io/open-source-ai-radar/api/repos.json): 5,987 records — name, description, language, license, stars, forks, timestamps
 - [Top ranked](https://erbharatmalhotra.github.io/open-source-ai-radar/api/top.json): highest radar scores with axis breakdowns
 - [Trending](https://erbharatmalhotra.github.io/open-source-ai-radar/api/trending.json): sorted by velocity (stars/day momentum)
 - [Hidden gems](https://erbharatmalhotra.github.io/open-source-ai-radar/api/gems.json): low-star, high-velocity emerging projects
@@ -26,33 +26,33 @@ and category momentum.
 
 - [Evaluation & Benchmarks](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 35 projects, trend declining
 - [AI Infrastructure](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 58 projects, trend declining
-- [AI Agents](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 637 projects, trend declining
-- [AI Coding Tools](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 1087 projects, trend declining
-- [MCP](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 622 projects, trend declining
-- [LLM Frameworks](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 755 projects, trend declining
-- [Local AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 538 projects, trend declining
+- [AI Agents](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 640 projects, trend declining
+- [AI Coding Tools](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 1094 projects, trend declining
+- [MCP](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 623 projects, trend declining
+- [LLM Frameworks](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 757 projects, trend declining
+- [Local AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 540 projects, trend declining
 - [Multimodal AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 49 projects, trend declining
-- [RAG](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 442 projects, trend declining
+- [RAG](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 445 projects, trend declining
 - [AI Safety & Alignment](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 20 projects, trend declining
 - [Generative AI](https://erbharatmalhotra.github.io/open-source-ai-radar/api/categories.json): 49 projects, trend declining
 
 ## Top projects right now
 
-- [morluto/rea](https://erbharatmalhotra.github.io/open-source-ai-radar/project/morluto/rea): 471,603 stars, radar 82.1/100 — Reverse engineer anything with agents, from app behavior down to native binaries.
-- [openclaw/openclaw](https://erbharatmalhotra.github.io/open-source-ai-radar/project/openclaw/openclaw): 394,929 stars, radar 81.8/100 — The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
-- [nanocoai/nanoclaw](https://erbharatmalhotra.github.io/open-source-ai-radar/project/nanocoai/nanoclaw): 31,132 stars, radar 81.0/100 — Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own c
-- [paperclipai/paperclip](https://erbharatmalhotra.github.io/open-source-ai-radar/project/paperclipai/paperclip): 115,513 stars, radar 81.0/100 — The open-source app everyone uses to manage agents at work
-- [career-ops-hq/career-ops](https://erbharatmalhotra.github.io/open-source-ai-radar/project/career-ops-hq/career-ops): 83,970 stars, radar 80.6/100 — Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV 
-- [koala73/worldmonitor](https://erbharatmalhotra.github.io/open-source-ai-radar/project/koala73/worldmonitor): 90,998 stars, radar 80.5/100 — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i
-- [cheaper-inference/OmniRoute](https://erbharatmalhotra.github.io/open-source-ai-radar/project/cheaper-inference/OmniRoute): 89,214 stars, radar 80.5/100 — Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi,
-- [huggingface/transformers](https://erbharatmalhotra.github.io/open-source-ai-radar/project/huggingface/transformers): 169,332 stars, radar 80.3/100 — 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text,
-- [Gathin23/cleanyourtv](https://erbharatmalhotra.github.io/open-source-ai-radar/project/Gathin23/cleanyourtv): 59,870 stars, radar 80.2/100 — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-- [Graphify-Labs/graphify](https://erbharatmalhotra.github.io/open-source-ai-radar/project/Graphify-Labs/graphify): 151,209 stars, radar 80.2/100 — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. 
-- [nexu-io/open-design](https://erbharatmalhotra.github.io/open-source-ai-radar/project/nexu-io/open-design): 108,710 stars, radar 80.1/100 — The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototy
-- [pingdotgg/t3code](https://erbharatmalhotra.github.io/open-source-ai-radar/project/pingdotgg/t3code): 67,992 stars, radar 80.1/100 — The best way to control Claude Code, Codex and more from any computer or phone
-- [vllm-project/vllm](https://erbharatmalhotra.github.io/open-source-ai-radar/project/vllm-project/vllm): 97,287 stars, radar 80.1/100 — A high-throughput and memory-efficient inference and serving engine for LLMs
-- [ggml-org/llama.cpp](https://erbharatmalhotra.github.io/open-source-ai-radar/project/ggml-org/llama.cpp): 135,875 stars, radar 80.1/100 — LLM inference in C/C++
-- [Significant-Gravitas/AutoGPT](https://erbharatmalhotra.github.io/open-source-ai-radar/project/Significant-Gravitas/AutoGPT): 188,120 stars, radar 79.9/100 — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi
+- [morluto/rea](https://erbharatmalhotra.github.io/open-source-ai-radar/project/morluto/rea): 471,944 stars, radar 82.1/100 — Reverse engineer anything with agents, from app behavior down to native binaries.
+- [openclaw/openclaw](https://erbharatmalhotra.github.io/open-source-ai-radar/project/openclaw/openclaw): 394,946 stars, radar 81.8/100 — The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
+- [nanocoai/nanoclaw](https://erbharatmalhotra.github.io/open-source-ai-radar/project/nanocoai/nanoclaw): 31,133 stars, radar 81.0/100 — Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own c
+- [paperclipai/paperclip](https://erbharatmalhotra.github.io/open-source-ai-radar/project/paperclipai/paperclip): 115,561 stars, radar 81.0/100 — The open-source app everyone uses to manage agents at work
+- [career-ops-hq/career-ops](https://erbharatmalhotra.github.io/open-source-ai-radar/project/career-ops-hq/career-ops): 83,998 stars, radar 80.6/100 — Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV 
+- [koala73/worldmonitor](https://erbharatmalhotra.github.io/open-source-ai-radar/project/koala73/worldmonitor): 91,004 stars, radar 80.5/100 — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i
+- [cheaper-inference/OmniRoute](https://erbharatmalhotra.github.io/open-source-ai-radar/project/cheaper-inference/OmniRoute): 89,275 stars, radar 80.5/100 — Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi,
+- [huggingface/transformers](https://erbharatmalhotra.github.io/open-source-ai-radar/project/huggingface/transformers): 169,336 stars, radar 80.3/100 — 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text,
+- [Gathin23/cleanyourtv](https://erbharatmalhotra.github.io/open-source-ai-radar/project/Gathin23/cleanyourtv): 59,908 stars, radar 80.2/100 — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+- [Graphify-Labs/graphify](https://erbharatmalhotra.github.io/open-source-ai-radar/project/Graphify-Labs/graphify): 151,351 stars, radar 80.2/100 — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. 
+- [nexu-io/open-design](https://erbharatmalhotra.github.io/open-source-ai-radar/project/nexu-io/open-design): 108,746 stars, radar 80.1/100 — The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototy
+- [pingdotgg/t3code](https://erbharatmalhotra.github.io/open-source-ai-radar/project/pingdotgg/t3code): 68,459 stars, radar 80.1/100 — The best way to control Claude Code, Codex and more from any computer or phone
+- [vllm-project/vllm](https://erbharatmalhotra.github.io/open-source-ai-radar/project/vllm-project/vllm): 97,299 stars, radar 80.1/100 — A high-throughput and memory-efficient inference and serving engine for LLMs
+- [ggml-org/llama.cpp](https://erbharatmalhotra.github.io/open-source-ai-radar/project/ggml-org/llama.cpp): 135,899 stars, radar 80.1/100 — LLM inference in C/C++
+- [Significant-Gravitas/AutoGPT](https://erbharatmalhotra.github.io/open-source-ai-radar/project/Significant-Gravitas/AutoGPT): 188,122 stars, radar 79.9/100 — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi
 
 ## Scoring model
 

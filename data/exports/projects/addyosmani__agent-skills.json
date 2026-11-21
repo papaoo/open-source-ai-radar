@@ -4,15 +4,8 @@
   "description": "Production-grade engineering skills for AI coding agents.",
   "language": "JavaScript",
   "license": "MIT",
-  "topics": [
-    "agent-skills",
-    "antigravity",
-    "claude-code",
-    "cursor",
-    "skills",
-    "codex"
-  ],
-  "stars": 119412,
+  "topics": [],
+  "stars": 119464,
   "forks": 12413,
   "open_issues": 60,
   "watchers": 583,

@@ -1,7 +1,7 @@
 {
   "full_name": "Egcoo/company-research-agent",
   "url": "https://github.com/Egcoo/company-research-agent",
-  "description": "Agentic Company Research System",
+  "description": "以skills为研究规范的投研工具。输入标的代码和研究问题，它会查找、阅读公开资料，保存来源与研究笔记，生成中文 Markdown 投资研究报告。",
   "language": "Python",
   "license": "MIT",
   "topics": [],
