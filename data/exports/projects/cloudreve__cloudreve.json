@@ -4,9 +4,17 @@
   "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
   "language": "Go",
   "license": "GPL-3.0",
-  "topics": [],
-  "stars": 28997,
-  "forks": 3928,
+  "topics": [
+    "file-sharing",
+    "file",
+    "cloud",
+    "file-manager",
+    "cloud-storage",
+    "cloudreve",
+    "golang"
+  ],
+  "stars": 28998,
+  "forks": 3929,
   "open_issues": 141,
   "watchers": 237,
   "created_at": "2018-02-04T04:56:38Z",
@@ -14,10 +22,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/cloudreve.png",
   "radar_score": 68.05,
-  "impact": 94.75,
+  "impact": 94.76,
   "velocity": 47.24,
   "health": 54.45,
-  "global_percentile": 17.57,
+  "global_percentile": 17.29,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
@@ -32,5 +40,5 @@
   "forks_30d": 1,
   "days_since_last_push": 31,
   "freshness_score": 0.7334469562242892,
-  "snapshot_count": 30
+  "snapshot_count": 31
 }

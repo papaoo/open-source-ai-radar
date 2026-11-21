@@ -4,8 +4,13 @@
   "description": "🖥️ Run AI Agent in your browser.",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
-  "stars": 16663,
+  "topics": [
+    "ai-agent",
+    "browser-automation",
+    "browser-use-box",
+    "cloud-browser"
+  ],
+  "stars": 16662,
   "forks": 2758,
   "open_issues": 271,
   "watchers": 122,
@@ -13,10 +18,10 @@
   "pushed_at": "2026-09-25T03:56:21Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/browser-use.png",
-  "radar_score": 68.75,
-  "impact": 91.46,
-  "velocity": 56.52,
-  "health": 49.54,
+  "radar_score": 68.72,
+  "impact": 91.5,
+  "velocity": 56.51,
+  "health": 49.38,
   "global_percentile": 18.86,
   "category": "AI Agents",
   "sub_category": "",
@@ -30,7 +35,7 @@
   "star_growth_acceleration": 0.9243697478991597,
   "forks_7d": 0,
   "forks_30d": -2,
-  "days_since_last_push": 56,
-  "freshness_score": 0.5712090638488149,
-  "snapshot_count": 18
+  "days_since_last_push": 57,
+  "freshness_score": 0.5655254386995371,
+  "snapshot_count": 19
 }
