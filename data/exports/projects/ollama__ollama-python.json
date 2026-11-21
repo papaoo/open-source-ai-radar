@@ -4,7 +4,10 @@
   "description": "Ollama Python library",
   "language": "Python",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "ollama",
+    "python"
+  ],
   "stars": 10730,
   "forks": 1242,
   "open_issues": 114,
@@ -13,11 +16,11 @@
   "pushed_at": "2026-11-17T23:26:54Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ollama.png",
-  "radar_score": 70.37,
-  "impact": 87.02,
+  "radar_score": 70.38,
+  "impact": 87.04,
   "velocity": 56.87,
   "health": 62.65,
-  "global_percentile": 27.14,
+  "global_percentile": 25.29,
   "category": "Local AI",
   "sub_category": "",
   "summary": "Ollama Python library",
@@ -26,11 +29,11 @@
   "stars_30d": 40,
   "stars_90d": 40,
   "star_growth_rate_7d": 4.285714285714286,
-  "star_growth_rate_30d": 3.6363636363636362,
-  "star_growth_acceleration": 1.1785714285714286,
+  "star_growth_rate_30d": 3.3333333333333335,
+  "star_growth_acceleration": 1.2857142857142856,
   "forks_7d": 4,
-  "forks_30d": 9,
+  "forks_30d": 10,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 29
+  "snapshot_count": 30
 }

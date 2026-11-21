@@ -14,10 +14,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/OpenBMB.png",
   "radar_score": 73.07,
-  "impact": 95.91,
-  "velocity": 57.21,
+  "impact": 95.92,
+  "velocity": 57.22,
   "health": 58.71,
-  "global_percentile": 45.29,
+  "global_percentile": 44.14,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
@@ -32,5 +32,5 @@
   "forks_30d": 10,
   "days_since_last_push": 15,
   "freshness_score": 0.8607079764250578,
-  "snapshot_count": 42
+  "snapshot_count": 43
 }
