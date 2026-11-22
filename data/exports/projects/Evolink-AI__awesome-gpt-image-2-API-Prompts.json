@@ -38,7 +38,7 @@
   "impact": 89.22,
   "velocity": 49.3,
   "health": 37.07,
-  "global_percentile": 2.86,
+  "global_percentile": 4.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "GPT-Image-2 API and Prompts",
@@ -47,11 +47,11 @@
   "stars_30d": 37,
   "stars_90d": 37,
   "star_growth_rate_7d": 2.7142857142857144,
-  "star_growth_rate_30d": 3.0833333333333335,
-  "star_growth_acceleration": 0.8803088803088803,
-  "forks_7d": 8,
+  "star_growth_rate_30d": 2.8461538461538463,
+  "star_growth_acceleration": 0.9536679536679536,
+  "forks_7d": 7,
   "forks_30d": 11,
   "days_since_last_push": 127,
   "freshness_score": 0.2808316217783798,
-  "snapshot_count": 35
+  "snapshot_count": 36
 }

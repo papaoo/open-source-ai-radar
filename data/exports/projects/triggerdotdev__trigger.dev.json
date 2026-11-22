@@ -20,7 +20,7 @@
     "ai-agent-framework"
   ],
   "stars": 16802,
-  "forks": 1537,
+  "forks": 1539,
   "open_issues": 207,
   "watchers": 55,
   "created_at": "2022-11-30T14:59:07Z",
@@ -31,7 +31,7 @@
   "impact": 88.76,
   "velocity": 59.39,
   "health": 63.75,
-  "global_percentile": 37.0,
+  "global_percentile": 39.43,
   "category": "AI Agents",
   "sub_category": "task agent",
   "summary": "Trigger.dev – build and deploy durable AI agents and workflows",
@@ -40,11 +40,11 @@
   "stars_30d": 68,
   "stars_90d": 68,
   "star_growth_rate_7d": 5.571428571428571,
-  "star_growth_rate_30d": 5.666666666666667,
-  "star_growth_acceleration": 0.9831932773109243,
-  "forks_7d": 1,
-  "forks_30d": 13,
+  "star_growth_rate_30d": 5.230769230769231,
+  "star_growth_acceleration": 1.065126050420168,
+  "forks_7d": 3,
+  "forks_30d": 15,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 43
+  "snapshot_count": 44
 }

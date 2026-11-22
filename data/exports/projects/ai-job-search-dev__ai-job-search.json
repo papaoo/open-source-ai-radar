@@ -18,8 +18,8 @@
     "latex",
     "resume"
   ],
-  "stars": 72988,
-  "forks": 23371,
+  "stars": 73011,
+  "forks": 23374,
   "open_issues": 6,
   "watchers": 225,
   "created_at": "2026-03-18T14:33:04Z",
@@ -36,14 +36,14 @@
   "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
   "maturity": "Unknown",
   "stars_7d": 1286,
-  "stars_30d": 2230,
-  "stars_90d": 2230,
+  "stars_30d": 2253,
+  "stars_90d": 2253,
   "star_growth_rate_7d": 183.71428571428572,
-  "star_growth_rate_30d": 185.83333333333334,
-  "star_growth_acceleration": 0.9885970531710442,
-  "forks_7d": 241,
-  "forks_30d": 523,
+  "star_growth_rate_30d": 173.30769230769232,
+  "star_growth_acceleration": 1.0600469215648975,
+  "forks_7d": 239,
+  "forks_30d": 526,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 53
+  "snapshot_count": 54
 }
