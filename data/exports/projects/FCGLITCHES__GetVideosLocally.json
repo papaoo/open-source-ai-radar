@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Uncategorized",
+  "sub_category": "",
+  "summary": "Free, open-source video downloader for Windows. A yt-dlp GUI for 1,000+ sites, up to 8K, MP3 and FLAC.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

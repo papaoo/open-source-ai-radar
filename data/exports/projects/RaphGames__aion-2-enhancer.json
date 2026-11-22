@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "LLM Frameworks",
+  "sub_category": "inference engine",
+  "summary": "AION 2 Enhancer: Prompt Engineering for Desktop",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

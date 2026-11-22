@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "AI Coding Tools",
+  "sub_category": "cli tool",
+  "summary": "AI coding agent for your terminal, with C/C++ build, debug, sanitizer and profiling tools. A fork of OpenAI Codex CLI.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

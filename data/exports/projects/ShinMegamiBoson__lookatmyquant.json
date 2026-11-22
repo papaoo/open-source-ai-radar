@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "LLM Frameworks",
+  "sub_category": "quantization",
+  "summary": "A quantization compiler that delivers 12× lower KL than Q4_K_M at the same file size",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

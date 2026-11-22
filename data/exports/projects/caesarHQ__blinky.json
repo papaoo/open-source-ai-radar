@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Local AI",
+  "sub_category": "local runner",
+  "summary": "Screenshot search tool powered by local inference",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

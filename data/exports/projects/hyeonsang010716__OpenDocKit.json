@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "LLM Frameworks",
+  "sub_category": "",
+  "summary": "Convert PDF, Office, HWP/HWPX, OpenDocument, RTF, EPUB, HTML, email and images into clean, LLM-ready Markdown.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

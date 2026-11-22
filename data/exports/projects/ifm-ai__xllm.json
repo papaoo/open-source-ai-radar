@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "LLM Frameworks",
+  "sub_category": "fine-tuning",
+  "summary": "Light-weight infrastructure for express LLM pre-training",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }
