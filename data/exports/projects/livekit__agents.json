@@ -4,15 +4,8 @@
   "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "ai",
-    "real-time",
-    "voice",
-    "video",
-    "agents",
-    "openai"
-  ],
-  "stars": 15299,
+  "topics": [],
+  "stars": 15300,
   "forks": 4182,
   "open_issues": 259,
   "watchers": 101,

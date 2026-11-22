@@ -4,14 +4,10 @@
   "description": "LLM Frontend for Power Users.",
   "language": "JavaScript",
   "license": "AGPL-3.0",
-  "topics": [
-    "ai",
-    "chat",
-    "llm"
-  ],
-  "stars": 35932,
+  "topics": [],
+  "stars": 35934,
   "forks": 6746,
-  "open_issues": 346,
+  "open_issues": 347,
   "watchers": 163,
   "created_at": "2023-02-09T10:19:24Z",
   "pushed_at": "2026-11-21T23:17:12Z",
