@@ -4,7 +4,16 @@
   "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "llms",
+    "mcp",
+    "model-context-protocol",
+    "python",
+    "llm"
+  ],
   "stars": 8591,
   "forks": 903,
   "open_issues": 84,
@@ -13,11 +22,11 @@
   "pushed_at": "2026-01-25T16:35:16Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/lastmile-ai.png",
-  "radar_score": 59.23,
-  "impact": 84.05,
+  "radar_score": 59.24,
+  "impact": 84.07,
   "velocity": 45.3,
   "health": 39.03,
-  "global_percentile": 2.14,
+  "global_percentile": 3.43,
   "category": "MCP",
   "sub_category": "",
   "summary": "Build effective agents using Model Context Protocol and simple workflow patterns",
@@ -32,5 +41,5 @@
   "forks_30d": 9,
   "days_since_last_push": 300,
   "freshness_score": 0.049787068367863944,
-  "snapshot_count": 17
+  "snapshot_count": 18
 }

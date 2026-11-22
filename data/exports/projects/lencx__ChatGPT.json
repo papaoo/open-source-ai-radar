@@ -33,7 +33,7 @@
   "impact": 97.5,
   "velocity": 53.4,
   "health": 32.75,
-  "global_percentile": 8.57,
+  "global_percentile": 18.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
@@ -48,5 +48,5 @@
   "forks_30d": 8,
   "days_since_last_push": 814,
   "freshness_score": 0.0002916371982355737,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }
