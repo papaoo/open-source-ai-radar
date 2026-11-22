@@ -4,7 +4,19 @@
   "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
   "language": "C++",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "mnn",
+    "convolution",
+    "vulkan",
+    "embedded-devices",
+    "winograd-algorithm",
+    "machine-learning",
+    "deep-learning",
+    "ml",
+    "arm",
+    "llm",
+    "transformer"
+  ],
   "stars": 16593,
   "forks": 2545,
   "open_issues": 50,
@@ -13,11 +25,11 @@
   "pushed_at": "2026-11-20T15:03:08Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/alibaba.png",
-  "radar_score": 71.29,
-  "impact": 92.26,
-  "velocity": 53.24,
+  "radar_score": 71.3,
+  "impact": 92.27,
+  "velocity": 53.26,
   "health": 63.01,
-  "global_percentile": 33.14,
+  "global_percentile": 31.29,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
@@ -32,5 +44,5 @@
   "forks_30d": 34,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 45
+  "snapshot_count": 46
 }

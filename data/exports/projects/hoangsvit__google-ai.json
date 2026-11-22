@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Uncategorized",
+  "sub_category": "",
+  "summary": "A terminal toolkit for Windows and macOS to inspect Google AI Pro offers through Android, ADB, Frida and Google Play. The shared Textual dashboard uses a PowerShell/Python launcher on Windows and a native Python adapter on macOS.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

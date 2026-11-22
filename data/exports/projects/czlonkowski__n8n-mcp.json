@@ -4,7 +4,12 @@
   "description": "MCP server that lets Claude, ChatGPT, Cursor and other AI assistants operate n8n: debug, edit, validate, test and build workflows on any n8n instance",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "mcp",
+    "mcp-server",
+    "n8n",
+    "workflows"
+  ],
   "stars": 23294,
   "forks": 3673,
   "open_issues": 21,
@@ -13,11 +18,11 @@
   "pushed_at": "2026-11-19T07:33:11Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/czlonkowski.png",
-  "radar_score": 73.8,
-  "impact": 93.42,
-  "velocity": 63.19,
+  "radar_score": 73.81,
+  "impact": 93.43,
+  "velocity": 63.21,
   "health": 57.25,
-  "global_percentile": 52.43,
+  "global_percentile": 51.0,
   "category": "MCP",
   "sub_category": "",
   "summary": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
@@ -32,5 +37,5 @@
   "forks_30d": -10,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 42
+  "snapshot_count": 43
 }

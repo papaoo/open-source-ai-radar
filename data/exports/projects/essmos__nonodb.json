@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Uncategorized",
+  "sub_category": "",
+  "summary": "The all-in-one JSON document database(Mongodb style) for small VMs and edge boxes. ~5 MB idle RAM,  BM25/fuzzy/vector search, SQL, encrypted backups, replication, and GUI. Mongo style query. MIT licensed.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

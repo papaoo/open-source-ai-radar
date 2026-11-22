@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "Uncategorized",
+  "sub_category": "",
+  "summary": "Native Mistral Vibe (le chat) app for WearOS !  Chat and talk with Mistral AI from your wrist using your Mistral API and set it as your main assistant. Soon to support non-mistral models too!",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }

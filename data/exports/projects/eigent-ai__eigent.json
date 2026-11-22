@@ -4,7 +4,17 @@
   "description": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "agent-framework",
+    "agent-skills",
+    "agentic-ai",
+    "agentic-workflow",
+    "claude-cowork",
+    "claude-cowork-alternative",
+    "claude-cowork-free",
+    "desktop-agent",
+    "multi-agent-systems"
+  ],
   "stars": 15867,
   "forks": 1895,
   "open_issues": 173,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-11-20T02:39:43Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/eigent-ai.png",
-  "radar_score": 74.44,
-  "impact": 89.75,
-  "velocity": 65.1,
+  "radar_score": 74.45,
+  "impact": 89.77,
+  "velocity": 65.11,
   "health": 63.01,
-  "global_percentile": 58.86,
+  "global_percentile": 58.0,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
@@ -32,5 +42,5 @@
   "forks_30d": 9,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 41
+  "snapshot_count": 42
 }

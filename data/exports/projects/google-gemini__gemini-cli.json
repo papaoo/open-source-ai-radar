@@ -4,7 +4,15 @@
   "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "gemini",
+    "gemini-api",
+    "ai",
+    "ai-agents",
+    "cli",
+    "mcp-client",
+    "mcp-server"
+  ],
   "stars": 108999,
   "forks": 14978,
   "open_issues": 465,
@@ -23,14 +31,14 @@
   "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
   "maturity": "Unknown",
   "stars_7d": 165,
-  "stars_30d": 195,
-  "stars_90d": 195,
+  "stars_30d": 198,
+  "stars_90d": 198,
   "star_growth_rate_7d": 23.571428571428573,
-  "star_growth_rate_30d": 15.0,
-  "star_growth_acceleration": 1.5714285714285716,
-  "forks_7d": 19,
-  "forks_30d": 47,
+  "star_growth_rate_30d": 15.23076923076923,
+  "star_growth_acceleration": 1.547619047619048,
+  "forks_7d": 22,
+  "forks_30d": 48,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 54
+  "snapshot_count": 55
 }

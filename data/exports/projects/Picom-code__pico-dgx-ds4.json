@@ -18,5 +18,9 @@
   "velocity": 0,
   "health": 0,
   "global_percentile": 0,
+  "category": "LLM Frameworks",
+  "sub_category": "",
+  "summary": "DeepSeek V4.1 Flash on 4x DGX Spark: 90/144 tok/s chat/code single-user, 376 tok/s at 16 distinct users, 1M context, images. Fork of blaesus/dsgx10.",
+  "maturity": "Unknown",
   "snapshot_count": 0
 }
