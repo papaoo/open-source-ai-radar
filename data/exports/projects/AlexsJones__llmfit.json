@@ -4,15 +4,8 @@
   "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
   "language": "Rust",
   "license": "MIT",
-  "topics": [
-    "llm",
-    "skill",
-    "localai",
-    "gguf",
-    "mlx",
-    "unsloth"
-  ],
-  "stars": 39237,
+  "topics": [],
+  "stars": 39241,
   "forks": 2541,
   "open_issues": 35,
   "watchers": 115,

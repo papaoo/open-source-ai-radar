@@ -4,11 +4,8 @@
   "description": "Integrate the DeepSeek API into popular software",
   "language": null,
   "license": "CC0-1.0",
-  "topics": [
-    "awesome",
-    "deepseek"
-  ],
-  "stars": 39996,
+  "topics": [],
+  "stars": 39999,
   "forks": 4359,
   "open_issues": 45,
   "watchers": 389,

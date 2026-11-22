@@ -4,12 +4,8 @@
   "description": "Supercharge Your LLM Application Evaluations 🚀",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "llm",
-    "llmops",
-    "evaluation"
-  ],
-  "stars": 16400,
+  "topics": [],
+  "stars": 16401,
   "forks": 1842,
   "open_issues": 288,
   "watchers": 61,

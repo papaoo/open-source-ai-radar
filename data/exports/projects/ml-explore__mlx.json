@@ -4,9 +4,7 @@
   "description": "MLX: An array framework for Apple silicon",
   "language": "C++",
   "license": "MIT",
-  "topics": [
-    "mlx"
-  ],
+  "topics": [],
   "stars": 29248,
   "forks": 2458,
   "open_issues": 86,

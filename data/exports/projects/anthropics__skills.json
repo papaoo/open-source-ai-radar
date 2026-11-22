@@ -4,11 +4,9 @@
   "description": "Public repository for Agent Skills",
   "language": "Python",
   "license": null,
-  "topics": [
-    "agent-skills"
-  ],
-  "stars": 198896,
-  "forks": 23279,
+  "topics": [],
+  "stars": 198935,
+  "forks": 23284,
   "open_issues": 464,
   "watchers": 1208,
   "created_at": "2025-09-22T15:53:31Z",

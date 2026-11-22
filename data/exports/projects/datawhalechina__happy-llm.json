@@ -4,12 +4,8 @@
   "description": "📚 从零开始构建大模型",
   "language": "Jupyter Notebook",
   "license": "NOASSERTION",
-  "topics": [
-    "agent",
-    "llm",
-    "rag"
-  ],
-  "stars": 35047,
+  "topics": [],
+  "stars": 35048,
   "forks": 3324,
   "open_issues": 57,
   "watchers": 100,

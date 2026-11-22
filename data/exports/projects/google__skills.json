@@ -4,12 +4,8 @@
   "description": "Agent Skills for Google products and technologies",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "google",
-    "googlecloud",
-    "skills"
-  ],
-  "stars": 24544,
+  "topics": [],
+  "stars": 24548,
   "forks": 2038,
   "open_issues": 41,
   "watchers": 146,

@@ -4,11 +4,8 @@
   "description": "Ollama Python library",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "ollama",
-    "python"
-  ],
-  "stars": 10734,
+  "topics": [],
+  "stars": 10735,
   "forks": 1241,
   "open_issues": 113,
   "watchers": 79,

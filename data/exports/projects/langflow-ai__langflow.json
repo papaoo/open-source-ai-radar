@@ -4,15 +4,8 @@
   "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "react-flow",
-    "chatgpt",
-    "large-language-models",
-    "generative-ai",
-    "agents",
-    "multiagent"
-  ],
-  "stars": 156846,
+  "topics": [],
+  "stars": 156848,
   "forks": 10431,
   "open_issues": 218,
   "watchers": 527,
