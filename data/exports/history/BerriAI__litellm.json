@@ -364,6 +364,34 @@
       "forks": 13463,
       "open_issues": 1454,
       "contributors": 2131
+    },
+    {
+      "timestamp": "2026-11-22T12:23:47.224543+00:00",
+      "stars": 63689,
+      "forks": 13469,
+      "open_issues": 1459,
+      "contributors": 2131
+    },
+    {
+      "timestamp": "2026-11-22T17:41:55.038000+00:00",
+      "stars": 63703,
+      "forks": 13472,
+      "open_issues": 1461,
+      "contributors": 2131
+    },
+    {
+      "timestamp": "2026-11-22T21:26:28.948390+00:00",
+      "stars": 63712,
+      "forks": 13475,
+      "open_issues": 1461,
+      "contributors": 2131
+    },
+    {
+      "timestamp": "2026-11-23T02:06:31.997679+00:00",
+      "stars": 63720,
+      "forks": 13475,
+      "open_issues": 1454,
+      "contributors": 2136
     }
   ],
   "scores": [
@@ -728,6 +756,34 @@
       "timestamp": "2026-11-22T01:59:22.385421+00:00",
       "radar_score": 78.91,
       "impact": 97.71,
+      "velocity": 70.41,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-22T12:33:39.540456+00:00",
+      "radar_score": 78.93,
+      "impact": 97.74,
+      "velocity": 70.41,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-22T17:51:30.272970+00:00",
+      "radar_score": 78.93,
+      "impact": 97.74,
+      "velocity": 70.41,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-22T21:36:02.809494+00:00",
+      "radar_score": 78.93,
+      "impact": 97.75,
+      "velocity": 70.41,
+      "health": 60.75
+    },
+    {
+      "timestamp": "2026-11-23T02:16:46.611649+00:00",
+      "radar_score": 78.93,
+      "impact": 97.75,
       "velocity": 70.41,
       "health": 60.75
     }
@@ -1199,6 +1255,42 @@
       "stars_90d": 708,
       "star_growth_rate_7d": 64.28571428571429,
       "star_growth_rate_30d": 59.0,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-22T12:23:47.224543+00:00",
+      "stars_7d": 435,
+      "stars_30d": 726,
+      "stars_90d": 726,
+      "star_growth_rate_7d": 62.142857142857146,
+      "star_growth_rate_30d": 60.5,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-22T17:41:55.038000+00:00",
+      "stars_7d": 446,
+      "stars_30d": 740,
+      "stars_90d": 740,
+      "star_growth_rate_7d": 63.714285714285715,
+      "star_growth_rate_30d": 56.92307692307692,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-22T21:26:28.948390+00:00",
+      "stars_7d": 449,
+      "stars_30d": 749,
+      "stars_90d": 749,
+      "star_growth_rate_7d": 64.14285714285714,
+      "star_growth_rate_30d": 57.61538461538461,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-23T02:06:31.997679+00:00",
+      "stars_7d": 433,
+      "stars_30d": 757,
+      "stars_90d": 757,
+      "star_growth_rate_7d": 61.857142857142854,
+      "star_growth_rate_30d": 58.23076923076923,
       "freshness_score": 1.0
     }
   ]

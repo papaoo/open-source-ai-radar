@@ -4,7 +4,11 @@
   "description": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "code-generation",
+    "pretrained-models",
+    "tools"
+  ],
   "stars": 8804,
   "forks": 687,
   "open_issues": 178,
@@ -13,11 +17,11 @@
   "pushed_at": "2024-08-13T05:59:38Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/zai-org.png",
-  "radar_score": 57.55,
-  "impact": 84.74,
-  "velocity": 39.89,
+  "radar_score": 57.56,
+  "impact": 84.77,
+  "velocity": 39.9,
   "health": 38.75,
-  "global_percentile": 0.57,
+  "global_percentile": 2.57,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
@@ -32,5 +36,5 @@
   "forks_30d": 1,
   "days_since_last_push": 831,
   "freshness_score": 0.00024604404336209853,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

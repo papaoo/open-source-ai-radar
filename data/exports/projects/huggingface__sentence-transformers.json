@@ -17,7 +17,7 @@
   "impact": 92.48,
   "velocity": 57.25,
   "health": 59.41,
-  "global_percentile": 33.86,
+  "global_percentile": 47.29,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "State-of-the-Art Embeddings, Retrieval, and Reranking",
@@ -32,5 +32,5 @@
   "forks_30d": 23,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 37
+  "snapshot_count": 38
 }

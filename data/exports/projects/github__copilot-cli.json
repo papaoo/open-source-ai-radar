@@ -10,14 +10,14 @@
   "open_issues": 2128,
   "watchers": 268,
   "created_at": "2023-01-06T09:22:30Z",
-  "pushed_at": "2026-11-22T11:40:48Z",
+  "pushed_at": "2026-11-23T02:05:52Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/github.png",
   "radar_score": 70.55,
   "impact": 90.33,
   "velocity": 60.09,
   "health": 53.55,
-  "global_percentile": 27.43,
+  "global_percentile": 39.0,
   "category": "AI Coding Tools",
   "sub_category": "cli tool",
   "summary": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. ",
@@ -32,5 +32,5 @@
   "forks_30d": 5,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 48
+  "snapshot_count": 49
 }

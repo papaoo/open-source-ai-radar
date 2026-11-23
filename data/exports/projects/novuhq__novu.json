@@ -29,11 +29,11 @@
   "pushed_at": "2026-11-22T21:07:42Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/novuhq.png",
-  "radar_score": 75.7,
+  "radar_score": 75.69,
   "impact": 95.71,
   "velocity": 63.49,
   "health": 60.75,
-  "global_percentile": 67.71,
+  "global_percentile": 73.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "The open-source communication infrastructure for agents and products",
@@ -48,5 +48,5 @@
   "forks_30d": 37,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 47
+  "snapshot_count": 48
 }
