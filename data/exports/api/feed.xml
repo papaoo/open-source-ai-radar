@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 02:16:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 10:39:34 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -13,7 +13,7 @@
       <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
       <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-22T03:22:02Z</pubDate>
+      <pubDate>2026-11-23T09:25:49Z</pubDate>
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
     </item>
     <item>
@@ -21,7 +21,7 @@
       <link>https://github.com/wangzan101/Mika</link>
       <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
       <category>Local AI</category>
-      <pubDate>2026-11-23T00:52:20Z</pubDate>
+      <pubDate>2026-11-23T09:42:27Z</pubDate>
       <guid>https://github.com/wangzan101/Mika</guid>
     </item>
     <item>
@@ -45,7 +45,7 @@
       <link>https://github.com/ccch1mneyyy/dsh-Go</link>
       <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-23T02:05:32Z</pubDate>
+      <pubDate>2026-11-23T10:22:46Z</pubDate>
       <guid>https://github.com/ccch1mneyyy/dsh-Go</guid>
     </item>
     <item>
@@ -53,7 +53,7 @@
       <link>https://github.com/mdiri-ai/SoduWork</link>
       <description>The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</description>
       <category>Local AI</category>
-      <pubDate>2026-11-23T01:47:21Z</pubDate>
+      <pubDate>2026-11-23T10:28:17Z</pubDate>
       <guid>https://github.com/mdiri-ai/SoduWork</guid>
     </item>
     <item>
@@ -61,7 +61,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-23T02:04:48Z</pubDate>
+      <pubDate>2026-11-23T10:27:35Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -77,7 +77,7 @@
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-23T00:44:07Z</pubDate>
+      <pubDate>2026-11-23T06:45:53Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
     </item>
     <item>
@@ -85,7 +85,7 @@
       <link>https://github.com/vercel-labs/ui</link>
       <description>A library of behaviors for agents to build the next generation of user interfaces.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-22T19:13:51Z</pubDate>
+      <pubDate>2026-11-23T08:05:45Z</pubDate>
       <guid>https://github.com/vercel-labs/ui</guid>
     </item>
     <item>
@@ -101,7 +101,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-23T02:05:56Z</pubDate>
+      <pubDate>2026-11-23T10:29:32Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -109,7 +109,7 @@
       <link>https://github.com/JuneYaooo/rea-video</link>
       <description>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-23T01:39:56Z</pubDate>
+      <pubDate>2026-11-23T05:11:52Z</pubDate>
       <guid>https://github.com/JuneYaooo/rea-video</guid>
     </item>
     <item>
@@ -125,7 +125,7 @@
       <link>https://github.com/jub0t/Concat</link>
       <description>Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API &amp; MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-23T00:34:44Z</pubDate>
+      <pubDate>2026-11-23T09:58:36Z</pubDate>
       <guid>https://github.com/jub0t/Concat</guid>
     </item>
     <item>
@@ -133,7 +133,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Every agent&apos;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-22T22:13:22Z</pubDate>
+      <pubDate>2026-11-23T10:19:10Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -141,7 +141,7 @@
       <link>https://github.com/Fei2411/DS-Bot</link>
       <description>A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-23T00:45:12Z</pubDate>
+      <pubDate>2026-11-23T10:18:16Z</pubDate>
       <guid>https://github.com/Fei2411/DS-Bot</guid>
     </item>
     <item>
@@ -157,7 +157,7 @@
       <link>https://github.com/Human-Agent-Society/reef</link>
       <description>Infrastructure for continually self‑improving agents</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-23T01:36:27Z</pubDate>
+      <pubDate>2026-11-23T05:00:58Z</pubDate>
       <guid>https://github.com/Human-Agent-Society/reef</guid>
     </item>
     <item>

@@ -4,14 +4,10 @@
   "description": "GitHub's official MCP Server",
   "language": "Go",
   "license": "MIT",
-  "topics": [
-    "github",
-    "mcp",
-    "mcp-server"
-  ],
-  "stars": 34673,
-  "forks": 5408,
-  "open_issues": 236,
+  "topics": [],
+  "stars": 34687,
+  "forks": 5410,
+  "open_issues": 237,
   "watchers": 414,
   "created_at": "2025-03-04T16:42:04Z",
   "pushed_at": "2026-11-21T08:39:12Z",

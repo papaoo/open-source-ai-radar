@@ -1,7 +1,7 @@
 {
   "full_name": "mlhher/late-cli",
   "url": "https://github.com/mlhher/late-cli",
-  "description": "AI coding agent that always stays sharp. 200k+ tokens of work in a 64k context via enforced parallel subagents. Sandboxed overnight runs. Sub-10ms Go CLI.",
+  "description": "Opinionated AI agent that always stays sharp. Extensible with plugins in any language. Containerized overnight runs. Enforced parallel subagents. Sub-10ms Go CLI.",
   "language": "Go",
   "license": "NOASSERTION",
   "topics": [],

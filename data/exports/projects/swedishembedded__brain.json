@@ -1,7 +1,7 @@
 {
   "full_name": "swedishembedded/brain",
   "url": "https://github.com/swedishembedded/brain",
-  "description": "The Brain Training & Inference Engine in Rust",
+  "description": "The BRaiN Training & Inference Engine in Rust",
   "language": "Rust",
   "license": "Apache-2.0",
   "topics": [],

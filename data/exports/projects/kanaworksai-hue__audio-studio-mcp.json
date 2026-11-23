@@ -1,11 +1,11 @@
 {
   "full_name": "kanaworksai-hue/audio-studio-mcp",
   "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
-  "description": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+  "description": "Local AI songs with vocals, BGM and sound effects for Claude Code and any MCP client. YuE2 sings your lyrics; Stable Audio 3 makes BGM and SFX. Runs on Apple Silicon Macs and Windows NVIDIA GPUs. No cloud, no API key.",
   "language": "Python",
   "license": "MIT",
   "topics": [],
-  "stars": 699,
+  "stars": 701,
   "forks": 53,
   "open_issues": 0,
   "watchers": 2,
