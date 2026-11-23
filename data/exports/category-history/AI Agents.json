@@ -1275,6 +1275,21 @@
       "top_project": "obra/superpowers",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 1023,
+      "category": "AI Agents",
+      "timestamp": "2026-11-23T14:24:12.888679+00:00",
+      "total_tracked": 642,
+      "new_this_period": 0,
+      "avg_stars": 8172.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 62.5,
+      "avg_health": 58.4,
+      "total_stars": 5246426,
+      "top_project": "obra/superpowers",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

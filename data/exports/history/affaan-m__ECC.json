@@ -357,6 +357,48 @@
       "forks": 45376,
       "open_issues": 95,
       "contributors": 522
+    },
+    {
+      "timestamp": "2026-11-22T01:48:18.881296+00:00",
+      "stars": 308397,
+      "forks": 45386,
+      "open_issues": 95,
+      "contributors": 522
+    },
+    {
+      "timestamp": "2026-11-22T12:21:39.298317+00:00",
+      "stars": 308640,
+      "forks": 45411,
+      "open_issues": 95,
+      "contributors": 522
+    },
+    {
+      "timestamp": "2026-11-22T17:39:50.759643+00:00",
+      "stars": 308813,
+      "forks": 45434,
+      "open_issues": 96,
+      "contributors": 522
+    },
+    {
+      "timestamp": "2026-11-22T21:24:22.730497+00:00",
+      "stars": 308940,
+      "forks": 45453,
+      "open_issues": 101,
+      "contributors": 522
+    },
+    {
+      "timestamp": "2026-11-23T02:04:39.775555+00:00",
+      "stars": 309052,
+      "forks": 45471,
+      "open_issues": 101,
+      "contributors": 522
+    },
+    {
+      "timestamp": "2026-11-23T14:10:36.907735+00:00",
+      "stars": 309330,
+      "forks": 45506,
+      "open_issues": 102,
+      "contributors": 522
     }
   ],
   "scores": [
@@ -716,6 +758,48 @@
       "impact": 99.87,
       "velocity": 70.29,
       "health": 57.98
+    },
+    {
+      "timestamp": "2026-11-22T01:59:22.385421+00:00",
+      "radar_score": 78.42,
+      "impact": 99.87,
+      "velocity": 68.78,
+      "health": 57.61
+    },
+    {
+      "timestamp": "2026-11-22T12:33:39.540456+00:00",
+      "radar_score": 78.42,
+      "impact": 99.87,
+      "velocity": 68.78,
+      "health": 57.61
+    },
+    {
+      "timestamp": "2026-11-22T17:51:30.272970+00:00",
+      "radar_score": 78.43,
+      "impact": 99.87,
+      "velocity": 68.79,
+      "health": 57.61
+    },
+    {
+      "timestamp": "2026-11-22T21:36:02.809494+00:00",
+      "radar_score": 78.45,
+      "impact": 99.87,
+      "velocity": 68.84,
+      "health": 57.61
+    },
+    {
+      "timestamp": "2026-11-23T02:16:46.611649+00:00",
+      "radar_score": 78.35,
+      "impact": 99.87,
+      "velocity": 68.84,
+      "health": 57.25
+    },
+    {
+      "timestamp": "2026-11-23T14:24:04.681701+00:00",
+      "radar_score": 79.16,
+      "impact": 99.87,
+      "velocity": 70.36,
+      "health": 58.35
     }
   ],
   "growth": [
@@ -1177,6 +1261,60 @@
       "star_growth_rate_7d": 840.8571428571429,
       "star_growth_rate_30d": 697.5,
       "freshness_score": 0.9900498337491681
+    },
+    {
+      "timestamp": "2026-11-22T01:48:18.881296+00:00",
+      "stars_7d": 5914,
+      "stars_30d": 8462,
+      "stars_90d": 8462,
+      "star_growth_rate_7d": 844.8571428571429,
+      "star_growth_rate_30d": 705.1666666666666,
+      "freshness_score": 0.9801986733067553
+    },
+    {
+      "timestamp": "2026-11-22T12:21:39.298317+00:00",
+      "stars_7d": 5877,
+      "stars_30d": 8705,
+      "stars_90d": 8705,
+      "star_growth_rate_7d": 839.5714285714286,
+      "star_growth_rate_30d": 725.4166666666666,
+      "freshness_score": 0.9801986733067553
+    },
+    {
+      "timestamp": "2026-11-22T17:39:50.759643+00:00",
+      "stars_7d": 5891,
+      "stars_30d": 8878,
+      "stars_90d": 8878,
+      "star_growth_rate_7d": 841.5714285714286,
+      "star_growth_rate_30d": 682.9230769230769,
+      "freshness_score": 0.9801986733067553
+    },
+    {
+      "timestamp": "2026-11-22T21:24:22.730497+00:00",
+      "stars_7d": 5843,
+      "stars_30d": 9005,
+      "stars_90d": 9005,
+      "star_growth_rate_7d": 834.7142857142857,
+      "star_growth_rate_30d": 692.6923076923077,
+      "freshness_score": 0.9801986733067553
+    },
+    {
+      "timestamp": "2026-11-23T02:04:39.775555+00:00",
+      "stars_7d": 5580,
+      "stars_30d": 9117,
+      "stars_90d": 9117,
+      "star_growth_rate_7d": 797.1428571428571,
+      "star_growth_rate_30d": 701.3076923076923,
+      "freshness_score": 0.9704455335485082
+    },
+    {
+      "timestamp": "2026-11-23T14:10:36.907735+00:00",
+      "stars_7d": 5675,
+      "stars_30d": 9395,
+      "stars_90d": 9395,
+      "star_growth_rate_7d": 810.7142857142857,
+      "star_growth_rate_30d": 671.0714285714286,
+      "freshness_score": 1.0
     }
   ]
 }
