@@ -27,14 +27,14 @@
   "open_issues": 0,
   "watchers": 90,
   "created_at": "2025-11-23T07:17:48Z",
-  "pushed_at": "2026-11-23T12:04:04Z",
+  "pushed_at": "2026-11-23T20:02:47Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/YouMind-OpenLab.png",
   "radar_score": 67.69,
   "impact": 88.84,
   "velocity": 52.33,
   "health": 55.35,
-  "global_percentile": 16.57,
+  "global_percentile": 16.14,
   "category": "Generative AI",
   "sub_category": "image",
   "summary": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
@@ -49,5 +49,5 @@
   "forks_30d": 12,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 46
+  "snapshot_count": 47
 }

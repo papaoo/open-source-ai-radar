@@ -1292,16 +1292,16 @@
       "momentum_score": 0.0
     },
     {
-      "id": 1033,
+      "id": 1034,
       "category": "AI Coding Tools",
-      "timestamp": "2026-11-23T19:43:08.759220+00:00",
+      "timestamp": "2026-11-23T22:08:14.865949+00:00",
       "total_tracked": 1106,
       "new_this_period": 0,
-      "avg_stars": 7585.0,
+      "avg_stars": 7591.0,
       "avg_growth_rate": 0.0,
-      "avg_velocity": 63.0,
-      "avg_health": 57.3,
-      "total_stars": 8389515,
+      "avg_velocity": 63.2,
+      "avg_health": 57.2,
+      "total_stars": 8395339,
       "top_project": "jwasham/coding-interview-university",
       "trend": "declining",
       "momentum_score": 0.0

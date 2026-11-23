@@ -20,10 +20,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/TEN-framework.png",
   "radar_score": 71.36,
-  "impact": 87.18,
-  "velocity": 60.87,
+  "impact": 87.17,
+  "velocity": 60.86,
   "health": 60.75,
-  "global_percentile": 31.71,
+  "global_percentile": 32.0,
   "category": "AI Agents",
   "sub_category": "conversational agent",
   "summary": " Open-source framework for conversational voice AI agents",
@@ -38,5 +38,5 @@
   "forks_30d": 4,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 33
+  "snapshot_count": 34
 }

@@ -26,7 +26,7 @@
     "keras",
     "riscv"
   ],
-  "stars": 24093,
+  "stars": 24095,
   "forks": 4560,
   "open_issues": 1120,
   "watchers": 566,
@@ -44,14 +44,14 @@
   "summary": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
   "maturity": "Unknown",
   "stars_7d": 41,
-  "stars_30d": 63,
-  "stars_90d": 63,
+  "stars_30d": 65,
+  "stars_90d": 65,
   "star_growth_rate_7d": 5.857142857142857,
-  "star_growth_rate_30d": 4.5,
-  "star_growth_acceleration": 1.3015873015873014,
-  "forks_7d": 9,
+  "star_growth_rate_30d": 4.642857142857143,
+  "star_growth_acceleration": 1.2615384615384613,
+  "forks_7d": 8,
   "forks_30d": 17,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

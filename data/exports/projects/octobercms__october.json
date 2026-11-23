@@ -16,7 +16,7 @@
     "cms-platform"
   ],
   "stars": 11155,
-  "forks": 2200,
+  "forks": 2199,
   "open_issues": 12,
   "watchers": 399,
   "created_at": "2013-11-26T23:30:43Z",
@@ -24,10 +24,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/octobercms.png",
   "radar_score": 66.44,
-  "impact": 90.74,
+  "impact": 90.72,
   "velocity": 44.29,
   "health": 58.6,
-  "global_percentile": 11.86,
+  "global_percentile": 11.57,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Self-hosted CMS platform based on the Laravel PHP Framework.",
@@ -36,11 +36,11 @@
   "stars_30d": -2,
   "stars_90d": -2,
   "star_growth_rate_7d": -0.42857142857142855,
-  "star_growth_rate_30d": -0.15384615384615385,
+  "star_growth_rate_30d": -0.14285714285714285,
   "star_growth_acceleration": 1.0,
-  "forks_7d": -1,
-  "forks_30d": -2,
+  "forks_7d": -2,
+  "forks_30d": -3,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 24
+  "snapshot_count": 25
 }
