@@ -1,0 +1,22 @@
+AI Open Source Radar - Week 47
+
+I track 6,050 AI repos on GitHub.
+Here is what is becoming important this week.
+
+FASTEST GROWING:
+
+1. ZhuLinsen/daily_stock_analysis - 73.9k stars (+84 velocity)
+2. NanmiCoder/cc-haha - 15.5k stars (+83 velocity)
+3. ccch1mneyyy/dsh-Go - 30.6k stars (+81 velocity)
+4. rocketride-org/rocketride-server - 20.0k stars (+80 velocity)
+5. BaaRai/ARTEX - 17.1k stars (+80 velocity)
+
+TOP CATEGORIES:
+
+  AI Coding Tools: 1,106 repos (18%)
+  LLM Frameworks: 766 repos (13%)
+  AI Agents: 642 repos (11%)
+
+Full radar: erbharatmalhotra.github.io/open-source-ai-radar/
+
+Discover what is becoming important before everyone else does.
