@@ -4,15 +4,8 @@
   "description": "A straightforward method for training your LLM, from downloading data to generating text.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "gemini",
-    "large-language-models",
-    "llm",
-    "openai",
-    "training",
-    "transformers"
-  ],
-  "stars": 13301,
+  "topics": [],
+  "stars": 13302,
   "forks": 1846,
   "open_issues": 1,
   "watchers": 93,

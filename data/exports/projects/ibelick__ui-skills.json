@@ -4,11 +4,8 @@
   "description": "Skills for Design Engineers",
   "language": "TypeScript",
   "license": "MIT",
-  "topics": [
-    "skills",
-    "ui-skills"
-  ],
-  "stars": 11382,
+  "topics": [],
+  "stars": 11385,
   "forks": 552,
   "open_issues": 6,
   "watchers": 29,

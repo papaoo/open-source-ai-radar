@@ -1,7 +1,7 @@
 {
   "full_name": "Yzw202011/OmniSpace",
   "url": "https://github.com/Yzw202011/OmniSpace",
-  "description": "本地优先的全栈 AI 创作工作站：AI对话 · AI漫画 · 漫剧创作 · 写作台 · 知识学习五大模块；vLLM / llama.cpp / Transformers 多引擎本地推理，显存智能调度、舱壁隔离自愈、仅供学习使用，欢迎交流指正。（最新进度（除插件系统）受到协议限制，暂时无法提交到仓库）",
+  "description": "本地优先的全栈 AI 创作工作站：AI对话 · AI漫画 · 漫剧创作 · 写作台 · 知识学习五大模块；vLLM / llama.cpp / Transformers 多引擎本地推理，显存智能调度、舱壁隔离自愈、仅供学习使用，欢迎交流指正。（v2.5.1：漫剧 H3 视频线、绘画模型矩阵、自愈底座等 09-21→11-13 进度已同步入库）",
   "language": "Python",
   "license": null,
   "topics": [],
@@ -10,7 +10,7 @@
   "open_issues": 1,
   "watchers": 0,
   "created_at": "2026-08-23T14:36:51Z",
-  "pushed_at": "2026-09-20T07:09:12Z",
+  "pushed_at": "2026-11-24T14:21:17Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Yzw202011.png",
   "radar_score": 0,

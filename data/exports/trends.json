@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:45:08.031270+00:00",
+  "generated_at": "2026-11-24T23:29:38.403383+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 82.76,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 74300,
-      "forks": 58431,
+      "stars": 74313,
+      "forks": 58439,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -34,8 +34,8 @@
       "radar_score": 78.74,
       "global_percentile": 91.43,
       "category_percentile": 0.0,
-      "stars": 9863,
-      "forks": 2204,
+      "stars": 9865,
+      "forks": 2205,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -88,8 +88,8 @@
       "radar_score": 79.3,
       "global_percentile": 95.0,
       "category_percentile": 0.0,
-      "stars": 19038,
-      "forks": 7130,
+      "stars": 19195,
+      "forks": 7177,
       "language": "Go",
       "url": "https://github.com/BaaRai/ARTEX",
       "category": "Uncategorized",
@@ -101,15 +101,15 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1712
+      "count": 1715
     },
     {
       "category": "AI Coding Tools",
-      "count": 1115
+      "count": 1118
     },
     {
       "category": "LLM Frameworks",
-      "count": 771
+      "count": 772
     },
     {
       "category": "AI Agents",
@@ -117,11 +117,11 @@
     },
     {
       "category": "MCP",
-      "count": 635
+      "count": 636
     },
     {
       "category": "Local AI",
-      "count": 547
+      "count": 549
     },
     {
       "category": "RAG",
@@ -133,15 +133,15 @@
     },
     {
       "category": "Generative AI",
-      "count": 51
+      "count": 52
     },
     {
       "category": "Multimodal AI",
-      "count": 49
+      "count": 50
     },
     {
       "category": "Evaluation & Benchmarks",
-      "count": 35
+      "count": 36
     },
     {
       "category": "AI Safety & Alignment",
