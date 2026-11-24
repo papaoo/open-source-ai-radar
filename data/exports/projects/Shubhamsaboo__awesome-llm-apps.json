@@ -4,13 +4,8 @@
   "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "llms",
-    "rag",
-    "python",
-    "agents"
-  ],
-  "stars": 145518,
+  "topics": [],
+  "stars": 145527,
   "forks": 21417,
   "open_issues": 1,
   "watchers": 1313,

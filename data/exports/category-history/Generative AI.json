@@ -1305,6 +1305,21 @@
       "top_project": "Comfy-Org/ComfyUI",
       "trend": "declining",
       "momentum_score": 0.0
+    },
+    {
+      "id": 1055,
+      "category": "Generative AI",
+      "timestamp": "2026-11-24T01:34:07.618365+00:00",
+      "total_tracked": 51,
+      "new_this_period": 0,
+      "avg_stars": 5033.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 60.4,
+      "avg_health": 58.7,
+      "total_stars": 256684,
+      "top_project": "Comfy-Org/ComfyUI",
+      "trend": "declining",
+      "momentum_score": 0.0
     }
   ]
 }

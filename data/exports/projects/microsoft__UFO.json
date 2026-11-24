@@ -4,14 +4,7 @@
   "description": "UFO³: Weaving the Digital Agent Galaxy",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agent",
-    "automation",
-    "copilot",
-    "gui",
-    "llm",
-    "windows"
-  ],
+  "topics": [],
   "stars": 10232,
   "forks": 1093,
   "open_issues": 46,

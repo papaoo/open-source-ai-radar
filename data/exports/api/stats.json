@@ -1,9 +1,9 @@
 {
-  "repos": 6050,
+  "repos": 6081,
   "snapshots": 40598,
   "scores": 40600,
-  "analyzed": 6050,
-  "total_stars": 39192744,
+  "analyzed": 6081,
+  "total_stars": 39233912,
   "snapshot_dates": [
     "2026-11-23",
     "2026-11-22",
@@ -12,21 +12,21 @@
     "2026-11-19"
   ],
   "languages": {
-    "Python": 2153,
-    "TypeScript": 1049,
-    "JavaScript": 413,
-    "Rust": 365,
-    "Go": 263,
+    "Python": 2160,
+    "TypeScript": 1050,
+    "JavaScript": 418,
+    "Rust": 367,
+    "Go": 264,
     "Jupyter Notebook": 220,
-    "HTML": 185,
+    "HTML": 191,
     "C++": 158,
-    "Swift": 151,
+    "Swift": 152,
     "Java": 98
   },
-  "total_repos": 6050,
+  "total_repos": 6081,
   "processed": 1125,
-  "unprocessed": 4925,
+  "unprocessed": 4956,
   "last_run": "2026-11-23T22:08:03.577993+00:00",
   "api_version": "1.0",
-  "generated_at": "2026-11-23T22:08:15.182629+00:00"
+  "generated_at": "2026-11-24T01:34:08.063049+00:00"
 }
