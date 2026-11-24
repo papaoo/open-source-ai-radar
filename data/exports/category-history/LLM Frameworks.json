@@ -2,21 +2,6 @@
   "category": "LLM Frameworks",
   "history": [
     {
-      "id": 22,
-      "category": "LLM Frameworks",
-      "timestamp": "2026-11-09T12:50:44.863295+00:00",
-      "total_tracked": 710,
-      "new_this_period": 0,
-      "avg_stars": 6015.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 57.0,
-      "avg_health": 52.1,
-      "total_stars": 4270374,
-      "top_project": "deepseek-ai/deepseek-harness",
-      "trend": "new",
-      "momentum_score": 0.0
-    },
-    {
       "id": 34,
       "category": "LLM Frameworks",
       "timestamp": "2026-11-09T20:43:58.906523+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 60.0,
       "avg_health": 55.6,
       "total_stars": 4449360,
+      "top_project": "deepseek-ai/deepseek-harness",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1103,
+      "category": "LLM Frameworks",
+      "timestamp": "2026-11-24T14:52:28.735234+00:00",
+      "total_tracked": 771,
+      "new_this_period": 0,
+      "avg_stars": 5772.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 58.0,
+      "avg_health": 53.1,
+      "total_stars": 4450042,
       "top_project": "deepseek-ai/deepseek-harness",
       "trend": "declining",
       "momentum_score": 0.0

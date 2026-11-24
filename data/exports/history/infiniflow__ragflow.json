@@ -364,6 +364,27 @@
       "forks": 11373,
       "open_issues": 845,
       "contributors": 950
+    },
+    {
+      "timestamp": "2026-11-24T02:42:13.569309+00:00",
+      "stars": 94607,
+      "forks": 11373,
+      "open_issues": 846,
+      "contributors": 950
+    },
+    {
+      "timestamp": "2026-11-24T05:42:30.308022+00:00",
+      "stars": 94618,
+      "forks": 11375,
+      "open_issues": 848,
+      "contributors": 953
+    },
+    {
+      "timestamp": "2026-11-24T14:40:12.089971+00:00",
+      "stars": 94641,
+      "forks": 11385,
+      "open_issues": 848,
+      "contributors": 954
     }
   ],
   "scores": [
@@ -728,6 +749,27 @@
       "timestamp": "2026-11-23T22:08:03.278110+00:00",
       "radar_score": 79.02,
       "impact": 98.59,
+      "velocity": 67.56,
+      "health": 63.75
+    },
+    {
+      "timestamp": "2026-11-24T02:53:29.020473+00:00",
+      "radar_score": 79.02,
+      "impact": 98.6,
+      "velocity": 67.56,
+      "health": 63.75
+    },
+    {
+      "timestamp": "2026-11-24T05:53:29.973002+00:00",
+      "radar_score": 79.02,
+      "impact": 98.6,
+      "velocity": 67.56,
+      "health": 63.75
+    },
+    {
+      "timestamp": "2026-11-24T14:52:16.848860+00:00",
+      "radar_score": 79.03,
+      "impact": 98.6,
       "velocity": 67.56,
       "health": 63.75
     }
@@ -1199,6 +1241,33 @@
       "stars_90d": 755,
       "star_growth_rate_7d": 56.42857142857143,
       "star_growth_rate_30d": 53.92857142857143,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-24T02:42:13.569309+00:00",
+      "stars_7d": 371,
+      "stars_30d": 765,
+      "stars_90d": 765,
+      "star_growth_rate_7d": 53.0,
+      "star_growth_rate_30d": 54.642857142857146,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-24T05:42:30.308022+00:00",
+      "stars_7d": 382,
+      "stars_30d": 776,
+      "stars_90d": 776,
+      "star_growth_rate_7d": 54.57142857142857,
+      "star_growth_rate_30d": 55.42857142857143,
+      "freshness_score": 1.0
+    },
+    {
+      "timestamp": "2026-11-24T14:40:12.089971+00:00",
+      "stars_7d": 391,
+      "stars_30d": 799,
+      "stars_90d": 799,
+      "star_growth_rate_7d": 55.857142857142854,
+      "star_growth_rate_30d": 53.266666666666666,
       "freshness_score": 1.0
     }
   ]
