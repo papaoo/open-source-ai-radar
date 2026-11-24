@@ -4,7 +4,17 @@
   "description": "Agentic AI Framework for Java Developers",
   "language": "Java",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "artificial-intelligence",
+    "java",
+    "spring-ai",
+    "agentic",
+    "context-engineering",
+    "multi-agent",
+    "workflow",
+    "graph",
+    "reactagent"
+  ],
   "stars": 11169,
   "forks": 2478,
   "open_issues": 63,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-10-07T13:48:56Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/alibaba.png",
-  "radar_score": 66.76,
-  "impact": 89.36,
+  "radar_score": 66.78,
+  "impact": 89.41,
   "velocity": 52.12,
   "health": 51.1,
-  "global_percentile": 12.71,
+  "global_percentile": 12.14,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Agentic AI Framework for Java Developers",
@@ -32,5 +42,5 @@
   "forks_30d": 8,
   "days_since_last_push": 47,
   "freshness_score": 0.6250022682827008,
-  "snapshot_count": 33
+  "snapshot_count": 34
 }

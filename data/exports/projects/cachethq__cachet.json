@@ -4,7 +4,15 @@
   "description": "🚦 Cachet, the open source, self-hosted status page system.",
   "language": "PHP",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "cachet",
+    "laravel",
+    "status-page",
+    "statuspages",
+    "php",
+    "self-hosted",
+    "selfhosted"
+  ],
   "stars": 15275,
   "forks": 1628,
   "open_issues": 6,
@@ -13,11 +21,11 @@
   "pushed_at": "2026-11-23T07:12:12Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/cachethq.png",
-  "radar_score": 66.4,
-  "impact": 91.23,
-  "velocity": 45.91,
+  "radar_score": 66.42,
+  "impact": 91.28,
+  "velocity": 45.92,
   "health": 55.35,
-  "global_percentile": 11.29,
+  "global_percentile": 10.71,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "🚦 Cachet, the open source, self-hosted status page system.",
@@ -32,5 +40,5 @@
   "forks_30d": -2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 26
+  "snapshot_count": 27
 }

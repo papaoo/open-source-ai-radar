@@ -4,7 +4,20 @@
   "description": "An elegant home server OS. Run AI agents, store your files, backup your photos, and do more with over 300 apps in the Umbrel App Store.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "bitcoin",
+    "lightning",
+    "docker",
+    "raspberry-pi",
+    "raspberrypi",
+    "selfhosted",
+    "self-hosting",
+    "self-hosted",
+    "home-server",
+    "homeserver",
+    "personal-server",
+    "openclaw"
+  ],
   "stars": 12612,
   "forks": 830,
   "open_issues": 419,
@@ -13,11 +26,11 @@
   "pushed_at": "2026-11-03T17:15:10Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/getumbrel.png",
-  "radar_score": 64.5,
-  "impact": 87.59,
+  "radar_score": 64.53,
+  "impact": 87.65,
   "velocity": 45.43,
   "health": 54.27,
-  "global_percentile": 7.29,
+  "global_percentile": 6.14,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "An elegant home server OS. Run AI agents, store your files, backup your photos, and do more with over 300 apps in the Umbrel App Store.",
@@ -32,5 +45,5 @@
   "forks_30d": 7,
   "days_since_last_push": 20,
   "freshness_score": 0.8187307530779818,
-  "snapshot_count": 40
+  "snapshot_count": 41
 }

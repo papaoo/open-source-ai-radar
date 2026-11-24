@@ -4,8 +4,17 @@
   "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [],
-  "stars": 14973,
+  "topics": [
+    "ai-agent",
+    "ai-agents",
+    "film-production",
+    "generative-ai",
+    "short-drama",
+    "storyboard",
+    "video-generation",
+    "automation"
+  ],
+  "stars": 14974,
   "forks": 3230,
   "open_issues": 137,
   "watchers": 93,
@@ -13,8 +22,8 @@
   "pushed_at": "2026-09-21T10:39:25Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/waooAI.png",
-  "radar_score": 69.18,
-  "impact": 90.7,
+  "radar_score": 69.2,
+  "impact": 90.74,
   "velocity": 61.52,
   "health": 45.47,
   "global_percentile": 20.71,
@@ -32,5 +41,5 @@
   "forks_30d": 25,
   "days_since_last_push": 63,
   "freshness_score": 0.5325918010068972,
-  "snapshot_count": 42
+  "snapshot_count": 43
 }

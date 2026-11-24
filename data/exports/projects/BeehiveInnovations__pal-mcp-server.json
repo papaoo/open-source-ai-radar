@@ -13,11 +13,11 @@
   "pushed_at": "2026-11-23T06:46:29Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/BeehiveInnovations.png",
-  "radar_score": 72.06,
-  "impact": 86.67,
-  "velocity": 63.44,
+  "radar_score": 72.09,
+  "impact": 86.74,
+  "velocity": 63.45,
   "health": 60.75,
-  "global_percentile": 36.14,
+  "global_percentile": 35.0,
   "category": "MCP",
   "sub_category": "server",
   "summary": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
@@ -32,5 +32,5 @@
   "forks_30d": 5,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 29
+  "snapshot_count": 30
 }

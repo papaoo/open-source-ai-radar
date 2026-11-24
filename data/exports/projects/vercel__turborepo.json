@@ -4,7 +4,13 @@
   "description": "The build system for coding agents.",
   "language": "Rust",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "monorepo",
+    "javascript",
+    "typescript",
+    "build-tool",
+    "build-system"
+  ],
   "stars": 31381,
   "forks": 2504,
   "open_issues": 4,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-11-24T00:53:34Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/vercel.png",
-  "radar_score": 71.41,
-  "impact": 93.74,
+  "radar_score": 71.42,
+  "impact": 93.77,
   "velocity": 55.21,
   "health": 58.35,
-  "global_percentile": 32.43,
+  "global_percentile": 31.43,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "The build system for coding agents.",
@@ -32,5 +38,5 @@
   "forks_30d": 19,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 49
+  "snapshot_count": 50
 }

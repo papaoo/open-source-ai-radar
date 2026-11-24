@@ -13,11 +13,11 @@
   "pushed_at": "2026-11-23T17:21:02Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/huggingface.png",
-  "radar_score": 73.26,
-  "impact": 92.01,
-  "velocity": 58.61,
+  "radar_score": 73.27,
+  "impact": 92.03,
+  "velocity": 58.62,
   "health": 63.75,
-  "global_percentile": 47.14,
+  "global_percentile": 46.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Train transformer language models with reinforcement learning.",
@@ -32,5 +32,5 @@
   "forks_30d": 44,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 52
+  "snapshot_count": 53
 }
