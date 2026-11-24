@@ -21,11 +21,11 @@
   "pushed_at": "2026-11-10T20:07:37Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Lightning-AI.png",
-  "radar_score": 69.42,
+  "radar_score": 69.34,
   "impact": 89.6,
-  "velocity": 53.57,
-  "health": 59.32,
-  "global_percentile": 21.0,
+  "velocity": 53.56,
+  "health": 59.01,
+  "global_percentile": 20.71,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
@@ -38,7 +38,7 @@
   "star_growth_acceleration": 1.3533834586466165,
   "forks_7d": 5,
   "forks_30d": 9,
-  "days_since_last_push": 13,
-  "freshness_score": 0.8780954309205613,
-  "snapshot_count": 26
+  "days_since_last_push": 14,
+  "freshness_score": 0.8693582353988059,
+  "snapshot_count": 27
 }

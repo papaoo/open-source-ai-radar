@@ -11,7 +11,7 @@
     "test-automation",
     "testing"
   ],
-  "stars": 18003,
+  "stars": 18009,
   "forks": 2005,
   "open_issues": 70,
   "watchers": 231,
@@ -28,15 +28,15 @@
   "sub_category": "",
   "summary": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
   "maturity": "Unknown",
-  "stars_7d": 477,
-  "stars_30d": 925,
-  "stars_90d": 925,
-  "star_growth_rate_7d": 68.14285714285714,
-  "star_growth_rate_30d": 61.666666666666664,
-  "star_growth_acceleration": 1.105019305019305,
-  "forks_7d": 51,
+  "stars_7d": 473,
+  "stars_30d": 931,
+  "stars_90d": 931,
+  "star_growth_rate_7d": 67.57142857142857,
+  "star_growth_rate_30d": 62.06666666666667,
+  "star_growth_acceleration": 1.0886911155439618,
+  "forks_7d": 48,
   "forks_30d": 100,
   "days_since_last_push": 53,
   "freshness_score": 0.5886049696783552,
-  "snapshot_count": 59
+  "snapshot_count": 60
 }

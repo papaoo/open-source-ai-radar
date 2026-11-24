@@ -29,10 +29,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/adongwanai.png",
   "radar_score": 62.63,
-  "impact": 85.72,
+  "impact": 85.71,
   "velocity": 43.73,
   "health": 52.15,
-  "global_percentile": 3.0,
+  "global_percentile": 3.71,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "AI Agent 开发指南 | Agent Harness | 上下文工程 | 高级 RAG | MCP | Agentic RL 强化学习 | LangGraph 实战 | 1.2 万+ 大模型面试题 | 算法岗 / 开发岗求职 | 转行大模型",
@@ -47,5 +47,5 @@
   "forks_30d": 47,
   "days_since_last_push": 19,
   "freshness_score": 0.8269591339433623,
-  "snapshot_count": 47
+  "snapshot_count": 48
 }

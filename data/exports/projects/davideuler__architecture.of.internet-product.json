@@ -28,7 +28,7 @@
   "impact": 94.81,
   "velocity": 40.78,
   "health": 27.35,
-  "global_percentile": 0.71,
+  "global_percentile": 1.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/OpenAI/Google/Facebook/Amazon/eBay的架构，欢迎PR补充",
@@ -43,5 +43,5 @@
   "forks_30d": -3,
   "days_since_last_push": 1011,
   "freshness_score": 4.067080682129876e-05,
-  "snapshot_count": 17
+  "snapshot_count": 18
 }

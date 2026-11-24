@@ -17,11 +17,11 @@
   "pushed_at": "2026-08-08T17:18:48Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/datawhalechina.png",
-  "radar_score": 65.76,
+  "radar_score": 65.74,
   "impact": 93.85,
-  "velocity": 51.51,
-  "health": 40.77,
-  "global_percentile": 9.0,
+  "velocity": 51.5,
+  "health": 40.7,
+  "global_percentile": 8.71,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "📚 从零开始构建大模型",
@@ -34,7 +34,7 @@
   "star_growth_acceleration": 1.1008403361344539,
   "forks_7d": 8,
   "forks_30d": 32,
-  "days_since_last_push": 107,
-  "freshness_score": 0.34300851741870664,
-  "snapshot_count": 46
+  "days_since_last_push": 108,
+  "freshness_score": 0.3395955256449391,
+  "snapshot_count": 47
 }

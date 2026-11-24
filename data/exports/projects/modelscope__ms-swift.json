@@ -30,14 +30,14 @@
   "open_issues": 416,
   "watchers": 56,
   "created_at": "2023-08-01T15:06:39Z",
-  "pushed_at": "2026-11-24T13:44:54Z",
+  "pushed_at": "2026-11-24T15:51:08Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/modelscope.png",
-  "radar_score": 73.15,
+  "radar_score": 73.14,
   "impact": 89.07,
   "velocity": 61.65,
   "health": 63.75,
-  "global_percentile": 44.71,
+  "global_percentile": 44.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.8, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM5.3, Gemma4, Llava, Phi4, ...) (AAAI 2025).",
@@ -52,5 +52,5 @@
   "forks_30d": 35,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 49
+  "snapshot_count": 50
 }

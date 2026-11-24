@@ -22,11 +22,11 @@
   "pushed_at": "2026-09-21T17:58:05Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/dottxt-ai.png",
-  "radar_score": 63.43,
+  "radar_score": 63.39,
   "impact": 87.49,
-  "velocity": 46.63,
-  "health": 48.47,
-  "global_percentile": 4.57,
+  "velocity": 46.62,
+  "health": 48.32,
+  "global_percentile": 5.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Structured Outputs",
@@ -39,7 +39,7 @@
   "star_growth_acceleration": 1.3775510204081634,
   "forks_7d": 2,
   "forks_30d": 8,
-  "days_since_last_push": 63,
-  "freshness_score": 0.5325918010068972,
-  "snapshot_count": 31
+  "days_since_last_push": 64,
+  "freshness_score": 0.5272924240430485,
+  "snapshot_count": 32
 }
