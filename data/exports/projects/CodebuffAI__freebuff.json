@@ -10,14 +10,14 @@
   "open_issues": 172,
   "watchers": 81,
   "created_at": "2024-07-09T21:21:56Z",
-  "pushed_at": "2026-11-24T02:41:34Z",
+  "pushed_at": "2026-11-24T04:49:14Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/CodebuffAI.png",
   "radar_score": 73.38,
-  "impact": 88.91,
+  "impact": 88.9,
   "velocity": 62.52,
   "health": 63.75,
-  "global_percentile": 47.14,
+  "global_percentile": 49.43,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "The free coding agent",
@@ -32,5 +32,5 @@
   "forks_30d": 34,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 56
+  "snapshot_count": 57
 }

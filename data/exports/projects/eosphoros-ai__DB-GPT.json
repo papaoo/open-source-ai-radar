@@ -19,7 +19,7 @@
     "deepseek"
   ],
   "stars": 20327,
-  "forks": 3019,
+  "forks": 3020,
   "open_issues": 398,
   "watchers": 143,
   "created_at": "2023-04-13T14:52:43Z",
@@ -27,10 +27,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/eosphoros-ai.png",
   "radar_score": 75.33,
-  "impact": 92.63,
+  "impact": 92.64,
   "velocity": 63.83,
   "health": 63.75,
-  "global_percentile": 63.29,
+  "global_percentile": 64.43,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "open-source agentic AI data assistant for the next generation of AI + Data products.",
@@ -41,9 +41,9 @@
   "star_growth_rate_7d": 3.5714285714285716,
   "star_growth_rate_30d": 3.5714285714285716,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 7,
-  "forks_30d": 16,
+  "forks_7d": 8,
+  "forks_30d": 17,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 45
+  "snapshot_count": 46
 }

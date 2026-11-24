@@ -36,7 +36,7 @@
   "impact": 94.7,
   "velocity": 60.62,
   "health": 55.35,
-  "global_percentile": 41.71,
+  "global_percentile": 44.57,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai",
@@ -51,5 +51,5 @@
   "forks_30d": 13,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 54
+  "snapshot_count": 55
 }

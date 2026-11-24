@@ -37,7 +37,7 @@
   "impact": 94.67,
   "velocity": 65.43,
   "health": 63.75,
-  "global_percentile": 76.29,
+  "global_percentile": 76.86,
   "category": "MCP",
   "sub_category": "",
   "summary": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero",
@@ -52,5 +52,5 @@
   "forks_30d": 30,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 50
+  "snapshot_count": 51
 }

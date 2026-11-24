@@ -27,7 +27,7 @@
     "ai-agents"
   ],
   "stars": 13723,
-  "forks": 1072,
+  "forks": 1073,
   "open_issues": 11,
   "watchers": 114,
   "created_at": "2020-08-09T19:14:59Z",
@@ -38,7 +38,7 @@
   "impact": 88.79,
   "velocity": 49.74,
   "health": 58.35,
-  "global_percentile": 14.57,
+  "global_percentile": 16.14,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
@@ -49,9 +49,9 @@
   "star_growth_rate_7d": 43.857142857142854,
   "star_growth_rate_30d": 37.285714285714285,
   "star_growth_acceleration": 1.1762452107279693,
-  "forks_7d": 64,
-  "forks_30d": 89,
+  "forks_7d": 65,
+  "forks_30d": 90,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 56
+  "snapshot_count": 57
 }

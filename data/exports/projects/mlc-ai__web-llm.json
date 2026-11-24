@@ -25,7 +25,7 @@
   "impact": 91.01,
   "velocity": 58.82,
   "health": 62.65,
-  "global_percentile": 39.43,
+  "global_percentile": 42.14,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "High-performance In-browser LLM Inference Engine ",
@@ -40,5 +40,5 @@
   "forks_30d": 8,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 44
+  "snapshot_count": 45
 }

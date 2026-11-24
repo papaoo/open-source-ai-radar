@@ -34,7 +34,7 @@
   "impact": 93.54,
   "velocity": 56.97,
   "health": 60.15,
-  "global_percentile": 37.0,
+  "global_percentile": 40.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Eclipse Theia is an open-source platform for building custom IDEs and tools for browser and desktop. It includes Theia AI, the vendor-neutral AI harness platform, and powers the AI-native Theia IDE.",
@@ -49,5 +49,5 @@
   "forks_30d": 0,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 15
+  "snapshot_count": 16
 }

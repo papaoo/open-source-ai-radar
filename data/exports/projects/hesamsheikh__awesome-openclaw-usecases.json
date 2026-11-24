@@ -26,7 +26,7 @@
   "impact": 94.6,
   "velocity": 41.27,
   "health": 33.99,
-  "global_percentile": 1.57,
+  "global_percentile": 4.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A community collection of OpenClaw use cases for making life easier.",
@@ -41,5 +41,5 @@
   "forks_30d": -1,
   "days_since_last_push": 244,
   "freshness_score": 0.0871608514619813,
-  "snapshot_count": 37
+  "snapshot_count": 38
 }

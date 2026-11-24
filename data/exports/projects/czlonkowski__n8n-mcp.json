@@ -22,7 +22,7 @@
   "impact": 93.45,
   "velocity": 64.73,
   "health": 58.35,
-  "global_percentile": 57.71,
+  "global_percentile": 59.29,
   "category": "MCP",
   "sub_category": "",
   "summary": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
@@ -37,5 +37,5 @@
   "forks_30d": -13,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 46
+  "snapshot_count": 47
 }

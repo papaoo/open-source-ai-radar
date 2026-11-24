@@ -32,7 +32,7 @@
   "impact": 91.87,
   "velocity": 64.73,
   "health": 63.75,
-  "global_percentile": 63.57,
+  "global_percentile": 64.71,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.",
@@ -47,5 +47,5 @@
   "forks_30d": 24,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 53
+  "snapshot_count": 54
 }

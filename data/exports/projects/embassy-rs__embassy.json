@@ -4,7 +4,14 @@
   "description": "Modern embedded framework, using Rust and async.",
   "language": "Rust",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "async",
+    "embedded",
+    "executor",
+    "rust",
+    "hal",
+    "drivers"
+  ],
   "stars": 10144,
   "forks": 1758,
   "open_issues": 389,
@@ -13,11 +20,11 @@
   "pushed_at": "2026-11-24T00:10:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/embassy-rs.png",
-  "radar_score": 70.04,
-  "impact": 86.52,
+  "radar_score": 70.06,
+  "impact": 86.58,
   "velocity": 55.69,
   "health": 63.75,
-  "global_percentile": 25.0,
+  "global_percentile": 26.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Modern embedded framework, using Rust and async.",
@@ -32,5 +39,5 @@
   "forks_30d": 18,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 29
+  "snapshot_count": 30
 }

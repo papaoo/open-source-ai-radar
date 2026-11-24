@@ -35,10 +35,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/Unstructured-IO.png",
   "radar_score": 70.31,
-  "impact": 88.99,
+  "impact": 88.98,
   "velocity": 54.7,
   "health": 62.29,
-  "global_percentile": 25.71,
+  "global_percentile": 28.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning",
@@ -53,5 +53,5 @@
   "forks_30d": 23,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 45
+  "snapshot_count": 46
 }

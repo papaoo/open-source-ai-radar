@@ -26,7 +26,7 @@
   "impact": 96.07,
   "velocity": 51.26,
   "health": 51.59,
-  "global_percentile": 21.0,
+  "global_percentile": 22.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
@@ -41,5 +41,5 @@
   "forks_30d": 15,
   "days_since_last_push": 21,
   "freshness_score": 0.8105842459701871,
-  "snapshot_count": 52
+  "snapshot_count": 53
 }

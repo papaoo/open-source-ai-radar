@@ -27,7 +27,7 @@
     "deep-learning"
   ],
   "stars": 11951,
-  "forks": 1764,
+  "forks": 1765,
   "open_issues": 125,
   "watchers": 139,
   "created_at": "2020-04-28T17:48:45Z",
@@ -38,7 +38,7 @@
   "impact": 89.5,
   "velocity": 43.35,
   "health": 52.47,
-  "global_percentile": 5.29,
+  "global_percentile": 7.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A PyTorch-based Speech Toolkit",
@@ -49,9 +49,9 @@
   "star_growth_rate_7d": 1.5714285714285714,
   "star_growth_rate_30d": 1.5714285714285714,
   "star_growth_acceleration": 1.0,
-  "forks_7d": 2,
-  "forks_30d": 6,
+  "forks_7d": 3,
+  "forks_30d": 7,
   "days_since_last_push": 40,
   "freshness_score": 0.6703200460356393,
-  "snapshot_count": 23
+  "snapshot_count": 24
 }

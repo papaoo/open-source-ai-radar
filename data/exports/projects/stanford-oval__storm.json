@@ -23,11 +23,11 @@
   "pushed_at": "2025-09-30T18:07:21Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/stanford-oval.png",
-  "radar_score": 65.27,
+  "radar_score": 65.26,
   "impact": 94.5,
   "velocity": 50.75,
   "health": 38.8,
-  "global_percentile": 8.14,
+  "global_percentile": 10.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
@@ -42,5 +42,5 @@
   "forks_30d": 12,
   "days_since_last_push": 419,
   "freshness_score": 0.01514628487304698,
-  "snapshot_count": 43
+  "snapshot_count": 44
 }

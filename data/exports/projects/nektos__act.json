@@ -19,10 +19,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/nektos.png",
   "radar_score": 73.69,
-  "impact": 95.71,
+  "impact": 95.7,
   "velocity": 59.91,
   "health": 57.74,
-  "global_percentile": 49.14,
+  "global_percentile": 51.71,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Run your GitHub Actions locally 🚀",
@@ -37,5 +37,5 @@
   "forks_30d": 2,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 52
+  "snapshot_count": 53
 }

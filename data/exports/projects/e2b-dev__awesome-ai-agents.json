@@ -20,7 +20,7 @@
     "copilot"
   ],
   "stars": 31048,
-  "forks": 3862,
+  "forks": 3865,
   "open_issues": 167,
   "watchers": 299,
   "created_at": "2023-06-19T00:20:06Z",
@@ -31,7 +31,7 @@
   "impact": 95.3,
   "velocity": 53.27,
   "health": 41.85,
-  "global_percentile": 14.0,
+  "global_percentile": 15.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A list of AI autonomous agents",
@@ -42,9 +42,9 @@
   "star_growth_rate_7d": 13.428571428571429,
   "star_growth_rate_30d": 12.857142857142858,
   "star_growth_acceleration": 1.0444444444444445,
-  "forks_7d": 45,
-  "forks_30d": 80,
+  "forks_7d": 48,
+  "forks_30d": 83,
   "days_since_last_push": 94,
   "freshness_score": 0.3906278353585211,
-  "snapshot_count": 51
+  "snapshot_count": 52
 }

@@ -17,7 +17,7 @@
   "impact": 95.35,
   "velocity": 52.07,
   "health": 38.76,
-  "global_percentile": 9.86,
+  "global_percentile": 12.14,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "LLM training in simple, raw C/CUDA",
@@ -32,5 +32,5 @@
   "forks_30d": 19,
   "days_since_last_push": 515,
   "freshness_score": 0.005799404726842141,
-  "snapshot_count": 40
+  "snapshot_count": 41
 }

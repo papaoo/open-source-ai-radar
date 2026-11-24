@@ -31,7 +31,7 @@
   "impact": 90.37,
   "velocity": 53.55,
   "health": 63.75,
-  "global_percentile": 28.29,
+  "global_percentile": 31.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "F´ - A flight software and embedded systems framework",
@@ -46,5 +46,5 @@
   "forks_30d": 3,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 46
+  "snapshot_count": 47
 }

@@ -36,9 +36,9 @@
   "owner_avatar": "https://github.com/FareedKhan-dev.png",
   "radar_score": 71.26,
   "impact": 89.52,
-  "velocity": 61.39,
+  "velocity": 61.38,
   "health": 55.86,
-  "global_percentile": 30.0,
+  "global_percentile": 32.71,
   "category": "AI Infrastructure",
   "sub_category": "model serving",
   "summary": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
@@ -53,5 +53,5 @@
   "forks_30d": 180,
   "days_since_last_push": 7,
   "freshness_score": 0.9323938199059483,
-  "snapshot_count": 58
+  "snapshot_count": 59
 }

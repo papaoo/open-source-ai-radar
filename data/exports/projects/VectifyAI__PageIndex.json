@@ -28,9 +28,9 @@
   "owner_avatar": "https://github.com/VectifyAI.png",
   "radar_score": 75.81,
   "impact": 95.2,
-  "velocity": 62.78,
+  "velocity": 62.79,
   "health": 63.01,
-  "global_percentile": 68.0,
+  "global_percentile": 68.43,
   "category": "RAG",
   "sub_category": "vector database",
   "summary": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
@@ -45,5 +45,5 @@
   "forks_30d": 29,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 52
+  "snapshot_count": 53
 }
