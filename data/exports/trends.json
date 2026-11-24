@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:53:31.206558+00:00",
+  "generated_at": "2026-11-24T12:21:37.606487+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 82.68,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 74078,
-      "forks": 58268,
+      "stars": 74199,
+      "forks": 58352,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -34,8 +34,8 @@
       "radar_score": 78.69,
       "global_percentile": 91.0,
       "category_percentile": 0.0,
-      "stars": 9800,
-      "forks": 2194,
+      "stars": 9834,
+      "forks": 2199,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -70,7 +70,7 @@
       "radar_score": 79.77,
       "global_percentile": 96.57,
       "category_percentile": 0.0,
-      "stars": 15538,
+      "stars": 15541,
       "forks": 8614,
       "language": "TypeScript",
       "url": "https://github.com/NanmiCoder/cc-haha",
@@ -88,8 +88,8 @@
       "radar_score": 79.31,
       "global_percentile": 94.86,
       "category_percentile": 0.0,
-      "stars": 30927,
-      "forks": 1491,
+      "stars": 31139,
+      "forks": 1501,
       "language": "Dart",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "category": "LLM Frameworks",
@@ -101,19 +101,19 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1708
+      "count": 1712
     },
     {
       "category": "AI Coding Tools",
-      "count": 1112
+      "count": 1115
     },
     {
       "category": "LLM Frameworks",
-      "count": 769
+      "count": 771
     },
     {
       "category": "AI Agents",
-      "count": 643
+      "count": 644
     },
     {
       "category": "MCP",
@@ -121,7 +121,7 @@
     },
     {
       "category": "Local AI",
-      "count": 546
+      "count": 547
     },
     {
       "category": "RAG",

@@ -2,21 +2,6 @@
   "category": "AI Coding Tools",
   "history": [
     {
-      "id": 2,
-      "category": "AI Coding Tools",
-      "timestamp": "2026-11-09T09:35:30.926552+00:00",
-      "total_tracked": 955,
-      "new_this_period": 0,
-      "avg_stars": 8189.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 0.0,
-      "avg_health": 0.0,
-      "total_stars": 7820722,
-      "top_project": "jwasham/coding-interview-university",
-      "trend": "new",
-      "momentum_score": 0.0
-    },
-    {
       "id": 13,
       "category": "AI Coding Tools",
       "timestamp": "2026-11-09T12:50:44.863295+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 63.6,
       "avg_health": 58.0,
       "total_stars": 8413293,
+      "top_project": "jwasham/coding-interview-university",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1082,
+      "category": "AI Coding Tools",
+      "timestamp": "2026-11-24T12:21:53.493539+00:00",
+      "total_tracked": 1115,
+      "new_this_period": 0,
+      "avg_stars": 7556.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 63.6,
+      "avg_health": 58.0,
+      "total_stars": 8425208,
       "top_project": "jwasham/coding-interview-university",
       "trend": "declining",
       "momentum_score": 0.0

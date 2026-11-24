@@ -4,14 +4,8 @@
   "description": "A beautiful, powerful, self-hosted ROM manager and player.",
   "language": "Python",
   "license": "AGPL-3.0",
-  "topics": [
-    "retrogaming",
-    "self-hosted",
-    "open-source",
-    "emulation",
-    "rommapp"
-  ],
-  "stars": 14472,
+  "topics": [],
+  "stars": 14475,
   "forks": 829,
   "open_issues": 167,
   "watchers": 53,
