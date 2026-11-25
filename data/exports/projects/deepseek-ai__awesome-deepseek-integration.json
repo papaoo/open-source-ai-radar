@@ -20,7 +20,7 @@
   "impact": 96.46,
   "velocity": 58.59,
   "health": 59.95,
-  "global_percentile": 51.57,
+  "global_percentile": 60.57,
   "category": "LLM Frameworks",
   "sub_category": "serving",
   "summary": "Integrate the DeepSeek API into popular software",
@@ -35,5 +35,5 @@
   "forks_30d": 43,
   "days_since_last_push": 11,
   "freshness_score": 0.8958341352965282,
-  "snapshot_count": 56
+  "snapshot_count": 57
 }

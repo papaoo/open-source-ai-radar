@@ -2,21 +2,6 @@
   "category": "Uncategorized",
   "history": [
     {
-      "id": 67,
-      "category": "Uncategorized",
-      "timestamp": "2026-11-10T04:05:46.969318+00:00",
-      "total_tracked": 1512,
-      "new_this_period": 0,
-      "avg_stars": 8775.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 58.0,
-      "avg_health": 57.2,
-      "total_stars": 13267253,
-      "top_project": "morluto/rea",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 79,
       "category": "Uncategorized",
       "timestamp": "2026-11-10T09:38:23.883927+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 60.3,
       "avg_health": 57.2,
       "total_stars": 13989828,
+      "top_project": "morluto/rea",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1146,
+      "category": "Uncategorized",
+      "timestamp": "2026-11-25T04:53:14.975405+00:00",
+      "total_tracked": 1715,
+      "new_this_period": 0,
+      "avg_stars": 8159.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 59.7,
+      "avg_health": 57.4,
+      "total_stars": 13993362,
       "top_project": "morluto/rea",
       "trend": "declining",
       "momentum_score": 0.0

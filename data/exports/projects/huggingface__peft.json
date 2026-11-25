@@ -28,7 +28,7 @@
   "impact": 92.17,
   "velocity": 61.21,
   "health": 63.75,
-  "global_percentile": 53.14,
+  "global_percentile": 61.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
@@ -43,5 +43,5 @@
   "forks_30d": 33,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 47
+  "snapshot_count": 48
 }

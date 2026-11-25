@@ -33,7 +33,7 @@
   "impact": 92.63,
   "velocity": 30.34,
   "health": 44.31,
-  "global_percentile": 0.71,
+  "global_percentile": 3.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "The Cloud Native AI Platform",
@@ -48,5 +48,5 @@
   "forks_30d": 6,
   "days_since_last_push": 55,
   "freshness_score": 0.5769498103804866,
-  "snapshot_count": 25
+  "snapshot_count": 26
 }
