@@ -4,12 +4,8 @@
   "description": "Fast, flexible LLM inference",
   "language": "Rust",
   "license": "MIT",
-  "topics": [
-    "llm",
-    "rust",
-    "uqff"
-  ],
-  "stars": 7861,
+  "topics": [],
+  "stars": 7862,
   "forks": 774,
   "open_issues": 261,
   "watchers": 46,

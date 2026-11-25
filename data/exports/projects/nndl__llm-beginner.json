@@ -4,16 +4,10 @@
   "description": "《大模型与智能体》电子书与 6 个编程任务：Transformer、mini-GPT、SFT/DPO、RAG、工具调用与编程智能体。",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "fudannlp",
-    "step-by-step",
-    "agent",
-    "llm",
-    "openmoss"
-  ],
+  "topics": [],
   "stars": 6905,
   "forks": 1381,
-  "open_issues": 1,
+  "open_issues": 2,
   "watchers": 99,
   "created_at": "2017-03-29T15:34:03Z",
   "pushed_at": "2026-09-06T05:53:42Z",

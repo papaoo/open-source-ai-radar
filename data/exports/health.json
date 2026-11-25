@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T04:53:15.211144+00:00",
+  "generated_at": "2026-11-25T11:09:55.679446+00:00",
   "overall_status": "warning",
   "checks": [
     {
@@ -7,34 +7,34 @@
       "status": "healthy",
       "last_snapshot": "2026-11-25T04:53:00.470242+00:00",
       "last_score": "2026-11-25T04:53:00.975146+00:00",
-      "last_discovery": "2026-11-24T23:29:37.690101+00:00",
+      "last_discovery": "2026-11-25T11:09:43.429731+00:00",
       "issues": []
     },
     {
       "name": "Snapshot Coverage",
       "status": "warning",
-      "total_repos": 6105,
+      "total_repos": 6129,
       "snapshotted": 1127,
-      "coverage_pct": 18.5,
+      "coverage_pct": 18.4,
       "issues": [
-        "Only 18.5% of repos have snapshots"
+        "Only 18.4% of repos have snapshots"
       ]
     },
     {
       "name": "Scoring Coverage",
       "status": "warning",
-      "total_repos": 6105,
+      "total_repos": 6129,
       "scored": 700,
-      "coverage_pct": 11.5,
+      "coverage_pct": 11.4,
       "issues": [
-        "Only 11.5% of repos have scores"
+        "Only 11.4% of repos have scores"
       ]
     },
     {
       "name": "Category Coverage",
       "status": "healthy",
-      "total_repos": 6105,
-      "classified": 6105,
+      "total_repos": 6129,
+      "classified": 6129,
       "coverage_pct": 100.0,
       "issues": []
     },
@@ -42,23 +42,23 @@
       "name": "Database Health",
       "status": "healthy",
       "table_sizes": {
-        "repositories": 6105,
+        "repositories": 6129,
         "snapshots": 44798,
         "scores": 44800,
         "growth_metrics": 44798,
-        "ai_analysis": 6105
+        "ai_analysis": 6129
       },
       "issues": []
     },
     {
       "name": "Processing Stats",
       "status": "warning",
-      "total_repos": 6105,
+      "total_repos": 6129,
       "processed": 1127,
-      "unprocessed": 4978,
+      "unprocessed": 5002,
       "last_run": "2026-11-25T04:53:01.353694+00:00",
       "issues": [
-        "Only 18.5% of repos have processing signatures"
+        "Only 18.4% of repos have processing signatures"
       ]
     }
   ]

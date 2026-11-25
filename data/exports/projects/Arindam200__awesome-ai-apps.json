@@ -4,15 +4,9 @@
   "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agents",
-    "ai",
-    "llm",
-    "mcp",
-    "hacktoberfest"
-  ],
-  "stars": 17023,
-  "forks": 1907,
+  "topics": [],
+  "stars": 17056,
+  "forks": 1916,
   "open_issues": 49,
   "watchers": 109,
   "created_at": "2025-02-16T13:57:00Z",

@@ -4,16 +4,8 @@
   "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
   "language": "JavaScript",
   "license": "MIT",
-  "topics": [
-    "anthropic",
-    "claude",
-    "claude-code",
-    "cli",
-    "plugin",
-    "statusline",
-    "typescript"
-  ],
-  "stars": 29296,
+  "topics": [],
+  "stars": 29297,
   "forks": 1350,
   "open_issues": 4,
   "watchers": 36,

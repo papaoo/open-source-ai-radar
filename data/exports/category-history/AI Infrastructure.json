@@ -2,21 +2,6 @@
   "category": "AI Infrastructure",
   "history": [
     {
-      "id": 76,
-      "category": "AI Infrastructure",
-      "timestamp": "2026-11-10T09:38:23.883927+00:00",
-      "total_tracked": 55,
-      "new_this_period": 0,
-      "avg_stars": 3737.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 63.5,
-      "avg_health": 60.5,
-      "total_stars": 205513,
-      "top_project": "mudler/LocalAI",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 90,
       "category": "AI Infrastructure",
       "timestamp": "2026-11-10T12:31:43.635026+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 66.7,
       "avg_health": 63.8,
       "total_stars": 216477,
+      "top_project": "mudler/LocalAI",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1153,
+      "category": "AI Infrastructure",
+      "timestamp": "2026-11-25T11:09:55.469044+00:00",
+      "total_tracked": 62,
+      "new_this_period": 0,
+      "avg_stars": 3495.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 66.7,
+      "avg_health": 63.8,
+      "total_stars": 216681,
       "top_project": "mudler/LocalAI",
       "trend": "declining",
       "momentum_score": 0.0
