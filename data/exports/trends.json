@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:01:12.258500+00:00",
+  "generated_at": "2026-11-25T23:01:58.243192+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 82.76,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 74548,
-      "forks": 58588,
+      "stars": 74551,
+      "forks": 58590,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -34,8 +34,8 @@
       "radar_score": 78.88,
       "global_percentile": 91.57,
       "category_percentile": 0.0,
-      "stars": 9987,
-      "forks": 2234,
+      "stars": 9991,
+      "forks": 2235,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -52,7 +52,7 @@
       "radar_score": 79.79,
       "global_percentile": 96.86,
       "category_percentile": 0.0,
-      "stars": 15558,
+      "stars": 15559,
       "forks": 8610,
       "language": "TypeScript",
       "url": "https://github.com/NanmiCoder/cc-haha",
@@ -88,8 +88,8 @@
       "radar_score": 80.92,
       "global_percentile": 99.29,
       "category_percentile": 0.0,
-      "stars": 20518,
-      "forks": 7627,
+      "stars": 20684,
+      "forks": 7697,
       "language": "Go",
       "url": "https://github.com/BaaRai/ARTEX",
       "category": "Uncategorized",
@@ -101,23 +101,23 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1718
+      "count": 1726
     },
     {
       "category": "AI Coding Tools",
-      "count": 1123
+      "count": 1125
     },
     {
       "category": "LLM Frameworks",
-      "count": 779
+      "count": 782
     },
     {
       "category": "AI Agents",
-      "count": 645
+      "count": 646
     },
     {
       "category": "MCP",
-      "count": 641
+      "count": 643
     },
     {
       "category": "Local AI",
@@ -125,7 +125,7 @@
     },
     {
       "category": "RAG",
-      "count": 453
+      "count": 455
     },
     {
       "category": "AI Infrastructure",
@@ -133,7 +133,7 @@
     },
     {
       "category": "Generative AI",
-      "count": 52
+      "count": 53
     },
     {
       "category": "Multimodal AI",

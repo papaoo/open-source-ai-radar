@@ -4,11 +4,8 @@
   "description": "\"RAG-Anything: All-in-One RAG Framework\"",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "multi-modal-rag",
-    "retrieval-augmented-generation"
-  ],
-  "stars": 24821,
+  "topics": [],
+  "stars": 24823,
   "forks": 2907,
   "open_issues": 77,
   "watchers": 118,

@@ -4,16 +4,7 @@
   "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [
-    "ai-agent",
-    "ai-agents",
-    "film-production",
-    "generative-ai",
-    "short-drama",
-    "storyboard",
-    "video-generation",
-    "automation"
-  ],
+  "topics": [],
   "stars": 14985,
   "forks": 3232,
   "open_issues": 137,

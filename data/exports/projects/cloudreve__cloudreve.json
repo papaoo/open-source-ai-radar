@@ -4,16 +4,8 @@
   "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
   "language": "Go",
   "license": "GPL-3.0",
-  "topics": [
-    "file-sharing",
-    "file",
-    "cloud",
-    "file-manager",
-    "cloud-storage",
-    "cloudreve",
-    "golang"
-  ],
-  "stars": 29013,
+  "topics": [],
+  "stars": 29014,
   "forks": 3932,
   "open_issues": 142,
   "watchers": 237,

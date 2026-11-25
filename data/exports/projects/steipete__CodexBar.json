@@ -4,14 +4,9 @@
   "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
   "language": "Swift",
   "license": "MIT",
-  "topics": [
-    "ai",
-    "codex",
-    "swift",
-    "claude-code"
-  ],
-  "stars": 23338,
-  "forks": 2256,
+  "topics": [],
+  "stars": 23340,
+  "forks": 2259,
   "open_issues": 32,
   "watchers": 57,
   "created_at": "2025-11-16T17:00:44Z",
