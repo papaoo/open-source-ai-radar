@@ -4,7 +4,10 @@
   "description": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
   "language": "Jupyter Notebook",
   "license": null,
-  "topics": [],
+  "topics": [
+    "cookbook",
+    "llm"
+  ],
   "stars": 24938,
   "forks": 2991,
   "open_issues": 4,
@@ -13,11 +16,11 @@
   "pushed_at": "2025-06-12T14:48:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/datawhalechina.png",
-  "radar_score": 59.47,
-  "impact": 93.48,
-  "velocity": 43.54,
+  "radar_score": 59.48,
+  "impact": 93.5,
+  "velocity": 43.55,
   "health": 27.36,
-  "global_percentile": 1.86,
+  "global_percentile": 1.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
@@ -32,5 +35,5 @@
   "forks_30d": 2,
   "days_since_last_push": 530,
   "freshness_score": 0.004991593906910217,
-  "snapshot_count": 36
+  "snapshot_count": 37
 }

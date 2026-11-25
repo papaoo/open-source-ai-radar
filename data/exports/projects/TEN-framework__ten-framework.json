@@ -4,7 +4,13 @@
   "description": " Open-source framework for conversational voice AI agents",
   "language": "Python",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "ai",
+    "multi-modal",
+    "real-time",
+    "video",
+    "voice"
+  ],
   "stars": 11244,
   "forks": 1381,
   "open_issues": 168,
@@ -13,11 +19,11 @@
   "pushed_at": "2026-11-24T15:55:44Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/TEN-framework.png",
-  "radar_score": 71.39,
-  "impact": 87.25,
-  "velocity": 60.86,
+  "radar_score": 71.4,
+  "impact": 87.28,
+  "velocity": 60.87,
   "health": 60.75,
-  "global_percentile": 30.57,
+  "global_percentile": 31.14,
   "category": "AI Agents",
   "sub_category": "conversational agent",
   "summary": " Open-source framework for conversational voice AI agents",
@@ -32,5 +38,5 @@
   "forks_30d": 6,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 37
+  "snapshot_count": 38
 }

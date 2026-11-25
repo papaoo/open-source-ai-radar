@@ -4,7 +4,17 @@
   "description": "A self hosted virtual browser that runs in docker and uses WebRTC.",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "docker",
+    "virtual-browser",
+    "golang",
+    "webrtc",
+    "self-hosted",
+    "remote-control",
+    "remote-desktop",
+    "vue",
+    "media-streaming"
+  ],
   "stars": 22713,
   "forks": 1664,
   "open_issues": 129,
@@ -13,11 +23,11 @@
   "pushed_at": "2026-11-18T11:05:03Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/m1k1o.png",
-  "radar_score": 70.45,
-  "impact": 91.27,
-  "velocity": 52.98,
+  "radar_score": 70.46,
+  "impact": 91.29,
+  "velocity": 52.99,
   "health": 61.6,
-  "global_percentile": 26.29,
+  "global_percentile": 26.43,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A self hosted virtual browser that runs in docker and uses WebRTC.",
@@ -32,5 +42,5 @@
   "forks_30d": 8,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }
