@@ -16,11 +16,11 @@
   "pushed_at": "2025-06-12T14:48:07Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/datawhalechina.png",
-  "radar_score": 59.5,
+  "radar_score": 59.49,
   "impact": 93.52,
-  "velocity": 43.57,
+  "velocity": 43.56,
   "health": 27.36,
-  "global_percentile": 1.29,
+  "global_percentile": 1.43,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
@@ -33,7 +33,7 @@
   "star_growth_acceleration": 1.2903225806451613,
   "forks_7d": 3,
   "forks_30d": 4,
-  "days_since_last_push": 530,
-  "freshness_score": 0.004991593906910217,
-  "snapshot_count": 38
+  "days_since_last_push": 531,
+  "freshness_score": 0.004941926717679818,
+  "snapshot_count": 39
 }

@@ -27,10 +27,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/botpress.png",
   "radar_score": 70.32,
-  "impact": 91.71,
-  "velocity": 50.57,
+  "impact": 91.7,
+  "velocity": 50.56,
   "health": 63.75,
-  "global_percentile": 25.0,
+  "global_percentile": 24.86,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "The open-source hub to build & deploy GPT/LLM Agents ⚡️",
@@ -45,5 +45,5 @@
   "forks_30d": 2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

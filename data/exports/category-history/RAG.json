@@ -2,21 +2,6 @@
   "category": "RAG",
   "history": [
     {
-      "id": 105,
-      "category": "RAG",
-      "timestamp": "2026-11-10T17:45:07.381739+00:00",
-      "total_tracked": 414,
-      "new_this_period": 0,
-      "avg_stars": 3728.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 58.9,
-      "avg_health": 56.1,
-      "total_stars": 1543520,
-      "top_project": "langgenius/dify",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 117,
       "category": "RAG",
       "timestamp": "2026-11-10T20:50:33.406530+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 59.9,
       "avg_health": 55.9,
       "total_stars": 1572564,
+      "top_project": "langgenius/dify",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1184,
+      "category": "RAG",
+      "timestamp": "2026-11-25T20:01:28.388056+00:00",
+      "total_tracked": 453,
+      "new_this_period": 0,
+      "avg_stars": 3472.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 59.5,
+      "avg_health": 56.7,
+      "total_stars": 1572704,
       "top_project": "langgenius/dify",
       "trend": "declining",
       "momentum_score": 0.0

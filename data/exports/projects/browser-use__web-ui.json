@@ -18,11 +18,11 @@
   "pushed_at": "2026-09-25T03:56:21Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/browser-use.png",
-  "radar_score": 68.62,
-  "impact": 91.65,
+  "radar_score": 68.61,
+  "impact": 91.64,
   "velocity": 56.47,
   "health": 48.76,
-  "global_percentile": 18.43,
+  "global_percentile": 17.57,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "🖥️ Run AI Agent in your browser.",
@@ -37,5 +37,5 @@
   "forks_30d": 0,
   "days_since_last_push": 61,
   "freshness_score": 0.5433508690744998,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }
