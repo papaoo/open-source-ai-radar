@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 23:02:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:05:53 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -17,28 +17,12 @@
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
     </item>
     <item>
-      <title>wangzan101/Mika</title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
-      <category>Local AI</category>
-      <pubDate>2026-11-25T10:33:19Z</pubDate>
-      <guid>https://github.com/wangzan101/Mika</guid>
-    </item>
-    <item>
       <title>NanmiCoder/cc-haha</title>
       <link>https://github.com/NanmiCoder/cc-haha</link>
       <description>本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git wo</description>
       <category>AI Coding Tools</category>
       <pubDate>2026-11-25T16:21:28Z</pubDate>
       <guid>https://github.com/NanmiCoder/cc-haha</guid>
-    </item>
-    <item>
-      <title>Kuberwastaken/claurst</title>
-      <link>https://github.com/Kuberwastaken/claurst</link>
-      <description>Agentic Coding for Builders who Ship</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-11-22T17:14:01Z</pubDate>
-      <guid>https://github.com/Kuberwastaken/claurst</guid>
     </item>
     <item>
       <title>BaaRai/ARTEX</title>
@@ -53,7 +37,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-25T22:47:05Z</pubDate>
+      <pubDate>2026-11-25T23:36:21Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -73,14 +57,6 @@
       <guid>https://github.com/kingcharleslzy-ai/dsh-purge</guid>
     </item>
     <item>
-      <title>erkamyaman/rust-anything</title>
-      <link>https://github.com/erkamyaman/rust-anything</link>
-      <description>Rewrite your whole app in Rust, one piece at a time, checked against the original&apos;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-25T20:39:59Z</pubDate>
-      <guid>https://github.com/erkamyaman/rust-anything</guid>
-    </item>
-    <item>
       <title>JuneYaooo/rea-video</title>
       <link>https://github.com/JuneYaooo/rea-video</link>
       <description>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。</description>
@@ -93,8 +69,16 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-25T22:51:46Z</pubDate>
+      <pubDate>2026-11-26T00:01:20Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
+    </item>
+    <item>
+      <title>aden-hive/hive</title>
+      <link>https://github.com/aden-hive/hive</link>
+      <description>Multi-Agent Harness for Production AI</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-17T17:53:37Z</pubDate>
+      <guid>https://github.com/aden-hive/hive</guid>
     </item>
     <item>
       <title>claude-code-best/claude-code</title>
@@ -167,6 +151,22 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-11-25T15:42:39Z</pubDate>
       <guid>https://github.com/Ebony-Vinyl/dsh-our-free-model</guid>
+    </item>
+    <item>
+      <title>pingdotgg/t3code</title>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <description>The best way to control Claude Code, Codex and more from any computer or phone</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-25T23:51:04Z</pubDate>
+      <guid>https://github.com/pingdotgg/t3code</guid>
+    </item>
+    <item>
+      <title>paperclipai/paperclip</title>
+      <link>https://github.com/paperclipai/paperclip</link>
+      <description>The open-source app everyone uses to manage agents at work</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-25T23:53:32Z</pubDate>
+      <guid>https://github.com/paperclipai/paperclip</guid>
     </item>
   </channel>
 </rss>
