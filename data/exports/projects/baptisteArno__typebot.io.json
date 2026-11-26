@@ -4,15 +4,8 @@
   "description": "💬 Typebot is a powerful chatbot builder that you can self-host.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [
-    "form-builder",
-    "chatbot",
-    "conversational-bots",
-    "chat-application",
-    "nextjs",
-    "tailwindcss"
-  ],
-  "stars": 10649,
+  "topics": [],
+  "stars": 10651,
   "forks": 3253,
   "open_issues": 15,
   "watchers": 64,
