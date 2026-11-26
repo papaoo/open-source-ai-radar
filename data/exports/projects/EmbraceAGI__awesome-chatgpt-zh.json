@@ -37,7 +37,7 @@
   "impact": 87.96,
   "velocity": 50.62,
   "health": 58.35,
-  "global_percentile": 14.14,
+  "global_percentile": 14.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
@@ -52,5 +52,5 @@
   "forks_30d": 38,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 51
+  "snapshot_count": 52
 }

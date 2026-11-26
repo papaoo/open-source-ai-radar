@@ -16,7 +16,7 @@
     "prompt-engineering",
     "research-assistant"
   ],
-  "stars": 15120,
+  "stars": 15130,
   "forks": 649,
   "open_issues": 2,
   "watchers": 17,
@@ -33,15 +33,15 @@
   "sub_category": "",
   "summary": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
   "maturity": "Unknown",
-  "stars_7d": 367,
-  "stars_30d": 866,
-  "stars_90d": 866,
-  "star_growth_rate_7d": 52.42857142857143,
-  "star_growth_rate_30d": 50.94117647058823,
-  "star_growth_acceleration": 1.0291982843945893,
+  "stars_7d": 375,
+  "stars_30d": 876,
+  "stars_90d": 876,
+  "star_growth_rate_7d": 53.57142857142857,
+  "star_growth_rate_30d": 51.529411764705884,
+  "star_growth_acceleration": 1.039628180039139,
   "forks_7d": 11,
   "forks_30d": 33,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 60
+  "snapshot_count": 61
 }

@@ -30,11 +30,11 @@
   "pushed_at": "2026-11-26T12:58:53Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/alibaba.png",
-  "radar_score": 77.92,
+  "radar_score": 77.91,
   "impact": 97.06,
-  "velocity": 68.01,
+  "velocity": 68.0,
   "health": 61.15,
-  "global_percentile": 85.71,
+  "global_percentile": 85.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
@@ -49,5 +49,5 @@
   "forks_30d": 7,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 47
+  "snapshot_count": 48
 }

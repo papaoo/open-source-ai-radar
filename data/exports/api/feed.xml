@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 13:51:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:39:44 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -13,15 +13,23 @@
       <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
       <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-25T15:17:41Z</pubDate>
+      <pubDate>2026-11-26T19:09:34Z</pubDate>
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
+    </item>
+    <item>
+      <title>wangzan101/Mika</title>
+      <link>https://github.com/wangzan101/Mika</link>
+      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
+      <category>Local AI</category>
+      <pubDate>2026-11-26T19:36:44Z</pubDate>
+      <guid>https://github.com/wangzan101/Mika</guid>
     </item>
     <item>
       <title>NanmiCoder/cc-haha</title>
       <link>https://github.com/NanmiCoder/cc-haha</link>
       <description>本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git wo</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-26T09:38:06Z</pubDate>
+      <pubDate>2026-11-26T16:27:31Z</pubDate>
       <guid>https://github.com/NanmiCoder/cc-haha</guid>
     </item>
     <item>
@@ -37,16 +45,32 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-26T09:00:24Z</pubDate>
+      <pubDate>2026-11-26T18:49:04Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
+    </item>
+    <item>
+      <title>Kuberwastaken/claurst</title>
+      <link>https://github.com/Kuberwastaken/claurst</link>
+      <description>Agentic Coding for Builders who Ship</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-22T17:14:01Z</pubDate>
+      <guid>https://github.com/Kuberwastaken/claurst</guid>
     </item>
     <item>
       <title>nanocoai/nanoclaw</title>
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T00:20:33Z</pubDate>
+      <pubDate>2026-11-26T18:29:33Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
+    </item>
+    <item>
+      <title>tangency-labs/solidcraft</title>
+      <link>https://github.com/tangency-labs/solidcraft</link>
+      <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
+      <category>MCP</category>
+      <pubDate>2026-11-26T19:27:47Z</pubDate>
+      <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
       <title>JuneYaooo/rea-video</title>
@@ -57,20 +81,12 @@
       <guid>https://github.com/JuneYaooo/rea-video</guid>
     </item>
     <item>
-      <title>tangency-labs/solidcraft</title>
-      <link>https://github.com/tangency-labs/solidcraft</link>
-      <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
-      <category>MCP</category>
-      <pubDate>2026-11-26T13:28:56Z</pubDate>
-      <guid>https://github.com/tangency-labs/solidcraft</guid>
-    </item>
-    <item>
-      <title>aden-hive/hive</title>
-      <link>https://github.com/aden-hive/hive</link>
-      <description>Multi-Agent Harness for Production AI</description>
+      <title>erkamyaman/rust-anything</title>
+      <link>https://github.com/erkamyaman/rust-anything</link>
+      <description>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-17T17:53:37Z</pubDate>
-      <guid>https://github.com/aden-hive/hive</guid>
+      <pubDate>2026-11-26T19:14:31Z</pubDate>
+      <guid>https://github.com/erkamyaman/rust-anything</guid>
     </item>
     <item>
       <title>claude-code-best/claude-code</title>
@@ -93,31 +109,39 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-26T13:26:37Z</pubDate>
+      <pubDate>2026-11-26T19:27:52Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
-      <title>awesome-dsh-plugin/awesome-dsh-plugin</title>
-      <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
-      <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
-      <category>LLM Frameworks</category>
-      <pubDate>2026-11-25T22:53:29Z</pubDate>
-      <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
+      <title>Gathin23/cleanyourtv</title>
+      <link>https://github.com/Gathin23/cleanyourtv</link>
+      <description>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-26T17:37:25Z</pubDate>
+      <guid>https://github.com/Gathin23/cleanyourtv</guid>
     </item>
     <item>
       <title>morluto/rea</title>
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T13:23:40Z</pubDate>
+      <pubDate>2026-11-26T19:24:26Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
+    </item>
+    <item>
+      <title>awesome-dsh-plugin/awesome-dsh-plugin</title>
+      <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
+      <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
+      <category>LLM Frameworks</category>
+      <pubDate>2026-11-26T16:36:09Z</pubDate>
+      <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>
       <title>ccch1mneyyy/dsh-Go</title>
       <link>https://github.com/ccch1mneyyy/dsh-Go</link>
       <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-26T13:36:35Z</pubDate>
+      <pubDate>2026-11-26T18:56:46Z</pubDate>
       <guid>https://github.com/ccch1mneyyy/dsh-Go</guid>
     </item>
     <item>
@@ -125,16 +149,8 @@
       <link>https://github.com/Wei-Shaw/sub2api</link>
       <description>Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T08:40:30Z</pubDate>
+      <pubDate>2026-11-26T16:19:38Z</pubDate>
       <guid>https://github.com/Wei-Shaw/sub2api</guid>
-    </item>
-    <item>
-      <title>Gathin23/cleanyourtv</title>
-      <link>https://github.com/Gathin23/cleanyourtv</link>
-      <description>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-24T10:17:51Z</pubDate>
-      <guid>https://github.com/Gathin23/cleanyourtv</guid>
     </item>
     <item>
       <title>google/elephant-goldfish-model</title>
@@ -151,22 +167,6 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-11-26T07:34:12Z</pubDate>
       <guid>https://github.com/Ebony-Vinyl/dsh-our-free-model</guid>
-    </item>
-    <item>
-      <title>pingdotgg/t3code</title>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <description>The best way to control Claude Code, Codex and more from any computer or phone</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-11-26T13:38:44Z</pubDate>
-      <guid>https://github.com/pingdotgg/t3code</guid>
-    </item>
-    <item>
-      <title>sansan0/TrendRadar</title>
-      <link>https://github.com/sansan0/TrendRadar</link>
-      <description>⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, web search, MCP &amp; smart alerts.🎯 告别信息过载，你的 AI     舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅 + 定时联网搜索，支持关键词与 AI 智能筛选。AI 翻译 + AI 分析简报</description>
-      <category>MCP</category>
-      <pubDate>2026-11-26T12:51:50Z</pubDate>
-      <guid>https://github.com/sansan0/TrendRadar</guid>
     </item>
   </channel>
 </rss>

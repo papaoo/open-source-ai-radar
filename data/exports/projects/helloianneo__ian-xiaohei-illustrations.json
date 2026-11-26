@@ -13,7 +13,7 @@
     "image-generation",
     "xiaohei"
   ],
-  "stars": 13360,
+  "stars": 13365,
   "forks": 1519,
   "open_issues": 11,
   "watchers": 20,
@@ -30,15 +30,15 @@
   "sub_category": "",
   "summary": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
   "maturity": "Unknown",
-  "stars_7d": 82,
-  "stars_30d": 217,
-  "stars_90d": 217,
-  "star_growth_rate_7d": 11.714285714285714,
-  "star_growth_rate_30d": 12.764705882352942,
-  "star_growth_acceleration": 0.9177090190915075,
+  "stars_7d": 87,
+  "stars_30d": 222,
+  "stars_90d": 222,
+  "star_growth_rate_7d": 12.428571428571429,
+  "star_growth_rate_30d": 13.058823529411764,
+  "star_growth_acceleration": 0.9517374517374517,
   "forks_7d": 9,
   "forks_30d": 13,
   "days_since_last_push": 30,
   "freshness_score": 0.7408182206817179,
-  "snapshot_count": 55
+  "snapshot_count": 56
 }

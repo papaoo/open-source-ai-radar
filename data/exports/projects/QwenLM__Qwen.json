@@ -23,8 +23,8 @@
   "radar_score": 61.18,
   "impact": 92.36,
   "velocity": 45.09,
-  "health": 33.82,
-  "global_percentile": 1.57,
+  "health": 33.81,
+  "global_percentile": 2.43,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
@@ -37,7 +37,7 @@
   "star_growth_acceleration": 0.8095238095238095,
   "forks_7d": 2,
   "forks_30d": 5,
-  "days_since_last_push": 265,
-  "freshness_score": 0.0706512130604296,
-  "snapshot_count": 43
+  "days_since_last_push": 266,
+  "freshness_score": 0.06994822174465536,
+  "snapshot_count": 44
 }

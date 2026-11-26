@@ -22,11 +22,11 @@
   "pushed_at": "2026-11-17T18:33:26Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/Fosowl.png",
-  "radar_score": 71.41,
+  "radar_score": 71.33,
   "impact": 93.88,
   "velocity": 57.07,
-  "health": 55.52,
-  "global_percentile": 30.71,
+  "health": 55.19,
+  "global_percentile": 30.86,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
@@ -39,7 +39,7 @@
   "star_growth_acceleration": 1.1929824561403508,
   "forks_7d": 6,
   "forks_30d": 6,
-  "days_since_last_push": 8,
-  "freshness_score": 0.9231163463866358,
-  "snapshot_count": 46
+  "days_since_last_push": 9,
+  "freshness_score": 0.9139311852712282,
+  "snapshot_count": 47
 }

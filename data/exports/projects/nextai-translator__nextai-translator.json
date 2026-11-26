@@ -25,7 +25,7 @@
   "impact": 92.29,
   "velocity": 63.13,
   "health": 63.38,
-  "global_percentile": 59.29,
+  "global_percentile": 60.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.",
@@ -40,5 +40,5 @@
   "forks_30d": 12,
   "days_since_last_push": 1,
   "freshness_score": 0.9900498337491681,
-  "snapshot_count": 39
+  "snapshot_count": 40
 }

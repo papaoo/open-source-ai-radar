@@ -19,11 +19,11 @@
   "pushed_at": "2026-10-14T14:28:31Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/liguodongiot.png",
-  "radar_score": 66.48,
+  "radar_score": 66.43,
   "impact": 93.67,
   "velocity": 49.54,
-  "health": 46.66,
-  "global_percentile": 10.86,
+  "health": 46.47,
+  "global_percentile": 10.43,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
@@ -36,7 +36,7 @@
   "star_growth_acceleration": 0.8279220779220778,
   "forks_7d": -1,
   "forks_30d": -3,
-  "days_since_last_push": 42,
-  "freshness_score": 0.6570468198150567,
-  "snapshot_count": 37
+  "days_since_last_push": 43,
+  "freshness_score": 0.6505090947233165,
+  "snapshot_count": 38
 }

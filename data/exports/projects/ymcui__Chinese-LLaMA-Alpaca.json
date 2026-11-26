@@ -25,11 +25,11 @@
   "pushed_at": "2026-04-19T00:58:05Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/ymcui.png",
-  "radar_score": 58.44,
-  "impact": 91.97,
+  "radar_score": 58.45,
+  "impact": 91.98,
   "velocity": 37.4,
   "health": 34.26,
-  "global_percentile": 0.43,
+  "global_percentile": 1.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "中文LLaMA&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs)",
@@ -44,5 +44,5 @@
   "forks_30d": -3,
   "days_since_last_push": 221,
   "freshness_score": 0.10970064851551141,
-  "snapshot_count": 22
+  "snapshot_count": 23
 }

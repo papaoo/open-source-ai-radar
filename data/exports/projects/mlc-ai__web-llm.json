@@ -21,11 +21,11 @@
   "pushed_at": "2026-11-20T14:21:53Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/mlc-ai.png",
-  "radar_score": 71.72,
+  "radar_score": 71.63,
   "impact": 91.09,
-  "velocity": 56.58,
-  "health": 61.94,
-  "global_percentile": 32.86,
+  "velocity": 56.57,
+  "health": 61.6,
+  "global_percentile": 33.43,
   "category": "LLM Frameworks",
   "sub_category": "inference engine",
   "summary": "High-performance In-browser LLM Inference Engine ",
@@ -38,7 +38,7 @@
   "star_growth_acceleration": 1.1614906832298135,
   "forks_7d": 1,
   "forks_30d": 8,
-  "days_since_last_push": 5,
-  "freshness_score": 0.951229424500714,
-  "snapshot_count": 50
+  "days_since_last_push": 6,
+  "freshness_score": 0.9417645335842487,
+  "snapshot_count": 51
 }

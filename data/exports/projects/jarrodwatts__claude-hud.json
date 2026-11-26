@@ -25,7 +25,7 @@
   "impact": 89.39,
   "velocity": 60.8,
   "health": 52.7,
-  "global_percentile": 23.57,
+  "global_percentile": 24.71,
   "category": "AI Coding Tools",
   "sub_category": "ide extension",
   "summary": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
@@ -40,5 +40,5 @@
   "forks_30d": 14,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 57
+  "snapshot_count": 58
 }
