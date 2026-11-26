@@ -22,7 +22,7 @@
   "impact": 93.5,
   "velocity": 55.73,
   "health": 60.75,
-  "global_percentile": 34.0,
+  "global_percentile": 35.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "🧠 Laws, Theories, Principles and Patterns for developers and technologists.",
@@ -37,5 +37,5 @@
   "forks_30d": 1,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 25
+  "snapshot_count": 26
 }

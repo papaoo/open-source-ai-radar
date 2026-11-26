@@ -24,7 +24,7 @@
   "impact": 87.91,
   "velocity": 50.53,
   "health": 56.2,
-  "global_percentile": 11.43,
+  "global_percentile": 13.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "structured outputs for llms ",
@@ -39,5 +39,5 @@
   "forks_30d": 46,
   "days_since_last_push": 6,
   "freshness_score": 0.9417645335842487,
-  "snapshot_count": 49
+  "snapshot_count": 50
 }

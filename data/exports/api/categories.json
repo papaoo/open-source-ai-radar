@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-11-26T00:05:53.330700+00:00",
+  "generated_at": "2026-11-26T04:03:17.925943+00:00",
   "total": 11,
   "categories": [
     {
@@ -15,12 +15,23 @@
       "top_project": "mudler/LocalAI"
     },
     {
+      "category": "Evaluation & Benchmarks",
+      "tracked": 36,
+      "new": 0,
+      "avg_stars": 2718.0,
+      "velocity": 65.1,
+      "health": 62.2,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "langfuse/langfuse"
+    },
+    {
       "category": "AI Coding Tools",
       "tracked": 1125,
       "new": 0,
-      "avg_stars": 7529.0,
-      "velocity": 63.5,
-      "health": 57.3,
+      "avg_stars": 7533.0,
+      "velocity": 63.7,
+      "health": 57.8,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "jwasham/coding-interview-university"
@@ -29,67 +40,45 @@
       "category": "AI Agents",
       "tracked": 646,
       "new": 0,
-      "avg_stars": 8167.0,
-      "velocity": 62.7,
-      "health": 58.6,
+      "avg_stars": 8170.0,
+      "velocity": 62.8,
+      "health": 58.9,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "obra/superpowers"
-    },
-    {
-      "category": "Multimodal AI",
-      "tracked": 50,
-      "new": 0,
-      "avg_stars": 8233.0,
-      "velocity": 62.6,
-      "health": 61.7,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "huggingface/transformers"
     },
     {
       "category": "MCP",
       "tracked": 643,
       "new": 0,
       "avg_stars": 3533.0,
-      "velocity": 61.7,
-      "health": 59.7,
+      "velocity": 60.9,
+      "health": 58.8,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "punkpeye/awesome-mcp-servers"
-    },
-    {
-      "category": "Generative AI",
-      "tracked": 53,
-      "new": 0,
-      "avg_stars": 4856.0,
-      "velocity": 60.4,
-      "health": 58.4,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "Comfy-Org/ComfyUI"
-    },
-    {
-      "category": "Evaluation & Benchmarks",
-      "tracked": 36,
-      "new": 0,
-      "avg_stars": 2717.0,
-      "velocity": 60.1,
-      "health": 54.5,
-      "momentum": 0.0,
-      "trend": "declining",
-      "top_project": "langfuse/langfuse"
     },
     {
       "category": "Local AI",
       "tracked": 550,
       "new": 0,
       "avg_stars": 4154.0,
-      "velocity": 60.0,
-      "health": 60.0,
+      "velocity": 60.2,
+      "health": 60.2,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "ollama/ollama"
+    },
+    {
+      "category": "LLM Frameworks",
+      "tracked": 782,
+      "new": 0,
+      "avg_stars": 5710.0,
+      "velocity": 59.9,
+      "health": 54.8,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "deepseek-ai/deepseek-harness"
     },
     {
       "category": "RAG",
@@ -97,21 +86,32 @@
       "new": 0,
       "avg_stars": 3461.0,
       "velocity": 59.6,
-      "health": 56.1,
+      "health": 55.8,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "langgenius/dify"
     },
     {
-      "category": "LLM Frameworks",
-      "tracked": 782,
+      "category": "Multimodal AI",
+      "tracked": 50,
       "new": 0,
-      "avg_stars": 5709.0,
-      "velocity": 59.4,
-      "health": 54.2,
+      "avg_stars": 8233.0,
+      "velocity": 57.8,
+      "health": 60.5,
       "momentum": 0.0,
       "trend": "declining",
-      "top_project": "deepseek-ai/deepseek-harness"
+      "top_project": "huggingface/transformers"
+    },
+    {
+      "category": "Generative AI",
+      "tracked": 53,
+      "new": 0,
+      "avg_stars": 4857.0,
+      "velocity": 56.8,
+      "health": 52.9,
+      "momentum": 0.0,
+      "trend": "declining",
+      "top_project": "Comfy-Org/ComfyUI"
     },
     {
       "category": "AI Safety & Alignment",
@@ -119,7 +119,7 @@
       "new": 0,
       "avg_stars": 4257.0,
       "velocity": 53.8,
-      "health": 59.6,
+      "health": 59.5,
       "momentum": 0.0,
       "trend": "declining",
       "top_project": "promptfoo/promptfoo"

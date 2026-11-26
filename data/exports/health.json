@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T00:05:53.065530+00:00",
+  "generated_at": "2026-11-26T04:03:17.748978+00:00",
   "overall_status": "warning",
   "checks": [
     {
       "name": "Data Freshness",
       "status": "healthy",
-      "last_snapshot": "2026-11-26T00:05:34.214961+00:00",
-      "last_score": "2026-11-26T00:05:34.719135+00:00",
+      "last_snapshot": "2026-11-26T04:03:08.625742+00:00",
+      "last_score": "2026-11-26T04:03:09.129123+00:00",
       "last_discovery": "2026-11-25T23:01:57.436417+00:00",
       "issues": []
     },
@@ -43,9 +43,9 @@
       "status": "healthy",
       "table_sizes": {
         "repositories": 6148,
-        "snapshots": 46898,
-        "scores": 46900,
-        "growth_metrics": 46898,
+        "snapshots": 47598,
+        "scores": 47600,
+        "growth_metrics": 47598,
         "ai_analysis": 6148
       },
       "issues": []
@@ -56,7 +56,7 @@
       "total_repos": 6148,
       "processed": 1127,
       "unprocessed": 5021,
-      "last_run": "2026-11-26T00:05:35.142301+00:00",
+      "last_run": "2026-11-26T04:03:09.375667+00:00",
       "issues": [
         "Only 18.3% of repos have processing signatures"
       ]

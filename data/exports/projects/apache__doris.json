@@ -29,14 +29,14 @@
   "open_issues": 481,
   "watchers": 280,
   "created_at": "2017-08-10T12:13:30Z",
-  "pushed_at": "2026-11-25T15:15:06Z",
+  "pushed_at": "2026-11-26T03:56:46Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/apache.png",
   "radar_score": 73.66,
-  "impact": 93.18,
+  "impact": 93.17,
   "velocity": 58.43,
   "health": 63.75,
-  "global_percentile": 48.14,
+  "global_percentile": 49.71,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
@@ -51,5 +51,5 @@
   "forks_30d": 25,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 43
+  "snapshot_count": 44
 }

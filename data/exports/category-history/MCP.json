@@ -2,21 +2,6 @@
   "category": "MCP",
   "history": [
     {
-      "id": 138,
-      "category": "MCP",
-      "timestamp": "2026-11-11T01:48:19.152797+00:00",
-      "total_tracked": 575,
-      "new_this_period": 0,
-      "avg_stars": 3723.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 58.9,
-      "avg_health": 57.9,
-      "total_stars": 2140880,
-      "top_project": "punkpeye/awesome-mcp-servers",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 150,
       "category": "MCP",
       "timestamp": "2026-11-11T09:09:53.032312+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 61.7,
       "avg_health": 59.7,
       "total_stars": 2271439,
+      "top_project": "punkpeye/awesome-mcp-servers",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1217,
+      "category": "MCP",
+      "timestamp": "2026-11-26T04:03:17.581912+00:00",
+      "total_tracked": 643,
+      "new_this_period": 0,
+      "avg_stars": 3533.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 60.9,
+      "avg_health": 58.8,
+      "total_stars": 2271846,
       "top_project": "punkpeye/awesome-mcp-servers",
       "trend": "declining",
       "momentum_score": 0.0

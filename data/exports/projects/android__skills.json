@@ -7,7 +7,7 @@
   "topics": [
     "skills"
   ],
-  "stars": 10761,
+  "stars": 10764,
   "forks": 709,
   "open_issues": 27,
   "watchers": 112,
@@ -19,20 +19,20 @@
   "impact": 86.61,
   "velocity": 64.44,
   "health": 63.01,
-  "global_percentile": 41.71,
+  "global_percentile": 43.0,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "",
   "maturity": "Unknown",
-  "stars_7d": 129,
-  "stars_30d": 324,
-  "stars_90d": 324,
-  "star_growth_rate_7d": 18.428571428571427,
-  "star_growth_rate_30d": 20.25,
-  "star_growth_acceleration": 0.91005291005291,
-  "forks_7d": 12,
+  "stars_7d": 117,
+  "stars_30d": 327,
+  "stars_90d": 327,
+  "star_growth_rate_7d": 16.714285714285715,
+  "star_growth_rate_30d": 20.4375,
+  "star_growth_acceleration": 0.817824377457405,
+  "forks_7d": 11,
   "forks_30d": 26,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 41
+  "snapshot_count": 42
 }

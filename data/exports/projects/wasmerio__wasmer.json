@@ -28,7 +28,7 @@
   "impact": 91.16,
   "velocity": 54.54,
   "health": 59.2,
-  "global_percentile": 23.86,
+  "global_percentile": 24.71,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "🚀 Fast and lightweight sandboxes for your apps and AI agents",
@@ -43,5 +43,5 @@
   "forks_30d": 6,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 50
+  "snapshot_count": 51
 }

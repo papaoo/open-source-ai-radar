@@ -2,21 +2,6 @@
   "category": "Local AI",
   "history": [
     {
-      "id": 137,
-      "category": "Local AI",
-      "timestamp": "2026-11-11T01:48:19.152797+00:00",
-      "total_tracked": 514,
-      "new_this_period": 0,
-      "avg_stars": 4334.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 58.5,
-      "avg_health": 59.2,
-      "total_stars": 2227451,
-      "top_project": "ollama/ollama",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 149,
       "category": "Local AI",
       "timestamp": "2026-11-11T09:09:53.032312+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 60.0,
       "avg_health": 60.0,
       "total_stars": 2284627,
+      "top_project": "ollama/ollama",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1216,
+      "category": "Local AI",
+      "timestamp": "2026-11-26T04:03:17.581912+00:00",
+      "total_tracked": 550,
+      "new_this_period": 0,
+      "avg_stars": 4154.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 60.2,
+      "avg_health": 60.2,
+      "total_stars": 2284871,
       "top_project": "ollama/ollama",
       "trend": "declining",
       "momentum_score": 0.0

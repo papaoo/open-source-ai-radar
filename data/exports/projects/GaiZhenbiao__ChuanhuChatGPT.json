@@ -35,7 +35,7 @@
   "impact": 90.04,
   "velocity": 48.89,
   "health": 47.5,
-  "global_percentile": 6.0,
+  "global_percentile": 7.29,
   "category": "LLM Frameworks",
   "sub_category": "fine-tuning",
   "summary": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.",
@@ -50,5 +50,5 @@
   "forks_30d": -6,
   "days_since_last_push": 70,
   "freshness_score": 0.49658530379140947,
-  "snapshot_count": 20
+  "snapshot_count": 21
 }

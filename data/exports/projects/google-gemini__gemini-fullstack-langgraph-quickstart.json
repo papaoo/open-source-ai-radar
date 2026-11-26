@@ -18,9 +18,9 @@
   "owner_avatar": "https://github.com/google-gemini.png",
   "radar_score": 65.44,
   "impact": 92.09,
-  "velocity": 52.53,
+  "velocity": 52.52,
   "health": 40.89,
-  "global_percentile": 7.0,
+  "global_percentile": 7.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
@@ -35,5 +35,5 @@
   "forks_30d": -2,
   "days_since_last_push": 164,
   "freshness_score": 0.19398004229089189,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }
