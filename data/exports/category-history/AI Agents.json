@@ -2,21 +2,6 @@
   "category": "AI Agents",
   "history": [
     {
-      "id": 182,
-      "category": "AI Agents",
-      "timestamp": "2026-11-11T21:10:22.721001+00:00",
-      "total_tracked": 586,
-      "new_this_period": 0,
-      "avg_stars": 8624.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 62.8,
-      "avg_health": 58.9,
-      "total_stars": 5053845,
-      "top_project": "obra/superpowers",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 194,
       "category": "AI Agents",
       "timestamp": "2026-11-11T22:35:19.165643+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 62.8,
       "avg_health": 58.7,
       "total_stars": 5285253,
+      "top_project": "obra/superpowers",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1263,
+      "category": "AI Agents",
+      "timestamp": "2026-11-26T22:51:28.412414+00:00",
+      "total_tracked": 651,
+      "new_this_period": 0,
+      "avg_stars": 8121.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 62.8,
+      "avg_health": 58.7,
+      "total_stars": 5286622,
       "top_project": "obra/superpowers",
       "trend": "declining",
       "momentum_score": 0.0

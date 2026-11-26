@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:39:32.395566+00:00",
+  "generated_at": "2026-11-26T22:51:12.039602+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 0,
@@ -16,8 +16,8 @@
       "radar_score": 82.78,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 74790,
-      "forks": 58737,
+      "stars": 74798,
+      "forks": 58740,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "LLM Frameworks",
@@ -34,7 +34,7 @@
       "radar_score": 79.0,
       "global_percentile": 92.71,
       "category_percentile": 0.0,
-      "stars": 10069,
+      "stars": 10074,
       "forks": 2251,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
@@ -52,7 +52,7 @@
       "radar_score": 79.78,
       "global_percentile": 96.86,
       "category_percentile": 0.0,
-      "stars": 15572,
+      "stars": 15573,
       "forks": 8613,
       "language": "TypeScript",
       "url": "https://github.com/NanmiCoder/cc-haha",
@@ -70,8 +70,8 @@
       "radar_score": 81.31,
       "global_percentile": 99.57,
       "category_percentile": 0.0,
-      "stars": 22047,
-      "forks": 8198,
+      "stars": 22197,
+      "forks": 8257,
       "language": "Go",
       "url": "https://github.com/BaaRai/ARTEX",
       "category": "Uncategorized",
@@ -88,8 +88,8 @@
       "radar_score": 78.01,
       "global_percentile": 86.0,
       "category_percentile": 0.0,
-      "stars": 19975,
-      "forks": 8647,
+      "stars": 19976,
+      "forks": 8648,
       "language": "Python",
       "url": "https://github.com/rocketride-org/rocketride-server",
       "category": "AI Agents",
@@ -101,11 +101,11 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1730
+      "count": 1731
     },
     {
       "category": "AI Coding Tools",
-      "count": 1127
+      "count": 1129
     },
     {
       "category": "LLM Frameworks",
@@ -117,11 +117,11 @@
     },
     {
       "category": "MCP",
-      "count": 644
+      "count": 645
     },
     {
       "category": "Local AI",
-      "count": 550
+      "count": 551
     },
     {
       "category": "RAG",
@@ -133,7 +133,7 @@
     },
     {
       "category": "Generative AI",
-      "count": 53
+      "count": 54
     },
     {
       "category": "Multimodal AI",

@@ -4,14 +4,11 @@
   "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "artificial-intelligence",
-    "large-language-model"
-  ],
-  "stars": 71556,
-  "forks": 9285,
+  "topics": [],
+  "stars": 71595,
+  "forks": 9294,
   "open_issues": 32,
-  "watchers": 319,
+  "watchers": 320,
   "created_at": "2024-07-27T04:34:12Z",
   "pushed_at": "2026-11-26T08:55:11Z",
   "owner_login": "",

@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:39:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 22:51:28 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -13,7 +13,7 @@
       <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
       <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-26T19:09:34Z</pubDate>
+      <pubDate>2026-11-26T20:18:25Z</pubDate>
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
     </item>
     <item>
@@ -21,7 +21,7 @@
       <link>https://github.com/wangzan101/Mika</link>
       <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
       <category>Local AI</category>
-      <pubDate>2026-11-26T19:36:44Z</pubDate>
+      <pubDate>2026-11-26T19:51:56Z</pubDate>
       <guid>https://github.com/wangzan101/Mika</guid>
     </item>
     <item>
@@ -37,7 +37,7 @@
       <link>https://github.com/BaaRai/ARTEX</link>
       <description>Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-24T19:49:01Z</pubDate>
+      <pubDate>2026-11-26T22:40:28Z</pubDate>
       <guid>https://github.com/BaaRai/ARTEX</guid>
     </item>
     <item>
@@ -45,7 +45,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-26T18:49:04Z</pubDate>
+      <pubDate>2026-11-26T21:09:20Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -61,7 +61,7 @@
       <link>https://github.com/nanocoai/nanoclaw</link>
       <description>Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T18:29:33Z</pubDate>
+      <pubDate>2026-11-26T21:43:10Z</pubDate>
       <guid>https://github.com/nanocoai/nanoclaw</guid>
     </item>
     <item>
@@ -69,7 +69,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-26T19:27:47Z</pubDate>
+      <pubDate>2026-11-26T22:47:49Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -85,7 +85,7 @@
       <link>https://github.com/erkamyaman/rust-anything</link>
       <description>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T19:14:31Z</pubDate>
+      <pubDate>2026-11-26T22:09:52Z</pubDate>
       <guid>https://github.com/erkamyaman/rust-anything</guid>
     </item>
     <item>
@@ -109,7 +109,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-26T19:27:52Z</pubDate>
+      <pubDate>2026-11-26T22:25:06Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -125,7 +125,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T19:24:26Z</pubDate>
+      <pubDate>2026-11-26T22:40:05Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -133,7 +133,7 @@
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
       <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-26T16:36:09Z</pubDate>
+      <pubDate>2026-11-26T19:54:41Z</pubDate>
       <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>

@@ -4,16 +4,7 @@
   "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "aggregator",
-    "news",
-    "llm",
-    "python",
-    "mcp",
-    "openclaw",
-    "feishu-bot",
-    "webhook"
-  ],
+  "topics": [],
   "stars": 15158,
   "forks": 2208,
   "open_issues": 4,

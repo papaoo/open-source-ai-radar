@@ -4,12 +4,8 @@
   "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
   "language": "Go",
   "license": "NOASSERTION",
-  "topics": [
-    "agents",
-    "container",
-    "sandbox"
-  ],
-  "stars": 13472,
+  "topics": [],
+  "stars": 13471,
   "forks": 1249,
   "open_issues": 123,
   "watchers": 56,

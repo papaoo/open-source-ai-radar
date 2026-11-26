@@ -4,15 +4,8 @@
   "description": "Port of OpenAI's Whisper model in C/C++",
   "language": "C++",
   "license": "MIT",
-  "topics": [
-    "openai",
-    "speech-to-text",
-    "transformer",
-    "whisper",
-    "inference",
-    "speech-recognition"
-  ],
-  "stars": 55555,
+  "topics": [],
+  "stars": 55564,
   "forks": 6357,
   "open_issues": 183,
   "watchers": 407,

@@ -4,15 +4,9 @@
   "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "backtesting",
-    "claude",
-    "claude-skills",
-    "day-trading",
-    "stock-market"
-  ],
-  "stars": 9728,
-  "forks": 2347,
+  "topics": [],
+  "stars": 9744,
+  "forks": 2351,
   "open_issues": 42,
   "watchers": 138,
   "created_at": "2026-10-20T14:17:54Z",

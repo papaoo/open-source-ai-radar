@@ -4,15 +4,9 @@
   "description": "TradingAgents: Towards Agentic Finance Research",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "topics": [
-    "agent",
-    "finance",
-    "llm",
-    "multiagent",
-    "trading"
-  ],
-  "stars": 123838,
-  "forks": 23717,
+  "topics": [],
+  "stars": 123844,
+  "forks": 23719,
   "open_issues": 53,
   "watchers": 922,
   "created_at": "2024-12-28T03:31:08Z",
