@@ -4,7 +4,22 @@
   "description": "The painless way to host your own Git service",
   "language": "Go",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "gogs",
+    "go",
+    "git",
+    "docker",
+    "mysql",
+    "postgresql",
+    "self-hosted",
+    "sqlite3",
+    "version-control",
+    "source-code-management",
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-workflow",
+    "kubernetes"
+  ],
   "stars": 48001,
   "forks": 5078,
   "open_issues": 667,
@@ -14,10 +29,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/gogs.png",
   "radar_score": 75.77,
-  "impact": 97.42,
+  "impact": 97.43,
   "velocity": 59.61,
   "health": 63.75,
-  "global_percentile": 68.0,
+  "global_percentile": 67.14,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "The painless way to host your own Git service",
@@ -32,5 +47,5 @@
   "forks_30d": -2,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }
