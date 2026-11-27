@@ -4,13 +4,8 @@
   "description": "Examples and guides for using the OpenAI API",
   "language": "Jupyter Notebook",
   "license": "MIT",
-  "topics": [
-    "openai",
-    "chatgpt",
-    "gpt-4",
-    "openai-api"
-  ],
-  "stars": 77542,
+  "topics": [],
+  "stars": 77543,
   "forks": 13088,
   "open_issues": 79,
   "watchers": 1018,

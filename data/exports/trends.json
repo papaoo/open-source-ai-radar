@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:35:48.250227+00:00",
+  "generated_at": "2026-11-27T22:34:56.152545+00:00",
   "rising_stars_count": 25,
   "hidden_gems_count": 0,
   "losing_momentum_count": 1,
@@ -34,7 +34,7 @@
       "radar_score": 82.66,
       "global_percentile": 99.86,
       "category_percentile": 0.0,
-      "stars": 75000,
+      "stars": 75005,
       "forks": 58861,
       "language": "Python",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
@@ -52,8 +52,8 @@
       "radar_score": 78.82,
       "global_percentile": 91.86,
       "category_percentile": 0.0,
-      "stars": 10132,
-      "forks": 2257,
+      "stars": 10134,
+      "forks": 2258,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "category": "Local AI",
@@ -88,8 +88,8 @@
       "radar_score": 78.44,
       "global_percentile": 89.43,
       "category_percentile": 0.0,
-      "stars": 13202,
-      "forks": 4916,
+      "stars": 13212,
+      "forks": 4921,
       "language": "JavaScript",
       "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
       "category": "LLM Frameworks",
@@ -101,31 +101,31 @@
   "categories": [
     {
       "category": "Uncategorized",
-      "count": 1735
+      "count": 1741
     },
     {
       "category": "AI Coding Tools",
-      "count": 1133
+      "count": 1134
     },
     {
       "category": "LLM Frameworks",
-      "count": 786
+      "count": 789
     },
     {
       "category": "AI Agents",
-      "count": 653
+      "count": 655
     },
     {
       "category": "MCP",
-      "count": 646
+      "count": 649
     },
     {
       "category": "Local AI",
-      "count": 552
+      "count": 553
     },
     {
       "category": "RAG",
-      "count": 456
+      "count": 457
     },
     {
       "category": "AI Infrastructure",
@@ -133,7 +133,7 @@
     },
     {
       "category": "Generative AI",
-      "count": 54
+      "count": 55
     },
     {
       "category": "Multimodal AI",

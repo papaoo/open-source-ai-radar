@@ -4,9 +4,7 @@
   "description": "Examples in the MLX framework",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "mlx"
-  ],
+  "topics": [],
   "stars": 9080,
   "forks": 1232,
   "open_issues": 147,

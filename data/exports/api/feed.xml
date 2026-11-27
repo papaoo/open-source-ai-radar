@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 19:36:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:35:08 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -45,7 +45,7 @@
       <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
       <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-27T18:44:53Z</pubDate>
+      <pubDate>2026-11-27T20:20:45Z</pubDate>
       <guid>https://github.com/kingcharleslzy-ai/dsh-purge</guid>
     </item>
     <item>
@@ -53,7 +53,7 @@
       <link>https://github.com/BaaRai/ARTEX</link>
       <description>Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T00:50:56Z</pubDate>
+      <pubDate>2026-11-27T21:57:22Z</pubDate>
       <guid>https://github.com/BaaRai/ARTEX</guid>
     </item>
     <item>
@@ -61,7 +61,7 @@
       <link>https://github.com/rocketride-org/rocketride-server</link>
       <description>RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.</description>
       <category>AI Agents</category>
-      <pubDate>2026-11-27T18:41:27Z</pubDate>
+      <pubDate>2026-11-27T19:57:47Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
     </item>
     <item>
@@ -85,7 +85,7 @@
       <link>https://github.com/erkamyaman/rust-anything</link>
       <description>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T18:41:20Z</pubDate>
+      <pubDate>2026-11-27T21:25:43Z</pubDate>
       <guid>https://github.com/erkamyaman/rust-anything</guid>
     </item>
     <item>
@@ -93,7 +93,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-27T19:20:27Z</pubDate>
+      <pubDate>2026-11-27T22:29:43Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -109,7 +109,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-27T17:20:47Z</pubDate>
+      <pubDate>2026-11-27T21:01:52Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -133,7 +133,7 @@
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
       <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-27T16:41:13Z</pubDate>
+      <pubDate>2026-11-27T19:46:25Z</pubDate>
       <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>
@@ -141,7 +141,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T19:16:27Z</pubDate>
+      <pubDate>2026-11-27T22:25:45Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
