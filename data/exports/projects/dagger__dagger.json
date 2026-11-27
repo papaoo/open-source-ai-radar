@@ -4,8 +4,19 @@
   "description": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
   "language": "Go",
   "license": "Apache-2.0",
-  "topics": [],
-  "stars": 16653,
+  "topics": [
+    "ci-cd",
+    "containers",
+    "continuous-deployment",
+    "continuous-integration",
+    "devops",
+    "docker",
+    "agents",
+    "caching",
+    "graphql",
+    "workflows"
+  ],
+  "stars": 16652,
   "forks": 966,
   "open_issues": 150,
   "watchers": 224,
@@ -14,10 +25,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/dagger.png",
   "radar_score": 70.99,
-  "impact": 90.46,
-  "velocity": 53.9,
+  "impact": 90.47,
+  "velocity": 53.89,
   "health": 63.75,
-  "global_percentile": 28.86,
+  "global_percentile": 28.0,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
@@ -32,5 +43,5 @@
   "forks_30d": 13,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 62
+  "snapshot_count": 63
 }

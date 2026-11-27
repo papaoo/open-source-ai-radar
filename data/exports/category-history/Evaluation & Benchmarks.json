@@ -2,21 +2,6 @@
   "category": "Evaluation & Benchmarks",
   "history": [
     {
-      "id": 203,
-      "category": "Evaluation & Benchmarks",
-      "timestamp": "2026-11-11T22:35:19.165643+00:00",
-      "total_tracked": 33,
-      "new_this_period": 0,
-      "avg_stars": 2929.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 59.9,
-      "avg_health": 54.6,
-      "total_stars": 96673,
-      "top_project": "langfuse/langfuse",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 210,
       "category": "Evaluation & Benchmarks",
       "timestamp": "2026-11-12T02:48:39.435382+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 65.1,
       "avg_health": 62.2,
       "total_stars": 98012,
+      "top_project": "langfuse/langfuse",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1277,
+      "category": "Evaluation & Benchmarks",
+      "timestamp": "2026-11-27T00:23:24.099986+00:00",
+      "total_tracked": 36,
+      "new_this_period": 0,
+      "avg_stars": 2723.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 65.1,
+      "avg_health": 62.2,
+      "total_stars": 98013,
       "top_project": "langfuse/langfuse",
       "trend": "declining",
       "momentum_score": 0.0

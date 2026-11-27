@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 22:51:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:23:24 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -15,14 +15,6 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-11-26T20:18:25Z</pubDate>
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
-    </item>
-    <item>
-      <title>wangzan101/Mika</title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
-      <category>Local AI</category>
-      <pubDate>2026-11-26T19:51:56Z</pubDate>
-      <guid>https://github.com/wangzan101/Mika</guid>
     </item>
     <item>
       <title>NanmiCoder/cc-haha</title>
@@ -37,7 +29,7 @@
       <link>https://github.com/BaaRai/ARTEX</link>
       <description>Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T22:40:28Z</pubDate>
+      <pubDate>2026-11-27T00:11:28Z</pubDate>
       <guid>https://github.com/BaaRai/ARTEX</guid>
     </item>
     <item>
@@ -47,14 +39,6 @@
       <category>AI Agents</category>
       <pubDate>2026-11-26T21:09:20Z</pubDate>
       <guid>https://github.com/rocketride-org/rocketride-server</guid>
-    </item>
-    <item>
-      <title>Kuberwastaken/claurst</title>
-      <link>https://github.com/Kuberwastaken/claurst</link>
-      <description>Agentic Coding for Builders who Ship</description>
-      <category>AI Coding Tools</category>
-      <pubDate>2026-11-22T17:14:01Z</pubDate>
-      <guid>https://github.com/Kuberwastaken/claurst</guid>
     </item>
     <item>
       <title>nanocoai/nanoclaw</title>
@@ -69,7 +53,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-26T22:47:49Z</pubDate>
+      <pubDate>2026-11-27T00:17:44Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -81,12 +65,12 @@
       <guid>https://github.com/JuneYaooo/rea-video</guid>
     </item>
     <item>
-      <title>erkamyaman/rust-anything</title>
-      <link>https://github.com/erkamyaman/rust-anything</link>
-      <description>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.</description>
+      <title>aden-hive/hive</title>
+      <link>https://github.com/aden-hive/hive</link>
+      <description>Multi-Agent Harness for Production AI</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T22:09:52Z</pubDate>
-      <guid>https://github.com/erkamyaman/rust-anything</guid>
+      <pubDate>2026-11-17T17:53:37Z</pubDate>
+      <guid>https://github.com/aden-hive/hive</guid>
     </item>
     <item>
       <title>claude-code-best/claude-code</title>
@@ -109,7 +93,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-26T22:25:06Z</pubDate>
+      <pubDate>2026-11-27T00:07:58Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -125,16 +109,8 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T22:40:05Z</pubDate>
+      <pubDate>2026-11-27T00:05:54Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
-    </item>
-    <item>
-      <title>awesome-dsh-plugin/awesome-dsh-plugin</title>
-      <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
-      <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
-      <category>LLM Frameworks</category>
-      <pubDate>2026-11-26T19:54:41Z</pubDate>
-      <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>
       <title>ccch1mneyyy/dsh-Go</title>
@@ -143,6 +119,14 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-11-26T18:56:46Z</pubDate>
       <guid>https://github.com/ccch1mneyyy/dsh-Go</guid>
+    </item>
+    <item>
+      <title>awesome-dsh-plugin/awesome-dsh-plugin</title>
+      <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
+      <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
+      <category>LLM Frameworks</category>
+      <pubDate>2026-11-26T22:53:57Z</pubDate>
+      <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>
       <title>Wei-Shaw/sub2api</title>
@@ -167,6 +151,22 @@
       <category>LLM Frameworks</category>
       <pubDate>2026-11-26T07:34:12Z</pubDate>
       <guid>https://github.com/Ebony-Vinyl/dsh-our-free-model</guid>
+    </item>
+    <item>
+      <title>pingdotgg/t3code</title>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <description>The best way to control Claude Code, Codex and more from any computer or phone</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-27T00:11:32Z</pubDate>
+      <guid>https://github.com/pingdotgg/t3code</guid>
+    </item>
+    <item>
+      <title>paperclipai/paperclip</title>
+      <link>https://github.com/paperclipai/paperclip</link>
+      <description>The open-source app everyone uses to manage agents at work</description>
+      <category>Uncategorized</category>
+      <pubDate>2026-11-26T19:03:37Z</pubDate>
+      <guid>https://github.com/paperclipai/paperclip</guid>
     </item>
   </channel>
 </rss>

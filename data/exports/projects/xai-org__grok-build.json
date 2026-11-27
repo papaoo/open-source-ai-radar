@@ -14,7 +14,7 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/xai-org.png",
   "radar_score": 65.46,
-  "impact": 95.06,
+  "impact": 95.07,
   "velocity": 47.07,
   "health": 43.82,
   "global_percentile": 8.57,
@@ -32,5 +32,5 @@
   "forks_30d": 23,
   "days_since_last_push": 58,
   "freshness_score": 0.559898366565402,
-  "snapshot_count": 61
+  "snapshot_count": 62
 }
