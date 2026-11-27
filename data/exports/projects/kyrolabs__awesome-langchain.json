@@ -4,7 +4,13 @@
   "description": "😎 Awesome list of tools and projects with the awesome LangChain framework",
   "language": null,
   "license": "CC0-1.0",
-  "topics": [],
+  "topics": [
+    "ai",
+    "awesome",
+    "awesome-list",
+    "langchain",
+    "llm"
+  ],
   "stars": 9603,
   "forks": 1005,
   "open_issues": 0,
@@ -14,10 +20,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/kyrolabs.png",
   "radar_score": 60.07,
-  "impact": 87.25,
+  "impact": 87.24,
   "velocity": 33.84,
   "health": 53.31,
-  "global_percentile": 2.14,
+  "global_percentile": 5.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "😎 Awesome list of tools and projects with the awesome LangChain framework",
@@ -26,11 +32,11 @@
   "stars_30d": 10,
   "stars_90d": 10,
   "star_growth_rate_7d": 0.42857142857142855,
-  "star_growth_rate_30d": 0.625,
-  "star_growth_acceleration": 0.6857142857142857,
+  "star_growth_rate_30d": 0.5882352941176471,
+  "star_growth_acceleration": 0.7285714285714285,
   "forks_7d": 4,
   "forks_30d": 20,
   "days_since_last_push": 15,
   "freshness_score": 0.8607079764250578,
-  "snapshot_count": 28
+  "snapshot_count": 29
 }

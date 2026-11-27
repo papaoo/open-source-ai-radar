@@ -27,7 +27,7 @@
     "real-browser"
   ],
   "stars": 19263,
-  "forks": 1904,
+  "forks": 1905,
   "open_issues": 61,
   "watchers": 49,
   "created_at": "2026-04-17T01:56:15Z",
@@ -38,7 +38,7 @@
   "impact": 89.58,
   "velocity": 68.29,
   "health": 63.75,
-  "global_percentile": 66.43,
+  "global_percentile": 70.43,
   "category": "AI Coding Tools",
   "sub_category": "code review",
   "summary": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
@@ -49,9 +49,9 @@
   "star_growth_rate_7d": 15.428571428571429,
   "star_growth_rate_30d": 17.41176470588235,
   "star_growth_acceleration": 0.8861003861003862,
-  "forks_7d": 7,
-  "forks_30d": 29,
+  "forks_7d": 8,
+  "forks_30d": 30,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 64
+  "snapshot_count": 65
 }

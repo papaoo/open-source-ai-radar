@@ -29,9 +29,9 @@
   "owner_avatar": "https://github.com/e2b-dev.png",
   "radar_score": 67.17,
   "impact": 95.35,
-  "velocity": 53.25,
+  "velocity": 53.24,
   "health": 41.59,
-  "global_percentile": 13.14,
+  "global_percentile": 19.86,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "A list of AI autonomous agents",
@@ -46,5 +46,5 @@
   "forks_30d": 93,
   "days_since_last_push": 97,
   "freshness_score": 0.37908303810339883,
-  "snapshot_count": 63
+  "snapshot_count": 64
 }

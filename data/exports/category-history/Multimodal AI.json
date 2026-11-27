@@ -2,21 +2,6 @@
   "category": "Multimodal AI",
   "history": [
     {
-      "id": 214,
-      "category": "Multimodal AI",
-      "timestamp": "2026-11-12T02:48:39.435382+00:00",
-      "total_tracked": 47,
-      "new_this_period": 0,
-      "avg_stars": 8673.0,
-      "avg_growth_rate": 0.0,
-      "avg_velocity": 54.7,
-      "avg_health": 58.1,
-      "total_stars": 407646,
-      "top_project": "huggingface/transformers",
-      "trend": "declining",
-      "momentum_score": 0.0
-    },
-    {
       "id": 226,
       "category": "Multimodal AI",
       "timestamp": "2026-11-12T09:40:54.942393+00:00",
@@ -1347,6 +1332,21 @@
       "avg_velocity": 62.6,
       "avg_health": 61.7,
       "total_stars": 411889,
+      "top_project": "huggingface/transformers",
+      "trend": "declining",
+      "momentum_score": 0.0
+    },
+    {
+      "id": 1294,
+      "category": "Multimodal AI",
+      "timestamp": "2026-11-27T04:05:07.341787+00:00",
+      "total_tracked": 50,
+      "new_this_period": 0,
+      "avg_stars": 8238.0,
+      "avg_growth_rate": 0.0,
+      "avg_velocity": 55.1,
+      "avg_health": 57.2,
+      "total_stars": 411918,
       "top_project": "huggingface/transformers",
       "trend": "declining",
       "momentum_score": 0.0

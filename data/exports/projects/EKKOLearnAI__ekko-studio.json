@@ -35,9 +35,9 @@
   "owner_avatar": "https://github.com/EKKOLearnAI.png",
   "radar_score": 74.79,
   "impact": 86.91,
-  "velocity": 70.96,
+  "velocity": 70.95,
   "health": 60.75,
-  "global_percentile": 58.86,
+  "global_percentile": 65.29,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
@@ -52,6 +52,6 @@
   "forks_30d": 19,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 61,
+  "snapshot_count": 62,
   "why_trending": "Steady growth with 35 new stars this week. Above-average growth velocity. Active in the AI Coding Tools category."
 }

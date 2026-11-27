@@ -35,7 +35,7 @@
   "impact": 94.33,
   "velocity": 61.4,
   "health": 50.8,
-  "global_percentile": 33.57,
+  "global_percentile": 44.57,
   "category": "RAG",
   "sub_category": "rag framework",
   "summary": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
@@ -50,5 +50,5 @@
   "forks_30d": -17,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 55
+  "snapshot_count": 56
 }
