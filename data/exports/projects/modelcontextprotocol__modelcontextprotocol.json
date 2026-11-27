@@ -4,13 +4,8 @@
   "description": "Specification and documentation for the Model Context Protocol",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [
-    "specification",
-    "standard",
-    "mcp",
-    "docs"
-  ],
-  "stars": 9775,
+  "topics": [],
+  "stars": 9778,
   "forks": 1928,
   "open_issues": 82,
   "watchers": 183,

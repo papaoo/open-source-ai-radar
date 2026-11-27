@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-27T04:04:53.846283+00:00",
-  "total_repos": 6169,
-  "total_stars": 39525881,
+  "generated_at": "2026-11-27T10:49:41.106944+00:00",
+  "total_repos": 6185,
+  "total_stars": 39567757,
   "top_languages": {
-    "Python": 2191,
-    "TypeScript": 1067,
+    "Python": 2197,
+    "TypeScript": 1071,
     "Unknown": 447,
-    "JavaScript": 429,
-    "Rust": 374,
-    "Go": 269,
-    "Jupyter Notebook": 220,
-    "HTML": 189,
-    "C++": 162,
+    "JavaScript": 430,
+    "Rust": 376,
+    "Go": 270,
+    "Jupyter Notebook": 221,
+    "HTML": 190,
+    "C++": 161,
     "Swift": 154
   }
 }

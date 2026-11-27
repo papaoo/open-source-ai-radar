@@ -4,14 +4,8 @@
   "description": "Adding guardrails to large language models.",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "ai",
-    "foundation-model",
-    "gpt-3",
-    "llm",
-    "openai"
-  ],
-  "stars": 7644,
+  "topics": [],
+  "stars": 7645,
   "forks": 750,
   "open_issues": 18,
   "watchers": 43,

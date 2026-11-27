@@ -4,13 +4,9 @@
   "description": "Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.",
   "language": "C++",
   "license": "Apache-2.0",
-  "topics": [
-    "edge-ai",
-    "foundation-model",
-    "on-device-ai"
-  ],
-  "stars": 10696,
-  "forks": 1631,
+  "topics": [],
+  "stars": 10708,
+  "forks": 1632,
   "open_issues": 12,
   "watchers": 697,
   "created_at": "2026-09-08T13:41:47Z",

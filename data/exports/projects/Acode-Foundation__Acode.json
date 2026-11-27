@@ -4,14 +4,8 @@
   "description": "Acode - powerful text/code editor for android/ios",
   "language": "JavaScript",
   "license": "MIT",
-  "topics": [
-    "code-editor",
-    "android-application",
-    "acode",
-    "ai-editor",
-    "coding"
-  ],
-  "stars": 7945,
+  "topics": [],
+  "stars": 7948,
   "forks": 1777,
   "open_issues": 86,
   "watchers": 225,

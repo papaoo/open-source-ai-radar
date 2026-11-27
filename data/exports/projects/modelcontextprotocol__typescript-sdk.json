@@ -4,15 +4,10 @@
   "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "topics": [
-    "typescript",
-    "mcp",
-    "mcp-server",
-    "mcp-client"
-  ],
+  "topics": [],
   "stars": 13830,
-  "forks": 2439,
-  "open_issues": 312,
+  "forks": 2442,
+  "open_issues": 313,
   "watchers": 108,
   "created_at": "2024-09-24T20:45:31Z",
   "pushed_at": "2026-11-27T00:07:32Z",
