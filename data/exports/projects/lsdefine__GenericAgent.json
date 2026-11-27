@@ -33,7 +33,7 @@
   "impact": 87.65,
   "velocity": 69.87,
   "health": 63.75,
-  "global_percentile": 64.57,
+  "global_percentile": 64.86,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
@@ -48,5 +48,5 @@
   "forks_30d": 4,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 47
+  "snapshot_count": 48
 }

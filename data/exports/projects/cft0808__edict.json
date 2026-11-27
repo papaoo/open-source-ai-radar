@@ -28,10 +28,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/cft0808.png",
   "radar_score": 65.73,
-  "impact": 89.97,
-  "velocity": 53.91,
+  "impact": 89.96,
+  "velocity": 53.92,
   "health": 43.51,
-  "global_percentile": 9.29,
+  "global_percentile": 9.43,
   "category": "AI Agents",
   "sub_category": "task agent",
   "summary": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
@@ -46,5 +46,5 @@
   "forks_30d": 8,
   "days_since_last_push": 60,
   "freshness_score": 0.5488116360940264,
-  "snapshot_count": 48
+  "snapshot_count": 49
 }

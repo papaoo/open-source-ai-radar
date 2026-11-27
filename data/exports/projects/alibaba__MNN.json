@@ -29,7 +29,7 @@
   "impact": 92.43,
   "velocity": 54.84,
   "health": 63.75,
-  "global_percentile": 35.57,
+  "global_percentile": 36.43,
   "category": "Local AI",
   "sub_category": "local runner",
   "summary": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
@@ -44,5 +44,5 @@
   "forks_30d": 42,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 60
+  "snapshot_count": 61
 }

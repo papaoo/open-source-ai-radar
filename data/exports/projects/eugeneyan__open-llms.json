@@ -18,11 +18,11 @@
   "pushed_at": "2025-02-13T06:37:12Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/eugeneyan.png",
-  "radar_score": 57.71,
+  "radar_score": 57.7,
   "impact": 89.58,
-  "velocity": 38.67,
+  "velocity": 38.66,
   "health": 33.35,
-  "global_percentile": 0.14,
+  "global_percentile": 1.0,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "📋 A list of open LLMs available for commercial use.",
@@ -37,5 +37,5 @@
   "forks_30d": -1,
   "days_since_last_push": 652,
   "freshness_score": 0.0014736691023539948,
-  "snapshot_count": 19
+  "snapshot_count": 20
 }

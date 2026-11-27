@@ -34,8 +34,8 @@
   "radar_score": 66.05,
   "impact": 95.85,
   "velocity": 50.92,
-  "health": 39.54,
-  "global_percentile": 10.43,
+  "health": 39.53,
+  "global_percentile": 10.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "A generative speech model for daily dialogue.",
@@ -48,7 +48,7 @@
   "star_growth_acceleration": 0.7659574468085106,
   "forks_7d": 0,
   "forks_30d": 0,
-  "days_since_last_push": 230,
-  "freshness_score": 0.1002588437228037,
-  "snapshot_count": 49
+  "days_since_last_push": 231,
+  "freshness_score": 0.09926125155964566,
+  "snapshot_count": 50
 }

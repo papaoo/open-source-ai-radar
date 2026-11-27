@@ -27,7 +27,7 @@
   "impact": 94.58,
   "velocity": 50.83,
   "health": 38.79,
-  "global_percentile": 8.29,
+  "global_percentile": 8.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
@@ -40,7 +40,7 @@
   "star_growth_acceleration": 1.208955223880597,
   "forks_7d": 11,
   "forks_30d": 18,
-  "days_since_last_push": 422,
-  "freshness_score": 0.014698644504901784,
-  "snapshot_count": 53
+  "days_since_last_push": 423,
+  "freshness_score": 0.014552390548416123,
+  "snapshot_count": 54
 }

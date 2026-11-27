@@ -29,11 +29,11 @@
   "pushed_at": "2026-11-06T14:23:42Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/winfunc.png",
-  "radar_score": 70.94,
+  "radar_score": 70.87,
   "impact": 91.31,
-  "velocity": 57.43,
-  "health": 57.27,
-  "global_percentile": 28.14,
+  "velocity": 57.42,
+  "health": 56.99,
+  "global_percentile": 29.29,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
@@ -46,7 +46,7 @@
   "star_growth_acceleration": 1.090909090909091,
   "forks_7d": 4,
   "forks_30d": 9,
-  "days_since_last_push": 20,
-  "freshness_score": 0.8187307530779818,
-  "snapshot_count": 42
+  "days_since_last_push": 21,
+  "freshness_score": 0.8105842459701871,
+  "snapshot_count": 43
 }

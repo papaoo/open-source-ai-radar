@@ -23,7 +23,7 @@
     "stream-processing",
     "perception"
   ],
-  "stars": 37890,
+  "stars": 37892,
   "forks": 6253,
   "open_issues": 168,
   "watchers": 529,
@@ -40,15 +40,15 @@
   "sub_category": "",
   "summary": "Cross-platform, customizable ML solutions for live and streaming media.",
   "maturity": "Unknown",
-  "stars_7d": 147,
-  "stars_30d": 271,
-  "stars_90d": 271,
-  "star_growth_rate_7d": 21.0,
-  "star_growth_rate_30d": 15.055555555555555,
-  "star_growth_acceleration": 1.3948339483394834,
+  "stars_7d": 149,
+  "stars_30d": 273,
+  "stars_90d": 273,
+  "star_growth_rate_7d": 21.285714285714285,
+  "star_growth_rate_30d": 15.166666666666666,
+  "star_growth_acceleration": 1.403453689167975,
   "forks_7d": 18,
   "forks_30d": 30,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 66
+  "snapshot_count": 67
 }

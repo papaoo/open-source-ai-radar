@@ -38,7 +38,7 @@
   "impact": 93.8,
   "velocity": 39.82,
   "health": 27.83,
-  "global_percentile": 0.43,
+  "global_percentile": 1.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "CVPR 2026 论文和开源项目合集",
@@ -53,5 +53,5 @@
   "forks_30d": -2,
   "days_since_last_push": 264,
   "freshness_score": 0.07136126955638605,
-  "snapshot_count": 29
+  "snapshot_count": 30
 }

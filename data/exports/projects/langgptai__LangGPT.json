@@ -32,7 +32,7 @@
   "impact": 88.04,
   "velocity": 32.36,
   "health": 41.23,
-  "global_percentile": 0.0,
+  "global_percentile": 0.71,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 最流行的提示词落地范式 | Language of GPT  The pioneering framework for structured & meta-prompt design 10,000+ ⭐ | Battle-tested by thousands of users worldwide  Created by 云中江树",
@@ -47,5 +47,5 @@
   "forks_30d": 1,
   "days_since_last_push": 77,
   "freshness_score": 0.46301306831122807,
-  "snapshot_count": 44
+  "snapshot_count": 45
 }
