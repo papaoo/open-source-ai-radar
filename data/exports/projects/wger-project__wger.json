@@ -4,16 +4,8 @@
   "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
   "language": "Python",
   "license": "AGPL-3.0",
-  "topics": [
-    "python",
-    "django",
-    "fitness",
-    "gym",
-    "self-hosted",
-    "workout",
-    "hacktoberfest"
-  ],
-  "stars": 7329,
+  "topics": [],
+  "stars": 7330,
   "forks": 1086,
   "open_issues": 193,
   "watchers": 76,

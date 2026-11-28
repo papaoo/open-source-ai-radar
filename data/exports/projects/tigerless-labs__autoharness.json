@@ -4,14 +4,8 @@
   "description": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "agent-skills",
-    "claude-code",
-    "claude-code-plugin",
-    "llm-agents",
-    "python"
-  ],
-  "stars": 10276,
+  "topics": [],
+  "stars": 10297,
   "forks": 667,
   "open_issues": 8,
   "watchers": 258,

@@ -4,13 +4,8 @@
   "description": "Build Real-Time Knowledge Graphs for AI Agents",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [
-    "agents",
-    "graph",
-    "llms",
-    "rag"
-  ],
-  "stars": 33151,
+  "topics": [],
+  "stars": 33156,
   "forks": 3421,
   "open_issues": 278,
   "watchers": 165,

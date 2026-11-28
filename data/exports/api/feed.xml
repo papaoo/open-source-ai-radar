@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2026 03:51:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 10:06:27 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -13,7 +13,7 @@
       <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
       <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-28T02:50:28Z</pubDate>
+      <pubDate>2026-11-28T09:35:25Z</pubDate>
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
     </item>
     <item>
@@ -21,7 +21,7 @@
       <link>https://github.com/wangzan101/Mika</link>
       <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
       <category>Local AI</category>
-      <pubDate>2026-11-28T03:13:19Z</pubDate>
+      <pubDate>2026-11-28T09:45:18Z</pubDate>
       <guid>https://github.com/wangzan101/Mika</guid>
     </item>
     <item>
@@ -45,7 +45,7 @@
       <link>https://github.com/BaaRai/ARTEX</link>
       <description>Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-28T02:36:23Z</pubDate>
+      <pubDate>2026-11-28T09:36:47Z</pubDate>
       <guid>https://github.com/BaaRai/ARTEX</guid>
     </item>
     <item>
@@ -61,7 +61,7 @@
       <link>https://github.com/erkamyaman/rust-anything</link>
       <description>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T21:25:43Z</pubDate>
+      <pubDate>2026-11-28T09:07:37Z</pubDate>
       <guid>https://github.com/erkamyaman/rust-anything</guid>
     </item>
     <item>
@@ -77,7 +77,7 @@
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-28T03:41:26Z</pubDate>
+      <pubDate>2026-11-28T09:55:40Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
     </item>
     <item>
@@ -85,7 +85,7 @@
       <link>https://github.com/Louis-CFM/coucou</link>
       <description>A tiny friend in your Mac&apos;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Scree</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-28T01:29:38Z</pubDate>
+      <pubDate>2026-11-28T09:55:23Z</pubDate>
       <guid>https://github.com/Louis-CFM/coucou</guid>
     </item>
     <item>
@@ -93,7 +93,7 @@
       <link>https://github.com/yetone/magpie</link>
       <description>Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.</description>
       <category>AI Coding Tools</category>
-      <pubDate>2026-11-28T02:01:15Z</pubDate>
+      <pubDate>2026-11-28T09:52:13Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
     </item>
     <item>
@@ -101,7 +101,7 @@
       <link>https://github.com/Fei-Craft/DS-Bot</link>
       <description>A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-28T03:47:17Z</pubDate>
+      <pubDate>2026-11-28T09:51:17Z</pubDate>
       <guid>https://github.com/Fei-Craft/DS-Bot</guid>
     </item>
     <item>
@@ -109,7 +109,7 @@
       <link>https://github.com/Gathin23/cleanyourtv</link>
       <description>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-26T17:37:25Z</pubDate>
+      <pubDate>2026-11-28T08:54:02Z</pubDate>
       <guid>https://github.com/Gathin23/cleanyourtv</guid>
     </item>
     <item>
@@ -117,7 +117,7 @@
       <link>https://github.com/Human-Agent-Society/reef</link>
       <description>Infrastructure for continually self‑improving agents</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T19:38:50Z</pubDate>
+      <pubDate>2026-11-28T09:28:26Z</pubDate>
       <guid>https://github.com/Human-Agent-Society/reef</guid>
     </item>
     <item>
@@ -133,7 +133,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-28T01:09:41Z</pubDate>
+      <pubDate>2026-11-28T09:55:03Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -141,7 +141,7 @@
       <link>https://github.com/ccch1mneyyy/dsh-Go</link>
       <description>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-27T13:34:47Z</pubDate>
+      <pubDate>2026-11-28T05:37:15Z</pubDate>
       <guid>https://github.com/ccch1mneyyy/dsh-Go</guid>
     </item>
     <item>
@@ -157,7 +157,7 @@
       <link>https://github.com/vercel-labs/ui</link>
       <description>A library of behaviors for agents to build and drive the next generation of user interfaces.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-28T02:09:46Z</pubDate>
+      <pubDate>2026-11-28T07:32:27Z</pubDate>
       <guid>https://github.com/vercel-labs/ui</guid>
     </item>
     <item>
@@ -165,7 +165,7 @@
       <link>https://github.com/shy3130/tick-stock-panel</link>
       <description>TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 </description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T16:24:15Z</pubDate>
+      <pubDate>2026-11-28T08:02:37Z</pubDate>
       <guid>https://github.com/shy3130/tick-stock-panel</guid>
     </item>
   </channel>

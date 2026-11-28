@@ -4,16 +4,8 @@
   "description": "AI-Powered Dark Web OSINT Tool",
   "language": "Python",
   "license": "MIT",
-  "topics": [
-    "ai-tool",
-    "darkweb",
-    "darkweb-osint",
-    "investigation-tool",
-    "llm-powered",
-    "osint",
-    "osint-tool"
-  ],
-  "stars": 8126,
+  "topics": [],
+  "stars": 8127,
   "forks": 1518,
   "open_issues": 0,
   "watchers": 110,
