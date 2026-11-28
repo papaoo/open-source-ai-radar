@@ -4,7 +4,11 @@
   "description": "Supercharge Your LLM Application Evaluations 🚀",
   "language": "Python",
   "license": "Apache-2.0",
-  "topics": [],
+  "topics": [
+    "llm",
+    "llmops",
+    "evaluation"
+  ],
   "stars": 16443,
   "forks": 1863,
   "open_issues": 294,
@@ -14,10 +18,10 @@
   "owner_login": "",
   "owner_avatar": "https://github.com/vibrantlabsai.png",
   "radar_score": 69.89,
-  "impact": 89.5,
+  "impact": 89.51,
   "velocity": 55.03,
   "health": 59.32,
-  "global_percentile": 23.57,
+  "global_percentile": 22.57,
   "category": "LLM Frameworks",
   "sub_category": "",
   "summary": "Supercharge Your LLM Application Evaluations 🚀",
@@ -32,5 +36,5 @@
   "forks_30d": 59,
   "days_since_last_push": 13,
   "freshness_score": 0.8780954309205613,
-  "snapshot_count": 59
+  "snapshot_count": 60
 }

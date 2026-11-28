@@ -5,7 +5,7 @@
     <link>https://erbharatmalhotra.github.io/open-source-ai-radar/</link>
     <description>Trending open-source AI projects ranked by velocity</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 22:35:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:01:14 +0000</lastBuildDate>
     <atom:link href="https://erbharatmalhotra.github.io/open-source-ai-radar/api/feed.xml"
                rel="self" type="application/rss+xml"/>
     <item>
@@ -25,14 +25,6 @@
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
     </item>
     <item>
-      <title>wangzan101/Mika</title>
-      <link>https://github.com/wangzan101/Mika</link>
-      <description>An on-device AI agent for Android that operates apps and the web to get things done for you.</description>
-      <category>Local AI</category>
-      <pubDate>2026-11-27T18:34:33Z</pubDate>
-      <guid>https://github.com/wangzan101/Mika</guid>
-    </item>
-    <item>
       <title>NanmiCoder/cc-haha</title>
       <link>https://github.com/NanmiCoder/cc-haha</link>
       <description>本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git wo</description>
@@ -45,7 +37,7 @@
       <link>https://github.com/kingcharleslzy-ai/dsh-purge</link>
       <description>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-27T20:20:45Z</pubDate>
+      <pubDate>2026-11-27T23:37:16Z</pubDate>
       <guid>https://github.com/kingcharleslzy-ai/dsh-purge</guid>
     </item>
     <item>
@@ -81,28 +73,12 @@
       <guid>https://github.com/JuneYaooo/rea-video</guid>
     </item>
     <item>
-      <title>erkamyaman/rust-anything</title>
-      <link>https://github.com/erkamyaman/rust-anything</link>
-      <description>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-27T21:25:43Z</pubDate>
-      <guid>https://github.com/erkamyaman/rust-anything</guid>
-    </item>
-    <item>
       <title>tangency-labs/solidcraft</title>
       <link>https://github.com/tangency-labs/solidcraft</link>
       <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
       <category>MCP</category>
-      <pubDate>2026-11-27T22:29:43Z</pubDate>
+      <pubDate>2026-11-27T23:56:21Z</pubDate>
       <guid>https://github.com/tangency-labs/solidcraft</guid>
-    </item>
-    <item>
-      <title>aden-hive/hive</title>
-      <link>https://github.com/aden-hive/hive</link>
-      <description>Multi-Agent Harness for Production AI</description>
-      <category>Uncategorized</category>
-      <pubDate>2026-11-17T17:53:37Z</pubDate>
-      <guid>https://github.com/aden-hive/hive</guid>
     </item>
     <item>
       <title>yetone/magpie</title>
@@ -111,14 +87,6 @@
       <category>AI Coding Tools</category>
       <pubDate>2026-11-27T21:01:52Z</pubDate>
       <guid>https://github.com/yetone/magpie</guid>
-    </item>
-    <item>
-      <title>Fei-Craft/DS-Bot</title>
-      <link>https://github.com/Fei-Craft/DS-Bot</link>
-      <description>A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.</description>
-      <category>LLM Frameworks</category>
-      <pubDate>2026-11-27T18:14:09Z</pubDate>
-      <guid>https://github.com/Fei-Craft/DS-Bot</guid>
     </item>
     <item>
       <title>Gathin23/cleanyourtv</title>
@@ -133,7 +101,7 @@
       <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
       <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</description>
       <category>LLM Frameworks</category>
-      <pubDate>2026-11-27T19:46:25Z</pubDate>
+      <pubDate>2026-11-27T22:54:30Z</pubDate>
       <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</guid>
     </item>
     <item>
@@ -141,7 +109,7 @@
       <link>https://github.com/morluto/rea</link>
       <description>Reverse engineer anything with agents, from app behavior down to native binaries.</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-27T22:25:45Z</pubDate>
+      <pubDate>2026-11-27T23:42:12Z</pubDate>
       <guid>https://github.com/morluto/rea</guid>
     </item>
     <item>
@@ -161,12 +129,44 @@
       <guid>https://github.com/Wei-Shaw/sub2api</guid>
     </item>
     <item>
-      <title>rddmwmddr/android-ad-cleaner</title>
-      <link>https://github.com/rddmwmddr/android-ad-cleaner</link>
-      <description>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。</description>
+      <title>pingdotgg/t3code</title>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <description>The best way to control Claude Code, Codex and more from any computer or phone</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-27T23:50:50Z</pubDate>
+      <guid>https://github.com/pingdotgg/t3code</guid>
+    </item>
+    <item>
+      <title>sansan0/TrendRadar</title>
+      <link>https://github.com/sansan0/TrendRadar</link>
+      <description>⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, web search, MCP &amp; smart alerts.🎯 告别信息过载，你的 AI     舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅 + 定时联网搜索，支持关键词与 AI 智能筛选。AI 翻译 + AI 分析简报</description>
+      <category>MCP</category>
+      <pubDate>2026-11-26T12:51:50Z</pubDate>
+      <guid>https://github.com/sansan0/TrendRadar</guid>
+    </item>
+    <item>
+      <title>paperclipai/paperclip</title>
+      <link>https://github.com/paperclipai/paperclip</link>
+      <description>The open-source app everyone uses to manage agents at work</description>
       <category>Uncategorized</category>
-      <pubDate>2026-11-24T13:49:55Z</pubDate>
-      <guid>https://github.com/rddmwmddr/android-ad-cleaner</guid>
+      <pubDate>2026-11-27T15:21:12Z</pubDate>
+      <guid>https://github.com/paperclipai/paperclip</guid>
+    </item>
+    <item>
+      <title>omnigent-ai/omnigent</title>
+      <link>https://github.com/omnigent-ai/omnigent</link>
+      <description>Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and c</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-27T23:52:26Z</pubDate>
+      <guid>https://github.com/omnigent-ai/omnigent</guid>
+    </item>
+    <item>
+      <title>career-ops-hq/career-ops</title>
+      <link>https://github.com/career-ops-hq/career-ops</link>
+      <description>Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an applicat</description>
+      <category>AI Coding Tools</category>
+      <pubDate>2026-11-27T19:22:27Z</pubDate>
+      <guid>https://github.com/career-ops-hq/career-ops</guid>
     </item>
   </channel>
 </rss>

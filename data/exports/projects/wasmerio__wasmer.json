@@ -4,7 +4,18 @@
   "description": "🚀 Fast and lightweight sandboxes for your apps and AI agents",
   "language": "Rust",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "webassembly",
+    "wasm",
+    "wasi",
+    "emscripten",
+    "rust",
+    "windows",
+    "macos",
+    "linux",
+    "wasmer",
+    "wasix"
+  ],
   "stars": 21265,
   "forks": 1042,
   "open_issues": 187,
@@ -13,11 +24,11 @@
   "pushed_at": "2026-11-25T12:27:31Z",
   "owner_login": "",
   "owner_avatar": "https://github.com/wasmerio.png",
-  "radar_score": 69.65,
-  "impact": 91.19,
+  "radar_score": 69.66,
+  "impact": 91.21,
   "velocity": 53.02,
   "health": 58.46,
-  "global_percentile": 22.57,
+  "global_percentile": 21.43,
   "category": "AI Agents",
   "sub_category": "",
   "summary": "🚀 Fast and lightweight sandboxes for your apps and AI agents",
@@ -32,5 +43,5 @@
   "forks_30d": 6,
   "days_since_last_push": 2,
   "freshness_score": 0.9801986733067553,
-  "snapshot_count": 55
+  "snapshot_count": 56
 }
