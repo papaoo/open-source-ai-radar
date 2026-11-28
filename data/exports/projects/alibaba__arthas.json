@@ -27,7 +27,7 @@
   "impact": 97.11,
   "velocity": 62.31,
   "health": 62.65,
-  "global_percentile": 72.29,
+  "global_percentile": 76.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
@@ -42,5 +42,5 @@
   "forks_30d": 0,
   "days_since_last_push": 3,
   "freshness_score": 0.9704455335485082,
-  "snapshot_count": 36
+  "snapshot_count": 37
 }

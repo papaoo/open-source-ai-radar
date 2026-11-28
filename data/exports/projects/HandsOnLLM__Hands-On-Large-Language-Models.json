@@ -23,9 +23,9 @@
   "owner_avatar": "https://github.com/HandsOnLLM.png",
   "radar_score": 67.0,
   "impact": 95.8,
-  "velocity": 53.58,
+  "velocity": 53.57,
   "health": 39.71,
-  "global_percentile": 12.29,
+  "global_percentile": 19.29,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
@@ -40,5 +40,5 @@
   "forks_30d": 50,
   "days_since_last_push": 217,
   "freshness_score": 0.1141776169108365,
-  "snapshot_count": 59
+  "snapshot_count": 60
 }

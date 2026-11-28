@@ -20,7 +20,7 @@
   "impact": 92.12,
   "velocity": 52.55,
   "health": 40.82,
-  "global_percentile": 8.29,
+  "global_percentile": 13.57,
   "category": "Uncategorized",
   "sub_category": "",
   "summary": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
@@ -35,5 +35,5 @@
   "forks_30d": -2,
   "days_since_last_push": 166,
   "freshness_score": 0.1901389801015205,
-  "snapshot_count": 32
+  "snapshot_count": 33
 }

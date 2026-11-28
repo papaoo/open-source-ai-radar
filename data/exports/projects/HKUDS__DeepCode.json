@@ -21,7 +21,7 @@
   "impact": 91.33,
   "velocity": 59.42,
   "health": 56.89,
-  "global_percentile": 31.71,
+  "global_percentile": 42.14,
   "category": "AI Agents",
   "sub_category": "coding agent",
   "summary": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)\"",
@@ -36,5 +36,5 @@
   "forks_30d": 4,
   "days_since_last_push": 4,
   "freshness_score": 0.9607894391523232,
-  "snapshot_count": 45
+  "snapshot_count": 46
 }

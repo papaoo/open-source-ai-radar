@@ -38,7 +38,7 @@
   "impact": 90.93,
   "velocity": 68.47,
   "health": 63.75,
-  "global_percentile": 71.57,
+  "global_percentile": 75.86,
   "category": "AI Coding Tools",
   "sub_category": "",
   "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
@@ -53,5 +53,5 @@
   "forks_30d": 39,
   "days_since_last_push": 0,
   "freshness_score": 1.0,
-  "snapshot_count": 63
+  "snapshot_count": 64
 }
